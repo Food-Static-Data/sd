@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/sd-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "module to use",
   "main": "lib/index.js",
   "repository": "https://github.com/GroceriStar/sd",
@@ -30,8 +30,7 @@
     "regenerator-runtime": "^0.13.1",
     "rimraf": "^2.6.3"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },
