@@ -1,0 +1,41 @@
+{
+  "name": "@groceristar/sd-wrapper",
+  "version": "1.0.0",
+  "description": "module to use",
+  "main": "lib/index.js",
+  "repository": "https://github.com/GroceriStar/sd",
+  "author": "Arthur Tkachenko",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d lib",
+    "#prepare": "yarn clean",
+    "clean": "rimraf ./coverage ./lib",
+    "lint": "eslint src",
+    "zprepublish": "yarn clean && yarn build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cover": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint": "^5.13.0",
+    "jest": "^24.1.0",
+    "regenerator-runtime": "^0.13.1",
+    "rimraf": "^2.6.3"
+  },
+  "peerDependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
