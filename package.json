@@ -8,14 +8,15 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "babel src -d lib --copy-files",
     "#prepare": "yarn clean",
     "clean": "rimraf ./coverage ./lib",
     "lint": "eslint src",
     "zprepublish": "yarn clean && yarn build",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cover": "jest --coverage"
+    "test:cover": "jest --coverage",
+    "files": "node --experimental-modules files.js"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -28,13 +29,17 @@
     "eslint": "^5.13.0",
     "jest": "^24.1.0",
     "regenerator-runtime": "^0.13.1",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2"
   },
   "peerDependencies": {},
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "uuid": "^3.3.2"
   }
 }
