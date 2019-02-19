@@ -1,7 +1,5 @@
 
-<!--
-[![Build Status](https://travis-ci.org/GroceriStar/showcase.svg?branch=master)](https://travis-ci.org/GroceriStar/showcase)
--->
+[![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 
 
 https://github.com/GroceriStar/static-data
