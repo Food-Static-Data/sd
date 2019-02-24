@@ -1,6 +1,7 @@
 var rollup = require("rollup");
-var babel = require("rollup-plugin-babel");
-
+var babel  = require("rollup-plugin-babel");
+// rollup-plugin-json
+// rollup-plugin-node-resolve
 rollup.rollup({
   entry: "src/main.js",
   plugins: [ babel() ]

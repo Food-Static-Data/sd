@@ -11,6 +11,12 @@ https://github.com/GroceriStar/groceristar-fetch
 https://github.com/GroceriStar/static-data-website
 
 
+https://github.com/ChickenKyiv/awesome-dev-stuff/blob/master/npm-modules.md
+
+https://github.com/GroceriStar/es6-package
+https://github.com/GroceriStar/es6-package/blob/master/rollup.config.js
+
+
 https://github.com/sheerun/babel-plugin-file-loader
 
 
@@ -36,12 +42,3 @@ https://github.com/rollup/rollup-starter-lib
  https://medium.com/@tomaszmularczyk89/guide-to-building-a-react-components-library-with-rollup-and-styled-jsx-694ec66bd2
 
  https://github.com/rollup/rollup/issues/2518
-
-
-```
-// Run external tool synchronously
-if (shell.exec('git commit -am "Auto-commit"').code !== 0) {
-  shell.echo('Error: Git commit failed');
-  shell.exit(1);
-}
-```
