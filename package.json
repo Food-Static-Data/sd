@@ -9,8 +9,9 @@
   "private": false,
   "scripts": {
     "build": "babel src -d lib --copy-files",
+    "build:test": "shx rm -rf && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
-    "clean": "rimraf ./coverage ./lib",
+    "clean": "shx rm -rf ./coverage && shx rm -rf ./lib",
     "lint": "eslint src",
     "zprepublish": "yarn clean && yarn build",
     "test": "jest",
@@ -30,9 +31,9 @@
     "eslint": "^5.13.0",
     "jest": "^24.1.0",
     "regenerator-runtime": "^0.13.1",
-    "rimraf": "^2.6.3",
     "rollup": "^1.1.2",
-    "rollup-plugin-babel": "^4.3.2"
+    "rollup-plugin-babel": "^4.3.2",
+    "shx": "^0.3.2"
   },
   "peerDependencies": {},
   "publishConfig": {
