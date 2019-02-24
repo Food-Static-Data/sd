@@ -12,3 +12,27 @@ https://github.com/GroceriStar/static-data-website
 
 
 https://github.com/sheerun/babel-plugin-file-loader
+
+
+https://github.com/rollup/rollup-plugin-json
+https://github.com/rollup/rollup-plugin-json#usage
+
+
+https://www.npmjs.com/package/shx
+https://github.com/rollup/rollup/commit/c103967c6f5db503e25bbc0ae81a83742839fa53
+https://rollupjs.org/guide/en#the-why
+https://github.com/rollup/rollup-starter-lib
+
+```
+"files": [
+   "dist/*.js",
+   "dist/*.d.ts",
+   "bin/rollup"
+ ]
+ ```
+
+ https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333
+
+ https://medium.com/@tomaszmularczyk89/guide-to-building-a-react-components-library-with-rollup-and-styled-jsx-694ec66bd2
+
+ https://github.com/rollup/rollup/issues/2518
