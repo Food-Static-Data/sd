@@ -18,7 +18,8 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "files": "node --experimental-modules lib/index.js",
-    "files2": "node --experimental-modules files.js"
+    "files2": "node --experimental-modules files.js",
+    "jsonlint": "node jsonlint.config.js"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -46,5 +47,10 @@
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
-  }
+  },
+  "files": [
+     "dist/*.js",
+     "dist/*.json",
+     "lib"
+   ]
 }

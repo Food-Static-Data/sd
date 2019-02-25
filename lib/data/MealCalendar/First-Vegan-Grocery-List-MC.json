@@ -1,0 +1,331 @@
+[{
+  "id": "First-Vegan-Grocery-List",
+  "recipes": [
+    [{
+        "tag": "breakfast",
+        "text": "Oatmeal with Dried Fruit, Flax Meal, and Cinnamon",
+        "day": "Day First",
+        "time": "7:00-8:30"
+      },
+      {
+        "tag": "lunch",
+        "text": "Pasta la Caprese",
+        "day": "Day First",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Green Smoothie",
+        "day": "Day First",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "dinner",
+        "text": "Split Pea Soup",
+        "day": "Day First",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "One piece of Whole Wheat Garlic Bread",
+        "day": "Day First",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Mixed Greens Salad with Balsamic Vinaigrette",
+        "day": "Day First",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Snacks",
+        "day": "Day First",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Apple with Almond Butter (or other nut butter)",
+        "day": "Day First",
+        "time": "18:00-19:30"
+      }
+    ],
+
+    [{
+        "tag": "breakfast",
+        "text": "High-fiber, Low-Sugar Cereal with Almond Milk and Banana",
+        "day": "Day Two",
+        "time": "7:00-8:30"
+      },
+      {
+        "tag": "lunch",
+        "text": "Vegan Chili",
+        "day": "Day Two",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Cornbread",
+        "day": "Day Two",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Caesar Salad",
+        "day": "Day Two",
+        "time": "12:30-14:00"
+      },
+
+      {
+        "tag": "dinner",
+        "text": "Butternut Squash Ravioli",
+        "day": "Day Two",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Snacks",
+        "day": "Day Two",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Crackers with Nut-Butter",
+        "day": "Day Two",
+        "time": "18:00-19:30"
+      }
+    ],
+
+    [{
+        "tag": "breakfast",
+        "text": "Oatmeal with Dried Fruit, Flax Meal, and Cinnamon",
+        "day": "Day Three",
+        "time": "7:00-8:30"
+      },
+
+      {
+        "tag": "lunch",
+        "text": "Roasted Vegetable Sandwich on Whole Grain Bread with White Bean Spread",
+        "day": "Day Three",
+        "time": "12:30-14:00"
+      },
+
+      {
+        "tag": "dinner",
+        "text": "Tropical Quinoa Stir Fry",
+        "day": "Day Three",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Snacks",
+        "day": "Day Three",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Fruit Smoothie",
+        "day": "Day Three",
+        "time": "18:00-19:30"
+      }
+    ],
+
+    [{
+        "tag": "breakfast",
+        "text": "High-fiber Cereal with Nondairy Milk and Banana",
+        "day": "Day Four",
+        "time": "7:00-8:30"
+      },
+
+      {
+        "tag": "lunch",
+        "text": "Three Bean Salad with Whole Grain Pasta and Veggies",
+        "day": "Day Four",
+        "time": "12:30-14:00"
+      },
+
+
+      {
+        "tag": "dinner",
+        "text": "Whole Wheat Lasagna with Kale and Tofu Ricotta",
+        "day": "Day Four",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Steamed Veggies",
+        "day": "Day Four",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Snacks",
+        "day": "Day Four",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Veggies with Hummus",
+        "day": "Day Four",
+        "time": "18:00-19:30"
+      }
+    ],
+
+    [{
+        "tag": "breakfast",
+        "text": "Scrambled Tofu and Whole Grain Toast",
+        "day": "Day Five",
+        "time": "7:00-8:30"
+      },
+      {
+        "tag": "breakfast",
+        "text": "Strawberries",
+        "day": "Day Five",
+        "time": "7:00-8:30"
+      },
+
+      {
+        "tag": "lunch",
+        "text": "Bulgur Tabbouli",
+        "day": "Day Five",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Hummus with Vegetable Sticks",
+        "day": "Day Five",
+        "time": "12:30-14:00"
+      },
+
+      {
+        "tag": "dinner",
+        "text": "Amaranth Polenta",
+        "day": "Day Five",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "White Beans Cooked with Garlic and Onions",
+        "day": "Day Five",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Snacks",
+        "day": "Day Five",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "A Few Slices of Melon",
+        "day": "Day Five",
+        "time": "18:00-19:30"
+      }
+    ],
+    [{
+        "tag": "breakfast",
+        "text": "Whole Wheat Toast with Nut Butter, Maple Syrup, and Raisins",
+        "day": "Day Six",
+        "time": "7:00-8:30"
+      },
+
+
+      {
+        "tag": "lunch",
+        "text": "Asian Noodle Salad",
+        "day": "Day Six",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Spinach Salad with Mangos and Almonds",
+        "day": "Day Six",
+        "time": "12:30-14:00"
+      },
+
+      {
+        "tag": "breakfast",
+        "text": "Lentils with Onions and Brown Rice",
+        "day": "Day Six",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "breakfast",
+        "text": "Sauteed Broccoli",
+        "day": "Day Six",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "breakfast",
+        "text": "Snacks",
+        "day": "Day Six",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "breakfast",
+        "text": "Fruit Smoothie",
+        "day": "Day Six",
+        "time": "18:00-19:30"
+      }
+    ],
+
+    [{
+        "tag": "breakfast",
+        "text": "Vegan Pancakes with banana slices",
+        "day": "Day Seven",
+        "time": "7:00-8:30"
+      },
+
+      {
+        "tag": "lunch",
+        "text": "Butternut Squash, Apple and Onion Soup",
+        "day": "Day Seven",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Guacamole with Vegetable Sticks",
+        "day": "Day Seven",
+        "time": "12:30-14:00"
+      },
+      {
+        "tag": "lunch",
+        "text": "Slice of Whole Grain Bread",
+        "day": "Day Seven",
+        "time": "12:30-14:00"
+      },
+
+      {
+        "tag": "dinner",
+        "text": "Black Bean Burgers",
+        "day": "Day Seven",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Potato Salad with Lemon Dill Dressing",
+        "day": "Day Seven",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Veggie Juice",
+        "day": "Day Seven",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Snacks",
+        "day": "Day Seven",
+        "time": "18:00-19:30"
+      },
+      {
+        "tag": "dinner",
+        "text": "Apple or Pear",
+        "day": "Day Seven",
+        "time": "18:00-19:30"
+      }
+    ]
+
+  ]
+}]
