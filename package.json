@@ -8,10 +8,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "babel src -d lib --copy-files",
+    "build": "babel src -d dist --copy-files",
     "build:test": "shx rm -rf && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
-    "clean": "shx rm -rf ./coverage && shx rm -rf ./lib",
+    "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "lint": "eslint src",
     "zprepublish": "yarn clean && yarn build",
     "test": "jest",
