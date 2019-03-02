@@ -2,7 +2,7 @@
   "name": "@groceristar/sd-wrapper",
   "version": "1.0.8",
   "description": "module to use",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/sd",
   "author": "Arthur Tkachenko",
   "license": "MIT",
