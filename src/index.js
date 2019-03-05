@@ -15,7 +15,9 @@
 import { readFileSync }   from 'fs'
 import path from 'path'
 
-const file = path.resolve(__dirname, './data/Allergy/allergies.json')
+const allergyFilePath = './data/Allergy/allergies.json';
+
+const file = path.resolve(__dirname, allergyFilePath)
 var output = readFileSync(file)
 // var output = fs.readFileSync('./someData.txt')
 
@@ -26,5 +28,6 @@ console.log(JSON.parse(JSON.stringify(file)))
 
 
 export {
-  // output
+  // output,
+  allergy:file 
 }

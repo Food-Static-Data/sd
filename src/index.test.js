@@ -1,5 +1,4 @@
-
-import { existsSync, access }   from 'fs'
+import { existsSync, access } from 'fs'
 import path from 'path'
 
 const file = path.resolve(__dirname, './data/Allergy/allergies.json')
