@@ -12,7 +12,6 @@
     "build:test": "shx rm -rf && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
-    "lint": "eslint src",
     "zprepublish": "yarn clean && yarn code-fix && yarn build",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -20,7 +19,7 @@
     "files": "node --experimental-modules dist/index.js",
     "files2": "node --experimental-modules files.js",
     "jsonlint": "node jsonlint.config.js",
-    "lint2": "standard",
+    "lint": "standard",
     "code-fix": "standard --fix"
   },
   "devDependencies": {
@@ -32,7 +31,6 @@
     "babel-jest": "^24.1.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "coveralls": "^3.0.2",
-    "eslint": "^5.13.0",
     "jest": "^24.1.0",
     "jest-json-schema": "^2.0.1",
     "jsonlint": "^1.6.3",
