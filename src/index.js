@@ -29,5 +29,5 @@ console.log(JSON.parse(JSON.stringify(file)))
 
 export {
   // output,
-  allergy:file 
+  file 
 }

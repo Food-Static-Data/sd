@@ -4,18 +4,14 @@ import path from 'path'
 const file = path.resolve(__dirname, './data/Allergy/allergies.json')
 
 describe('testing if allergies file are exists', () => {
-
-  //@TODO update this explanation
+  // @TODO update this explanation
   test('xxx', () => {
+    // var stream = chickenKyiv.getIngredients3()
+    // expect(stream).not.toBe('')
 
-   // var stream = chickenKyiv.getIngredients3()
-   // expect(stream).not.toBe('')
-
-   expect(existsSync(file)).toBe(true);
-
- })
-
-});
+    expect(existsSync(file)).toBe(true)
+  })
+})
 
 //
 // try {

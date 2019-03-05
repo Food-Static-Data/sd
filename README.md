@@ -1,6 +1,7 @@
 
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 https://github.com/GroceriStar/static-data
 
@@ -47,5 +48,5 @@ https://github.com/rollup/rollup-starter-lib
  https://medium.com/@tomaszmularczyk89/guide-to-building-a-react-components-library-with-rollup-and-styled-jsx-694ec66bd2
 
  https://github.com/rollup/rollup/issues/2518
- 
+
  https://medium.com/groceristar/moving-out-static-food-json-files-e27f8cba003
