@@ -16,7 +16,7 @@ const plugins = [
     {
       root: ['./src/'],
       alias: {
-        '~': './src/components'
+        '~': './src/data'
       }
     }
     // require.resolve('@babel/plugin-module-resolver')
