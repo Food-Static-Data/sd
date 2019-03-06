@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/sd-wrapper",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "module to use",
   "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/sd",
