@@ -15,19 +15,26 @@
 import { readFileSync }   from 'fs'
 import path from 'path'
 
+// const allergyFilePath = './data/Allergy/allergies.json';
+//
+// const file = path.resolve(__dirname, allergyFilePath)
+
 const allergyFilePath = './data/Allergy/allergies.json';
 
-const file = path.resolve(__dirname, allergyFilePath)
-var output = readFileSync(file)
-// var output = fs.readFileSync('./someData.txt')
+// const file = path.resolve(__dirname, './data/Allergy/allergies.json')
+// var output = readFileSync(file, 'utf8')
+var output = readFileSync(path.resolve(__dirname, './data/Allergy/allergies.json'), 'utf8')
 
-console.log(output)
-console.log(JSON.parse(JSON.stringify(file)))
+const json_or_not = JSON.parse(JSON.stringify(output))
+// console.log(output)
+// console.log(JSON.parse(JSON.stringify(file)))
+// console.log(JSON.parse(JSON.stringify(file)))
 
 
 
 
 export {
   // output,
-  file 
+  // file
+  json_or_not
 }
