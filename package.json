@@ -1,14 +1,12 @@
 {
   "name": "@groceristar/sd-wrapper",
   "version": "1.0.15",
-  "description": "module to use static JSON files with groceristar projects",
-  "main": "dist/index.js",
-  "repository": "https://github.com/GroceriStar/sd",
-  "author": "Arthur Tkachenko",
   "license": "MIT",
-  "private": false,
   "scripts": {
-    "build": "babel src -d dist --copy-files",
+    "bundle": "rollup -c",
+    "dev": "rollup -c -w",
+    "build": "npm run build:js",
+    "build:js": "babel src -d dist --copy-files",
     "build:test": "shx rm -rf && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
@@ -21,6 +19,16 @@
     "jsonlint": "node jsonlint.config.js",
     "lint": "standard",
     "code-fix": "standard --fix"
+  },
+  "description": "module to use static JSON files with groceristar projects",
+  "main": "dist/index.cjs",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.iife.js",
+  "repository": "https://github.com/GroceriStar/sd",
+  "author": "Arthur Tkachenko",
+  "private": false,
+  "release": {
+    "publishDir": "dist"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -37,8 +45,9 @@
     "jsonlint": "^1.6.3",
     "nodemon": "^1.17.5",
     "regenerator-runtime": "^0.13.1",
-    "rollup": "^1.1.2",
+    "rollup": "^1.6.0",
     "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
     "rollup-plugin-json": "^3.1.0",
     "rollup-plugin-node-resolve": "^4.0.1",
     "shx": "^0.3.2",

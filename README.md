@@ -62,3 +62,12 @@ https://github.com/sheerun/babel-plugin-file-loader#example-usage
  ---
  https://github.com/babel/babel-eslint#installation
   https://standardjs.com/#how-do-i-use-experimental-javascript-es-next-features
+
+
+  https://github.com/babel/minify
+
+https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c
+https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e
+https://github.com/rollup/rollup/wiki/pkg.module
+
+https://github.com/defunctzombie/package-browser-field-spec
