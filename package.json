@@ -1,7 +1,7 @@
 {
   "name": "@groceristar/sd-wrapper",
   "version": "1.0.13",
-  "description": "module to use",
+  "description": "module to use static JSON files with groceristar projects",
   "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/sd",
   "author": "Arthur Tkachenko",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@babel/cli": "7.2.3",
     "@babel/core": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",

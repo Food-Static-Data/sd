@@ -19,6 +19,9 @@ const plugins = [
         '~': './src/data'
       }
     }
+  ],
+  [
+    "@babel/plugin-syntax-dynamic-import"
   ]
 ]
 
