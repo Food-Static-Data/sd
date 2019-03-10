@@ -7,7 +7,8 @@
     "dev": "rollup -c -w",
     "build": "npm run build:js",
     "build:js": "babel src -d dist --copy-files",
-    "build:test": "shx rm -rf && babel src -d dist --copy-files",
+    "build:json": "babel src/data -d dist --copy-files",
+    "build:test": "yarn clean && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "zprepublish": "yarn clean && yarn code-fix && yarn build",
@@ -18,7 +19,8 @@
     "files2": "node --experimental-modules files.js",
     "jsonlint": "node jsonlint.config.js",
     "lint": "standard",
-    "code-fix": "standard --fix"
+    "code-fix": "standard --fix",
+    "format": "prettier"
   },
   "description": "module to use static JSON files with groceristar projects",
   "main": "dist/index.cjs",

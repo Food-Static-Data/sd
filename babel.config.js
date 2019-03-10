@@ -3,11 +3,13 @@
 const path = require('path')
 
 const presets = [
-  '@babel/preset-env',
-  '@babel/preset-react',
-  {
-
-  }
+  ['@babel/preset-env', {
+    'modules': false
+  }]
+  // '@babel/preset-react',
+  // {
+  //
+  // }
 ]
 
 const plugins = [
@@ -21,12 +23,14 @@ const plugins = [
     }
   ],
   [
-    "@babel/plugin-syntax-dynamic-import"
-  ],
+    '@babel/plugin-syntax-dynamic-import'
+  ]
   // ["@babel/proposal-class-properties"],
   // ["@babel/proposal-object-rest-spread"]
 ]
 
+// export default { presets, plugins }
+// export { presets, plugins }
 module.exports = { presets, plugins }
 
 // npx babel src --out-dir lib --ignore "src/**/*.spec.js","src/**/*.test.js"

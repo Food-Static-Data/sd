@@ -1,25 +1,21 @@
-
-// import GeneratePDFButton from '~/GeneratePDFButton/GeneratePDFButton';
-
-//
-// import { readFileSync } from 'fs'
-//
-// import {fs} from 'fs';
-
 // import _         from 'lodash';
 // or use better way
 // import { map, uniq, tail } from 'lodash';
 
-
-
 import { readFileSync } from 'fs'
 import path from 'path'
+
+// import { version } from '../package.json'
+
+import rollupAllergies from '/data/Allergy/allergies.json'
+
+console.log(rollupAllergies);
 
 // const allergyFilePath = './data/Allergy/allergies.json';
 //
 // const file = path.resolve(__dirname, allergyFilePath)
 
-const allergyFilePath = './data/Allergy/allergies.json';
+// const allergyFilePath = './data/Allergy/allergies.json';
 
 // const file = path.resolve(__dirname, './data/Allergy/allergies.json')
 // var output = readFileSync(file, 'utf8')
@@ -30,11 +26,9 @@ const allergyFilePath = './data/Allergy/allergies.json';
 // console.log(JSON.parse(JSON.stringify(file)))
 // console.log(JSON.parse(JSON.stringify(file)))
 
-
-
-
-export {
+export default {
   // output,
   // file
   // json_or_not
+  rollupAllergies
 }

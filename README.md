@@ -71,3 +71,9 @@ https://hackernoon.com/node-js-tc-39-and-modules-a1118aecf95e
 https://github.com/rollup/rollup/wiki/pkg.module
 
 https://github.com/defunctzombie/package-browser-field-spec
+
+https://github.com/rollup/rollup-starter-lib/blob/master/package.json
+https://github.com/rollup/rollup-plugin-babel
+
+https://developers.livechatinc.com/blog/how-to-create-javascript-libraries-in-2018-part-2/
+https://github.com/developit/microbundle/
