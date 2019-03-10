@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/sd-wrapper",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "module to use static JSON files with groceristar projects",
   "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/sd",
