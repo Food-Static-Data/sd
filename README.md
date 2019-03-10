@@ -77,3 +77,11 @@ https://github.com/rollup/rollup-plugin-babel
 
 https://developers.livechatinc.com/blog/how-to-create-javascript-libraries-in-2018-part-2/
 https://github.com/developit/microbundle/
+
+
+https://www.npmjs.com/package/rollup-plugin-local-resolve
+https://github.com/conventional-changelog/commitlint
+https://github.com/jaebradley/fruit#readme
+
+https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-automating-releases-with-semantic-release
+https://github.com/semantic-release/semantic-release

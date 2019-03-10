@@ -7,9 +7,9 @@ import path from 'path'
 
 // import { version } from '../package.json'
 
-import rollupAllergies from '/data/Allergy/allergies.json'
+// import rollupAllergies from '/data/Allergy/allergies.json'
 
-console.log(rollupAllergies);
+// console.log(rollupAllergies);
 
 // const allergyFilePath = './data/Allergy/allergies.json';
 //

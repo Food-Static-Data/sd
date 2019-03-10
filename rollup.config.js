@@ -1,15 +1,11 @@
 import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
 import json from 'rollup-plugin-json'
+import copy from 'rollup-plugin-copy-assets';
 import babel from 'rollup-plugin-babel'
-// import presets from './babel.config'
-// import plugins from './babel.config'
-// import * as babelo from './babel.config'
-
-// console.log(babelo)
-
 import pkg from './package.json'
 // import cleanup from 'rollup-plugin-cleanup';
+// https://github.com/mjeanroy/rollup-plugin-prettier
 // https://gitlab.com/IvanSanchez/rollup-plugin-file-as-blob
 
 const extensions = [
@@ -35,8 +31,13 @@ export default {
     // Compile TypeScript/JavaScript files
     babel({
       extensions,
-      include: ['src/**/*'],
-      exclude: 'node_modules/**'
+      include: ['src/*'],
+      // include: ['src/**/*'],
+      exclude: [
+        'node_modules/**',
+        '/src/data/__tests__'
+      ]
+      // exclude: 'node_modules/**'
       // presets: presets,
       // plugins: plugins
     }),
@@ -45,7 +46,13 @@ export default {
     // json()
     json({
       include: '/src/data/**'
-    })
+    }),
+
+    copy({
+      assets: [
+        './src/data'
+      ],
+    }),
   ],
 
   output: [{
