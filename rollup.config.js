@@ -48,6 +48,7 @@ export default {
       include: '/src/data/**'
     }),
 
+    // juck fix in order to move json files to npm
     copy({
       assets: [
         './src/data'
