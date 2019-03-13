@@ -44,9 +44,9 @@ export default {
 
     // Allow Rollup to import data from JSON file
     // json()
-    json({
-      include: '/src/data/**'
-    }),
+    // json({
+    //   include: '/src/data/**'
+    // }),
 
     // juck fix in order to move json files to npm
     copy({
