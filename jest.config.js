@@ -8,5 +8,6 @@ module.exports = {
   testPathIgnorePatterns: [
     '/dist/'
   ],
-  moduleDirectories: ['node_modules']
+  moduleDirectories: ['node_modules'],
+  transformIgnorePatterns: ['<rootDir>/node_modules/']
 }
