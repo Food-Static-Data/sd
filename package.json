@@ -7,7 +7,6 @@
     "dev": "rollup -c -w",
     "build": "npm run build:js",
     "build:js": "babel src -d dist --copy-files",
-    "build:json": "babel src/data -d dist --copy-files",
     "build:test": "yarn clean && babel src -d dist --copy-files",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
