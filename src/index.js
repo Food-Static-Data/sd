@@ -1,8 +1,8 @@
 // or use better way
 // import { map, uniq, tail } from 'lodash';
 
-import { readFileSync } from 'fs'
-import path from 'path'
+// import fs, { readFileSync } from 'fs'
+// import path from 'path'
 
 // import { version } from '../package.json'
 

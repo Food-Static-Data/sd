@@ -14,7 +14,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
-    "files": "node --experimental-modules dist/index.js",
+    "files": "node --experimental-modules dist/index.cjs",
     "files2": "node --experimental-modules files.js",
     "jsonlint": "node jsonlint.config.js",
     "lint": "standard",
