@@ -2,6 +2,7 @@
 // looks like rollup has a good codegen features
 
 // import { version } from '../package.json'
+
 // @TODO should we use .json in import?
 import allergies from '~/Allergy/allergies.json'
 import course from '~/Course/courses.json'
@@ -24,18 +25,8 @@ import nutritions from '~/Nutrition/nutritions1.json'
 
 import users from '~/Users/users.json'
 
-// import pkg from './package.json';
-// console.log( `running version ${pkg.version}` );
-
-// const allergyFilePath = './data/Allergy/allergies.json';
-//
-// const file = path.resolve(__dirname, allergyFilePath)
-
 // const allergyFilePath = './data/Allergy/allergies.json';
 
-// const file = path.resolve(__dirname, './data/Allergy/allergies.json')
-// var output = readFileSync(file, 'utf8')
-// var output = readFileSync(path.resolve(__dirname, './data/Allergy/allergies.json'), 'utf8')
 
 export default {
   // output,
