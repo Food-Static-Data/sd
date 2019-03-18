@@ -61,7 +61,6 @@
     "access": "public"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
   },

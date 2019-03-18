@@ -1,10 +1,4 @@
-// or use better way
-// import { map, uniq, tail } from 'lodash';
-
-// import fs, { readFileSync } from 'fs'
-// import path from 'path'
-
-//@TODO maybe later we'll just have an index file, in order to simplify import logic?
+// @TODO maybe later we'll just have an index file, in order to simplify import logic?
 // looks like rollup has a good codegen features
 
 // import { version } from '../package.json'
@@ -20,7 +14,7 @@ import holiday from '~/Holiday/holidays.json'
 import ingredients from '~/Ingredients/ingredients.json'
 // @TODO import sub-stuff like items, etc in order to make fetch works well....
 
-//will crash here, because we need to import another file as well
+// will crash here, because we need to import another file as well
 import mealCalendar from '~/MealCalendar/mealcalendar.json'
 import measurements from '~/Measurement/measurements.json'
 
@@ -28,14 +22,10 @@ import menu from '~/Menu/menu.json'
 
 import nutritions from '~/Nutrition/nutritions1.json'
 
-
 import users from '~/Users/users.json'
-
-
 
 // import pkg from './package.json';
 // console.log( `running version ${pkg.version}` );
-
 
 // const allergyFilePath = './data/Allergy/allergies.json';
 //
@@ -47,18 +37,14 @@ import users from '~/Users/users.json'
 // var output = readFileSync(file, 'utf8')
 // var output = readFileSync(path.resolve(__dirname, './data/Allergy/allergies.json'), 'utf8')
 
-// const json_or_not = JSON.parse(JSON.stringify(output))
-// console.log(output)
-// console.log(JSON.parse(JSON.stringify(file)))
-// console.log(JSON.parse(JSON.stringify(file)))
-
 export default {
   // output,
   // file
   allergies,
   course,
-  cuisine ,
+  cuisine,
   departments,
+  diet,
   grocery,
   holiday,
   ingredients,
@@ -66,5 +52,5 @@ export default {
   measurements,
   menu,
   nutritions,
-  users,
+  users
 }
