@@ -50,7 +50,7 @@ https://github.com/sheerun/babel-plugin-file-loader#example-usage
    "bin/rollup"
  ]
  ```
- 
+
  #### Rollup React
 
  https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333
@@ -58,6 +58,16 @@ https://github.com/sheerun/babel-plugin-file-loader#example-usage
  https://medium.com/@tomaszmularczyk89/guide-to-building-a-react-components-library-with-rollup-and-styled-jsx-694ec66bd2
 
  https://github.com/rollup/rollup/issues/2518
+
+
+https://github.com/andyl/react-input-field/blob/master/dist.config.js
+https://github.com/lukastaegert/check-commit
+https://github.com/rollup/rollup-plugin-strip
+https://github.com/yamafaktory/buble-react-rollup-starter
+
+https://pegjs.org/
+https://github.com/jaebradley/fruit#readme
+---
 
  https://medium.com/groceristar/moving-out-static-food-json-files-e27f8cba003
 
