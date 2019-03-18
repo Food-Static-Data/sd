@@ -74,6 +74,8 @@ export default {
       ],
     }),
 
+    builtins()
+
   ],
 
   output: [{
