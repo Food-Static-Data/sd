@@ -72,7 +72,7 @@ export default {
     // juck fix in order to move json files to npm
     // copy({
     //   assets: [
-    //     './src/data'
+    //     './src/data/**'
     //   ],
     // }),
 
