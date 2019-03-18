@@ -28,12 +28,13 @@ export default {
     // Allow bundling cjs modules. Rollup doesn't understand cjs
     commonjs({
 
-      // namedExports: {
+      namedExports: {
       //   // left-hand side can be an absolute path, a path
       //   // relative to the current directory, or the name
       //   // of a module in node_modules
       //   'node_modules/my-lib/index.js': [ 'named' ]
-      // }
+        '~/Allergy/allergies.json': [ 'allergies' ]
+      }
 
     }),
 
@@ -44,7 +45,8 @@ export default {
       // include: ['src/**/*'],
       exclude: [
         'node_modules/**',
-        '/src/data/__tests__'
+        // '/src/data/__tests__'
+        '/src/data/json-tests'
       ]
       // exclude: 'node_modules/**'
       // presets: presets,
@@ -54,7 +56,7 @@ export default {
     // Allow Rollup to import data from JSON file
     // json()
     json({
-      include: '/src/data/**',
+      include: 'src/data/**',
 
       // for tree-shaking, properties will be declared as
       // variables, using either `var` or `const`
