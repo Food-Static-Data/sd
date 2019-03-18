@@ -1,4 +1,3 @@
-// import _         from 'lodash';
 // or use better way
 // import { map, uniq, tail } from 'lodash';
 
@@ -7,9 +6,13 @@ import path from 'path'
 
 // import { version } from '../package.json'
 
-// import rollupAllergies from '/data/Allergy/allergies.json'
+import allergies from '~/Allergy/allergies.json'
 
-// console.log(rollupAllergies);
+console.log(allergies);
+
+// import pkg from './package.json';
+// console.log( `running version ${pkg.version}` );
+
 
 // const allergyFilePath = './data/Allergy/allergies.json';
 //
@@ -30,5 +33,5 @@ export default {
   // output,
   // file
   // json_or_not
-  rollupAllergies
+  // rollupAllergies
 }

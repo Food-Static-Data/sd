@@ -26,7 +26,16 @@ export default {
     resolve({ extensions }),
 
     // Allow bundling cjs modules. Rollup doesn't understand cjs
-    commonjs(),
+    commonjs({
+
+      // namedExports: {
+      //   // left-hand side can be an absolute path, a path
+      //   // relative to the current directory, or the name
+      //   // of a module in node_modules
+      //   'node_modules/my-lib/index.js': [ 'named' ]
+      // }
+
+    }),
 
     // Compile TypeScript/JavaScript files
     babel({
@@ -44,9 +53,17 @@ export default {
 
     // Allow Rollup to import data from JSON file
     // json()
-    // json({
-    //   include: '/src/data/**'
-    // }),
+    json({
+      include: '/src/data/**',
+
+      // for tree-shaking, properties will be declared as
+      // variables, using either `var` or `const`
+      preferConst: true,
+
+      // generate a named export for every property of the JSON object
+      namedExports: true // Default: true
+
+    }),
 
     // juck fix in order to move json files to npm
     copy({
@@ -54,6 +71,7 @@ export default {
         './src/data'
       ],
     }),
+
   ],
 
   output: [{
