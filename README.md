@@ -71,6 +71,11 @@ List of plugins related to this universe:
 
 - https://github.com/rollup/rollup-plugin-babel/issues/162
 
+
+https://github.com/jaebradley/example-rollup-react-component-npm-package/blob/master/package.json
+
+https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333
+
 ---
 
  https://medium.com/groceristar/moving-out-static-food-json-files-e27f8cba003
