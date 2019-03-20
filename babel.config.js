@@ -6,7 +6,6 @@ const presets = [
   ['@babel/preset-env', {
     'modules': false
   }]
-  // '@babel/preset-react',
   // {
   //
   // }
@@ -29,12 +28,4 @@ const plugins = [
   // ["@babel/proposal-object-rest-spread"]
 ]
 
-// export default { presets, plugins }
-// export { presets, plugins }
 module.exports = { presets, plugins }
-
-// npx babel src --out-dir lib --ignore "src/**/*.spec.js","src/**/*.test.js"
-// https://gist.github.com/nodkz/41e189ff22325a27fe6a5ca81df2cb91
-// https://github.com/facebook/jest/issues/6662#issuecomment-429620436
-
-// https://babeljs.io/docs/en/next/config-files#root-babelconfigjs-files

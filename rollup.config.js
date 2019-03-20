@@ -29,7 +29,6 @@ export default {
 
     // Allow bundling cjs modules. Rollup doesn't understand cjs
     commonjs({
-
       namedExports: {
       //   // left-hand side can be an absolute path, a path
       //   // relative to the current directory, or the name
@@ -37,7 +36,6 @@ export default {
       //   'node_modules/my-lib/index.js': [ 'named' ]
         '~/Allergy/allergies.json': [ 'allergies' ]
       }
-
     }),
 
     // Compile TypeScript/JavaScript files
