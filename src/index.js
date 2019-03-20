@@ -27,7 +27,6 @@ import users from '~/Users/users.json'
 
 // const allergyFilePath = './data/Allergy/allergies.json';
 
-
 export default {
   // output,
   // file

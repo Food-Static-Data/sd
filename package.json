@@ -5,7 +5,7 @@
   "scripts": {
     "bundle": "rollup -c",
     "dev": "rollup -c -w",
-    "build": "npm run bundle",
+    "build": "npm run clean && npm run bundle",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "zprepublish": "yarn clean && yarn code-fix && yarn build",
