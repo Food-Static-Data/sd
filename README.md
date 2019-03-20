@@ -27,7 +27,7 @@ List of plugins related to this universe:
 ---
 
 - https://github.com/sheerun/babel-plugin-file-loader
-https://github.com/sheerun/babel-plugin-file-loader#example-usage
+- https://github.com/sheerun/babel-plugin-file-loader#example-usage
 
 - https://github.com/rollup/rollup-plugin-json
 
@@ -53,20 +53,24 @@ https://github.com/sheerun/babel-plugin-file-loader#example-usage
 
  #### Rollup React
 
- https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333
+ - https://medium.com/tech-grandata-com/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333
 
- https://medium.com/@tomaszmularczyk89/guide-to-building-a-react-components-library-with-rollup-and-styled-jsx-694ec66bd2
+ - https://medium.com/@tomaszmularczyk89/guide-to-building-a-react-components-library-with-rollup-and-styled-jsx-694ec66bd2
 
- https://github.com/rollup/rollup/issues/2518
+ - https://github.com/rollup/rollup/issues/2518
 
 
-https://github.com/andyl/react-input-field/blob/master/dist.config.js
-https://github.com/lukastaegert/check-commit
-https://github.com/rollup/rollup-plugin-strip
-https://github.com/yamafaktory/buble-react-rollup-starter
+- https://github.com/andyl/react-input-field/blob/master/dist.config.js
+- https://github.com/lukastaegert/check-commit
+- https://github.com/rollup/rollup-plugin-strip
+- https://github.com/yamafaktory/buble-react-rollup-starter
 
-https://pegjs.org/
-https://github.com/jaebradley/fruit#readme
+- https://pegjs.org/
+- https://github.com/jaebradley/fruit#readme
+
+
+- https://github.com/rollup/rollup-plugin-babel/issues/162
+
 ---
 
  https://medium.com/groceristar/moving-out-static-food-json-files-e27f8cba003
