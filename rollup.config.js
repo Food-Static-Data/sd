@@ -45,8 +45,8 @@ export default {
       // include: ['src/**/*'],
       exclude: [
         'node_modules/**',
-        // '/src/data/__tests__'
-        '/src/data/json-tests'
+        '/src/data/__tests__'
+        // '/src/data/json-tests'
       ]
       // exclude: 'node_modules/**'
       // presets: presets,
