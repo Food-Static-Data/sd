@@ -1,4 +1,4 @@
-/* global test, describe, it, expect, jest */
+/* global test, describe, it, expect */
 
 import { existsSync, access } from 'fs'
 import path from 'path'

@@ -1,3 +1,2 @@
-/* global test, describe, it, expect, jest */
+/* global test, describe, it, expect */
 'use strict'
-export default {}
