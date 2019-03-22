@@ -14,10 +14,15 @@ import holiday from '~/Holiday/holidays.json'
 
 // will crash here, because we have a few ingredients packs...
 import ingredients from '~/Ingredients/ingredients.json'
+import ingredients1 from '~/Ingredients/ingredients1.json'
+import ingredients3 from '~/Ingredients/ingredients3.json'
+import favourites from '/Ingredients/favorites.json'
+import items from '/Ingredients/items.json'
 // @TODO import sub-stuff like items, etc in order to make fetch works well....
 
 // will crash here, because we need to import another file as well
 import mealCalendar from '~/MealCalendar/mealcalendar.json'
+import firstVeganGLMC from '~/MealCalendar/First-Vegan-Grocery-List-MC.json'
 import measurements from '~/Measurement/measurements.json'
 
 import menu from '~/Menu/menu.json'
@@ -26,6 +31,7 @@ import nutritions from '~/Nutrition/nutritions1.json'
 
 import users from '~/Users/users.json'
 
+import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example'
 
 export default {
   // file
@@ -37,9 +43,15 @@ export default {
   grocery,
   holiday,
   ingredients,
+  ingredients1,
+  ingredients3,
+  favourites,
+  items,
   mealCalendar,
+  firstVeganGLMC,
   measurements,
   menu,
   nutritions,
-  users
+  users,
+  ultimateGroceryList
 }
