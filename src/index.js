@@ -17,7 +17,7 @@ import ingredients from '~/Ingredients/ingredients.json'
 import ingredients1 from '~/Ingredients/ingredients1.json'
 import ingredients3 from '~/Ingredients/ingredients3.json'
 
-import favourites from '~/Ingredients/favorites.json'
+import favorites from '~/Ingredients/favorites.json'
 import items from '~/Ingredients/items.json'
 // @TODO import sub-stuff like items, etc in order to make fetch works well....
 
@@ -32,6 +32,7 @@ import nutritions from '~/Nutrition/nutritions1.json'
 import nutritions2 from '~/Nutrition/nutritions2.json'
 
 import users from '~/Users/users.json'
+import userGrocery from '~/Users/usersGrocery.json'
 
 import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example.json'
 import groceryListWithUserRelations from '~/Grocery/example/grocery-with-user-relations.json'
@@ -52,7 +53,7 @@ export default {
   ingredients,
   ingredients1,
   ingredients3,
-  favourites,
+  favorites,
   items,
   mealCalendar,
   firstVeganGLMC,
@@ -62,6 +63,7 @@ export default {
   nutritions,
   nutritions2,
   users,
+  userGrocery,
   ultimateGroceryList,
   groceryListWithUserRelations,
   dbIngredients
