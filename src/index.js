@@ -28,10 +28,16 @@ import measurements from '~/Measurement/measurements.json'
 import menu from '~/Menu/menu.json'
 
 import nutritions from '~/Nutrition/nutritions1.json'
+import nutritions2 from '~/Nutrition/nutritions2.json'
 
 import users from '~/Users/users.json'
 
-import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example'
+import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example.json'
+import groceryListWithUserRelations from '~/Grocery/example/grocery-with-user-relations.json'
+import dbIngredients from '~/Grocery/example/gs-loopback-sample.json'
+
+import recipes from '~/Recipe4/recipe.json'
+
 
 export default {
   // file
@@ -51,7 +57,11 @@ export default {
   firstVeganGLMC,
   measurements,
   menu,
+  recipes,
   nutritions,
+  nutritions2,
   users,
-  ultimateGroceryList
+  ultimateGroceryList,
+  groceryListWithUserRelations,
+  dbIngredients
 }
