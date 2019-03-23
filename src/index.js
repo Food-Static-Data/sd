@@ -34,7 +34,7 @@ import users from '~/Users/users.json'
 
 import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example.json'
 import groceryListWithUserRelations from '~/Grocery/example/grocery-with-user-relations.json'
-import dbIngredients from '~/Grocery/example/gs-loopback-sample.json'
+import dbIngredients from '~/Ingredients/example/gs-loopback-sample.json'
 
 import recipes from '~/Recipe4/recipe.json'
 
