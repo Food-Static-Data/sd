@@ -32,7 +32,7 @@ import nutritions from '~/Nutrition/nutritions1.json'
 import nutritions2 from '~/Nutrition/nutritions2.json'
 
 import users from '~/Users/users.json'
-import userGrocery from '~/Users/usersGrocery.json'
+import userGrocery from '~/Users/userGrocery.json'
 
 import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example.json'
 import groceryListWithUserRelations from '~/Grocery/example/grocery-with-user-relations.json'
