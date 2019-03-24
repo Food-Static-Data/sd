@@ -18,7 +18,7 @@ import ingredients1 from '~/Ingredients/ingredients1.json'
 import ingredients3 from '~/Ingredients/ingredients3.json'
 
 import favorites from '~/Favorites/favorites.json'
-import items from '~/Ingredients/items.json'
+import items from '~/Items/items.json'
 // @TODO import sub-stuff like items, etc in order to make fetch works well....
 
 // will crash here, because we need to import another file as well
@@ -32,7 +32,7 @@ import nutritions from '~/Nutrition/nutritions1.json'
 import nutritions2 from '~/Nutrition/nutritions2.json'
 
 import users from '~/Users/users.json'
-import userGrocery from '~/Users/userGrocery.json'
+import userGrocery from '~/UserGrocery/userGrocery.json'
 
 import ultimateGroceryList from '~/Grocery/example/ultimate-gl-from-loopback-server-example.json'
 import groceryListWithUserRelations from '~/Grocery/example/grocery-with-user-relations.json'
