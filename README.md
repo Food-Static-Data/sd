@@ -41,5 +41,49 @@ List of plugins related to this universe:
    "bin/rollup"
  ]
  ```
+#### Minify
 
- 
+https://github.com/TrySound/rollup-plugin-terser
+
+```yarn add rollup-plugin-terser --dev```
+
+```
+
+import { terser } from "rollup-plugin-terser";
+
+rollup({
+  input: "main.js",
+  plugins: [terser()]
+});
+```
+
+https://github.com/Comandeer/rollup-plugin-babel-minify
+npm install rollup-plugin-babel-minify [--save-dev]
+```
+import { rollup } from 'rollup';
+import minify from 'rollup-plugin-babel-minify';
+
+rollup( {
+	input: './src/index.js',
+	plugins: [
+		minify( {
+			// Options for babel-minify.
+		} )
+	]
+} );
+
+```
+
+
+yarn add rollup-plugin-uglify --dev
+
+```
+import { uglify } from "rollup-plugin-uglify";
+
+rollup({
+  input: "main.js",
+  plugins: [uglify()]
+});
+```
+
+https://www.npmjs.com/package/rollup-plugin-minify-es
