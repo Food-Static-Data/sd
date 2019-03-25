@@ -1,9 +1,9 @@
 /* global test, describe, it, expect */
 'use strict'
-import allergies from '~/Allergy/allergies.json'
+import mealcalendar from '~/MealCalendar/mealcalendar.json'
 
-describe('allergies data files returns array', () => {
+describe('mealcalendar data files returns array', () => {
   test('xxxx', () => {
-    expect(allergies).not.toBe('')
+    expect(mealcalendar).not.toBe('')
   })
 })
