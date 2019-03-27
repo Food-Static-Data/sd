@@ -41,6 +41,8 @@ import dbIngredients from '~/Ingredients/example/gs-loopback-sample.json'
 import recipes from '~/Recipe4/recipe.json'
 
 
+// console.log(grocery);
+
 export default {
   // file
   allergies,
