@@ -4,7 +4,9 @@
 // import { version } from '../package.json'
 
 // @TODO should we use .json in import?
+
 import allergies from '~/Allergy/allergies.json'
+
 import course from '~/Course/courses.json'
 import cuisine from '~/Cuisine/cuisines.json'
 import departments from '~/Departments/departments.json'
@@ -41,8 +43,9 @@ import dbIngredients from '~/Ingredients/example/gs-loopback-sample.json'
 import recipes from '~/Recipe4/recipe.json'
 
 export default {
-  // file
+
   allergies,
+
   course,
   cuisine,
   departments,
