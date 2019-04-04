@@ -4,38 +4,38 @@ var shell = require('shelljs')
 var path = require('path')
 
 const {
-    groceryFilePath,
-    allergiesFilePath,
-    courseFilePath,
-    cuisineFilePath,
-    departmentsFilePath,
-    dietFilePath,
-    ingredientsFilePath,
-    ingredients1FilePath,
-    ingredients3FilePath,
-    favoritesFilePath,
-    itemsFilePath,
-    mealCalendarFilePath,
-    firstVeganGLMCFilePath,
-    measurementsFilePath,
-    menuFilePath,
-    nutritionsFilePath,
-    nutritions2FilePath,
-    usersFilePath,
-    usersGroceryFilePath,
-    ultimateGroceryListFilePath,
-    groceryListWithUserRelationsFilePath,
-    dbIngredientsFilePath,
-    recipesFilePath,
+  groceryFilePath,
+  allergiesFilePath,
+  courseFilePath,
+  cuisineFilePath,
+  departmentsFilePath,
+  dietFilePath,
+  ingredientsFilePath,
+  ingredients1FilePath,
+  ingredients3FilePath,
+  favoritesFilePath,
+  itemsFilePath,
+  mealCalendarFilePath,
+  firstVeganGLMCFilePath,
+  measurementsFilePath,
+  menuFilePath,
+  nutritionsFilePath,
+  nutritions2FilePath,
+  usersFilePath,
+  usersGroceryFilePath,
+  ultimateGroceryListFilePath,
+  groceryListWithUserRelationsFilePath,
+  dbIngredientsFilePath,
+  recipesFilePath
 } = require('./files.js')
 
-const jsonFiles = require('./files.js');
+const jsonFiles = require('./files.js')
 
-console.log(jsonFiles);
+console.log(jsonFiles)
 
 // console.log(groceryFilePath)
 
-//console.log(path.resolve(__dirname, './data/Grocery/grocery.json'))
+// console.log(path.resolve(__dirname, './data/Grocery/grocery.json'))
 // shell.exec('jsonlint ' + groceryFilePath)
 // shell.exec('jsonlint ' + allergiesFilePath)
 // shell.exec('jsonlint ' + courseFilePath)
