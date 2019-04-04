@@ -1,5 +1,6 @@
 import exec from 'shelljs.exec'
 console.log(exec)
+// https://www.npmjs.com/package/shelljs.exec
 // import path from 'path'
 //
 // import { allergies } from './files.js'
