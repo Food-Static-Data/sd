@@ -15,6 +15,7 @@
     "files": "node --experimental-modules dist/index.cjs",
     "jsonlint": "node jsonlint.config.js",
     "jsonlint2": "node src/jsonlint2.js",
+    "jsonlint3": "node dist/jsonlint2.js",
     "lint": "standard",
     "code-fix": "standard --fix",
     "format": "prettier"
@@ -50,6 +51,8 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-resolve": "^4.0.1",
+    "shelljs": "^0.8.3",
+    "shelljs.exec": "^1.1.8",
     "shx": "^0.3.2",
     "standard": "^12.0.1"
   },
