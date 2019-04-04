@@ -27,7 +27,9 @@ const {
     groceryListWithUserRelationsFilePath,
     dbIngredientsFilePath,
     recipesFilePath,
-} = path.resolve(__dirname, './files.js')
+} = require('./files.js')
+
+console.log(groceryFilePath)
 
 //console.log(path.resolve(__dirname, './data/Grocery/grocery.json'))
 shell.exec('jsonlint ' + groceryFilePath)
