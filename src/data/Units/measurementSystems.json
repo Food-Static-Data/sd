@@ -1,0 +1,17 @@
+[
+    {
+        "id": "10",
+        "title": "Universal",
+        "alias": "universal" 
+    },
+    {
+        "id": "20",
+        "title": "Metric",
+        "alias": "metric" 
+    },
+    {
+        "id": "30",
+        "title": "US-Imperial",
+        "alias": "us-imperial" 
+    }
+]
