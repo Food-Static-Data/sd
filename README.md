@@ -87,3 +87,5 @@ rollup({
 ```
 
 https://www.npmjs.com/package/rollup-plugin-minify-es
+
+https://www.npmjs.com/package/type-detect
