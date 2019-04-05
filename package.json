@@ -14,8 +14,6 @@
     "test:cover": "jest --coverage",
     "files": "node --experimental-modules dist/index.cjs",
     "jsonlint": "node jsonlint.config.js",
-    "jsonlint2": "node src/jsonlint2.js",
-    "jsonlint3": "node dist/jsonlint2.js",
     "generate":"node writeFile.js",
     "lint": "standard",
     "code-fix": "standard --fix",
