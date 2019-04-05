@@ -12,6 +12,7 @@ async function main (path, data) {
 
   console.info('file generated successfully!')
 }
+
 /**
  * Write in file
  * @param {String} path
@@ -55,6 +56,7 @@ function writeFiles () {
     writeFile(path, data)
   })
 }
+
 function test () {
   // console.log(filePath["groceryFilePath"]);
   // console.log(JSON.parse("src/data/Grocery/grocery.json"));
@@ -64,6 +66,7 @@ function test () {
 
   console.log('ok')
 }
+
 // execute function
 writeFiles()
 
