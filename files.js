@@ -23,11 +23,11 @@ const firstVeganGLMCFilePath = path.resolve(__dirname, './src/data/MealCalendar/
 const measurementsFilePath = path.resolve(__dirname, './src/data/Measurement/measurements.json')
 const menuFilePath = path.resolve(__dirname, './src/data/Menu/menu.json')
 
-const nutritionsFilePath = path.resolve(__dirname, './src/data/Nutritions/nutritions1.json')
-const nutritions2FilePath = path.resolve(__dirname, './src/data/Nutritions/nutritions2.json')
+const nutritionsFilePath = path.resolve(__dirname, './src/data/Nutrition/nutritions1.json')
+const nutritions2FilePath = path.resolve(__dirname, './src/data/Nutrition/nutritions2.json')
 
 const usersFilePath = path.resolve(__dirname, './src/data/Users/users.json')
-const usersGroceryFilePath = path.resolve(__dirname, './src/data/UsersGrocery/usersGrocery.json')
+const usersGroceryFilePath = path.resolve(__dirname, './src/data/UserGrocery/userGrocery.json')
 
 const ultimateGroceryListFilePath = path.resolve(__dirname, './src/data/Grocery/example/ultimate-gl-from-loopback-server-example.json')
 const groceryListWithUserRelationsFilePath = path.resolve(__dirname, './src/data/Grocery/example/grocery-with-user-relations.json')
@@ -38,7 +38,26 @@ const recipesFilePath = path.resolve(__dirname, './src/data/Recipe4/recipe.json'
 
 module.exports = {
   groceryFilePath,
+  allergiesFilePath,
+  courseFilePath,
+  cuisineFilePath,
+  departmentsFilePath,
+  dietFilePath,
+  ingredientsFilePath,
+  ingredients1FilePath,
+  ingredients3FilePath,
+  favoritesFilePath,
+  mealCalendarFilePath,
+  firstVeganGLMCFilePath,
+  measurementsFilePath,
+  menuFilePath,
+  nutritionsFilePath,
+  nutritions2FilePath,
+  usersGroceryFilePath,
+  ultimateGroceryListFilePath,
+  groceryListWithUserRelationsFilePath,
+  dbIngredientsFilePath,
+  recipesFilePath,
   itemsFilePath,
   usersFilePath
-
 }
