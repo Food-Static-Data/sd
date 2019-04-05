@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/sd-wrapper",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",
@@ -16,7 +16,7 @@
     "jsonlint": "node jsonlint.config.js",
     "jsonlint2": "node src/jsonlint2.js",
     "jsonlint3": "node dist/jsonlint2.js",
-    "generate":"node writeFile.js",
+    "generate": "node writeFile.js",
     "lint": "standard",
     "code-fix": "standard --fix",
     "format": "prettier"
