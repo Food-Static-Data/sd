@@ -4,6 +4,7 @@ var shell = require('shelljs')
 var path = require('path')
 
 const groceryFilePath = path.resolve(__dirname, './src/data/Grocery/grocery.json')
+
 const allergiesFilePath = path.resolve(__dirname, './src/data/Allergy/allergies.json')
 const courseFilePath = path.resolve(__dirname, './src/data/Course/courses.json')
 const cuisineFilePath = path.resolve(__dirname, './src/data/Cuisine/cuisines.json')
