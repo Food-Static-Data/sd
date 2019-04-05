@@ -3,35 +3,39 @@
 var shell = require('shelljs')
 var path = require('path')
 
-const {
-  groceryFilePath,
-  allergiesFilePath,
-  courseFilePath,
-  cuisineFilePath,
-  departmentsFilePath,
-  dietFilePath,
-  ingredientsFilePath,
-  ingredients1FilePath,
-  ingredients3FilePath,
-  favoritesFilePath,
-  itemsFilePath,
-  mealCalendarFilePath,
-  firstVeganGLMCFilePath,
-  measurementsFilePath,
-  menuFilePath,
-  nutritionsFilePath,
-  nutritions2FilePath,
-  usersFilePath,
-  usersGroceryFilePath,
-  ultimateGroceryListFilePath,
-  groceryListWithUserRelationsFilePath,
-  dbIngredientsFilePath,
-  recipesFilePath
-} = require('./files.js')
+// const {
+//   groceryFilePath,
+//   allergiesFilePath,
+//   courseFilePath,
+//   cuisineFilePath,
+//   departmentsFilePath,
+//   dietFilePath,
+//   ingredientsFilePath,
+//   ingredients1FilePath,
+//   ingredients3FilePath,
+//   favoritesFilePath,
+//   itemsFilePath,
+//   mealCalendarFilePath,
+//   firstVeganGLMCFilePath,
+//   measurementsFilePath,
+//   menuFilePath,
+//   nutritionsFilePath,
+//   nutritions2FilePath,
+//   usersFilePath,
+//   usersGroceryFilePath,
+//   ultimateGroceryListFilePath,
+//   groceryListWithUserRelationsFilePath,
+//   dbIngredientsFilePath,
+//   recipesFilePath
+// } = require('./files.js')
 
 const jsonFiles = require('./files.js')
 
-console.log(jsonFiles)
+// console.log(jsonFiles)
+
+Object.keys(jsonFiles).forEach(function(key){
+  shell.exec('jsonlint '+ jsonFiles[key])
+})
 
 // console.log(groceryFilePath)
 
