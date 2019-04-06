@@ -42,9 +42,9 @@ function writeFiles () {
   // output filenames will be the same as in array
   // files you can find in folder output
   var fileNames = [
-    'users',
-    'grocery',
-    'items'
+    // 'users',
+    'usersGrocery',
+    // 'items'
   ]
 
   fileNames.map(fileName => {
