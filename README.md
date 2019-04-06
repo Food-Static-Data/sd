@@ -92,3 +92,18 @@ https://www.npmjs.com/package/type-detect
 
 - [ ] Connect meal calendar with a grocery list that we have.
 - [ ] Grocery lists should be divided, not like it's right now.
+
+---
+
+to run generetor (it will run in writeFile.js function writeFiles())
+```
+npm run generate
+```
+to know if writing is success in console you will see 
+`file generated successfully!`
+
+it will write multiple files.
+in function writeFiles() should be array of files. In array fileNames add filename that exist in folder `data`. this functionon just get data from file and write to another file (rewriting )
+Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
+
+---
