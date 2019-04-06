@@ -1,9 +1,10 @@
 var writeInFile = require('./writeFile')
-
+var { chickenKyiv } = require('@groceristar/groceristar-fetch')
 function generateFile(){
-    var fileName = "testing"
+    var fileName = "generatedMenu"
     var path = './output/' + fileName + '.json';
-    data = ["test"]
+    var data = chickenKyiv.getMenuGenerator(2)
+    
     writeInFile.writeFile(path, data);
 }
 generateFile();
