@@ -43,13 +43,18 @@ function writeFiles () {
   // files you can find in folder output
   var fileNames = [
     // 'users',
-    'usersGrocery',
-    // 'items'
+    // 'usersGrocery',
+    'items'
   ]
 
   fileNames.map(fileName => {
-    // folder output should exist
-    var path = './output/' + fileName + '.json'
+    // folder should exist
+    // get fileName and uppercase first letter. it will be folder
+    // E.g. filename item it will write in in folder Item
+    var folder = fileName.charAt(0).toUpperCase() + fileName.slice(1)
+    var path = './'+ folder + '/' + fileName + '.json';
+    
+    
     // it's maybe strange of using require by this way but it's working
     var data = require(filePath[fileName + 'FilePath'])
 
