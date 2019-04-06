@@ -44,7 +44,8 @@ function writeFiles () {
   var fileNames = [
     // 'users',
     // 'usersGrocery',
-    'items'
+    // 'items',
+    'favorites'
   ]
 
   fileNames.map(fileName => {
