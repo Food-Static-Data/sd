@@ -52,7 +52,7 @@ function writeFiles () {
     // get fileName and uppercase first letter. it will be folder
     // E.g. filename item it will write in in folder Item
     var folder = fileName.charAt(0).toUpperCase() + fileName.slice(1)
-    var path = './'+ folder + '/' + fileName + '.json';
+    var path = './src/data/'+ folder + '/' + fileName + '.json';
     
     
     // it's maybe strange of using require by this way but it's working
