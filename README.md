@@ -92,3 +92,14 @@ https://www.npmjs.com/package/type-detect
 
 - [ ] Connect meal calendar with a grocery list that we have.
 - [ ] Grocery lists should be divided, not like it's right now.
+
+---
+
+to run generetor
+```
+npm run generate
+```
+to if writing is success in console you will see 
+`file generated successfully!`
+
+---
