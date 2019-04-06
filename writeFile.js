@@ -37,31 +37,7 @@ function writeFile (path, data) {
   }
 }
 
-function writeFiles () {
-  // add filenames to array that exist in sd-wrapper
-  // output filenames will be the same as in array
-  // files you can find in folder output
-  var fileNames = [
-    // 'users',
-    // 'usersGrocery',
-    // 'items',
-    'favorites'
-  ]
 
-  fileNames.map(fileName => {
-    // folder should exist
-    // get fileName and uppercase first letter. it will be folder
-    // E.g. filename item it will write in in folder Item
-    var folder = fileName.charAt(0).toUpperCase() + fileName.slice(1)
-    var path = './src/data/'+ folder + '/' + fileName + '.json';
-    
-    
-    // it's maybe strange of using require by this way but it's working
-    var data = require(filePath[fileName + 'FilePath'])
-
-    writeFile(path, data)
-  })
-}
 
 function test () {
   // console.log(filePath["groceryFilePath"]);
@@ -74,10 +50,9 @@ function test () {
 }
 
 // execute function
-writeFiles()
+// writeFiles()
 
 module.exports = {
   writeFile,
-  writeFiles,
   test
 }
