@@ -610,6 +610,24 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@groceristar/groceristar-fetch@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.8.tgz#937f0054c5db354b5a0f675c2b608380e87aee7d"
+  dependencies:
+    "@groceristar/sd-wrapper" "^3.0.0"
+    dayjs "^1.8.12"
+    fs "0.0.2"
+    lodash "^4.17.10"
+    underscore "^1.9.1"
+    uuid "^3.3.2"
+
+"@groceristar/sd-wrapper@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-3.0.0.tgz#e75c14a2aca98783898626399058895a815513a0"
+  dependencies:
+    path "^0.12.7"
+    uuid "^3.3.2"
+
 "@jest/console@^24.7.1":
   version "24.7.1"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.7.1.tgz#32a9e42535a97aedfe037e725bd67e954b459545"
@@ -1656,6 +1674,10 @@ data-urls@^1.0.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
+dayjs@^1.8.12:
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.12.tgz#f9610fb9b115aa2fe2a07e742c130df418cee76a"
+
 debug-log@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debug-log/-/debug-log-1.0.1.tgz#2307632d4c04382b8df8a32f70b895046d52745f"
@@ -2294,6 +2316,10 @@ fs-readdir-recursive@^1.1.0:
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
+
+fs@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.2.tgz#e1f244ef3933c1b2a64bd4799136060d0f5914f8"
 
 fsevents@^1.2.7:
   version "1.2.7"
@@ -4706,8 +4732,8 @@ rollup-plugin-node-builtins@^2.1.2:
     process-es6 "^0.11.2"
 
 rollup-plugin-node-resolve@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-4.2.0.tgz#f1f38392a97360195be04d3c3d791ddd9715d755"
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-4.2.1.tgz#a949f3082c9839ca586d0e893425d1f83ed01fcf"
   dependencies:
     "@types/resolve" "0.0.8"
     builtin-modules "^3.0.0"
@@ -5278,6 +5304,10 @@ undefsafe@^2.0.2:
   resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-2.0.2.tgz#225f6b9e0337663e0d8e7cfd686fc2836ccace76"
   dependencies:
     debug "^2.2.0"
+
+underscore@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
 
 underscore@~1.6.0:
   version "1.6.0"
