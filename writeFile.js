@@ -37,8 +37,6 @@ function writeFile (path, data) {
   }
 }
 
-
-
 function test () {
   // console.log(filePath["groceryFilePath"]);
   // console.log(JSON.parse("src/data/Grocery/grocery.json"));
