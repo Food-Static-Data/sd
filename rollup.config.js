@@ -16,6 +16,20 @@ const extensions = [
 
 const name = 'StaticDataWrapper'
 
+const { external, globals } = {
+  "globals": {
+    'fs': 'fs',
+    'uuid': 'uuid',
+    'path': 'path'
+  },
+  "external": [
+    'fs',
+    'path',
+    'uuid'
+  ]
+};
+
+
 export default {
   input: './src/index.js',
 
