@@ -3,7 +3,7 @@
 import diets from '~/Diet/diets.json'
 
 describe('diets data files returns array', () => {
-  test('xxxx', () => {
+  test('test for Diet', () => {
     expect(diets).not.toBe('')
   })
 })
