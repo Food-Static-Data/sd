@@ -3,7 +3,8 @@
 import allergies from '~/Allergy/allergies.json'
 
 describe('allergies data files returns array', () => {
-  test('xxxx', () => {
+  test('test for Allergy', () => {
     expect(allergies).not.toBe('')
   })
 })
+
