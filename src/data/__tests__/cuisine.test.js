@@ -2,8 +2,8 @@
 'use strict'
 import cuisines from '~/Cuisine/cuisines.json'
 
-describe('cuisines data files returns array', () => {
-  test('xxxx', () => {
+describe('this test prevents to any issues and problems, also to break the structure of cuisines data files', () => {
+  test('cuisines data files returns array', () => {
     expect(cuisines).not.toBe('')
   })
 })
