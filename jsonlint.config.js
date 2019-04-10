@@ -7,7 +7,6 @@ const jsonFiles = require('./files.js')
 // console.log(jsonFiles)
 
 Object.keys(jsonFiles).forEach(function (key) {
-
   shell.exec('jsonlint ' + jsonFiles[key])
 
   // @TODO we need to add some validation, that will help us to know, when something is wrong.
@@ -19,7 +18,6 @@ Object.keys(jsonFiles).forEach(function (key) {
   //   shell.echo('Error: Git commit failed');
   //   shell.exit(1);
   // }
-
 })
 
 // console.log(groceryFilePath)

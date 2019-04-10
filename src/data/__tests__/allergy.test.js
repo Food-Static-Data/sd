@@ -7,4 +7,3 @@ describe('tests for allergy', () => {
     expect(allergies).not.toBe('')
   })
 })
-

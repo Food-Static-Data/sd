@@ -17,18 +17,17 @@ const extensions = [
 const name = 'StaticDataWrapper'
 
 const { external, globals } = {
-  "globals": {
+  'globals': {
     'fs': 'fs',
     'uuid': 'uuid',
     'path': 'path'
   },
-  "external": [
+  'external': [
     'fs',
     'path',
     'uuid'
   ]
-};
-
+}
 
 export default {
   input: './src/index.js',
@@ -102,7 +101,7 @@ export default {
   }, {
     file: pkg.browser,
     format: 'iife',
-    name,
+    name
 
     // https://rollupjs.org/guide/en#output-globals-g-globals
     // globals: {}
