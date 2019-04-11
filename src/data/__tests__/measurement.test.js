@@ -3,7 +3,7 @@
 import measurements from '~/Measurement/measurements.json'
 
 describe('measurements data files returns array', () => {
-  test('xxxx', () => {
+  test('these tests prevent any issues and problems, also to break the structure of measurement', () => {
     expect(measurements).not.toBe('')
   })
 })
