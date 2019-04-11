@@ -3,7 +3,7 @@
 import recipe from '~/Recipe4/recipe.json'
 
 describe('recipe data files returns array', () => {
-  test('xxxx', () => {
+  test('these tests prevent any issues and problems, also to break the structure of recipe', () => {
     expect(recipe).not.toBe('')
   })
 })
