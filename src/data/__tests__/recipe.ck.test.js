@@ -1,9 +1,9 @@
 /* global test, describe, it, expect */
 'use strict'
-import allergies from '~/Allergy/allergies.json'
+import recipeCk from '~/Recipe.ck/recipe.ck.json'
 
-describe('allergies data files returns array', () => {
-  test('xxxx', () => {
-    expect(allergies).not.toBe('')
+describe('recipeCk data files returns array', () => {
+  test('these tests prevent any issues and problems, also to break the structure of recipeCk', () => {
+    expect(recipeCk).not.toBe('')
   })
 })
