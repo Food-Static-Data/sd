@@ -24,6 +24,8 @@ List of plugins related to this universe:
 - https://github.com/GroceriStar/es6-package/blob/master/rollup.config.js
 - https://github.com/GroceriStar/sd/
 
+- https://github.com/GroceriStar/sd-plain
+
 ---
 
 - https://github.com/sheerun/babel-plugin-file-loader
@@ -94,7 +96,7 @@ https://www.npmjs.com/package/type-detect
 - [ ] Grocery lists should be divided, not like it's right now.
 
 ---
-
+#### How to generate additional files
 to run generetor (it will run in writeFile.js function writeFiles())
 ```
 npm run generate
