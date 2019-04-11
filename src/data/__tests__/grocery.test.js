@@ -3,7 +3,7 @@
 import grocery from '~/Grocery/grocery.json'
 
 describe('grocery data files returns array', () => {
-  test('xxxx', () => {
+  test('these tests prevent any issues and problems, also to break the structure of grocery', () => {
     expect(grocery).not.toBe('')
   })
 })
