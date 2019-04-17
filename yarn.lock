@@ -611,8 +611,8 @@
     minimist "^1.2.0"
 
 "@groceristar/groceristar-fetch@^2.1.8":
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.10.tgz#3c76c156392bad04554b79f86529d4ebd8482c12"
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.11.tgz#f0b92c6b5c067734b3c576c794900b8deca7e2ff"
   dependencies:
     "@groceristar/sd-wrapper" "^3.0.0"
     dayjs "^1.8.12"
