@@ -1,0 +1,77 @@
+[
+    {
+        "Nutrition value to pass to the API": "K",
+        "Description": "Potassium, K",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "NA",
+        "Description": "Sodium, Na",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "CHOLE",
+        "Description": "Cholesterol",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "FATRN",
+        "Description": "Fatty acids, total trans",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "FASAT",
+        "Description": "Fatty acids, total saturated",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "CHOCDF",
+        "Description": "Carbohydrate, by difference",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "FIBTG",
+        "Description": "Fiber, total dietary",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "PROCNT",
+        "Description": "Protein",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "VITC",
+        "Description": "Vitamin C, total ascorbic acid",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "CA",
+        "Description": "Calcium, Ca",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "FE",
+        "Description": "Iron, Fe",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "SUGAR",
+        "Description": "SUGAR",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "ENERC_KCAL",
+        "Description": "Energy",
+        "Implied Units": "kcal"
+    },
+    {
+        "Nutrition value to pass to the API": "FAT",
+        "Description": "Total lipid (fat)",
+        "Implied Units": "gram"
+    },
+    {
+        "Nutrition value to pass to the API": "VITA_IU",
+        "Description": "Vitamin A, IU",
+        "Implied Units": "IU"
+    }
+]
