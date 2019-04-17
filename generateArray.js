@@ -88,7 +88,28 @@ function usersGrocery() {
 }
 
 function items(){
-    
+    var ingredientsId = generateArrWithId(ingredients, "ingredient_id");
+    var items = [1,2,3]
+    var result = []
+
+    items.map( (item, index) => {
+        result.push({
+            "item_id": item,
+            "name": ingredientsId[index++]["name"],
+            "description": "something about the item",
+            "quantity": 50,
+            "purchase": false
+        })
+        result.push({
+            "item_id": item,
+            "name": ingredientsId[index++]["name"],
+            "description": "something about the item",
+            "quantity": 50,
+            "purchase": false
+        })
+    })
+
+    return result
 }
 // var favorites = users.map(user => {
 
@@ -106,5 +127,6 @@ function items(){
 module.exports = {
     usersGrocery,
     favorites,
-    getMenuGenerator
+    getMenuGenerator,
+    items
 }
