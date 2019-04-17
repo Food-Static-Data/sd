@@ -19,7 +19,9 @@ function generateArrWithId(data, idName) {
         }
     })
 }
+function favorites(){
 
+}
 
 function usersGrocery(){
     var groceryId = generateArrWithId(grocery,"grocery_id");
@@ -41,18 +43,9 @@ function usersGrocery(){
         })
     })
     return result
-    // return usersId.map(user => {
-    //     return ({
-    //         "user_id": user['user_id'],
-    //         // one grocery id for all users
-    //         "grocery_id": groceryId[0]['grocery_id']
-    //     }
-    //     )
-    // })
 }
 // var favorites = users.map(user => {
     
-
 //     return {
 //         "ingredient_id": id,
 //         "userId": id,
@@ -62,5 +55,8 @@ function usersGrocery(){
 // })
 // console.log(favorites);
 // var usersWithId = 
-console.log(usersGrocery());
+// console.log(usersGrocery());
 // console.log(generateArrWithId(users));
+module.exports = {
+    usersGrocery
+}
