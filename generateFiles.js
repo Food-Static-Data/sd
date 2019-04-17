@@ -2,7 +2,7 @@ const filePath = require('./files')
 var writeInFile = require('./writeFile')
 const fs = require('fs')
 const { promisify } = require('util')
-var { usersGrocery } = require('./generateArray')
+var { usersGrocery, favorites, getMenuGenerator } = require('./generateArray')
 const writeFilePromisify = promisify(fs.writeFile)
 
 function generateFiles () {
@@ -17,8 +17,15 @@ function generateFiles () {
   // ]
   var config = [
     { "name": "usersGrocery",
-      "data": usersGrocery
-    }
+      "data": usersGrocery()
+    },
+    { "name": "favorites",
+      "data": favorites()
+    },
+    { "name": "menu",
+      "data": getMenuGenerator(2)
+    },
+
   ]
   // var functions = {
     
@@ -33,7 +40,7 @@ function generateFiles () {
     var path = './src/data/' + folder + '/' + fileName + '.json'
 
     // it's maybe strange of using require by this way but it's working
-    var data = settings["data"]()
+    var data = settings["data"]
     // functions[fileName]() 
     console.log(data);
     
