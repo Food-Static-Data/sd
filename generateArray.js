@@ -20,18 +20,35 @@ function generateArrWithId(data, idName) {
     })
 }
 
+
 function usersGrocery(){
     var groceryId = generateArrWithId(grocery,"grocery_id");
-
     var usersId = generateArrWithId(users,"user_id");
-
-    return usersId.map(user => {
-        return{
+    // return object for three users
+    var result = []
+    usersId.map( (user, index) => {
+        
+        result.push({
             "user_id": user['user_id'],
             // one grocery id for all users
-            "grocery_id": groceryId[0]['grocery_id']
-        }
+            "grocery_id": groceryId[index++]['grocery_id']
+        })
+
+        result.push({
+            "user_id": user['user_id'],
+            // one grocery id for all users
+            "grocery_id": groceryId[index++]['grocery_id']
+        })
     })
+    return result
+    // return usersId.map(user => {
+    //     return ({
+    //         "user_id": user['user_id'],
+    //         // one grocery id for all users
+    //         "grocery_id": groceryId[0]['grocery_id']
+    //     }
+    //     )
+    // })
 }
 // var favorites = users.map(user => {
     
