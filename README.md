@@ -106,7 +106,8 @@ to know if writing is success in console you will see
 
 it will write multiple files.
 in function writeFiles() should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
-  
+ ***Note*** before genereting files folder should exist another you will get error.
+by default generating files happens in `/src/data`
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
 
 ---
