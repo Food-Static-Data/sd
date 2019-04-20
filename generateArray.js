@@ -8,6 +8,7 @@ var users = require(filePath['usersFilePath'])
 var grocery = require(filePath['groceryFilePath'])
 var ingredients = require(filePath['ingredientsFilePath'])
 var measurementSystem = require(filePath['measurementSystemFilePath'])
+var measurementUnits = require(filePath['measurementUnitsFilePath'])
 
 const __generateId = () => {
     return uuidv1();
@@ -125,6 +126,26 @@ function getMeasurementSystem(){
     })
     return result
 }
+
+function getMeasurementUnits(){
+    var result = []
+    var measurementUnitsId = generateArrWithId(measurementUnits, "id")
+    measurementUnitsId = generateArrWithId(measurementUnitsId, "system_id")
+    measurementUnitsId.map( unit => {
+        result.push({
+            "id": unit.id,
+            "system_id": unit.system_id,
+            "type": unit.type,
+            "name": unit.name,
+            "singular": unit.singular,
+            "plural": unit.plural,
+            "short": unit.short,
+            "pattern": unit.pattern,
+            "error": "null"
+        })
+    })
+    return result
+}
 // var favorites = users.map(user => {
 
 //     return {
@@ -143,5 +164,6 @@ module.exports = {
     favorites,
     getMenuGenerator,
     items,
-    getMeasurementSystem
+    getMeasurementSystem,
+    getMeasurementUnits
 }

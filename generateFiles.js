@@ -2,7 +2,7 @@ const filePath = require('./files')
 var writeInFile = require('./writeFile')
 const fs = require('fs')
 const { promisify } = require('util')
-var { usersGrocery, favorites, getMenuGenerator, items, getMeasurementSystem } = require('./generateArray')
+var { usersGrocery, favorites, getMenuGenerator, items, getMeasurementSystem, getMeasurementUnits } = require('./generateArray')
 const writeFilePromisify = promisify(fs.writeFile)
 
 function generateFiles () {
@@ -31,8 +31,11 @@ function generateFiles () {
     {
       "name": "measurementSystem",
       "data": getMeasurementSystem()
+    },
+    {
+      "name": "measurementUnits",
+      "data": getMeasurementUnits()
     }
-
   ]
   // var functions = {
     
