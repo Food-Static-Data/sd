@@ -49,6 +49,12 @@ npm test
 
 @vadim9999, @atherdon, @wahaj-47, @tihaami
 
+#### structure
+![image](https://user-images.githubusercontent.com/1469198/56497029-9a07fc80-6504-11e9-91ca-0aa4a3ec1ef8.png)
+
+![image](https://user-images.githubusercontent.com/1469198/56497034-9eccb080-6504-11e9-8ca9-0ef32903d927.png)
+
+
 ---
 
 https://github.com/sheerun/babel-plugin-file-loader#example-usage
