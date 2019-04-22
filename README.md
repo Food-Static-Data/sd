@@ -54,6 +54,13 @@ npm test
 
 ![image](https://user-images.githubusercontent.com/1469198/56497034-9eccb080-6504-11e9-8ca9-0ef32903d927.png)
 
+#### jsonlint
+
+```npm run jsonlint``` or ```yarn jsonlint```
+
+#### ESLint fix
+
+``` npm run code-fix``` or ```yarn code-fix```
 
 ---
 
