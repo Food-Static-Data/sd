@@ -5,3 +5,5 @@
          volume: null,
          weight: null
        };
+
+   export default pinch;
