@@ -107,4 +107,4 @@
             roast: "30 - 45 mins"
             };
 
-       export default cooking-times;
+       export default cooking_times;
