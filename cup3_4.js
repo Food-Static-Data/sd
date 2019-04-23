@@ -5,3 +5,5 @@
          volume: "180 milliliters",
          weight: null
        };
+
+    export default cup3_4;

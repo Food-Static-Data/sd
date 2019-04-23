@@ -106,3 +106,21 @@
             steam: "15 - 20 mins",
             roast: "30 - 45 mins"
             };
+
+       export {
+         frenchBeans,
+         sprouts,
+         jacketPotato,
+         sweetPotato,
+         kale,
+         leek,
+         broccoli,
+         carrots,
+         mushrooms,
+         onions_shallots,
+         parsnips,
+         peppers,
+         marrow_squash,
+         sweetcorn,
+         courgettes
+       };
