@@ -42,6 +42,11 @@ import dbIngredients from '~/Ingredients/example/gs-loopback-sample.json'
 
 import recipes from '~/Recipe4/recipe.json'
 
+import measurementSystems from '~/Units/measurementSystems.json'
+import measurementUnits from '~/Units/measurementUnits.json'
+import generatedMeasurementSystems from '~/MeasurementSystems/measurementSystems.json'
+import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
+
 export default {
 
   allergies,
@@ -68,5 +73,9 @@ export default {
   userGrocery,
   ultimateGroceryList,
   groceryListWithUserRelations,
-  dbIngredients
+  dbIngredients,
+  measurementSystems,
+  measurementUnits,
+  generatedMeasurementSystems,
+  generatedMeasurementUnits
 }

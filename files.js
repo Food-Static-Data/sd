@@ -35,6 +35,8 @@ const groceryListWithUserRelationsFilePath = path.resolve(__dirname, './src/data
 const dbIngredientsFilePath = path.resolve(__dirname, './src/data/Ingredients/example/gs-loopback-sample.json')
 const recipesFilePath = path.resolve(__dirname, './src/data/Recipe4/recipe.json')
 // console.log(path.resolve(__dirname, './data/Grocery/grocery.json'));
+const measurementSystemFilePath = path.resolve(__dirname, './src/data/Units/measurementSystems.json')
+const measurementUnitsFilePath = path.resolve(__dirname, './src/data/Units/measurementUnits.json')
 
 module.exports = {
   groceryFilePath,
@@ -59,5 +61,7 @@ module.exports = {
   dbIngredientsFilePath,
   recipesFilePath,
   itemsFilePath,
-  usersFilePath
+  usersFilePath,
+  measurementSystemFilePath,
+  measurementUnitsFilePath
 }
