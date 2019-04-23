@@ -5,3 +5,5 @@
           volume: "60 milliliters",
           weight: "56.7 grams"
         };
+
+    export default cup1_4;
