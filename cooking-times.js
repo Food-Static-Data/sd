@@ -106,3 +106,5 @@
             steam: "15 - 20 mins",
             roast: "30 - 45 mins"
             };
+
+       export default cooking-times;
