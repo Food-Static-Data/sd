@@ -5,3 +5,4 @@
          volume: null,
          weight: null
        };
+   export default dash;
