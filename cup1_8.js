@@ -5,3 +5,5 @@
          volume: "30 milliliters",
          weight: "28.3 grams"
        };
+
+    export default cup1_8;
