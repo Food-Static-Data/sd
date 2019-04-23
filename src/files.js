@@ -44,6 +44,8 @@ import recipes from '~/Recipe4/recipe.json'
 
 import measurementSystems from '~/Units/measurementSystems.json'
 import measurementUnits from '~/Units/measurementUnits.json'
+import generatedMeasurementSystems from '~/MeasurementSystems/measurementSystems.json'
+import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
 
 export default {
 
@@ -73,5 +75,7 @@ export default {
   groceryListWithUserRelations,
   dbIngredients,
   measurementSystems,
-  measurementUnits
+  measurementUnits,
+  generatedMeasurementSystems,
+  generatedMeasurementUnits
 }
