@@ -5,3 +5,5 @@
         volume: "500 milliliters",
         weight: "450 grams,  1 pound"
       };   
+
+   export default pint1;

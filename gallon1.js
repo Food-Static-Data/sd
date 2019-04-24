@@ -5,3 +5,5 @@
          volume: "3.79 liters",
          weight: null
        };
+
+    export default gallon1;
