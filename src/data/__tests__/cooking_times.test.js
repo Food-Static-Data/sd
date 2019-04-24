@@ -21,5 +21,47 @@ import {
 describe('this test prevents to any issues and problems, also to break the structure of cooking_times data', () => {
   test('cooking_times data files returns object', () => {
     expect(cooking_times).not.toBe('')
+  }),
+    test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
+  }),
+     test('cooking_times data files returns object', () => {
+    expect(cooking_times).not.toBe('')
   })
 })
