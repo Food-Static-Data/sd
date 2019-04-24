@@ -5,3 +5,5 @@
          volume: "240 milliliters",
          weight: "225 grams,  1/2 pound"
        };
+
+    export default cup1;
