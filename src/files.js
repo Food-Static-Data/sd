@@ -5,14 +5,14 @@
 
 // @TODO should we use .json in import?
 
-import allergies from '~/Allergy/allergies.json'
+import allergies from '../../../allergies.json'
 
-import course from '~/Course/courses.json'
-import cuisine from '~/Cuisine/cuisines.json'
-import departments from '~/Departments/departments.json'
-import diet from '~/Diet/diets.json'
+import course from '../../../courses.json'
+import cuisine from '../../../cuisines.json'
+import departments from '../../../departments.json'
+import diet from '../../../diets.json'
 import grocery from '~/Grocery/grocery.json'
-import holiday from '~/Holiday/holidays.json'
+import holiday from '../../../holidays.json'
 
 // will crash here, because we have a few ingredients packs...
 import ingredients from '~/Ingredients/ingredients.json'
