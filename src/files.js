@@ -104,6 +104,7 @@ export default {
   ultimateGroceryList,
   groceryListWithUserRelations,
   dbIngredients,
+  cooking_times,
   cup1,
   cup1_2,
   cup1_4,
