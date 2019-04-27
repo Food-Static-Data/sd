@@ -42,36 +42,6 @@ import dbIngredients from '~/Ingredients/example/gs-loopback-sample.json'
 
 import recipes from '~/Recipe4/recipe.json'
 
-export default {
-
-  allergies,
-
-  course,
-  cuisine,
-  departments,
-  diet,
-  grocery,
-  holiday,
-  ingredients,
-  ingredients1,
-  ingredients3,
-  favorites,
-  items,
-  mealCalendar,
-  firstVeganGLMC,
-  measurements,
-  menu,
-  recipes,
-  nutritions,
-  nutritions2,
-  users,
-  userGrocery,
-  ultimateGroceryList,
-  groceryListWithUserRelations,
-  dbIngredients
-}
-
-
 import { 
   frenchBeans,
   sprouts,
@@ -104,6 +74,32 @@ import tablespoon_1 from '../tablespoon_1'
 import teaspoon_1 from '../teaspoon_1'
 
 export default {
+
+  allergies,
+
+  course,
+  cuisine,
+  departments,
+  diet,
+  grocery,
+  holiday,
+  ingredients,
+  ingredients1,
+  ingredients3,
+  favorites,
+  items,
+  mealCalendar,
+  firstVeganGLMC,
+  measurements,
+  menu,
+  recipes,
+  nutritions,
+  nutritions2,
+  users,
+  userGrocery,
+  ultimateGroceryList,
+  groceryListWithUserRelations,
+  dbIngredients,
   cooking_times,
   cup1,
   cup1_2,
@@ -118,3 +114,4 @@ export default {
   tablespoon_1,
   teaspoon_1
 }
+
