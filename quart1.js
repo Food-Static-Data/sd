@@ -5,3 +5,5 @@
           volume: ".95 liter",
           weight: null
         };
+
+     export default quart1;

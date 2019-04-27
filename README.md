@@ -168,8 +168,6 @@ to know if writing is success in console you will see
 
 it will write multiple files.
 in function writeFiles() should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
-
- ***Note*** before genereting files folder should exist another you will get error.
  
 by default generating files happens in `/src/data`
 
