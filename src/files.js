@@ -101,7 +101,7 @@ import pinch from '../pinch'
 import pint1 from '../pint1'
 import quart1 from '../quart1'
 import tablespoon_1 from '../tablespoon_1'
-import teaspoon_1 from '../teaspoon_1
+import teaspoon_1 from '../teaspoon_1'
 
 export default {
   cooking_times,
