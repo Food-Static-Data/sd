@@ -104,6 +104,7 @@ export default {
   ultimateGroceryList,
   groceryListWithUserRelations,
   dbIngredients,
+  recipes,
   measurementSystems,
   measurementUnits,
   generatedMeasurementSystem,
