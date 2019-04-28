@@ -44,7 +44,7 @@ import recipes from '~/Recipe4/recipe.json'
 
 import measurementSystems from '~/Units/measurementSystems.json'
 import measurementUnits from '~/Units/measurementUnits.json'
-import generatedMeasurementSystems from '~/MeasurementSystems/measurementSystems.json'
+import generatedMeasurementSystem from '~/MeasurementSystem/measurementSystem.json'
 import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
 
 export default {
