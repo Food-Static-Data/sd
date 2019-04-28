@@ -174,3 +174,4 @@ by default generating files happens in `/src/data`
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
 
 ---
+#### Generate Array
