@@ -63,7 +63,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@groceristar/groceristar-fetch": "^2.1.8",
     "dayjs": "^1.8.12",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
