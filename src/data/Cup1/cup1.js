@@ -6,5 +6,5 @@
          weight: "225 grams,  1/2 pound"
        };
 
-   export default cup1_2;
+   export default cup1;
 
