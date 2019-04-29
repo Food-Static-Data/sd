@@ -6,3 +6,4 @@
          weight: null
        };
    export default dash;
+
