@@ -159,7 +159,7 @@ https://www.npmjs.com/package/type-detect
 ---
 
 #### How to generate additional files
-to run generetor (it will run in writeFile.js function writeFiles())
+to run generator (it will run in writeFile.js function writeFiles())
 ```
 npm run generateFiles
 ```
