@@ -41,11 +41,41 @@ import groceryListWithUserRelations from '~/Grocery/example/grocery-with-user-re
 import dbIngredients from '~/Ingredients/example/gs-loopback-sample.json'
 
 import recipes from '~/Recipe4/recipe.json'
-
 import measurementSystems from '~/Units/measurementSystems.json'
 import measurementUnits from '~/Units/measurementUnits.json'
-import generatedMeasurementSystems from '~/MeasurementSystems/measurementSystems.json'
+import generatedMeasurementSystem from '~/MeasurementSystem/measurementSystem.json'
 import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
+
+import { 
+  frenchBeans,
+  sprouts,
+  jacketPotato,
+  sweetPotato,
+  kale,
+  leek,
+  broccoli,
+  carrots,
+  mushrooms,
+  onions_shallots,
+  parsnips,
+  peppers,
+  marrow_squash,
+  sweetcorn,
+  courgettes 
+ } from '../cooking_times'
+  
+import cup1 from '../cup1'
+import cup1_2 from '../cup1_2'
+import cup1_4 from '../cup1_4'
+import cup1_8 from '../cup1_8'
+import cup3_4 from '../cup3_4'
+import dash from '../dash'
+import gallon1 from '../gallon1'
+import pinch from '../pinch'
+import pint1 from '../pint1'
+import quart1 from '../quart1'
+import tablespoon_1 from '../tablespoon_1'
+import teaspoon_1 from '../teaspoon_1'
 
 export default {
 
@@ -74,8 +104,36 @@ export default {
   ultimateGroceryList,
   groceryListWithUserRelations,
   dbIngredients,
+  recipes,
   measurementSystems,
   measurementUnits,
-  generatedMeasurementSystems,
-  generatedMeasurementUnits
+  generatedMeasurementSystem,
+  generatedMeasurementUnits,
+  frenchBeans,
+  sprouts,
+  jacketPotato,
+  sweetPotato,
+  kale,
+  leek,
+  broccoli,
+  carrots,
+  mushrooms,
+  onions_shallots,
+  parsnips,
+  peppers,
+  marrow_squash,
+  sweetcorn,
+  courgettes,
+  cup1,
+  cup1_2,
+  cup1_4,
+  cup1_8,
+  cup3_4,
+  dash,
+  gallon1,
+  pinch,
+  pint1,
+  quart1,
+  tablespoon_1,
+  teaspoon_1
 }
