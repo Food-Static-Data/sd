@@ -1,7 +1,7 @@
 /* global test, describe, it, expect */
 'use strict'
-import measurementUnits from '~/Units/measurementUnits.json'
-import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
+import measurementUnits from '../../files.js'
+import generatedMeasurementUnits from '../../files.js'
 
 
 describe('users data files returns array', () => {

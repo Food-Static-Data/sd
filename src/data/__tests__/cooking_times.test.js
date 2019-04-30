@@ -16,7 +16,7 @@ import {
   marrow_squash,
   sweetcorn,
   courgettes
-} from '../../../cooking_times'
+} from '../../files.js'
 
 describe('this test prevents to any issues and problems, also to break the structure of frenchBeans data', () => {
   test('frenchBeans data files returns object', () => {
