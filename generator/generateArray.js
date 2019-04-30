@@ -2,7 +2,7 @@ const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 const _ = require('lodash')
 
-const filePath = require('./files')
+const filePath = require('../files')
 
 var users = require(filePath['usersFilePath'])
 var grocery = require(filePath['groceryFilePath'])
