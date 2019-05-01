@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-import measurementSystems from '../../files.js'
+import measurementSystems from '../../../files.js'
 import generatedMeasurementSystem from '../../files.js'
 
 describe('users data files returns array', () => {

@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-import measurementUnits from '../../files.js'
+import measurementUnits from '../../../files.js'
 import generatedMeasurementUnits from '../../files.js'
 
 
