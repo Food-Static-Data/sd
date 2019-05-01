@@ -4,11 +4,11 @@ const _ = require('lodash')
 
 const filePath = require('../files')
 
-var users = require(filePath['usersFilePath'])
-var grocery = require(filePath['groceryFilePath'])
-var ingredients = require(filePath['ingredientsFilePath'])
-var measurementSystem = require(filePath['measurementSystemFilePath'])
-var measurementUnits = require(filePath['measurementUnitsFilePath'])
+var users = require(filePath['users'])
+var grocery = require(filePath['grocery'])
+var ingredients = require(filePath['ingredients'])
+var measurementSystem = require(filePath['measurementSystem'])
+var measurementUnits = require(filePath['measurementUnits'])
 
 const __generateId = () => {
     return uuidv1();
