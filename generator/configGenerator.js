@@ -1,4 +1,4 @@
-export const config = [
+const config = [
   {
     name: "measurementSystem",
     data: getMeasurementSystem()
@@ -11,4 +11,6 @@ export const config = [
     name: "usersGrocery",
     data: usersGrocery()
   }
-];
+]
+
+module.exports = { config }
