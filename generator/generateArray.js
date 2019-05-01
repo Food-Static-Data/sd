@@ -1,8 +1,8 @@
 const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 const _ = require('lodash')
-
 const filePath = require('../files')
+const { config } = require('./configGenerator')
 
 var users = require(filePath['users'])
 var grocery = require(filePath['grocery'])
