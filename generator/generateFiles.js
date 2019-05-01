@@ -35,7 +35,7 @@ function generateFiles() {
     {
       "name": "measurementUnits",
       "data": getMeasurementUnits()
-    }
+    },
     {
       "name": "usersGrocery",
       "data": usersGrocery()
