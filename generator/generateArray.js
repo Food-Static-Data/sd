@@ -89,12 +89,12 @@ function usersGrocery() {
     return result
 }
 
-function items(){
+function items() {
     var ingredientsId = generateArrWithId(ingredients, "ingredient_id");
-    var items = [1,2,3]
+    var items = [1, 2, 3]
     var result = []
 
-    items.map( (item, index) => {
+    items.map((item, index) => {
         result.push({
             "item_id": item,
             "name": ingredientsId[index++]["name"],
@@ -114,10 +114,10 @@ function items(){
     return result
 }
 
-function getMeasurementSystem(){
+function getMeasurementSystem() {
     var result = []
     var measurementSystemId = generateArrWithId(measurementSystem, "id")
-    measurementSystemId.map( system => {
+    measurementSystemId.map(system => {
         result.push({
             "id": system.id,
             "alias": system.alias,
@@ -127,11 +127,11 @@ function getMeasurementSystem(){
     return result
 }
 
-function getMeasurementUnits(){
+function getMeasurementUnits() {
     var result = []
     var measurementUnitsId = generateArrWithId(measurementUnits, "id")
     measurementUnitsId = generateArrWithId(measurementUnitsId, "system_id")
-    measurementUnitsId.map( unit => {
+    measurementUnitsId.map(unit => {
         result.push({
             "id": unit.id,
             "system_id": unit.system_id,
@@ -146,19 +146,7 @@ function getMeasurementUnits(){
     })
     return result
 }
-// var favorites = users.map(user => {
 
-//     return {
-//         "ingredient_id": id,
-//         "userId": id,
-//         "favs": "desc for department" + id,
-//         "grocery_id": id
-//     }
-// })
-// console.log(favorites);
-// var usersWithId = 
-// console.log(usersGrocery());
-// console.log(generateArrWithId(users));
 module.exports = {
     usersGrocery,
     favorites,
