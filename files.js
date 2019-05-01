@@ -4,6 +4,34 @@ var path = require('path')
 
 const groceryFilePath = path.resolve(__dirname, './src/data/Grocery/grocery.json')
 
+const {
+  frenchBeans,
+  sprouts,
+  jacketPotato,
+  sweetPotato,
+  kale,
+  leek,
+  broccoli,
+  carrots,
+  mushrooms,
+  onions_shallots,
+  parsnips,
+  peppers,
+  marrow_squash,
+  sweetcorn,
+  courgettes
+} = path.resolve(__dirname, './src/data/Cooking_times/cooking_times.js')
+
+const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.js')
+const cup1_2 = path.resolve(__dirname, './src/data/Cup1_2/cup1_2.js')
+const cup1_4 = path.resolve(__dirname, './src/data/Cup1_4/cup1_4.js')
+const cup1_8 = path.resolve(__dirname, './src/data/Cup1_8/cup1_8.js')
+const cup3_4 = path.resolve(__dirname, './src/data/Cup3_4/cup3_4.js')
+
+const dash = path.resolve(__dirname, './src/data/Dash/dash.js')
+const gallon1 = path.resolve(__dirname, './src/data/Gallon1/gallon1.js')
+const holiday = path.resolve(__dirname, './src/data/Holiday/holiday.js')
+
 const allergiesFilePath = path.resolve(__dirname, './src/data/Allergy/allergies.json')
 const courseFilePath = path.resolve(__dirname, './src/data/Course/courses.json')
 const cuisineFilePath = path.resolve(__dirname, './src/data/Cuisine/cuisines.json')
@@ -26,6 +54,16 @@ const menuFilePath = path.resolve(__dirname, './src/data/Menu/menu.json')
 const nutritionsFilePath = path.resolve(__dirname, './src/data/Nutrition/nutritions1.json')
 const nutritions2FilePath = path.resolve(__dirname, './src/data/Nutrition/nutritions2.json')
 
+const pinch = path.resolve(__dirname, './src/data/Pinch/pinch.js')
+const pint1 = path.resolve(__dirname, './src/data/Pint1/pint1.js')
+const quart1 = path.resolve(__dirname, './src/data/Quart1/quart1.js')
+
+const recipe4 = path.resolve(__dirname, './src/data/Recipe4/recipe.json')
+
+const tablespoon_1 = path.resolve(__dirname, './src/data/Tablespoon_1/tablespoon_1.js')
+const teaspoon_1 = path.resolve(__dirname, './src/data/Teaspoon_1/teapoon_1.js')
+const types = path.resolve(__dirname, './src/data/Types/types.json')
+
 const usersFilePath = path.resolve(__dirname, './src/data/Users/users.json')
 const usersGroceryFilePath = path.resolve(__dirname, './src/data/UserGrocery/userGrocery.json')
 
@@ -36,7 +74,9 @@ const dbIngredientsFilePath = path.resolve(__dirname, './src/data/Ingredients/ex
 const recipesFilePath = path.resolve(__dirname, './src/data/Recipe4/recipe.json')
 // console.log(path.resolve(__dirname, './data/Grocery/grocery.json'));
 const measurementSystemFilePath = path.resolve(__dirname, './src/data/Units/measurementSystems.json')
+const generatedMeasurementSystem = path.resolve(__dirname, './src/data/MeasurementSystem/measurementSystem.json')
 const measurementUnitsFilePath = path.resolve(__dirname, './src/data/Units/measurementUnits.json')
+const generatedMeasurementUnits = path.resolve(__dirname, './src/data/MeasurementUnits/measurementunits.json')
 
 module.exports = {
   groceryFilePath,
@@ -63,5 +103,37 @@ module.exports = {
   itemsFilePath,
   usersFilePath,
   measurementSystemFilePath,
-  measurementUnitsFilePath
+  measurementUnitsFilePath,
+  generatedMeasurementSystem,
+  generatedMeasurementUnits,
+  frenchBeans,
+  sprouts,
+  jacketPotato,
+  sweetPotato,
+  kale,
+  leek,
+  broccoli,
+  carrots,
+  mushrooms,
+  onions_shallots,
+  parsnips,
+  peppers,
+  marrow_squash,
+  sweetcorn,
+  courgettes,
+  cup1,
+  cup1_2,
+  cup1_4,
+  cup1_8,
+  cup3_4,
+  dash,
+  gallon1,
+  holiday,
+  pinch,
+  pint1,
+  quart1,
+  recipe4,
+  tablespoon_1,
+  teaspoon_1,
+  types
 }
