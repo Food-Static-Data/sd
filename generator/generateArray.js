@@ -1,8 +1,6 @@
-const uuidv1 = require('uuid/v1')
-const dayjs = require('dayjs')
 const _ = require('lodash')
-
 const filePath = require('../files')
+const { __generateDate, __generateId }  = require('../utils')
 
 var users = require(filePath['users'])
 var grocery = require(filePath['grocery'])
@@ -10,13 +8,7 @@ var ingredients = require(filePath['ingredients'])
 var measurementSystem = require(filePath['measurementSystem'])
 var measurementUnits = require(filePath['measurementUnits'])
 
-const __generateId = () => {
-    return uuidv1();
-}
 
-const __generateDate = () => {
-    return dayjs().toDate()
-}
 
 const getMenuGenerator = (number_of_weeks) => {
     let
