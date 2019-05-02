@@ -1,6 +1,5 @@
 const _ = require('lodash')
 const filePath = require('../files')
-const { config } = require('./configGenerator')
 const { __generateDate, __generateId }  = require('../utils')
 
 var users = require(filePath['users'])
