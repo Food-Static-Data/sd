@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-import cup1_4 from '../../../files.js'
+import {cup1_4} from '../../../files.js'
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_4 data', () => {
   test('cup1_4 data files returns object', () => {
