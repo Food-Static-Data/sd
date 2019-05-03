@@ -46,24 +46,7 @@ import measurementUnits from '~/Units/measurementUnits.json'
 import generatedMeasurementSystem from '~/MeasurementSystem/measurementSystem.json'
 import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
 
-import { 
-  frenchBeans,
-  sprouts,
-  jacketPotato,
-  sweetPotato,
-  kale,
-  leek,
-  broccoli,
-  carrots,
-  mushrooms,
-  onions_shallots,
-  parsnips,
-  peppers,
-  marrow_squash,
-  sweetcorn,
-  courgettes 
- } from '../cooking_times'
-  
+import cooking_times from '../cooking_times'
 import cup1 from '../cup1'
 import cup1_2 from '../cup1_2'
 import cup1_4 from '../cup1_4'
