@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-import {courseFilePath} from '../../../files.js'
+const {courseFilePath} = require('../../../files.js')
 const courses = require(courseFilePath)
 
 describe('courses data files returns array', () => {

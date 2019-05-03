@@ -1,7 +1,7 @@
 /* global test, describe, it, expect */
 'use strict'
-import {measurementUnitsFilePath} from '../../../files.js'
-import {generatedMeasurementUnits} from '../../../files.js'
+const {measurementUnitsFilePath} = require('../../../files.js')
+const {generatedMeasurementUnits} = require('../../../files.js')
 
 const measurementUnits = require(measurementUnitsFilePath)
 

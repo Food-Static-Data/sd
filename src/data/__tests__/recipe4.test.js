@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-import {recipesFilePath} from '../../../files.js'
+const {recipesFilePath} = require('../../../files.js')
 const recipe = require(recipesFilePath)
 
 describe('recipe data files returns array', () => {
