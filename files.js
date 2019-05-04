@@ -3,7 +3,8 @@
 var path = require('path')
 
 const groceryFilePath = path.resolve(__dirname, './src/data/Grocery/grocery.json')
-
+// @TODO change import & path(change extension of file from js to json)
+// add to each variable FilePath
 const {
   frenchBeans,
   sprouts,
