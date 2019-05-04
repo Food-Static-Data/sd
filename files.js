@@ -15,7 +15,7 @@ const cup3_4FilePath = path.resolve(__dirname, './src/data/Cup3_4/cup3_4.json')
 
 const dashFilePath = path.resolve(__dirname, './src/data/Dash/dash.json')
 const gallon1FilePath = path.resolve(__dirname, './src/data/Gallon1/gallon1.json')
-const holidayFilePath = path.resolve(__dirname, './src/data/Holiday/holiday.json')
+const holidayFilePath = path.resolve(__dirname, './src/data/Holiday/holidays.json')
 
 const allergiesFilePath = path.resolve(__dirname, './src/data/Allergy/allergies.json')
 const courseFilePath = path.resolve(__dirname, './src/data/Course/courses.json')
@@ -46,7 +46,7 @@ const quart1FilePath = path.resolve(__dirname, './src/data/Quart1/quart1.json')
 const recipe4 = path.resolve(__dirname, './src/data/Recipe4/recipe.json')
 
 const tablespoon_1FilePath = path.resolve(__dirname, './src/data/Tablespoon_1/tablespoon_1.json')
-const teaspoon_1FilePath = path.resolve(__dirname, './src/data/Teaspoon_1/teapoon_1.json')
+const teaspoon_1FilePath = path.resolve(__dirname, './src/data/Teaspoon_1/teaspoon_1.json')
 const types = path.resolve(__dirname, './src/data/Types/types.json')
 
 const usersFilePath = path.resolve(__dirname, './src/data/Users/users.json')
@@ -61,7 +61,7 @@ const recipesFilePath = path.resolve(__dirname, './src/data/Recipe4/recipe.json'
 const measurementSystemFilePath = path.resolve(__dirname, './src/data/Units/measurementSystems.json')
 const generatedMeasurementSystem = path.resolve(__dirname, './src/data/MeasurementSystem/measurementSystem.json')
 const measurementUnitsFilePath = path.resolve(__dirname, './src/data/Units/measurementUnits.json')
-const generatedMeasurementUnits = path.resolve(__dirname, './src/data/MeasurementUnits/measurementunits.json')
+const generatedMeasurementUnits = path.resolve(__dirname, './src/data/MeasurementUnits/measurementUnits.json')
 
 module.exports = {
   groceryFilePath,
