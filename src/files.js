@@ -63,7 +63,7 @@ import teaspoon_1 from '~/Teaspoon_1/teaspoon_1.json'
 
 export default {
 
-  allergiesFilePath,
+  allergies,
 
   course,
   cuisine,
