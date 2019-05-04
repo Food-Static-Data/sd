@@ -46,7 +46,7 @@ import measurementUnits from '~/Units/measurementUnits.json'
 import generatedMeasurementSystem from '~/MeasurementSystem/measurementSystem.json'
 import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
 
-import cooking_times from 'src/files.js'
+import cooking_times from 'src/data/Cooking_times/cooking_times.json'
 
 import cup1 from '../cup1'
 import cup1_2 from '../cup1_2'
