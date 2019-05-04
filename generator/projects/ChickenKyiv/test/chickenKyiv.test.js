@@ -5,10 +5,10 @@ const chickenKyiv = require('../chickenKyiv.js')
 describe('testing static data files are set', () => {
   const methodList = {
     getMenuGenerator: chickenKyiv.getMenuGenerator(1),
-    getRandomRecipe: chickenKyiv.getRandomRecipe(),
-    getRecipeByTitle: chickenKyiv.getRecipeByTitle('Lemonade'),
-    getFiveRandomIngredients: chickenKyiv.getFiveRandomIngredients(),
-    getFirstFiveRecipes: chickenKyiv.getFirstFiveRecipes()
+    // getRandomRecipe: chickenKyiv.getRandomRecipe(),
+    // getRecipeByTitle: chickenKyiv.getRecipeByTitle('Lemonade'),
+    // getFiveRandomIngredients: chickenKyiv.getFiveRandomIngredients(),
+    // getFirstFiveRecipes: chickenKyiv.getFirstFiveRecipes()
   }
 
   methodReturnsArray = method => {
@@ -19,10 +19,10 @@ describe('testing static data files are set', () => {
   }
 
   methodReturnsArray('getMenuGenerator')
-  methodReturnsArray('getRandomRecipe')
-  methodReturnsArray('getRecipeByTitle')
-  methodReturnsArray('getFiveRandomIngredients')
-  methodReturnsArray('getFirstFiveRecipes')
+  // methodReturnsArray('getRandomRecipe')
+  // methodReturnsArray('getRecipeByTitle')
+  // methodReturnsArray('getFiveRandomIngredients')
+  // methodReturnsArray('getFirstFiveRecipes')
 })
 
 

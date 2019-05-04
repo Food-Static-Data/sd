@@ -11,11 +11,11 @@ const presets = [
   // }
 ]
 // Add this to working tests
-const env = {
-  test: {
-    presets: [['@babel/preset-env']]
-  }
-}
+// const env = {
+//   test: {
+//     presets: [['@babel/preset-env']]
+//   }
+// }
 
 const plugins = [
   [
@@ -33,4 +33,4 @@ const plugins = [
   // ["@babel/proposal-object-rest-spread"]
 ]
 
-module.exports = { presets, plugins, env }
+module.exports = { presets, plugins }
