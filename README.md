@@ -157,7 +157,16 @@ https://www.npmjs.com/package/type-detect
 - [ ] Grocery lists should be divided, not like it's right now.
 
 ---
+#### Plugins
+``` rollup-plugin-notify ``` https://github.com/MikeKovarik/rollup-plugin-notify
 
+
+📟 Displays rollup errors as system notifications.
+
+
+![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
+
+---
 #### How to generate additional files
 to run generator (it will run in writeFile.js function writeFiles())
 ```
