@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-const {
+import{
   frenchBeans,
   sprouts,
   jacketPotato,
@@ -16,7 +16,7 @@ const {
   marrow_squash,
   sweetcorn,
   courgettes
-} = require('../../../files.js')
+} from '../../../files.js'
 
 describe('this test prevents to any issues and problems, also to break the structure of frenchBeans data', () => {
   test('frenchBeans data files returns object', () => {

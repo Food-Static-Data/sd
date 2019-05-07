@@ -1,7 +1,7 @@
 /* global test, describe, it, expect */
 'use strict'
-const {menuFilePath} = require('../../../files.js')
-const menu = require(menuFilePath)
+import {menuFilePath} from '../../../files.js'
+import menu from menuFilePath
 
 describe('menu data files returns array', () => {
   test('these tests prevent any issues and problems, also to break the structure of menu', () => {

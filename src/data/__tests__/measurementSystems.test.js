@@ -1,9 +1,9 @@
 /* global test, describe, it, expect */
 'use strict'
-const {measurementSystemFilePath} = require('../../../files.js')
-const {generatedMeasurementSystem} = require('../../../files.js')
+import {measurementSystemFilePath} from '../../../files.js'
+import {generatedMeasurementSystem} from '../../../files.js'
 
-const measurementSystems = require(measurementSystemFilePath)
+import measurementSystems from measurementSystemFilePath
 
 describe('users data files returns array', () => {
   test('these tests prevent any issues and problems, also to break the structure of measurementSystems', () => {

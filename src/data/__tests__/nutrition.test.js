@@ -1,7 +1,7 @@
 /* global test, describe, it, expect */
 'use strict'
-const {nutritionsFilePath} = require('../../../files.js')
-const nutritions = require(nutritionsFilePath)
+import {nutritionsFilePath} from '../../../files.js'
+import nutritions from nutritionsFilePath
 
 describe('nutritions data files returns array', () => {
   test('these tests prevent any issues and problems, also to break the structure of nutritions', () => {
