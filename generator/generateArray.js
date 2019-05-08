@@ -1,6 +1,6 @@
 const _ = require('lodash')
 const filePath = require('../files')
-const { __generateDate, __generateId } = require('../utils')
+const { __generateDate, __generateId } = require('../src/utils')
 
 // @TODO change require by using variables from filesObjects.js
 var users = require(filePath['users'])

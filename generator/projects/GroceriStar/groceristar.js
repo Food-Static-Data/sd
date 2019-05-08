@@ -1,4 +1,4 @@
-const { __generateId } = require('../../../utils')
+const { __generateId } = require('../../../src/utils')
 
 /**
  * @returns {array} of keys for departments and ingredients
