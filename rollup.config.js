@@ -5,7 +5,7 @@ import copy from 'rollup-plugin-copy-assets'
 import builtins from 'rollup-plugin-node-builtins'
 import babel from 'rollup-plugin-babel'
 import pkg from './package.json'
-import notify from 'rollup-plugin-notify';
+import notify from 'rollup-plugin-notify'
 
 // import cleanup from 'rollup-plugin-cleanup';
 // https://github.com/mjeanroy/rollup-plugin-prettier
@@ -90,8 +90,8 @@ export default {
     // }),
 
     builtins(),
-    
-    //Displays rollup errors as system notifications
+
+    // Displays rollup errors as system notifications
     notify()
 
   ],

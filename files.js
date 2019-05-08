@@ -4,7 +4,7 @@ var path = require('path')
 
 const grocery = path.resolve(__dirname, './src/data/Grocery/grocery.json')
 // @TODO change import & path(change extension of file from js to json)
-// add to each variable 
+// add to each variable
 const cooking_times = path.resolve(__dirname, './src/data/Cooking_times/cooking_times.json')
 
 const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')

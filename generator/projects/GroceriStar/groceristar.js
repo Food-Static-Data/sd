@@ -1,5 +1,4 @@
-const { __generateId } = require('../../../utils');
-
+const { __generateId } = require('../../../utils')
 
 /**
  * @returns {array} of keys for departments and ingredients
@@ -11,9 +10,8 @@ const getKeyArrayDepAndIng = () => {
   let departments = getAllDepartmentsWithId()
   let ingredients = getAllIngredientsWithId()
 
-
-  _.forEach(departments,  (department) => {
-    _.forEach(ingredients,  (ingredient) => {
+  _.forEach(departments, (department) => {
+    _.forEach(ingredients, (ingredient) => {
       // @TODO can be redo later with lodash methods
       if (ingredient.department === department.name) {
         keys.push({
@@ -42,6 +40,5 @@ const getResult = (property) => _.map(property, (p) => ({
   key: __generateId(),
   ...p
 }))
-
 
 module.exports = { getKeyArrayDepAndIng }
