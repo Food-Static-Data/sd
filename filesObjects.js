@@ -1,10 +1,10 @@
-const jsonFiles = require("./files.js")
+const cooking_times = require("./files.js")
 
 var arr;
-Object.keys(jsonFiles).forEach(function (key) {
+Object.keys(cooking_times).forEach(function (key) {
    arr = {
        ...arr,
-        [key]:require(jsonFiles[key])
+        [key]:require(cooking_times[key])
    }
   })
 
