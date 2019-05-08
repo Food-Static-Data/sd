@@ -2,7 +2,7 @@
 var shell = require('shelljs')
 
 // @TODO add here all new generated at generator files too
-const jsonFiles = require('./files.js')
+const jsonFiles = require('../../files.js')
 
 // console.log(jsonFiles)
 
