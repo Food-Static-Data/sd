@@ -1,7 +1,7 @@
 /* global test, describe, it, expect */
 'use strict'
-import { allergiesFilePath } from '../../../files.js'
-import allergies from allergiesFilePath
+const { allergiesFilePath } = require('../../../files.js')
+const allergies = require(allergiesFilePath)
 
 describe('tests for allergy', () => {
   test('allergies data files returns array', () => {
