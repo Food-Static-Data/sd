@@ -1,7 +1,7 @@
 /* global test, describe, it, expect */
 
-import { existsSync, access } from 'fs'
-import path from 'path'
+const { existsSync, access } = require ('fs')
+const path = require('path')
 
 const file = path.resolve(__dirname, './data/Allergy/allergies.json')
 
