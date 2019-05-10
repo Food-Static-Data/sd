@@ -20,12 +20,13 @@ Object.keys(jsonFiles).forEach(function (key) {
   //   shell.exit(1);
   // }
 })
+
 // Check if path exist
 Object.keys(jsonFiles).forEach(function (key) {
-  if (shell.test('-e', jsonFiles[key])) {
-    console.log('File exist ' + jsonFiles[key])
+  if (shell.test('-e', jsonFiles[key])){
+    console.log("File exist " + jsonFiles[key]);
   } else {
-    console.log("File doesn't exist " + jsonFiles[key])
+    console.log("File doesn't exist " + jsonFiles[key]);
   }
 })
 
