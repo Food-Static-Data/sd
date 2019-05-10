@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 
-const { existsSync, access } = require ('fs')
+const { existsSync, access } = require('fs')
 const path = require('path')
 
 const file = path.resolve(__dirname, './data/Allergy/allergies.json')

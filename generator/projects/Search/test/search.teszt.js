@@ -46,14 +46,14 @@
 //       }
 //       expect(search.getData(value)).not.toEqual([]);
 //     }
-  
+
 //      if (type == 'ingredient') {
 //       expect(search.getData()).not.toEqual([]);
 //     }
-  
+
 //    })
 //  }
- 
+
 //   testGetData('allergies')
 //   testGetData('cuisines')
 //   testGetData('courses')
@@ -61,5 +61,5 @@
 //   testGetData('diets')
 //   testGetData(null,'ingredient')
 //   testGetData()
-  
+
 // });
