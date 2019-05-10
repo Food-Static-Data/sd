@@ -182,7 +182,6 @@ by default generating files happens in `/src/data`
 
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
 
----
 ## Generate Array API
 
 **getMenuGenerator(number_of_weeks)** - return an array of objects with weekly menu. Menus sorted in calendar date order starting from first.
@@ -221,13 +220,56 @@ Output:
 ]
 ~~~
 
-usersGrocery()
+**usersGrocery()** - returns an array of objects, where each object has userID and groceryID
+~~~
+[
+  {
+    user_id: String,
+    grocery_id: String,
+  },
+]
+~~~
 
-items()
+**items()** - returns an array of objects, where each object has item parameters
+~~~
+[
+  {
+    item_id: String,
+    name: String,
+    description: String,
+    quantity: Number,
+    purchase: Boolean,
+  },
+]
+~~~
 
-getMeasurementSystem()
+**getMeasurementUnits()** - returns an array of objects, where each object has measurement unit parameters
+~~~
+[
+  {
+    id: String,
+    system_id: String,
+    type: String,
+    name: String,
+    singular: String,
+    plural: String,
+    short: String,
+    pattern: String,
+    error: Null,
+  }
+]
+~~~
 
-getMeasurementUnits()
+**getMeasurementSystem()** - returns an array of objects, where each object has... measurements
+~~~
+[
+  {
+    id: String,
+    alias: String,
+    title: String,
+  }
+]
+~~~
 
 ---
 ### Babel alias
