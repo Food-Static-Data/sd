@@ -165,19 +165,6 @@ https://www.npmjs.com/package/type-detect
 📟 Displays rollup errors as system notifications.
 
 ![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
-
-### Rollup alias
-
-In the import section of files can be found `~` symbol (alias). This is shorten path.
-The `~` in imports will be replaced by string. The string is defined in Babel config file `babel.config.js`.
-
-Actual Babel alias config:
-
-~~~~
-alias: {
-  '~': './src/data'
-}
-~~~~
 ---
 
 #### How to generate additional files
@@ -197,3 +184,27 @@ Also you can write one file using function writeFile() just give it two paramete
 
 ---
 #### Generate Array
+
+
+---
+### Rollup alias
+
+In the import section inside files can be found `~` symbol (alias). This is shorten path.
+The `~` in imports will be replaced by string. The string is defined in Babel config file [babel.config.js](./babel.config.js).
+
+Actual Babel alias config:
+
+~~~~
+alias: {
+  '~': './src/data'
+}
+~~~~
+
+---
+### NodeJS Path
+
+`Path` module is default NodeJS method. A `__dirname` variable in file will be replaced by absolute path of the file itself. More detailed information about method can be found at [official API documentation](https://nodejs.org/api/path.html#path_path_resolve_paths).
+
+~~~~
+const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')
+~~~~
