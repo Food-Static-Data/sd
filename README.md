@@ -258,3 +258,10 @@ stages:
   script: npm start lint
 
   https://medium.com/@ali.dev/how-to-publish-a-js-library-to-npm-with-rollup-typescript-8b51ede8f562
+
+
+  external: [
+  ...Object.keys(pkg.dependencies || {})
+ ],
+
+ llup-plugin-terser is a plugin which minifies the generated bundles. While minification will not affect bundle size when you have only a few exported functions, minification will drastically reduce bundle size the larger your library becomes.
