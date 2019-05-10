@@ -183,11 +183,24 @@ by default generating files happens in `/src/data`
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
 
 ---
-#### Generate Array
+#### Generate Array API
 
+getMenuGenerator(number_of_weeks)
+
+generateArrWithId(data, idName)
+
+favorites()
+
+usersGrocery()
+
+items()
+
+getMeasurementSystem()
+
+getMeasurementUnits()
 
 ---
-### Rollup alias
+### Babel alias
 
 In the import section inside files can be found `~` symbol (alias). This is shorten path.
 The `~` in imports will be replaced by string. The string is defined in Babel config file [babel.config.js](./babel.config.js).
