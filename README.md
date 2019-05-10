@@ -173,11 +173,11 @@ The `~` in imports will be replaced by string. The string is defined in Babel co
 
 Actual Babel alias config:
 
-`
+~~~~
 alias: {
   '~': './src/data'
 }
-`
+~~~~
 ---
 
 #### How to generate additional files
