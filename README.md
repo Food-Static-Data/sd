@@ -209,7 +209,17 @@ Output:
 ]
 ~~~~
 
-favorites()
+**favorites()** - returns an array of objects, where each object has ingridients and groceries for specified user
+~~~
+[
+  {
+    ingredient_id: String,
+    user_id: String,
+    favs: String,
+    grocery_id: String,
+  },
+]
+~~~
 
 usersGrocery()
 
