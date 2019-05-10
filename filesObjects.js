@@ -1,13 +1,11 @@
-const jsonFiles = require("./files.js")
+const jsonFiles = require('./files.js')
 
-var arr;
+var arr
 Object.keys(jsonFiles).forEach(function (key) {
-   arr = {
-       ...arr,
-        [key]:require(jsonFiles[key])
-   }
-  })
+  arr = {
+    ...arr,
+    [key]: require(jsonFiles[key])
+  }
+})
 
-module.exports = arr;
-
-
+module.exports = arr

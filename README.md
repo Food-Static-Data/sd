@@ -109,6 +109,16 @@ List of plugins related to this universe:
 - https://github.com/GroceriStar/sd-plain
 
 ---
+#### Plugins
+
+``` rollup-plugin-notify ``` https://github.com/MikeKovarik/rollup-plugin-notify
+
+📟 Displays rollup errors as system notifications.
+
+![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
+
+---
+
 
 
 Developers junk

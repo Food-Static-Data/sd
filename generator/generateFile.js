@@ -4,8 +4,6 @@ const uuidv1 = require('uuid/v1')
 
 var { getMenuGenerator } = require('./generateArray')
 
-
-
 function generateFile () {
   var fileName = 'generatedMenu'
   var path = './output/' + fileName + '.json'

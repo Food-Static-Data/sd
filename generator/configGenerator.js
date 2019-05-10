@@ -5,19 +5,19 @@ const {
   items,
   getMeasurementSystem,
   getMeasurementUnits
-} = require("./generateArray")
+} = require('./generateArray')
 
 const config = [
   {
-    name: "measurementSystem",
+    name: 'measurementSystem',
     data: getMeasurementSystem()
   },
   {
-    name: "measurementUnits",
+    name: 'measurementUnits',
     data: getMeasurementUnits()
   },
   {
-    name: "usersGrocery",
+    name: 'usersGrocery',
     data: usersGrocery()
   }
 ]
