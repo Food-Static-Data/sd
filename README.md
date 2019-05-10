@@ -196,3 +196,18 @@ https://www.npmjs.com/package/type-detect
 https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 https://www.grzegorowski.com/publishing-npm-package-with-rollup-babel-and/
 https://github.com/codecov/example-node/blob/master/.travis.yml
+
+
+
+"precommit": "yarn flow src && yarn lint && yarn test" - run before each commit to ensure commited code quality
+"prepublishOnly": "yarn clean && yarn lint && yarn test && yarn build" - run ONLY before yarn publish to ensure quality and most recent output
+Other tools and files
+
+
+---
+
+"husky": {
+   "hooks": {
+     "pre-commit": "yarn precommit"
+   }
+ }

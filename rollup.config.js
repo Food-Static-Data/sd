@@ -1,3 +1,4 @@
+// plugins that we are going to use
 import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
 import json from 'rollup-plugin-json'
@@ -16,6 +17,7 @@ const extensions = [
 
 const name = 'StaticDataWrapper'
 
+// packages that should be treated as external or global dependencies, not bundled
 const { external, globals } = {
   'globals': {
     'fs': 'fs',
@@ -30,6 +32,7 @@ const { external, globals } = {
 }
 
 export default {
+  // source file / entrypoint
   input: './src/index.js',
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
@@ -37,6 +40,7 @@ export default {
   external,
   globals,
 
+  // list of plugins used during building process
   plugins: [
     // Allows node_modules resolution
     resolve({ extensions }),
@@ -92,6 +96,7 @@ export default {
 
   ],
 
+ // output configuration
   output: [{
     file: pkg.main,
     format: 'cjs'
