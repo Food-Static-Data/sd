@@ -15,7 +15,7 @@ Table of Contents
 
 #### Synopsis
   This is a module for using ...
-  
+
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -166,6 +166,18 @@ https://www.npmjs.com/package/type-detect
 
 ![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
 
+### Rollup alias
+
+In the import section of files can be found `~` symbol (alias). This is shorten path.
+The `~` in imports will be replaced by string. The string is defined in Babel config file `babel.config.js`.
+
+Actual Babel alias config:
+
+`
+alias: {
+  '~': './src/data'
+}
+`
 ---
 
 #### How to generate additional files
@@ -173,12 +185,12 @@ to run generator (it will run in writeFile.js function writeFiles())
 ```
 npm run generateFiles
 ```
-to know if writing is success in console you will see 
+to know if writing is success in console you will see
 `file generated successfully!`
 
 it will write multiple files.
 in function writeFiles() should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
- 
+
 by default generating files happens in `/src/data`
 
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
