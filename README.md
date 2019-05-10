@@ -15,7 +15,7 @@ Table of Contents
 
 #### Synopsis
   This is a module for using ...
-  
+
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -64,10 +64,31 @@ npm test
 
 ---
 
-https://github.com/sheerun/babel-plugin-file-loader#example-usage
-
 
 - [ ] Should `data` folder be inside `src` or we can just copy it on build?
+
+
+
+#### How to generate additional files
+to run generator (it will run in writeFile.js function writeFiles())
+```
+npm run generateFiles
+```
+to know if writing is success in console you will see
+`file generated successfully!`
+
+it will write multiple files.
+in function writeFiles() should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
+
+by default generating files happens in `/src/data`
+
+Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
+
+---
+#### Generate Array
+
+nothing here :( ) So sad like very sad.
+----
 
 List of plugins related to this universe:
 - https://github.com/GroceriStar/static-data
@@ -88,6 +109,23 @@ List of plugins related to this universe:
 - https://github.com/GroceriStar/sd-plain
 
 ---
+#### Plugins
+
+``` rollup-plugin-notify ``` https://github.com/MikeKovarik/rollup-plugin-notify
+
+📟 Displays rollup errors as system notifications.
+
+![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
+
+---
+
+
+
+Developers junk
+
+
+https://github.com/sheerun/babel-plugin-file-loader#example-usage
+
 
 - https://github.com/sheerun/babel-plugin-file-loader
 - https://github.com/sheerun/babel-plugin-file-loader#example-usage
@@ -120,6 +158,7 @@ rollup({
 });
 ```
 
+
 https://github.com/Comandeer/rollup-plugin-babel-minify
 npm install rollup-plugin-babel-minify [--save-dev]
 ```
@@ -134,6 +173,10 @@ rollup( {
 		} )
 	]
 } );
+
+
+
+---
 
 ```
 
@@ -158,30 +201,80 @@ https://www.npmjs.com/package/type-detect
 
 ---
 
-#### Plugins
 
-``` rollup-plugin-notify ``` https://github.com/MikeKovarik/rollup-plugin-notify
 
-📟 Displays rollup errors as system notifications.
+https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+https://www.grzegorowski.com/publishing-npm-package-with-rollup-babel-and/
+https://github.com/codecov/example-node/blob/master/.travis.yml
 
-![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
+
+
+"precommit": "yarn flow src && yarn lint && yarn test" - run before each commit to ensure commited code quality
+"prepublishOnly": "yarn clean && yarn lint && yarn test && yarn build" - run ONLY before yarn publish to ensure quality and most recent output
+Other tools and files
+
+
+---
+
+"husky": {
+   "hooks": {
+     "pre-commit": "yarn precommit"
+   }
+ }
+
+
+ ----
+
+ Jest
+Add it in your package.json:
+
+"jest": {
+  "coverageDirectory": "./coverage/",
+  "collectCoverage": true
+}
+Jest will now generate coverage files into coverage/
+
+Run your tests with a command like this:
+
+jest && codecov
+
 
 ---
 
-#### How to generate additional files
-to run generator (it will run in writeFile.js function writeFiles())
-```
-npm run generateFiles
-```
-to know if writing is success in console you will see 
-`file generated successfully!`
+"renovate": {
+  "extends": [
+    "config:js-lib"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "automergeType": "branch"
+},
 
-it will write multiple files.
-in function writeFiles() should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
- 
-by default generating files happens in `/src/data`
+https://github.com/algolia/rollup-jest-boilerplate
 
-Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format
 
----
-#### Generate Array
+stages:
+  - smoke # this ensures a "user" install works properly
+  - precache # warm up cache for default Node.js version
+  - lint # lint code and docs
+  - test # all tests
+
+  https://boneskull.com/mocha-and-travis-ci-build-stages/
+
+
+  - stage: lint
+  script: npm start lint
+
+  https://medium.com/@ali.dev/how-to-publish-a-js-library-to-npm-with-rollup-typescript-8b51ede8f562
+
+
+  external: [
+  ...Object.keys(pkg.dependencies || {})
+ ],
+
+ llup-plugin-terser is a plugin which minifies the generated bundles. While minification will not affect bundle size when you have only a few exported functions, minification will drastically reduce bundle size the larger your library becomes.
+
+
+ ----------
