@@ -16,10 +16,15 @@ before_script: npm run generateFiles
 script:
   - npm test
   - npm run jsonlint
+  - npm run build
 # we need to move coveralls from fetch and run it here as well
 
-
-#
+# script:
+#  - npm test
+#  - npm run jsonlint
+#  - npm run json-vaidation
+#  - npm run build
+#  - npm run install
 
 branches:
   only:

@@ -211,3 +211,50 @@ Other tools and files
      "pre-commit": "yarn precommit"
    }
  }
+
+
+ ----
+
+ Jest
+Add it in your package.json:
+
+"jest": {
+  "coverageDirectory": "./coverage/",
+  "collectCoverage": true
+}
+Jest will now generate coverage files into coverage/
+
+Run your tests with a command like this:
+
+jest && codecov
+
+
+---
+
+"renovate": {
+  "extends": [
+    "config:js-lib"
+  ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "automergeType": "branch"
+},
+
+https://github.com/algolia/rollup-jest-boilerplate
+
+
+stages:
+  - smoke # this ensures a "user" install works properly
+  - precache # warm up cache for default Node.js version
+  - lint # lint code and docs
+  - test # all tests
+
+  https://boneskull.com/mocha-and-travis-ci-build-stages/
+
+
+  - stage: lint
+  script: npm start lint
+
+  https://medium.com/@ali.dev/how-to-publish-a-js-library-to-npm-with-rollup-typescript-8b51ede8f562
