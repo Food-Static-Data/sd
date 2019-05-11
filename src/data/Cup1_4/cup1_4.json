@@ -1,10 +1,6 @@
-       
-      [
-        {                                
-          "americanStandart": "4 tablespoons",
-          "americanStandartOunces": "2 ounces",
-          "volume": "60 milliliters",
-          "weight": "56.7 grams"
-        }
-      ]
-    
+       [{
+         "americanStandart": "4 tablespoons",
+         "americanStandartOunces": "2 ounces",
+         "volume": "60 milliliters",
+         "weight": "56.7 grams"
+       }]

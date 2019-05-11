@@ -1,11 +1,10 @@
-[
-    {
-        "alias": "universal" 
-    },
-    {
-        "alias": "metric" 
-    },
-    {
-        "alias": "us-imperial" 
-    }
+[{
+    "alias": "universal"
+  },
+  {
+    "alias": "metric"
+  },
+  {
+    "alias": "us-imperial"
+  }
 ]

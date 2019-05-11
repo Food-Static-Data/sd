@@ -1,10 +1,6 @@
-
-     [ 
-       {
-         "americanStandart": "1/16 teaspoon",
-         "americanStandartOunces": null,
-         "volume": null,
-         "weight": null
-       }
-     ]
-  
+[{
+  "americanStandart": "1/16 teaspoon",
+  "americanStandartOunces": null,
+  "volume": null,
+  "weight": null
+}]
