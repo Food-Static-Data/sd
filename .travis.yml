@@ -10,9 +10,21 @@ node_js:
 install:
   - npm install
 
+# as our module should have an additional files, generated before publishing we're using this line below
+before_script: npm run generateFiles
+
 script:
   - npm test
   - npm run jsonlint
+  - npm run build
+# we need to move coveralls from fetch and run it here as well
+
+# script:
+#  - npm test
+#  - npm run jsonlint
+#  - npm run json-vaidation
+#  - npm run build
+#  - npm run install
 
 branches:
   only:
