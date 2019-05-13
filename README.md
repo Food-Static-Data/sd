@@ -1,4 +1,4 @@
-# ->Static food wrapper module -<
+<h1 align="center">Static food wrapper module</h1>
 
 Table of Contents
 =================
