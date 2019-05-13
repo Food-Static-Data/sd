@@ -5,48 +5,53 @@ Table of Contents
 
  * [Quick Start](#additional-information)
  * [Status](#synopsis)
- * [Installation](#installation)
- * [Code Example](#code-example)
- * [Test](#tests)
+ * [What's included](#installation)
+ * [Bugs and feature requests](#code-example)
+ * [Documentation](#tests)
  * [Contributors](#contributors)
  * [Credits](#credits)
  * [Junk](#junk)
 
 
-### Quick Start
+ Creators
+ Thanks
+ Copyright and license
+
+## Quick Start
 Several quick start options are available:
-* Clone the repo: `git clone https://github.com/GroceriStar/sd`
+* Clone the repo: `git clone https://github.com/GroceriStar/sd.git`
 * Install with npm: `npm install @groceristar/sd-wrapper`
 * Install with yarn: `yarn add @groceristar/sd-wrapper`
 
-### Status
+## Status
 
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## What's included
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+.
+├── docs
+├── generator
+├── output
+├── src                  # Test files (alternatively `spec` or `tests`)
+README.md
 
+We provide compiled JS, as well as compiled and minified JS.
 
-#### Code Example
+## Bugs and feature requests
 
-xxx
+Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, please open a new issue.
 
----
-
-#### Tests
-
-```
-npm test
-```
+#### Documentation
+Are we have documentation? If no, it should be written
 
 #### Contributors
 
 @vadim9999, @atherdon, @wahaj-47, @tihaami @EbrahimKreem @elnur004 @hirdbluebird
 
-#### structure
-![image](https://user-images.githubusercontent.com/1469198/56497029-9a07fc80-6504-11e9-91ca-0aa4a3ec1ef8.png)
 
-![image](https://user-images.githubusercontent.com/1469198/56497034-9eccb080-6504-11e9-8ca9-0ef32903d927.png)
 
 #### jsonlint
 
