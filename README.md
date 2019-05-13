@@ -1,10 +1,10 @@
-#### Static food wrapper module
+-> ## Static food wrapper module -<
 
 Table of Contents
 =================
 
- * [Synopsis](#synopsis)
- * [Additional information](#additional-information)
+ * [Quick Start](#additional-information)
+ * [Status](#synopsis)
  * [Installation](#installation)
  * [Code Example](#code-example)
  * [Test](#tests)
@@ -13,23 +13,17 @@ Table of Contents
  * [Junk](#junk)
 
 
-#### Synopsis
-  This is a module for using ...
+### Quick Start
+Several quick start options are available:
+* Clone the repo: `git clone https://github.com/GroceriStar/sd`
+* Install with npm: `npm install @groceristar/sd-wrapper`
+* Install with yarn: `yarn add @groceristar/sd-wrapper`
+
+### Status
 
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-#### Additional information
-xxx
-
-#### Installation
-
-`npm install @groceristar/sd-wrapper`
-
-or
-
-`yarn add @groceristar/sd-wrapper`
 
 
 
