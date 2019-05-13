@@ -24,13 +24,16 @@ Several quick start options are available:
 * Install with yarn: `yarn add @groceristar/sd-wrapper`
 
 ## What's included
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+```
 .
 ├── docs
 ├── generator
 ├── output
 ├── src                  # Test files (alternatively `spec` or `tests`)
 README.md
+```
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 We provide compiled JS, as well as compiled and minified JS.
 
@@ -41,23 +44,16 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 ## Documentation
 Are we have documentation? If no, it should be written
 
+### NPM commands
+- jsonlint: `npm run jsonlint` or `yarn jsonlint`
+- ESLint fix: `npm run code-fix` or `yarn code-fix`
+- generate files: `npm run generateFiles`. More detailed information [here](#how-to-generate)
 
-
-#### jsonlint
-`npm run jsonlint` or `yarn jsonlint`
-
-#### ESLint fix
-`npm run code-fix` or `yarn code-fix`
-- [ ] Should `data` folder be inside `src` or we can just copy it on build?
-
-#### How to generate additional files
-to run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see
-`file generated successfully!` it will write multiple files.
+## How to generate additional files
+To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
 In function `writeFiles()` should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
-
-by default generating files happens in `/src/data`
-
+By default generating files happens in `/src/data`
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format.
 
-#### Contributors
+## Contributors
 @vadim9999, @atherdon, @wahaj-47, @tihaami @EbrahimKreem @elnur004 @hirdbluebird
