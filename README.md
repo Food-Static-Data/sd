@@ -24,6 +24,8 @@ Several quick start options are available:
 * Install with yarn: `yarn add @groceristar/sd-wrapper`
 
 ## What's included
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
 ```
 .
 ├── docs
@@ -32,8 +34,6 @@ Several quick start options are available:
 ├── src                  # Test files (alternatively `spec` or `tests`)
 README.md
 ```
-
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 We provide compiled JS, as well as compiled and minified JS.
 
@@ -44,7 +44,8 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 ## Documentation
 Are we have documentation? If no, it should be written
 
-### NPM commands
+#### NPM commands
+- build: `yarn build`. In folder `dist` will be compiled three files with `.cjs`, `es.js`, `iife.js` extensions. Files contain output data of recipes, departments, etc.
 - jsonlint: `npm run jsonlint` or `yarn jsonlint`
 - ESLint fix: `npm run code-fix` or `yarn code-fix`
 - generate files: `npm run generateFiles`. More detailed information [here](#how-to-generate)
