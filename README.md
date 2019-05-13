@@ -1,4 +1,5 @@
-<h1 align="center">Static food wrapper module</h1>
+<p align="center"><img src="https://avatars2.githubusercontent.com/u/36658223?s=200&v=4" alt=""/></p>
+<p>Static food wrapper module</p>
 
 Table of Contents
 =================
