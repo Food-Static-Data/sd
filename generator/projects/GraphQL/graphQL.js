@@ -1,6 +1,8 @@
 const _ = require('lodash')
 const {__generateId} = require('../../../src/utils.js')
 
+const {favorites} = require('../../../src/files.js')
+
 const getFavoritesKey = function () {
     // let favorites = getFavorites()
 
