@@ -44,14 +44,19 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 ## Documentation
 Are we have documentation? If no, it should be written
 
-#### NPM commands
-Command line flags
--c, --config                Use this config file
--w, --watch                 Watch files in bundle and rebuild on changes
-- build: `npm run build` or `yarn build`. In folder `dist` will be compiled three files with `.cjs`, `es.js`, `iife.js` extensions. Files contain output data of recipes, departments, etc.
-- jsonlint: `npm run jsonlint` or `yarn jsonlint`
-- ESLint fix: `npm run code-fix` or `yarn code-fix`
-- generate files: `npm run generateFiles`. More detailed information [here](#how-to-generate)
+### NPM commands
+
+#### Compiler commands
+- `yarn bundle` or `npm run bundle`: in folder `dist` will be compiled three files with `.cjs`, `es.js`, `iife.js` extensions. Files contain output data of recipes, departments, etc.
+- `yarn dev` or `npm run dev`: compile and watch for changes (run watcher)
+- `jest`: Run tests through project
+- `npm run jsonlint` or `yarn jsonlint`: validate JSON output files
+- `npm run code-fix` or `yarn code-fix`: run [standard](https://www.npmjs.com/package/standard) linter with write permissions
+
+#### Generator commands
+- `npm run generateFiles`: More detailed information [here](#how-to-generate)
+- `npm run generateFile`: More detailed information [here](#how-to-generate)
+- `npm run generateArray`: More detailed information [here](#how-to-generate)
 
 ## How to generate additional files
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
