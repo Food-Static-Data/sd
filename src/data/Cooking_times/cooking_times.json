@@ -1,4 +1,5 @@
 [{
+    "name": "cooking_times",
     "boil": "6 - 10 mins",
     "microwave": "4 - 6 mins",
     "steam": "8 - 12 mins",
@@ -6,6 +7,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "5 - 10 mins",
     "microwave": "3 - 5 mins",
     "steam": "7 - 12 mins",
@@ -13,6 +15,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "-",
     "microwave": "4 - 9 mins",
     "steam": "-",
@@ -20,6 +23,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "15 - 25 mins",
     "microwave": "4 - 9 mins",
     "steam": "20 - 30 mins",
@@ -27,6 +31,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "15 - 20 mins ",
     "microwave": "5 - 6 mins",
     "steam": "18 - 25 mins",
@@ -34,6 +39,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "10 - 15 mins",
     "microwave": "5 - 8 mins",
     "steam": "8 - 12 mins",
@@ -41,6 +47,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "4 - 8 mins",
     "microwave": "3 - 5 mins",
     "team": "5 - 10 mins",
@@ -48,6 +55,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "8 - 10 mins",
     "microwave": "5 - 8 mins",
     "steam": "10 - 13 mins",
@@ -55,6 +63,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "7 - 10 mins",
     "microwave": "2 - 3 mins",
     "steam": "8 - 12 mins",
@@ -62,6 +71,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "-",
     "microwave": "3 - 5 mins",
     "steam": "-",
@@ -69,6 +79,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "10 - 15 mins",
     "microwave": "5 - 8 mins",
     "steam": "15 - 20 mins",
@@ -76,6 +87,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "15 - 25 mins",
     "microwave": "4 - 6 mins",
     "steam": "20 - 30 mins",
@@ -83,6 +95,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "10 - 15 mins",
     "microwave": "5 - 7 mins",
     "steam": "20 - 25 mins",
@@ -90,6 +103,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "8 - 15 mins",
     "microwave": "5 - 10 mins",
     "steam": "15 -20 mins",
@@ -97,6 +111,7 @@
   },
 
   {
+    "name": "cooking_times",
     "boil": "6 - 10 mins",
     "microwave": "3 - 4 mins",
     "steam": "15 - 20 mins",
