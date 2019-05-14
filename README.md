@@ -29,10 +29,31 @@ Within the download you'll find the following directories and files, logically g
 ```
 .
 ├── docs
-├── generator
+│   └── Readme.md           # Secondary information about project
+├── generator               
+│   ├── projects            # Tests for self-titled projects
+│   │   ├── ChickenKyiv
+│   │   ├── GraphQL
+│   │   ├── GroceriStar
+│   │   ├── GS-Loopback
+│   │   ├── MealCalendar
+│   │   ├── Search
+│   │   ├── Showcase
+│   │   └── UnitConvertion
+│   ├── configGenerator.js  #
+│   ├── generateArray.js    #
+│   ├── generateFile.js     #
+│   ├── generateFiles.js    #
+│   └── writeFile.js        #
 ├── output
-├── src                  # Test files (alternatively `spec` or `tests`)
+└── src                     # Test files (alternatively `spec` or `tests`)
+.gitignore
 README.md
+package.json
+babel.config.js
+jest.config.js
+rollup.config.js
+LICENSE
 ```
 
 We provide compiled JS, as well as compiled and minified JS.
@@ -63,6 +84,12 @@ To run generator (it will run in writeFile.js function writeFiles()) `npm run ge
 In function `writeFiles()` should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
 By default generating files happens in `/src/data`
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format.
+
+### Generate for two weeks
+
+### Generate all info
+
+### Generate array of info
 
 ## Contributors
 @vadim9999, @atherdon, @wahaj-47, @tihaami @EbrahimKreem @elnur004 @hirdbluebird
