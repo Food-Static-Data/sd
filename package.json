@@ -18,7 +18,7 @@
     "generateFiles": "node ./generator/generateFiles.js",
     "generateArray": "node ./generator/generateArray.js",
     "lint": "standard",
-    "code-fix": "standard --fix",
+    "code-fix": "standard --fix || exit 0",
     "format": "prettier"
   },
   "description": "module to use static JSON files with groceristar projects",
