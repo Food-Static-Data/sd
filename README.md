@@ -40,13 +40,14 @@ Within the download you'll find the following directories and files, logically g
 │   │   ├── Search
 │   │   ├── Showcase
 │   │   └── UnitConvertion
-│   ├── configGenerator.js  #
-│   ├── generateArray.js    #
-│   ├── generateFile.js     #
-│   ├── generateFiles.js    #
-│   └── writeFile.js        #
-├── output
-└── src                     # Test files (alternatively `spec` or `tests`)
+│   ├── configGenerator.js  
+│   ├── generateArray.js    
+│   ├── generateFile.js     
+│   ├── generateFiles.js    
+│   └── writeFile.js        
+├── output                  # Output folder for [NPM generator](NPM commands) commands
+├── dist                    # Output folder for [NPM compiler](NPM commands) commands
+└── src                     # Folder with static JSON files. WTF what is going on here
 .gitignore
 README.md
 package.json
