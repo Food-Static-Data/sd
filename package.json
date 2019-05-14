@@ -8,7 +8,7 @@
     "build": "npm run clean && npm run bundle",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
-    "zprepublish": "yarn clean && yarn code-fix && yarn build",
+    "prepublish": "yarn clean && yarn code-fix && yarn build",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",

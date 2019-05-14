@@ -45,7 +45,10 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 Are we have documentation? If no, it should be written
 
 #### NPM commands
-- build: `yarn build`. In folder `dist` will be compiled three files with `.cjs`, `es.js`, `iife.js` extensions. Files contain output data of recipes, departments, etc.
+Command line flags
+-c, --config                Use this config file
+-w, --watch                 Watch files in bundle and rebuild on changes
+- build: `npm run build` or `yarn build`. In folder `dist` will be compiled three files with `.cjs`, `es.js`, `iife.js` extensions. Files contain output data of recipes, departments, etc.
 - jsonlint: `npm run jsonlint` or `yarn jsonlint`
 - ESLint fix: `npm run code-fix` or `yarn code-fix`
 - generate files: `npm run generateFiles`. More detailed information [here](#how-to-generate)
