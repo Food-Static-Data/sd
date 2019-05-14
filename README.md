@@ -45,8 +45,8 @@ Within the download you'll find the following directories and files, logically g
 │   ├── generateFile.js     
 │   ├── generateFiles.js    
 │   └── writeFile.js        
-├── output                  # Output folder for [NPM generator](NPM commands) commands
-├── dist                    # Output folder for [NPM compiler](NPM commands) commands
+├── output                  # Output folder for [NPM generator] commands
+├── dist                    # Output folder for [NPM compiler] commands
 └── src                     # Folder with static JSON files. WTF what is going on here
 .gitignore
 README.md
@@ -76,21 +76,15 @@ Are we have documentation? If no, it should be written
 - `npm run code-fix` or `yarn code-fix`: run [standard](https://www.npmjs.com/package/standard) linter with write permissions
 
 #### Generator commands
-- `npm run generateFiles`: More detailed information [here](#how-to-generate)
-- `npm run generateFile`: More detailed information [here](#how-to-generate)
-- `npm run generateArray`: More detailed information [here](#how-to-generate)
+- `npm run generateFiles` or `yarn generateFiles`: generate all recipes in folder `dist`
+- `npm run generateFile` or `yarn generateFile`: generate meal on two weeks in folder `dist`
+- `npm run generateArray` or `yarn generateArray`: More detailed information [here](#how-to-generate)
 
 ## How to generate additional files
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
 In function `writeFiles()` should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
 By default generating files happens in `/src/data`
 Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format.
-
-### Generate for two weeks
-
-### Generate all info
-
-### Generate array of info
 
 ## Contributors
 @vadim9999, @atherdon, @wahaj-47, @tihaami @EbrahimKreem @elnur004 @hirdbluebird
