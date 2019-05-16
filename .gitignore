@@ -19,7 +19,6 @@ flow-typed/npm/*
 
 # Release
 dist/*
-output/*
 
 #build
 package-lock.json
