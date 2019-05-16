@@ -1,7 +1,7 @@
 const _ = require('lodash')
-const {__generateId} = require('../../../src/utils.js')
+const {__generateId, __generateDate} = require('../../../src/utils.js')
 
-const {favorites} = require('../../../src/files.js')
+const {favorites, departments} = require('../../../src/files.js')
 
 const getFavoritesKey = function () {
     // let favorites = getFavorites()
@@ -14,6 +14,19 @@ const getFavoritesKey = function () {
     })
 }
 
+const getDepartmentsKey = function () {
+    let results = departments
+    return results.map((item, index) => ({
+      department_id: __generateId(),
+      name: item.name,
+      desc: 'description for department1',
+      created_at: __generateDate(),
+      updated_at: __generateDate()
+    }))
+  }
+  
+
 module.exports = {
-    getFavoritesKey
+    getFavoritesKey,
+    getDepartmentsKey
 }
