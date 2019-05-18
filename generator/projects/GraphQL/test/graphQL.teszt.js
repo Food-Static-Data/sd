@@ -11,6 +11,7 @@ describe('graphQL methods should return data', () => {
 
   nonEmptyMethodOutput('getFavoritesKey')
   nonEmptyMethodOutput('getDepartmentsKey')
+  nonEmptyMethodOutput('getGroceryKey')
 
 //   nonEmptyMethodOutput('getDepartmentsGraphQLKey')
 //   nonEmptyMethodOutput('getGroceryGraphQL')
