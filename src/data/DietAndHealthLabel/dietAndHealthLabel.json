@@ -1,0 +1,211 @@
+export const dietAndHealthLabel=[{
+		"Type": "Diet",
+		"Web Label": "Balanced",
+		"API Parameter": "balanced",
+		"Definition": "Protein/Fat/Carb values in 15/35/50 ratio"
+	},
+	{
+		"Type": "Diet",
+		"Web Label": "High-Fiber",
+		"API Parameter": "high-fiber",
+		"Definition": "More than 5g fiber per serving"
+	},
+	{
+		"Type": "Diet",
+		"Web Label": "High-Protein",
+		"API Parameter": "high-protein",
+		"Definition": "More than 50% of total calories from proteins"
+	},
+	{
+		"Type": "Diet",
+		"Web Label": "Low-Carb",
+		"API Parameter": "low-carb",
+		"Definition": "Less than 20% of total calories from carbs"
+	},
+	{
+		"Type": "Diet",
+		"Web Label": "Low-Fat",
+		"API Parameter": "low-fat",
+		"Definition": "Less than 15% of total calories from fat"
+	},
+	{
+		"Type": "Diet",
+		"Web Label": "Low-Sodium",
+		"API Parameter": "low-sodium",
+		"Definition": "Less than 140mg Na per serving"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Alcohol",
+		"API Parameter": "alcohol-free",
+		"Definition": "No alcohol used or contained in the recipe"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Alcohol-free",
+		"API Parameter": "alcohol-free",
+		"Definition": "No alcohol used or contained"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Celery-free",
+		"API Parameter": "celery-free",
+		"Definition": "does not contain celery or derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Crustcean-free",
+		"API Parameter": "crustacean-free",
+		"Definition": "does not contain crustaceans (shrimp, lobster etc.) or derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Dairy",
+		"API Parameter": "dairy-free",
+		"Definition": "No dairy; no lactose"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Eggs",
+		"API Parameter": "egg-free",
+		"Definition": "No eggs or products containing eggs"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Fish",
+		"API Parameter": "fish-free",
+		"Definition": "No fish or fish derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Gluten",
+		"API Parameter": "gluten-free",
+		"Definition": "No ingredients containing gluten"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Kidney friendly",
+		"API Parameter": "kidney-friendly",
+		"Definition": "per serving – phosphorus less than 250 mg AND potassium less than 500 mg AND sodium: less than 500 mg"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Kosher",
+		"API Parameter": "kosher",
+		"Definition": "contains only ingredients allowed by the kosher "
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Low potassium",
+		"API Parameter": "low-potassium",
+		"Definition": "Less than 150mg per serving"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Lupine-free",
+		"API Parameter": "lupine-free",
+		"Definition": "does not contain lupine or derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Mustard-free",
+		"API Parameter": "mustard-free",
+		"Definition": "does not contain mustard or derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "n/a",
+		"API Parameter": "low-fat-abs",
+		"Definition": "Less than 3g of fat per serving"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "No oil added",
+		"API Parameter": "No-oil-added",
+		"Definition": "No oil added except to what is contained in the basic ingredients"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "No-sugar",
+		"API Parameter": "low-sugar",
+		"Definition": "No simple sugars – glucose, dextrose, galactose, fructose, sucrose, lactose, maltose"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Paleo",
+		"API Parameter": "paleo",
+		"Definition": "Excludes what are perceived to be agricultural products; grains, legumes, dairy products, potatoes, refined salt, refined sugar, and processed oils"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Peanuts",
+		"API Parameter": "peanut-free",
+		"Definition": "No peanuts or products containing peanuts"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Pescatarian",
+		"API Parameter": "pecatarian",
+		"Definition": "Does not contain meat or meat based products, can contain dairy and fish"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Pork-free",
+		"API Parameter": "pork-free",
+		"Definition": "does not contain pork or derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Red meat-free",
+		"API Parameter": "red-meat-free",
+		"Definition": "does not contain beef, lamb, pork, duck, goose, game, horse, and other types of red meat or products containing red meat."
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Sesame-free",
+		"API Parameter": "sesame-free",
+		"Definition": "does not contain sesame seed or derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Shellfish",
+		"API Parameter": "shellfish-free",
+		"Definition": "No shellfish or shellfish derivatives"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Soy",
+		"API Parameter": "soy-free",
+		"Definition": "No soy or products containing soy"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Sugar-conscious",
+		"API Parameter": "sugar-conscious",
+		"Definition": "Less than 4g of sugar per serving"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Tree Nuts",
+		"API Parameter": "tree-nut-free",
+		"Definition": "No tree nuts or products containing tree nuts"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Vegan",
+		"API Parameter": "vegan",
+		"Definition": "No meat, poultry, fish, dairy, eggs or honey"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Vegetarian",
+		"API Parameter": "vegetarian",
+		"Definition": "No meat, poultry, or fish"
+	},
+	{
+		"Type": "Health",
+		"Web Label": "Wheat-free",
+		"API Parameter": "wheat-free",
+		"Definition": "No wheat, can have gluten though"
+	}
+]
