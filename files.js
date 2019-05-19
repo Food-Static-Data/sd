@@ -8,10 +8,10 @@ const grocery = path.resolve(__dirname, './src/data/Grocery/grocery.json')
 const cookingTimes = path.resolve(__dirname, './src/data/Cooking_times/cooking_times.json')
 
 const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')
-const cup1_2 = path.resolve(__dirname, './src/data/Cup1_2/cup1_2.json')
-const cup1_4 = path.resolve(__dirname, './src/data/Cup1_4/cup1_4.json')
-const cup1_8 = path.resolve(__dirname, './src/data/Cup1_8/cup1_8.json')
-const cup3_4 = path.resolve(__dirname, './src/data/Cup3_4/cup3_4.json')
+const cup12 = path.resolve(__dirname, './src/data/Cup1_2/cup1_2.json')
+const cup14 = path.resolve(__dirname, './src/data/Cup1_4/cup1_4.json')
+const cup18 = path.resolve(__dirname, './src/data/Cup1_8/cup1_8.json')
+const cup34 = path.resolve(__dirname, './src/data/Cup3_4/cup3_4.json')
 
 const dash = path.resolve(__dirname, './src/data/Dash/dash.json')
 const gallon1 = path.resolve(__dirname, './src/data/Gallon1/gallon1.json')
@@ -45,8 +45,8 @@ const quart1 = path.resolve(__dirname, './src/data/Quart1/quart1.json')
 
 const recipe4 = path.resolve(__dirname, './src/data/Recipe4/recipe.json')
 
-const tablespoon_1 = path.resolve(__dirname, './src/data/Tablespoon_1/tablespoon_1.json')
-const teaspoon_1 = path.resolve(__dirname, './src/data/Teaspoon_1/teaspoon_1.json')
+const tablespoon1 = path.resolve(__dirname, './src/data/Tablespoon_1/tablespoon_1.json')
+const teaspoon1 = path.resolve(__dirname, './src/data/Teaspoon_1/teaspoon_1.json')
 const types = path.resolve(__dirname, './src/data/Types/types.json')
 
 const users = path.resolve(__dirname, './src/data/Users/users.json')
@@ -93,10 +93,10 @@ module.exports = {
   generatedMeasurementUnits,
   cookingTimes,
   cup1,
-  cup1_2,
-  cup1_4,
-  cup1_8,
-  cup3_4,
+  cup12,
+  cup14,
+  cup18,
+  cup34,
   dash,
   gallon1,
   holiday,
@@ -104,7 +104,7 @@ module.exports = {
   pint1,
   quart1,
   recipe4,
-  tablespoon_1,
-  teaspoon_1,
+  tablespoon1,
+  teaspoon1,
   types
 }
