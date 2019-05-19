@@ -46,7 +46,7 @@ import measurementUnits from '~/Units/measurementUnits.json'
 import generatedMeasurementSystem from '~/MeasurementSystem/measurementSystem.json'
 import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
 
-import cooking_times from '~/Cooking_times/cooking_times.json'
+import cookingTimes from '~/Cooking_times/cooking_times.json'
 
 import cup1 from '~/Cup1/cup1.json'
 import cup1_2 from '~/Cup1_2/cup1_2.json'
@@ -88,12 +88,11 @@ export default {
   ultimateGroceryList,
   groceryListWithUserRelations,
   dbIngredients,
-  recipes,
   measurementSystems,
   measurementUnits,
   generatedMeasurementSystem,
   generatedMeasurementUnits,
-  cooking_times,
+  cookingTimes,
   cup1,
   cup1_2,
   cup1_4,
