@@ -1,6 +1,13 @@
 var writeInFile = require('./writeFile')
 const fs = require('fs')
-var { usersGrocery, favorites, getMenuGenerator, items, getMeasurementSystem, getMeasurementUnits } = require('./generateArray')
+var {
+  // usersGrocery,
+  // favorites,
+  // getMenuGenerator,
+  // items,
+  // getMeasurementSystem,
+  // getMeasurementUnits
+} = require('./generateArray')
 const { config } = require('./configGenerator')
 
 function generateFiles () {
