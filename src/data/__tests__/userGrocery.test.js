@@ -1,4 +1,4 @@
-/* global test, describe, it, expect */
+/* global describe, it, expect */
 'use strict'
 const { usersGroceryFilePath } = require('../../../files.js')
 const userGrocery = require(usersGroceryFilePath)

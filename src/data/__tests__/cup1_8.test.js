@@ -1,4 +1,4 @@
-/* global test, describe, it, expect */
+/* global describe, it, expect */
 'use strict'
 const { cup1_8 } = require('../../../files.js')
 

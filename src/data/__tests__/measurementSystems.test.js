@@ -1,4 +1,4 @@
-/* global test, describe, it, expect */
+/* global describe, it, expect */
 'use strict'
 const { measurementSystemFilePath, generatedMeasurementSystem } = require('../../../files.js')
 const measurementSystems = require(measurementSystemFilePath)

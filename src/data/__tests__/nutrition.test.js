@@ -1,4 +1,4 @@
-/* global test, describe, it, expect */
+/* global describe, it, expect */
 'use strict'
 const { nutritionsFilePath } = require('../../../files.js')
 const nutritions = require(nutritionsFilePath)
