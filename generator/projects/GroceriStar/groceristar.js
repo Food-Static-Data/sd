@@ -7,8 +7,8 @@ const { __generateId } = require('../../../src/utils')
 const getKeyArrayDepAndIng = () => {
   let keys = []
 
-  let departments = getAllDepartmentsWithId()
-  let ingredients = getAllIngredientsWithId()
+  // let departments = getAllDepartmentsWithId()
+  // let ingredients = getAllIngredientsWithId()
 
   // _.forEach(departments, (department) => {
   //   _.forEach(ingredients, (ingredient) => {
@@ -36,9 +36,9 @@ const getAllIngredientsWithId = () => {
   return result
 }
 
-const getResult = (property) => _.map(property, (p) => ({
-  key: __generateId(),
-  ...p
-}))
+// const getResult = (property) => _.map(property, (p) => ({
+//   key: __generateId(),
+//   ...p
+// }))
 
 module.exports = { getKeyArrayDepAndIng }
