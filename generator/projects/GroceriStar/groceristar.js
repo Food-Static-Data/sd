@@ -1,4 +1,4 @@
-const { __generateId } = require('../../../src/utils')
+// const { __generateId } = require('../../../src/utils')
 
 /**
  * @returns {array} of keys for departments and ingredients
@@ -24,17 +24,17 @@ const getKeyArrayDepAndIng = () => {
   return keys
 }
 
-const getAllDepartmentsWithId = () => {
-  let result = getResult(departments)
-
-  return result
-}
-
-const getAllIngredientsWithId = () => {
-  let result = getResult(ingredients)
-
-  return result
-}
+// const getAllDepartmentsWithId = () => {
+//   let result = getResult(departments)
+//
+//   return result
+// }
+//
+// const getAllIngredientsWithId = () => {
+//   let result = getResult(ingredients)
+//
+//   return result
+// }
 
 // const getResult = (property) => _.map(property, (p) => ({
 //   key: __generateId(),
