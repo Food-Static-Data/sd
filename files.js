@@ -91,7 +91,7 @@ module.exports = {
   measurementUnits,
   generatedMeasurementSystem,
   generatedMeasurementUnits,
-  cooking_times,
+  cookingTimes,
   cup1,
   cup1_2,
   cup1_4,
