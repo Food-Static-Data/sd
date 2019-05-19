@@ -10,16 +10,16 @@ const getKeyArrayDepAndIng = () => {
   let departments = getAllDepartmentsWithId()
   let ingredients = getAllIngredientsWithId()
 
-  _.forEach(departments, (department) => {
-    _.forEach(ingredients, (ingredient) => {
-      // @TODO can be redo later with lodash methods
-      if (ingredient.department === department.name) {
-        keys.push({
-          [department.key]: ingredient.key
-        })
-      }
-    })
-  })
+  // _.forEach(departments, (department) => {
+  //   _.forEach(ingredients, (ingredient) => {
+  //     // @TODO can be redo later with lodash methods
+  //     if (ingredient.department === department.name) {
+  //       keys.push({
+  //         [department.key]: ingredient.key
+  //       })
+  //     }
+  //   })
+  // })
 
   return keys
 }
