@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-const {measurementsFilePath} = require('../../../files.js')
+const { measurementsFilePath } = require('../../../files.js')
 const measurements = require(measurementsFilePath)
 
 describe('measurements data files returns array', () => {

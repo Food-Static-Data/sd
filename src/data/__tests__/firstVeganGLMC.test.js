@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-const {firstVeganGLMCFilePath} = require('../../../files.js')
+const { firstVeganGLMCFilePath } = require('../../../files.js')
 const firstVeganGLMC = require(firstVeganGLMCFilePath)
 
 describe('firstVeganGLMC data files returns array', () => {

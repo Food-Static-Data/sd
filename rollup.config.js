@@ -100,7 +100,7 @@ export default {
 
   ],
 
- // output configuration
+  // output configuration
   output: [{
     file: pkg.main,
     format: 'cjs'

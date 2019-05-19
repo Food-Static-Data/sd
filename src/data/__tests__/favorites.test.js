@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-const {favoritesFilePath} = require('../../../files.js')
+const { favoritesFilePath } = require('../../../files.js')
 const favorites = require(favoritesFilePath)
 
 describe('favorites data files returns array', () => {

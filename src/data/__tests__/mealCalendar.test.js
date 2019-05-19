@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-const {mealCalendarFilePath} = require('../../../files.js')
+const { mealCalendarFilePath } = require('../../../files.js')
 const mealcalendar = require(mealCalendarFilePath)
 
 describe('mealcalendar data files returns array', () => {

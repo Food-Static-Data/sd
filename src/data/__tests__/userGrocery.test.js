@@ -1,6 +1,6 @@
 /* global test, describe, it, expect */
 'use strict'
-const {usersGroceryFilePath} = require('../../../files.js')
+const { usersGroceryFilePath } = require('../../../files.js')
 const userGrocery = require(usersGroceryFilePath)
 
 describe('userGrocery data files returns array', () => {
