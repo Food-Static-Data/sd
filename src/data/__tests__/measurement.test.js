@@ -4,7 +4,7 @@ const { measurementsFilePath } = require('../../../files.js')
 const measurements = require(measurementsFilePath)
 
 describe('measurements data files returns array', () => {
-  test('these tests prevent any issues and problems, also to break the structure of measurement', () => {
+  it('these tests prevent any issues and problems, also to break the structure of measurement', () => {
     expect(measurements).not.toBe('')
   })
 })
