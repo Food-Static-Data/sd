@@ -1,9 +1,9 @@
 /* global describe, it, expect */
 'use strict'
-const { quart1 } = require('../../../files.js')
+const staticData = require('../../../filesObjects.js')
 
 describe('this test prevents to any issues and problems, also to break the structure of quart1 data', () => {
   it('quart1 data files returns object', () => {
-    expect(quart1).not.toBe('')
+    expect(staticData.quart1).not.toBe('')
   })
 })
