@@ -88,3 +88,16 @@ Also you can write one file using function writeFile() just give it two paramete
 
 ## Contributors
 @vadim9999, @atherdon, @wahaj-47, @tihaami, @EbrahimKreem, @elnur004, @hirdbluebird, @Beni03, @Edebo
+
+#### publish at npm
+```
+- npm login
+- - username
+- - password
+- - email 
+- npm version patch
+- git commit
+- npm publish
+- git push --tags
+```
+
