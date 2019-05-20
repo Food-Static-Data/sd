@@ -1,10 +1,10 @@
-/* global test, describe, it, expect */
+/* global describe, it, expect */
 'use strict'
-const {ultimateGroceryListFilePath} = require('../../../files.js')
+const { ultimateGroceryListFilePath } = require('../../../files.js')
 const ultimateGroceryList = require(ultimateGroceryListFilePath)
 
 describe('ultimateGroceryList data files returns array', () => {
-  test('these tests prevent any issues and problems, also to break the structure of ultimateGroceryList', () => {
+  it('these tests prevent any issues and problems, also to break the structure of ultimateGroceryList', () => {
     expect(ultimateGroceryList).not.toBe('')
   })
 })
