@@ -1,6 +1,6 @@
 var writeInFile = require('./writeFile')
 // var { chickenKyiv } = require('@groceristar/groceristar-fetch')
-const uuidv1 = require('uuid/v1')
+// const uuidv1 = require('uuid/v1')
 
 var { getMenuGenerator } = require('./generateArray')
 

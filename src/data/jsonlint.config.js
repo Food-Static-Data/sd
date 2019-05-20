@@ -5,7 +5,7 @@ var shell = require('shelljs')
 const jsonFiles = require('../../files.js')
 
 Object.keys(jsonFiles).forEach(function (key) {
-  shell.exec('jsonlint ' + jsonFiles[key], {silent: true})
+  shell.exec('jsonlint ' + jsonFiles[key], { silent: true })
 
   // @TODO we need to add some validation, that will help us to know, when something is wrong.
   // how to test it - we can break one file and when it go to if statement - we'll be able to
@@ -20,7 +20,7 @@ Object.keys(jsonFiles).forEach(function (key) {
 
 // Check if path exist
 Object.keys(jsonFiles).forEach(function (key) {
-  if (shell.test('-e', jsonFiles[key])){
+  if (shell.test('-e', jsonFiles[key])) {
     // console.log("File exist " + jsonFiles[key]);
   } else {
     // console.log("File doesn't exist " + jsonFiles[key]);

@@ -1,8 +1,8 @@
 const {
   usersGrocery,
-  favorites,
-  getMenuGenerator,
-  items,
+  // favorites,
+  // getMenuGenerator,
+  // items,
   getMeasurementSystem,
   getMeasurementUnits
 } = require('./generateArray')
