@@ -22,10 +22,30 @@
 //   userGrocery,
 //   ultimateGroceryList,
 //   groceryListWithUserRelations,
-//   dbIngredients
+//   dbIngredients,
+//   cooking_times,
+//   cup1
 // } from './files'
 
-import files from './files'
+import cooking_times from './files'
+
+const cooking = cooking_times.map(function(value) {
+    return value;
+});
+
+console.log(cooking);
+
+
+import cup1 from './files'
+
+const cup = cup1.map(function(value) {
+    return value;
+});
+
+console.log(cup);
+
+
+
 export default files
 
 // export default {
@@ -52,5 +72,7 @@ export default files
 //   userGrocery,
 //   ultimateGroceryList,
 //   groceryListWithUserRelations,
-//   dbIngredients
+//   dbIngredients,
+//   cooking_times,
+//   cup1
 // }
