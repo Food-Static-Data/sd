@@ -50,8 +50,8 @@ console.log(cup);
 
 
 export default {
-    cookingTimes,
-    cup1
+    cooking,
+    cup
 }
 
 // export default {
@@ -79,6 +79,6 @@ export default {
 //   ultimateGroceryList,
 //   groceryListWithUserRelations,
 //   dbIngredients,
-//   cookingTimes,
-//   cup1
+//   cooking,
+//   cup
 // }
