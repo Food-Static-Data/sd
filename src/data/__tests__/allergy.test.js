@@ -5,6 +5,6 @@ const staticData = require('../../../filesObjects.js')
 
 describe('tests for allergy', () => {
   it('allergies data files returns array', () => {
-    expect(staticDat.allergies).not.toBe('')
+    expect(staticData.allergies).not.toBe('')
   })
 })
