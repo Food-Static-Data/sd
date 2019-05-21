@@ -23,16 +23,16 @@
 //   ultimateGroceryList,
 //   groceryListWithUserRelations,
 //   dbIngredients,
-//   cooking_times,
+//   cookingTimes,
 //   cup1
 // } from './files'
 
 import {
-    cooking_times, 
+    cookingTimes, 
     cup1
 } from './files.js'
 
-const cooking = cooking_times.map(function(value) {
+const cooking = cookingTimes.map(function(value) {
     return value;
 });
 
@@ -50,7 +50,7 @@ console.log(cup);
 
 
 export default {
-    cooking_times,
+    cookingTimes,
     cup1
 }
 
@@ -79,6 +79,6 @@ export default {
 //   ultimateGroceryList,
 //   groceryListWithUserRelations,
 //   dbIngredients,
-//   cooking_times,
+//   cookingTimes,
 //   cup1
 // }
