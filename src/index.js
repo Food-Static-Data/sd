@@ -27,7 +27,10 @@
 //   cup1
 // } from './files'
 
-import cooking_times from './files'
+import {
+    cooking_times, 
+    cup1
+} from './files.js'
 
 const cooking = cooking_times.map(function(value) {
     return value;
@@ -36,7 +39,7 @@ const cooking = cooking_times.map(function(value) {
 console.log(cooking);
 
 
-import cup1 from './files'
+
 
 const cup = cup1.map(function(value) {
     return value;
@@ -46,7 +49,10 @@ console.log(cup);
 
 
 
-export default files
+export default {
+    cooking_times,
+    cup1
+}
 
 // export default {
 //   allergies,
