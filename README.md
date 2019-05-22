@@ -13,10 +13,10 @@ Table of Contents
  * [Contributors](#contributors)
 
 
- Creators
+<!-- Creators
  Thanks
  Copyright and license
-
+-->
 ## Quick Start
 Several quick start options are available:
 * Clone the repo: `git clone https://github.com/GroceriStar/sd.git`
