@@ -61,7 +61,7 @@ import quart1 from '~/Quart1/quart1.json'
 import tablespoon1 from '~/Tablespoon_1/tablespoon_1.json'
 import teaspoon1 from '~/Teaspoon_1/teaspoon_1.json'
 
-export default {
+export {
   allergies,
   course,
   cuisine,
