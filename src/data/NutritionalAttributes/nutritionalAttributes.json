@@ -1,75 +1,75 @@
 [{
-    "NA": "K",
+    "Nutrition": "K",
     "Description": "Potassium, K",
     "Implied Units": "gram"
   },
   {
-    "NA": "NA",
+    "Nutrition": "NA",
     "Description": "Sodium, Na",
     "Implied Units": "gram"
   },
   {
-    "NA": "CHOLE",
+    "Nutrition": "CHOLE",
     "Description": "Cholesterol",
     "Implied Units": "gram"
   },
   {
-    "NA": "FATRN",
+    "Nutrition": "FATRN",
     "Description": "Fatty acids, total trans",
     "Implied Units": "gram"
   },
   {
-    "NA": "FASAT",
+    "Nutrition": "FASAT",
     "Description": "Fatty acids, total saturated",
     "Implied Units": "gram"
   },
   {
-    "NA": "CHOCDF",
+    "Nutrition": "CHOCDF",
     "Description": "Carbohydrate, by difference",
     "Implied Units": "gram"
   },
   {
-    "NA": "FIBTG",
+    "Nutrition": "FIBTG",
     "Description": "Fiber, total dietary",
     "Implied Units": "gram"
   },
   {
-    "NA": "PROCNT",
+    "Nutrition": "PROCNT",
     "Description": "Protein",
     "Implied Units": "gram"
   },
   {
-    "NA": "VITC",
+    "Nutrition": "VITC",
     "Description": "Vitamin C, total ascorbic acid",
     "Implied Units": "gram"
   },
   {
-    "NA": "CA",
+    "Nutrition": "CA",
     "Description": "Calcium, Ca",
     "Implied Units": "gram"
   },
   {
-    "NA": "FE",
+    "Nutrition": "FE",
     "Description": "Iron, Fe",
     "Implied Units": "gram"
   },
   {
-    "NA": "SUGAR",
+    "Nutrition": "SUGAR",
     "Description": "SUGAR",
     "Implied Units": "gram"
   },
   {
-    "NA": "ENERC_KCAL",
+    "Nutrition": "ENERC_KCAL",
     "Description": "Energy",
     "Implied Units": "kcal"
   },
   {
-    "NA": "FAT",
+    "Nutrition": "FAT",
     "Description": "Total lipid (fat)",
     "Implied Units": "gram"
   },
   {
-    "NA": "VITA_IU",
+    "Nutrition": "VITA_IU",
     "Description": "Vitamin A, IU",
     "Implied Units": "IU"
   }
