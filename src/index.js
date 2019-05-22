@@ -43,7 +43,7 @@ cup1.forEach(function(cup) {
 
 
 
-export default {
+export {
     cookingTimes,
     cup1
 }
