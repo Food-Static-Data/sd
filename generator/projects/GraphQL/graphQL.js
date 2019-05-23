@@ -1,8 +1,8 @@
 const _ = require('lodash')
 const { __generateId, __generateDate } = require('../../../src/utils.js')
 
-// import {favorites, departments, userGrocery} from '../../../src/files.js'
-const { favorites, departments, userGrocery, items, users,ingredients } = require('../../../src/files.js')
+
+const { favorites, departments, userGrocery, items, users, ingredients } = require('../../../src/files.js')
 
 const getFavoritesKey = function () {
   // let favorites = getFavorites()
