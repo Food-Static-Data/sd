@@ -1,7 +1,6 @@
 const _ = require('lodash')
 const { __generateId, __generateDate } = require('../../../src/utils.js')
 
-
 const { favorites, departments, userGrocery, items, users, ingredients } = require('../../../src/files.js')
 
 const getFavoritesKey = function () {
@@ -61,7 +60,7 @@ const getUsersKey = function () {
 
 const getIngredientsKey = function (limit = false) {
   let results = ingredients
-//   let results = []
+  //   let results = []
   if (limit) {
     results = _.slice(results, 100)
   }
