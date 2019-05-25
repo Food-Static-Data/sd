@@ -82,9 +82,12 @@ Are we have documentation? If no, it should be written
 
 ## How to generate additional files
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
-In function `writeFiles()` should be array of files. In array config of objects. First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
+
+In function `writeFiles()` should be array of files. In array config of objects. 
+First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
 By default generating files happens in `/src/data`
-Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and json format.
+
+Also you can write one file using function writeFile() just give it two parameters first -  path, second data that will need to write. Data should be object and JSON format.
 
 ## Contributors
 @vadim9999, @atherdon, @wahaj-47, @tihaami, @EbrahimKreem, @elnur004, @hirdbluebird, @Beni03, @Edebo
