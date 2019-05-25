@@ -1,5 +1,6 @@
 const { __generateId } = require('../../../src/utils')
 
+{  departments, ingredients, users, groceries} = require('../../../files')
 /**
  * @returns {array} of keys for departments and ingredients
  */
