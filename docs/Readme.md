@@ -275,3 +275,7 @@ stages:
  ],
 
  llup-plugin-terser is a plugin which minifies the generated bundles. While minification will not affect bundle size when you have only a few exported functions, minification will drastically reduce bundle size the larger your library becomes.
+ 
+ #### Add coveralls
+ https://docs.travis-ci.com/user/coveralls/
+https://github.com/dwyl/learn-coveralls.io
