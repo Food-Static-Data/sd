@@ -1,4 +1,3 @@
-// /* global test, describe, it, expect, jest */
 // const groceristar = require('../groceristar.js')
 
 // const files = {
@@ -114,7 +113,7 @@
 // })
 
 
-// /* global test, describe, it, expect, jest */
+/* global test, describe, it, expect, jest */
 const groceristar = require('../groceristar.js')
   
 describe('getKeyArrayDepAndIng method', () => {
