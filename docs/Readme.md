@@ -216,6 +216,15 @@ Output:
 ]
 ~~~
 
+**getKeyArrayDepAndIng()** - returns an array of objects, where each object  stores ingredient key as department key
+~~~
+[
+  {
+    key:String
+  }
+]
+~~~
+
 ---
 ### Babel alias
 
