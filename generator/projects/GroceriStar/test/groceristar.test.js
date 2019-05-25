@@ -113,7 +113,7 @@
 // })
 
 
-/* global test, describe, it, expect, jest */
+/* global describe, it, expect */
 const groceristar = require('../groceristar.js')
   
 describe('getKeyArrayDepAndIng method', () => {
