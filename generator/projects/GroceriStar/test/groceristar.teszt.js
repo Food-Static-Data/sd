@@ -122,8 +122,7 @@ describe('getKeyArrayDepAndIng method', () => {
       const result = groceristar[method]
       expect(result).not.toBe('')
     })
-  }
-
    }) 
+   
 notEmptyMethodOutput('getKeyArrayDepAndIng')
 })
