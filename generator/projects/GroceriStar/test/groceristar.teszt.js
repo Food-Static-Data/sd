@@ -116,19 +116,14 @@
 
 const groceristar = require('../groceristar.js')
   
-describe('getKeyArrayDepending method', () => {
-    
-const result = groceristar.getKeyArrayDepAndIng()
-    
-  test('testing the method returns an array', () => {
-        
-    expect(Array.isArray(result)).toBe(true)
-     
-   })
-
-  test('testing the returned array is not empty',() => {
-
-    expect(result).not.toBe('')
+describe('getKeyArrayDepAndIng method', () => {
+     const notEmptyMethodOutput = (method) => {
+    it(`Groceristar ${method} return non empty string`, () => {
+      const result = groceristar[method]
+      expect(result).not.toBe('')
+    })
+  }
 
    }) 
+notEmptyMethodOutput('getKeyArrayDepAndIng')
 })
