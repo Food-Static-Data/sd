@@ -21,14 +21,15 @@ const getMenuGenerator = numberOfWeeks => {
   return result
 }
 
-function generateArrWithId (data, idName) {
-  return data.map(elem => {
+function generateArrWithId (data, id) {
+  return data.map(element => {
     return {
-      ...elem,
-      [idName]: __generateId()
+      ...element,
+      [id]: __generateId()
     }
   })
 }
+
 function favorites () {
   var groceryId = generateArrWithId(grocery, 'grocery_id')
   var usersId = generateArrWithId(users, 'user_id')
@@ -37,6 +38,7 @@ function favorites () {
   var result = []
 
   usersId.map((user, index) => {
+
     result.push({
       'ingredient_id': ingredientsId[index++]['ingredient_id'],
       'user_id': user['user_id'],
@@ -44,6 +46,7 @@ function favorites () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
+    //@TODO why we have this structure in second time?
     result.push({
       'ingredient_id': ingredientsId[index++]['ingredient_id'],
       'user_id': user['user_id'],
@@ -51,6 +54,7 @@ function favorites () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
+
   })
 
   return result
@@ -61,7 +65,10 @@ function usersGrocery () {
   var usersId = generateArrWithId(users, 'user_id')
   // return object for three users
   var result = []
+
+  //@TODO use lodash
   usersId.map((user, index) => {
+
     result.push({
       'user_id': user['user_id'],
       // one grocery id for all users
@@ -73,6 +80,7 @@ function usersGrocery () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
+
   })
   return result
 }
@@ -81,8 +89,9 @@ function items () {
   var ingredientsId = generateArrWithId(ingredients, 'ingredient_id')
   var items = [1, 2, 3]
   var result = []
-
+//@TODO use lodash
   items.map((item, index) => {
+
     result.push({
       'item_id': item,
       'name': ingredientsId[index++]['name'],
@@ -90,6 +99,7 @@ function items () {
       'quantity': 50,
       'purchase': false
     })
+
     result.push({
       'item_id': item,
       'name': ingredientsId[index++]['name'],
@@ -105,6 +115,7 @@ function items () {
 function getMeasurementSystem () {
   var result = []
   var measurementSystemId = generateArrWithId(measurementSystem, 'id')
+  //@TODO use lodash
   measurementSystemId.map(system => {
     result.push({
       'id': system.id,
@@ -119,6 +130,7 @@ function getMeasurementUnits () {
   var result = []
   var measurementUnitsId = generateArrWithId(measurementUnits, 'id')
   measurementUnitsId = generateArrWithId(measurementUnitsId, 'system_id')
+  //@TODO use lodash
   measurementUnitsId.map(unit => {
     result.push({
       'id': unit.id,

@@ -4,7 +4,6 @@ const { __generateId, __generateDate } = require('../../../src/utils.js')
 const { favorites, departments, userGrocery, items, users, ingredients, grocery } = require('../../../src/files.js')
 
 const getFavoritesKey = function () {
-  // let favorites = getFavorites()
 
   return _.map(favorites, (favorite, index) => {
     return {
@@ -26,7 +25,6 @@ const getDepartmentsKey = function () {
 }
 
 const getUserGroceryKey = function () {
-  // let userGroceries = getUserGrocery()
 
   return _.map(userGrocery, (item, index) => {
     return {
@@ -37,7 +35,6 @@ const getUserGroceryKey = function () {
 }
 
 const getItemsKey = function () {
-//   let items = getItems()
 
   return _.map(items, (item, index) => {
     return {
@@ -47,9 +44,10 @@ const getItemsKey = function () {
   })
 }
 
+//@TODO don't like that ingredient and grocery ids...
 const getUsersKey = function () {
   let results = users
-  //   let results = []
+
   return results.map((item, index) => ({
     userId: __generateId(),
     favs: false,
@@ -58,9 +56,10 @@ const getUsersKey = function () {
   }))
 }
 
+//@TODO don't like that id_1 and department ids...
 const getIngredientsKey = function (limit = false) {
   let results = ingredients
-  //   let results = []
+
   if (limit) {
     results = _.slice(results, 100)
   }
@@ -78,9 +77,10 @@ const getIngredientsKey = function (limit = false) {
   }))
 }
 
+// @TODO id_1
 const getGroceryKey = function () {
   let results = grocery
-  //   let results = []
+
   return results.map((item, index) => ({
     grocery_id: __generateId(),
     name: item.name,
