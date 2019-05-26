@@ -1,7 +1,7 @@
 const _ = require('lodash')
 const { __generateId, __generateDate } = require('../../../src/utils.js')
 
-const { favorites, departments, userGrocery, items, users, ingredients } = require('../../../src/files.js')
+const { favorites, departments, userGrocery, items, users, ingredients ,grocery} = require('../../../src/files.js')
 
 const getFavoritesKey = function () {
   // let favorites = getFavorites()
@@ -78,11 +78,28 @@ const getIngredientsKey = function (limit = false) {
   }))
 }
 
+const getGroceryKey = function () {
+  let results = grocery
+//   let results = []
+  return results.map((item, index) => ({
+    grocery_id: __generateId(),
+    name: item.name,
+    img: item.img,
+    desc: item.desc,
+    slug: item.slug,
+    created_at: __generateDate(),
+    updated_at: __generateDate(),
+    id_1: 1,
+    favs: false
+  }))
+}
+
 module.exports = {
   getFavoritesKey,
   getDepartmentsKey,
   getUserGroceryKey,
   getItemsKey,
   getUsersKey,
-  getIngredientsKey
+  getIngredientsKey,
+  getGroceryKey
 }
