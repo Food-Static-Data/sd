@@ -1,5 +1,7 @@
+const _ = require('lodash')
 const { __generateId } = require('../../../src/utils')
 
+const { departments, ingredients } = require('../../../files')
 /**
  * @returns {array} of keys for departments and ingredients
  */
@@ -29,7 +31,7 @@ const getAllDepartmentsWithId = () => {
 
   return result
 }
-
+//
 const getAllIngredientsWithId = () => {
   let result = getResult(ingredients)
 

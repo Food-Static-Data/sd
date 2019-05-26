@@ -46,25 +46,23 @@ import measurementUnits from '~/Units/measurementUnits.json'
 import generatedMeasurementSystem from '~/MeasurementSystem/measurementSystem.json'
 import generatedMeasurementUnits from '~/MeasurementUnits/measurementUnits.json'
 
-import cooking_times from '~/Cooking_times/cooking_times.json'
+import cookingTimes from '~/Cooking_times/cooking_times.json'
 
 import cup1 from '~/Cup1/cup1.json'
-import cup1_2 from '~/Cup1_2/cup1_2.json'
-import cup1_4 from '~/Cup1_4/cup1_4.json'
-import cup1_8 from '~/Cup1_8/cup1_8.json'
-import cup3_4 from '~/Cup3_4/cup3_4.json'
+import cup12 from '~/Cup1_2/cup1_2.json'
+import cup14 from '~/Cup1_4/cup1_4.json'
+import cup18 from '~/Cup1_8/cup1_8.json'
+import cup34 from '~/Cup3_4/cup3_4.json'
 import dash from '~/Dash/dash.json'
 import gallon1 from '~/Gallon1/gallon1.json'
 import pinch from '~/Pinch/pinch.json'
 import pint1 from '~/Pint1/pint1.json'
 import quart1 from '~/Quart1/quart1.json'
-import tablespoon_1 from '~/Tablespoon_1/tablespoon_1.json'
-import teaspoon_1 from '~/Teaspoon_1/teaspoon_1.json'
+import tablespoon1 from '~/Tablespoon_1/tablespoon_1.json'
+import teaspoon1 from '~/Teaspoon_1/teaspoon_1.json'
 
 export default {
-
   allergies,
-
   course,
   cuisine,
   departments,
@@ -88,22 +86,21 @@ export default {
   ultimateGroceryList,
   groceryListWithUserRelations,
   dbIngredients,
-  recipes,
   measurementSystems,
   measurementUnits,
   generatedMeasurementSystem,
   generatedMeasurementUnits,
-  cooking_times,
+  cookingTimes,
   cup1,
-  cup1_2,
-  cup1_4,
-  cup1_8,
-  cup3_4,
+  cup12,
+  cup14,
+  cup18,
+  cup34,
   dash,
   gallon1,
   pinch,
   pint1,
   quart1,
-  tablespoon_1,
-  teaspoon_1
+  tablespoon1,
+  teaspoon1
 }

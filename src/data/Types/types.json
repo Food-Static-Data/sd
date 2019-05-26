@@ -1,18 +1,18 @@
 [
     {
         "Field": "q",
-        "Type": "string Query text",
-        "Description": "as submitted"
+        "Type": "string",
+        "Description": "Query text as submitted"
     },
     {
         "Field": "from",
-        "Type": "integer First result index",
-        "Description": "as submitted"
+        "Type": "integer",
+        "Description": "First result index as submitted"
     },
     {
         "Field": "to",
-        "Type": "integer Last result index",
-        "Description": "as submitted"
+        "Type": "integer",
+        "Description": "Last result index as submitted"
     },
     {
         "Field": "params",
@@ -97,8 +97,8 @@
     {
         "Field": "dietLabels",
         "Type": "enum[]",
-        "Description": {
-            "diet lables": [
+        "Description": 
+             [
                 "balanced",
                 "high-protein",
                 "high-fiber",
@@ -106,7 +106,7 @@
                 "low-carb",
                 "low-sodium"
             ]
-        }
+        
     },
     {
         "Field": "healthLabels",

@@ -1,10 +1,10 @@
-/* global test, describe, it, expect */
+/* global describe, it, expect */
 'use strict'
-const {nutritionsFilePath} = require('../../../files.js')
+const { nutritionsFilePath } = require('../../../files.js')
 const nutritions = require(nutritionsFilePath)
 
 describe('nutritions data files returns array', () => {
-  test('these tests prevent any issues and problems, also to break the structure of nutritions', () => {
+  it('these tests prevent any issues and problems, also to break the structure of nutritions', () => {
     expect(nutritions).not.toBe('')
   })
 })
