@@ -1,38 +1,33 @@
 import {
-  allergies,
-  course,
-  cuisine,
-  departments,
-  diet,
-  grocery,
-  holiday,
-  ingredients,
-  ingredients1,
-  ingredients3,
-  favorites,
-  items,
-  mealCalendar,
-  firstVeganGLMC,
-  measurements,
-  menu,
-  recipes,
-  nutritions,
-  nutritions2,
-  users,
-  userGrocery,
-  ultimateGroceryList,
-  groceryListWithUserRelations,
-  dbIngredients,
+  // allergies,
+  // course,
+  // cuisine,
+  // departments,
+  // diet,
+  // grocery,
+  // holiday,
+  // ingredients,
+  // ingredients1,
+  // ingredients3,
+  // favorites,
+  // items,
+  // mealCalendar,
+  // firstVeganGLMC,
+  // measurements,
+  // menu,
+  // recipes,
+  // nutritions,
+  // nutritions2,
+  // users,
+  // userGrocery,
+  // ultimateGroceryList,
+  // groceryListWithUserRelations,
+  // dbIngredients,
 
-  cookingTimes,
-  cup1
+  cup1,
+  cup12
 
  } from './files'
-
-
-cookingTimes.forEach(function(value) {
-    console.log(value);
-})
 
 
 cup1.forEach(function(value) {
@@ -40,33 +35,38 @@ cup1.forEach(function(value) {
 })
 
 
+cup12.forEach(function(value) {
+    console.log(value);
+})
 
-export default {
-  allergies,
-  course,
-  cuisine,
-  departments,
-  diet,
-  grocery,
-  holiday,
-  ingredients,
-  ingredients1,
-  ingredients3,
-  favorites,
-  items,
-  mealCalendar,
-  firstVeganGLMC,
-  measurements,
-  menu,
-  recipes,
-  nutritions,
-  nutritions2,
-  users,
-  userGrocery,
-  ultimateGroceryList,
-  groceryListWithUserRelations,
-  dbIngredients,
 
-  cookingTimes,
-  cup1
+
+export {
+  // allergies,
+  // course,
+  // cuisine,
+  // departments,
+  // diet,
+  // grocery,
+  // holiday,
+  // ingredients,
+  // ingredients1,
+  // ingredients3,
+  // favorites,
+  // items,
+  // mealCalendar,
+  // firstVeganGLMC,
+  // measurements,
+  // menu,
+  // recipes,
+  // nutritions,
+  // nutritions2,
+  // users,
+  // userGrocery,
+  // ultimateGroceryList,
+  // groceryListWithUserRelations,
+  // dbIngredients,
+
+  cup1,
+  cup12
 }
