@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { menuFilePath } = require('../files.js')
+const { menuFilePath } = require('../files')
 const menu = require(menuFilePath)
 
 describe('menu data files returns array', () => {

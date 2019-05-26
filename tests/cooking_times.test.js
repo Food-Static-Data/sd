@@ -16,7 +16,7 @@ const {
   marrowSquash,
   sweetcorn,
   courgettes
-} = require('../files.js')
+} = require('../files')
 
 describe('this test prevents to any issues and problems, also to break the structure of frenchBeans data', () => {
   it('frenchBeans data files returns object', () => {

@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { courseFilePath } = require('../files.js')
+const { courseFilePath } = require('../files')
 const courses = require(courseFilePath)
 
 describe('courses data files returns array', () => {
