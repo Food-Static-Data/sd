@@ -112,17 +112,16 @@
 //   })
 // })
 
-
 /* global describe, it, expect */
 const groceristar = require('../groceristar.js')
-  
+
 describe('getKeyArrayDepAndIng method', () => {
-     const notEmptyMethodOutput = (method) => {
+  const notEmptyMethodOutput = (method) => {
     it(`Groceristar ${method} return non empty string`, () => {
       const result = groceristar[method]
       expect(result).not.toBe('')
     })
-   }
-   
-notEmptyMethodOutput('getKeyArrayDepAndIng')
+  }
+
+  notEmptyMethodOutput('getKeyArrayDepAndIng')
 })
