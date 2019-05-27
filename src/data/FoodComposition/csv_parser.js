@@ -1,7 +1,8 @@
 const fs = require('fs')
 const csv = require('csv-parser')
+const path = require('path');
 
-fs.createReadStream(__dirname + '/Food_Composition.csv')
+fs.createReadStream(path.resolve(__dirname + '/Food_Composition.csv'))
   .pipe(csv())
   .on('data', function (data) {
     try {
