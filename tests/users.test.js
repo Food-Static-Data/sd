@@ -7,4 +7,16 @@ describe('users data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of users', () => {
     expect(users).not.toBe('')
   })
+  
+  it('validates users json', () => {
+  const schema = {
+    properties: {
+      name: { type: 'string' },
+      email: { type: 'string' },
+      password: { type: 'string' },
+    },
+    required: ['name','email','password'],
+  };
+  expect({ name: 'page',email:'page@gmail.com',password:'pagethesdwrapper' }).toMatchSchema(schema);
+});
 })
