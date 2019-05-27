@@ -7,7 +7,7 @@ var { getMenuGenerator } = require('./generateArray')
 // @TODO big issue
 function generateFile () {
   var fileName = 'generatedMenu'
-  var path = './output/' + fileName + '.json' //i don't like this paths. at least we can move first part outside - aka output...
+  var path = './output/' + fileName + '.json' // i don't like this paths. at least we can move first part outside - aka output...
   var data = getMenuGenerator(2)
 
   writeInFile.writeFile(path, data)
