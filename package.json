@@ -13,7 +13,7 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "files": "node --experimental-modules dist/index.cjs",
-    "jsonlint": "node ./src/data/jsonlint.config.js",
+    "jsonlint": "node jsonlint.config.js",
     "generateFile": "node ./generator/generateFile.js",
     "generateFiles": "node ./generator/generateFiles.js",
     "generateArray": "node ./generator/generateArray.js",

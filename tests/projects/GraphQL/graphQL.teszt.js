@@ -1,5 +1,5 @@
 /* global test, describe, expect */
-const graphQL = require('../graphQL.js')
+const graphQL = require('../../../generator/projects/GraphQL/graphQL.js')
 
 describe('graphQL methods should return data', () => {
   const nonEmptyMethodOutput = method => {
