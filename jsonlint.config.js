@@ -2,7 +2,7 @@
 var shell = require('shelljs')
 
 // @TODO add here all new generated at generator files too
-const jsonFiles = require('../../files.js')
+const jsonFiles = require('./files.js')
 
 //@TODO we can replace this loops with lodash simple versions.
 Object.keys(jsonFiles).forEach(function (key) {

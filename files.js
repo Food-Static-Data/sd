@@ -5,16 +5,16 @@ var path = require('path')
 const grocery = path.resolve(__dirname, './src/data/Grocery/grocery.json')
 // @TODO change import & path(change extension of file from js to json)
 // add to each variable
-const cookingTimes = path.resolve(__dirname, './src/data/Cooking_times/cooking_times.json')
+const cookingTimes = path.resolve(__dirname, './src/data/CookingTimes/cookingTimes.json')
 
 const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')
-const cup12 = path.resolve(__dirname, './src/data/Cup1_2/cup1_2.json')
-const cup14 = path.resolve(__dirname, './src/data/Cup1_4/cup1_4.json')
+const halfCup = path.resolve(__dirname, './src/data/HalfCup/halfCup.json')
+const quaterCup = path.resolve(__dirname, './src/data/QuaterCup/quaterCup.json')
 const cup18 = path.resolve(__dirname, './src/data/Cup1_8/cup1_8.json')
 const cup34 = path.resolve(__dirname, './src/data/Cup3_4/cup3_4.json')
 
 const dash = path.resolve(__dirname, './src/data/Dash/dash.json')
-const gallon1 = path.resolve(__dirname, './src/data/Gallon1/gallon1.json')
+const gallon = path.resolve(__dirname, './src/data/Gallon/gallon.json')
 const holiday = path.resolve(__dirname, './src/data/Holiday/holidays.json')
 
 const allergies = path.resolve(__dirname, './src/data/Allergy/allergies.json')
@@ -40,13 +40,13 @@ const nutritions = path.resolve(__dirname, './src/data/Nutrition/nutritions1.jso
 const nutritions2 = path.resolve(__dirname, './src/data/Nutrition/nutritions2.json')
 
 const pinch = path.resolve(__dirname, './src/data/Pinch/pinch.json')
-const pint1 = path.resolve(__dirname, './src/data/Pint1/pint1.json')
-const quart1 = path.resolve(__dirname, './src/data/Quart1/quart1.json')
+const pint = path.resolve(__dirname, './src/data/Pint/pint.json')
+const quart = path.resolve(__dirname, './src/data/Quart/quart.json')
 
 const recipe4 = path.resolve(__dirname, './src/data/Recipe4/recipe.json')
 
-const tablespoon1 = path.resolve(__dirname, './src/data/Tablespoon_1/tablespoon_1.json')
-const teaspoon1 = path.resolve(__dirname, './src/data/Teaspoon_1/teaspoon_1.json')
+const tablespoon = path.resolve(__dirname, './src/data/Tablespoon/tablespoon.json')
+const teaspoon = path.resolve(__dirname, './src/data/Teaspoon/teaspoon.json')
 const types = path.resolve(__dirname, './src/data/Types/types.json')
 
 const users = path.resolve(__dirname, './src/data/Users/users.json')
@@ -93,18 +93,18 @@ module.exports = {
   generatedMeasurementUnits,
   cookingTimes,
   cup1,
-  cup12,
-  cup14,
+  halfCup,
+  quaterCup,
   cup18,
   cup34,
   dash,
-  gallon1,
+  gallon,
   holiday,
   pinch,
-  pint1,
-  quart1,
+  pint,
+  quart,
   recipe4,
-  tablespoon1,
-  teaspoon1,
+  tablespoon,
+  teaspoon,
   types
 }

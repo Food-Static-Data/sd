@@ -1,4 +1,4 @@
-export const dietAndHealthLabel=[{
+[{
 		"Type": "Diet",
 		"Web Label": "Balanced",
 		"API Parameter": "balanced",
