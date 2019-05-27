@@ -8,6 +8,7 @@ describe('users data files returns array', () => {
     expect(users).not.toBe('')
   })
   
+  // @TODO you can move away this test and wrap it with another describe block
   it('validates users json', () => {
   const schema = {
     properties: {
@@ -17,6 +18,6 @@ describe('users data files returns array', () => {
     },
     required: ['name','email','password'],
   };
-  expect({ name: 'page',email:'page@gmail.com',password:'pagethesdwrapper' }).toMatchSchema(schema);
+  expect({ name: 'page', email:'page@gmail.com', password:'pagethesdwrapper' }).toMatchSchema(schema);
 });
 })
