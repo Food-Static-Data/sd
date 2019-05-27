@@ -38,7 +38,6 @@ function favorites () {
   var result = []
 
   usersId.map((user, index) => {
-
     result.push({
       'ingredient_id': ingredientsId[index++]['ingredient_id'],
       'user_id': user['user_id'],
@@ -46,7 +45,7 @@ function favorites () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
-    //@TODO why we have this structure in second time?
+    // @TODO why we have this structure in second time?
     result.push({
       'ingredient_id': ingredientsId[index++]['ingredient_id'],
       'user_id': user['user_id'],
@@ -54,7 +53,6 @@ function favorites () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
-
   })
 
   return result
@@ -66,9 +64,8 @@ function usersGrocery () {
   // return object for three users
   var result = []
 
-  //@TODO use lodash
+  // @TODO use lodash
   usersId.map((user, index) => {
-
     result.push({
       'user_id': user['user_id'],
       // one grocery id for all users
@@ -80,7 +77,6 @@ function usersGrocery () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
-
   })
   return result
 }
@@ -89,9 +85,8 @@ function items () {
   var ingredientsId = generateArrWithId(ingredients, 'ingredient_id')
   var items = [1, 2, 3]
   var result = []
-//@TODO use lodash
+  // @TODO use lodash
   items.map((item, index) => {
-
     result.push({
       'item_id': item,
       'name': ingredientsId[index++]['name'],
@@ -115,7 +110,7 @@ function items () {
 function getMeasurementSystem () {
   var result = []
   var measurementSystemId = generateArrWithId(measurementSystem, 'id')
-  //@TODO use lodash
+  // @TODO use lodash
   measurementSystemId.map(system => {
     result.push({
       'id': system.id,
@@ -130,7 +125,7 @@ function getMeasurementUnits () {
   var result = []
   var measurementUnitsId = generateArrWithId(measurementUnits, 'id')
   measurementUnitsId = generateArrWithId(measurementUnitsId, 'system_id')
-  //@TODO use lodash
+  // @TODO use lodash
   measurementUnitsId.map(unit => {
     result.push({
       'id': unit.id,
