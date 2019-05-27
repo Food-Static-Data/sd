@@ -10,14 +10,14 @@ describe('users data files returns array', () => {
   
   // @TODO you can move away this test and wrap it with another describe block
   it('validates users json', () => {
-  const schema = {
-    properties: {
-      name: { type: 'string' },
-      email: { type: 'string' },
-      password: { type: 'string' },
-    },
-    required: ['name','email','password'],
-  };
+    const schema = {
+      properties: {
+        name: { type: 'string' },
+        email: { type: 'string' },
+        password: { type: 'string' },
+      },
+      required: ['name','email','password'],
+    };
   expect({ name: 'page', email:'page@gmail.com', password:'pagethesdwrapper' }).toMatchSchema(schema);
 });
 })
