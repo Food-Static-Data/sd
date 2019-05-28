@@ -1,10 +1,9 @@
 /* global describe, it, expect */
 'use strict'
-
-const { matchers }=require('jest-json-schema');
+const {matchers}=require('jest-json-schema');
 expect.extend(matchers);
 
-const { types } = require('../files')
+const {types} = require('../files')
 
 describe('types data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of types', () => {
@@ -22,6 +21,6 @@ describe('types json schema testing', () => {
         },
         required: ['Field','Type','Description'],
       };
-      expect({ Field: 'from' ,Type:'integer',Description:'First result index as submitted'}).toMatchSchema(schema);
+      expect({ Field: 'from',Type:'integer',Description:'First result index as submitted'}).toMatchSchema(schema);
     });
 })
