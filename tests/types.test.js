@@ -1,9 +1,11 @@
 /* global describe, it, expect */
 'use strict'
-const {matchers}=require('jest-json-schema');
+
+const {matchers}=require('jest-json-schema');
 expect.extend(matchers);
 
-const {types} = require('../files')
+const {typesFile} = require('../files')
+const type=require(typesFile)
 
 describe('types data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of types', () => {
