@@ -21,9 +21,9 @@ describe('testng for teaspoon json data schema', () => {
           volume: { type: "string" },
           weight: { type: 'null' }
       },
-    required: [ 'name', 'americanStandart', 'americanStandartOunces','volume','weight' ]
-  
+    required: [ 'name', 'americanStandart', 'americanStandartOunces','volume','weight' ]  
   };
-  expect({ name: 'teaspoon' ,americanStandart:null, americanStandartOunces: null ,volume:'2 milliliters' ,weight:null}).toMatchSchema(schema);
+    
+  expect({ name: 'teaspoon', americanStandart: null, americanStandartOunces: null, volume:'2 milliliters', weight:null }).toMatchSchema(schema);
 });
 })
