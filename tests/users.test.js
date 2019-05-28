@@ -11,8 +11,11 @@ describe('users data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of users', () => {
     expect(users).not.toBe('')
   })
-  
-  // @TODO you can move away this test and wrap it with another describe block
+
+})
+
+
+describe('testing for user json schema', () => {
   it('validates users json', () => {
     const schema = {
       properties: {
