@@ -1,7 +1,11 @@
 <p align="center"><img src="https://avatars2.githubusercontent.com/u/36658223?s=200&v=4" alt=""/></p>
 <p>Static food wrapper module</p>
 
-[![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd) 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/GroceriStar/sd/)
+[![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=101)](https://github.com/GroceriStar/sd/)
+
 
 Table of Contents
 =================
@@ -101,6 +105,7 @@ Also you can write one file using function `writeFile()` just give it two parame
 - npm version patch
 - git commit
 - npm publish
-- git push --tags
+- git push --tags (if tag was not created - https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+
 ```
 
