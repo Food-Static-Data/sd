@@ -19,7 +19,8 @@ describe('testng for nutritionalAttribute json data schema', () => {
         Nutrition: { type: 'string' },
         Description: { type: 'string' },
         ImpliedUnits: { type: 'string' }
-           
+      },
+      
       required: [ 'Nutrition', 'Description', 'ImpliedUnits' ]
     }
 
