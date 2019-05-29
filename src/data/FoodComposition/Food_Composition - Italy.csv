@@ -1,0 +1,2507 @@
+Food class level 1,Metrics,Concentration levels,Concentration levels,Concentration levels,Concentration levels,Concentration levels,Concentration levels,Concentration levels,Concentration levels
+,Country,Italy,Italy,Netherlands,Netherlands,Sweden,Sweden,United Kingdom,United Kingdom
+,Food (FoodEx2 description),Microgram/100 gram,Milligram/100 gram,Microgram/100 gram,Milligram/100 gram,Microgram/100 gram,Milligram/100 gram,Microgram/100 gram,Milligram/100 gram
+"Additives,flavours, baking and processing aids","Artificial sweeteners (e.g., aspartam, saccharine)",0,0,0,0,0,0,0,0
+,Aspartame,0,0,0,0,0,0,0,0
+,Baking yeast,10.3,1265.22,1,1109.64,1,1102.75,1,3654.77
+,Cyclamate,0,0,0,0,0,0,0,0
+,Flavour enhancer,0,0,0,0,0,0,0,0
+,Modified starch,0,24.288,0,24.288,0,24.288,0,24.288
+,Preparations for gelling home-made food,0,1014.2,0,1014.2,0,1014.2,0,1014.2
+,Preparations for pickling vegetables,0,0,0,0,0,0,0,0
+,Preparations for raising and flavouring home-made bakery,0,9621.807,0,9621.807,0,8461.801,0,9621.807
+,Saccharine,0,0,0,4.05,0,4.05,0,0
+,Vanilla essence,0,177.84,0,0,0,0,0,0
+,Vanilla pods extract,0,1887.733,0,1887.733,0,1887.733,0,1887.733
+Alcoholic beverages,Alcopop and flavoured wine,0,11.076,0,12.001,,,0,12.001
+,Ale beer,0,71.043,0.1,58.344,0.1,94.095,0.1,58.344
+,"Beer, alcohol-free",0,86.95,0.02,45.828,,,0.02,74.07
+,"Beer, light",0,64.013,0.02,45.768,0,52.741,0.02,64.023
+,"Beer, regular",0.95,72.424,0.03,94.205,0,62.804,0.03,71.12
+,"Beer, strong",0,87.83,0.02,84.698,0,76.75,0.02,185.72
+,Brandy,0,2.091,0,0.36,0,0,0,0.361
+,Champagne-like wine,2.2,77.78,0.03,73.652,,,0.03,73.693
+,Chocolate liqueur,0,40.29,0,0.164,0,40.29,0,0.164
+,Cider,0,86.56,0,118.474,0,34.5107,0,86.6
+,Cocktail drink,0.184,117.091,0.184,117.091,,,0.184,65.416
+,Coffee liqueur,0,40.29,0,0.12,0,40.385,0,0.12
+,Cream liqueur,0,78.697,0.07,84.295,0,71.724,0,78.805
+,Egg liqueur,10.5,70.815,10.53,161.041,10.5,85.184,10.53,161.041
+,Fruit liqueur,0,8.173,0,0.02,0,0,0,0.02
+,Gin,0,6.04,0,0,0,0,,
+,Herb liqueur,0,6.03,0,0.02,0,0.269,0,0.02
+,Ice wine,0,148.933,0,148.933,0,148.933,0,148.933
+,Lager beer,0.95,70.007,0.14,53.479,0.14,53.479,0.12,71.153
+,Low-malt beers,0,89.163,0,89.163,0,89.163,0,89.163
+,Madeira,0.1,104.77,0,110.75,0.1,120.714,0,110.75
+,Mixed beer drinks,0.1,51.872,0.1,51.872,0.1,51.872,0.1,51.872
+,Noble rot wine,0.5,148.933,0.5,148.933,0.5,148.933,0.5,148.933
+,Port,0,124.62,0,124.83,0.1,120.714,0,124.83
+,Raisin wine,0.1,120.827,0.1,120.827,0.1,120.827,0.1,120.827
+,Red or ros� sparkling wine,0,99.094,0,99.094,0,99.094,0,99.094
+,Rum,0,7.53,0,0.103,0,0.013,0,101.82
+,Shandy,1.22,36.67,0,12.546,0.1,51.872,0,20.55
+,Sherry,0,92.57,0,87.69,0,172.524,0,92.61
+,Spirits made from stone fruits,0,46.121,0,8.169,0,8.169,0,8.039
+,Stout beer,0,87.31,0.1,87.401,0.1,78.641,0.1,87.401
+,Tequila and similar spirits,0,2.021,0,2.021,0,8.039,0,8.039
+,Vermouth,0,52.535,0,37.48,0.1,120.714,0,53.41
+,Vodka and vodka-like spirits,0,6.34,0,6.017,0,,0,101.82
+,Wheat beer,0,46.066,0,46.066,0,46.066,0,46.066
+,Whisky,0,0.175,0,5.08,0,0.05,,
+,"Wine, red",0.1,90.61,0,100.82,0.1,133.35,0,142.21
+,"Wine, ros�",0,101.15,0,101.15,,,0,101.15
+,"Wine, white",0.1,151.001,0,114.788,0.1,137.729,0,109.97
+Animal and vegetable fats and oils,Beef tallow (including processed suet),0,15.29,0,2.97,0,3.13,0,2.97
+,Blended fat and oils,6.6,135.175,6.6,59.401,6.5,84.394,6.6,59.401
+,"Blended fat and oils, QUAL Half fat or medium fat",24.8,446.62,24.8,446.62,24.6,93.0244,24.8,446.62
+,"Blended fat and oils, QUAL Low fat (naturally or reduced)",1.2,645.944,1.2,645.944,0.7,359.5159,1.2,645.944
+,"Blended fat and oils, QUAL Low sodium / reduced salt",6.1,135.175,6.1,135.175,6.1,135.195,6.1,135.175
+,Blended frying oil/fats,71.3,27.42,74.3,3.12,80,85.211,74.3,3.12
+,Blended margarine,,26.964,0.468,77.491,0.1,74.352,0.476,88.821
+,"Blended margarine, QUAL Half fat or medium fat",77.1,36.661,77.2,149.898,43.2,101.76,77.2,149.898
+,"Blended margarine, QUAL Low fat (naturally or reduced)",77.1,429.331,77.1,429.331,77.2,146.018,77.2,146.018
+,"Blended margarine, QUAL Low sodium / reduced salt",43,33.321,43,33.321,43,33.321,43,33.321
+,Butter,9.07,63.262,1.3,71.357,0.5,64.398,8.3,72.24
+,Butter and margarine/oil blends,,59.35,,59.35,,,,59.35
+,"Butter and margarine/oil blends, QUAL Half fat or medium fat",0.3,84.9,0.3,84.9,0.3,84.9,0.3,84.9
+,"Butter and margarine/oil blends, QUAL Low fat (naturally or reduced)",1.3,109.11,1.3,109.11,1.3,109.11,1.3,109.11
+,Butter oil,8.6,15.101,8.6,69.871,8.6,69.3536,8.6,69.871
+,"Butter, QUAL Half fat or medium fat",,,0.8,85.926,,,0.8,85.926
+,"Butter, QUAL Low fat (naturally or reduced)",0,190.097,1.3,85.127,1.5,381.491,1.3,85.127
+,Cocoa butter,15,1.8,0,1.8,0,1.8,15,2.05
+,Coconut oil/fat,10,1.017,10,0.132,10,0.132,10,1.799
+,Cod liver oil,0,19.87,0.005,31.371,0.005,31.371,0.005,23.141
+,"Cotton seed oil, edible",0,39.336,0,35.3,0,35.3,0,46.806
+,Functional vegetable margarines/fats,0,79.83,0,79.83,,,0,79.83
+,"Functional vegetable margarines/fats, QUAL Half fat or medium fat",,38,,38.75,0.2,39.941,,38.75
+,"Functional vegetable margarines/fats, QUAL Low fat (naturally or reduced)",,28,,28,,28,,28
+,Ghee,8,15.051,8,19.851,8,15.051,8,19.851
+,Grape seed oil,0,19,0,28.8,0,28.8,0,29.824
+,Herring oil,0,49.13,0,49.13,0,49.13,0,49.13
+,Linseed oil,0,4,0,17.5,21.6,6.67,0,4
+,"Maize oil, edible",3,34.6,1.9,17.21,0,29,,
+,"Olive oil, refined",55,19.6,0,5.11,0,11.9,0,5.11
+,"Olive oil, virgin or extra-virgin",55,27.06,55,5.11,55,16.092,55,5.51
+,"Palm kernel oil, edible",0,26.6,0,25.6,8,15.95,0,26.6
+,Palm oil/fat,8,34.211,8,15.921,8,6.1,8,37.531
+,"Peanut oil, edible",1,19.21,0,15.2,0,13.043,1,15.16
+,Pork lard,0,5.567,0,0.52,7,7.42,0,7.637
+,"Poultry fats, processed",0,2.73,0,2.72,0,2.72,0,9.8
+,Processed fat (blubber) of marine mammals,0.005,31.371,0.005,31.371,0.005,31.371,0.005,31.371
+,Pumpkin seed oil,0,4.5,0,4.5,0,4.5,0,4.5
+,"Rape seed oil, edible",113,22.3,0,18.402,128,23,113,25.36
+,"Safflower seed oil, edible",22,91.84,0,79.4,0,77.4,22,86.6
+,"Sesame seed oil, edible",10,30.62,10,1.4,0,1.4,10,30.7
+,Shortening and similar baking fats,16,42.336,13.8,105.6,39.7,0,13.8,26.78
+,"Shortening and similar baking fats, QUAL Half fat or medium fat",0,45.7,0,93.1,0,93.1,0,93.1
+,"Shortening and similar baking fats, QUAL Low fat (naturally or reduced)",,400.67,,400.67,,400.67,,400.67
+,"Shortening and similar baking fats, QUAL Low sodium / reduced salt",0,113.4,0,113.4,0,113.4,0,113.4
+,"Soya bean oil, refined",131,18.6,184.9,32.41,145,9.61,132,20.17
+,Spreadable vegetable fat-deprecated,43,48.37,0,89.306,,10,43,77.2
+,"Spreadable vegetable fat-deprecated, QUAL Half fat or medium fat",86.1,38.84,88.5,188.426,86.3,74.3728,88.5,177.426
+,"Spreadable vegetable fat-deprecated, QUAL Low fat (naturally or reduced)",86.2,56.954,88.5,156.926,86.3,68.7751,88.5,156.926
+,"Spreadable vegetable fat-deprecated, QUAL Low sodium / reduced salt",43,53.321,43,97.17,43,43.321,43,97.17
+,"Sunflower seed oil, edible",6,68.1,7.7,76,4,59.6,8.3,49.33
+,Tallow from other animals,0,18.49,0,18.49,0,18.49,0,18.49
+,Traditional margarine,45.2,57.809,0,89.306,0,12.206,43,55.123
+,"Traditional margarine, QUAL Half fat or medium fat",86.1,94.54,45.5,188.2,43.1,59.614,45.5,188.2
+,"Traditional margarine, QUAL Low fat (naturally or reduced)",86.1,369.51,45.5,156.7,43.1,58.614,45.5,119.7
+,"Traditional margarine, QUAL Low sodium / reduced salt",43,53.321,43,97.17,43,53.321,43,97.17
+,Walnut oil,15,10.8,0,0.4,0,0.4,15,1.44
+,Wheat germ oil,24,137.801,0,149.001,0,149.001,24,144.551
+"Coffee, cocoa, tea and infusions",Camomile infusion,0.1,12.189,0.1,12.189,0.1,12.189,0.1,12.189
+,Chicory coffee infusion,1.16,386.214,0.9,39.328,0.9,43.308,0.9,39.328
+,Chicory coffee ingredient,9.4,639.48,9.4,237.63,9.4,791.777,9.4,237.63
+,Cocoa beans (fermented or dried),5.2,5159.294,5.2,5159.294,5.2,5159.294,5.2,5159.294
+,Cocoa beverages,0.2,451.54,1.08,421.464,1.45,416.033,1.8,421.02
+,"Cocoa beverages, QUAL Low / Reduced sugar",3.1,309.357,3.2,409.095,3.1,309.357,3.2,409.095
+,"Cocoa beverages, QUAL Sugar free",1.1,309.357,1.4,446.007,1.1,309.357,1.4,446.007
+,Cocoa mass,7.2,4779.877,7.2,4779.877,8.4,5159.294,8.4,5159.294
+,Cocoa powder,6.9,874.967,14.3,5303.89,1,4800,18.3,2837.047
+,"Cocoa powder, QUAL Low / Reduced sugar",5.2,5155.744,5.2,5155.954,5.2,5155.744,5.2,5155.744
+,"Cocoa powder, QUAL Sugar free",5.2,5155.744,5.2,5155.954,5.2,5155.744,5.2,5155.744
+,Coffee (average strenght) beverage,0,124.271,0,88.94,,0,0,110.84
+,Coffee (weak strenght) beverage,0,57.624,0,88.731,0,78.699,0,76.74
+,"Coffee beans, roasted",5,2572.7,10,2566.241,10,2566.241,10,2566.241
+,Coffee beverage decaffeinated,0,129.617,0.1,47.356,0.1,47.356,0.1,77.024
+,"Coffee drink, caf� macchiato",0.4,349.44,0.4,349.44,0.4,349.44,0.4,349.44
+,"Coffee drink, cappuccino",1.2,221.254,1.21,198.048,1.2,221.254,1.21,198.048
+,Coffee espresso (beverage),0,209.628,0,87.447,0,209.62,0,136.437
+,"Coffee ground, roasted",10,2576.211,10,2566.241,10,2566.241,10,2566.241
+,"Coffee ground, roasted and decaffeinated",5,2565.9,5,2565.9,5,2565.9,5,2565.9
+,Coffee with milk or cream,0.8,222.541,0,116.937,0,86.118,0,56.96
+,Fermented tea infusion,0,31.247,0,16.138,0.1,41.135,0,78.387
+,Flowers used for herbal infusions,0,1073.183,0,1073.183,0,1073.183,0,1073.183
+,Fruit infusion,0.1,12.189,0.1,12.189,0.1,15.915,0.1,12.189
+,Herbal infusion materials from leaves and herbs,262,2350.582,262,2350.582,262,2350.582,262,2350.582
+,Hot chocolate,3.12,432.302,1.08,421.331,2.9,406.8951,1.8,421.02
+,Hot chocolate with added ingredients,0.23,455.84,0.23,455.84,0.23,455.84,0.23,455.84
+,"Hot chocolate with added ingredients, QUAL Sugar free",1.1,309.357,1.1,309.357,1.1,309.357,1.1,309.357
+,"Hot chocolate, QUAL Low / Reduced sugar",2.3,394.217,2.2,409.32,2.3,394.217,2.2,409.32
+,"Hot chocolate, QUAL Sugar free",1.1,309.357,1.4,446.007,1.1,309.357,1.4,446.007
+,Instant coffee (beverage),0,40.3,0,170.765,0.03,41.284,0,40.56
+,Instant coffee powder,9,4594.29,3,4931.04,3,4931.04,9,4594.29
+,"Instant coffee powder, decaffeinated",17.3,4272.532,17.3,4271.906,17.3,4271.906,17.3,4272.568
+,"Instant coffee powder, decaffeinated, QUAL Low / Reduced sugar",17.3,4272.568,17.3,4271.906,17.3,4271.906,17.3,4272.568
+,"Instant coffee powder, decaffeinated, QUAL Sugar free",17.3,4272.568,17.3,4271.906,17.3,4271.906,17.3,4272.568
+,"Instant coffee powder, QUAL Low / Reduced sugar",0.03,4907.649,0.03,4.243,0.03,4.243,0.03,4907.649
+,"Instant coffee powder, QUAL Sugar free",0.03,4907.649,0.03,4.243,0.03,4.243,0.03,4907.649
+,Jasmine infusion,0.1,12.189,0.1,12.189,0.1,12.189,0.1,12.189
+,Malt coffee infusion,1.1,60.45,1.1,60.45,1.1,60.45,1.1,60.45
+,Mixed coffee imitates,9.4,3440.38,9.4,3440.38,9.4,792.16,9.4,792.16
+,Non-fermented tea leaves (green or white tea),262,2350.582,262,2350.582,262,2350.582,262,2350.582
+,"Non-fermented tea, infusion",0.1,35.436,0.1,26.749,,,0.1,26.749
+,Rooibos infusion,0.1,12.189,0.1,12.189,0.1,12.189,0.1,12.189
+,Tea infusion with added flavouring ingredients,,,0.1,16.5356,,,,
+,Tea leaves and stalks decaffeinated,267.4,3525.757,267.4,2350.582,267.4,2350.582,267.4,2350.582
+,Tea leaves and stalks with fruit and flavours,0,1079.192,0,1079.192,0,1079.192,0,1079.192
+,"Tea leaves and stalks, fermented",267.4,3062.582,267.4,3518.09,267.4,3518.09,267.4,2350.582
+,Tea powder ingredients and extracts,0,7492.045,0,7492.045,0,7492.045,0,7492.045
+,"Tea, decaffeinated, infusion",0,31.247,0,29.431,0,29.431,0,29.431
+Composite dishes,Beans and meat meal,6.32,447.38,7.6,410.52,12,383.3089,7.6,410.52
+,Beans and vegetables meal,5,287.005,5,517.443,14.33,607.402,5,517.443
+,Beef loaf,28.7,642.18,28.7,642.18,26.2,677.5194,28.7,642.18
+,Bouillabaisse,12.9,385.152,12.9,385.152,,,12.9,385.152
+,Ceasar salad,4.2,450.7493,4.2,450.7493,4.2,450.7493,4.2,450.7493
+,Cereal products and grains based soup,9.59,212.875,9.59,212.875,0.59,145.9663,9.59,212.875
+,Cheese omelette,20.29,976.69,20.3,705.28,34.8,701.0059,20.3,705.28
+,Cheese savoury pie,4.4,411.804,0.4,305.162,14.1,543.8443,6.6,443.93
+,Creamed vegetable mix,18.92,345.32,18.3,570.81,1,260.046,18.3,570.81
+,Dairy/egg soup,6.6,192.89,6.6,192.89,,,6.6,192.89
+,Dolma,1.02,264.768,1.02,264.768,1.02,149.454,1.02,264.768
+,"Dolma, PROCESS Baking",26.2,264.768,26.2,264.768,26.4,524.7727,26.2,264.768
+,"Dolma, PROCESS Cooking in water",24,264.768,24,235.549,22.8,475.1543,24,399.139
+,"Dolma, PROCESS Steaming",24,264.768,24,235.549,22.8,475.1543,24,399.139
+,Doner kebab,3,459.497,7,458.1,2.26,357.355,7,458.1
+,Finger food,5.94,512.372,5.94,512.372,5.94,512.372,5.94,512.372
+,Fish and potatoes meal,11.3,479.194,10.7,461.072,12.3,664.5388,10.7,461.072
+,Fish and rice meal,1.69,244.874,25.7,534.264,10.5,513.7593,25.7,534.264
+,Fish and vegetables meal,34.7,448.722,36.7,428.349,,,36.7,428.349
+,Fish balls,15.1,466.913,15.1,466.913,,,15.1,466.913
+,"Fish balls, PROCESS Baking",4.4,492.631,4.4,492.631,4.4,492.631,4.4,492.631
+,"Fish balls, PROCESS Cooking in water",27.7,492.631,26.3,255.561,29.8,720.0823,26.3,255.561
+,"Fish balls, PROCESS Frying",17.4,492.631,13.7,472.87,13.7,472.87,17.4,492.631
+,"Fish balls, PROCESS Steaming",27.7,492.631,26.3,255.561,29.8,720.0823,26.3,255.561
+,"Fish fingers, breaded",16.45,480.186,36,466.22,,3.8,24,629.99
+,Fish gratin,17.9,572.602,17.9,572.602,,,17.9,572.602
+,Fish p�t�,18.05,335.471,20,350.81,14,502.492,20,350.81
+,Fish soup,19.55,337.992,19.55,337.992,14.8,431.0904,19.1,330.759
+,"Fish soup, INGRED Tap water",16.55,337.608,16.55,337.608,16.3,306.989,16.3,306.989
+,Fishcakes,11.45,546.789,11.3,432.347,,,11.3,432.347
+,Fried eggs,26.12,403.62,39.1,434.283,37.7,436.6135,23.6,470.31
+,Fruit soup,1.2,132.923,1.2,132.923,1.2,116.6824,1.2,132.923
+,Goulash,5.2,406.631,4.57,448.846,7.9,406.631,3.57,383.579
+,Greek salad,17.2,308.592,17.2,284.124,19.3,329.8011,17.2,284.124
+,Hamburger with bread,7.89,409.478,22,458.23,4.96,421.3569,22,458.23
+,Hot dog with bread,32.02,316.528,32.02,316.528,,,31.9,330.409
+,Hummus,2.4,444.028,4,460.31,,,4,460.31
+,Lasagna,5.65,389.29,6.2,456.169,6.4,511.7737,6.2,456.169
+,Legume (beans) soup,27.12,265.711,11.07,516.749,1.7,304.3795,11,162.43
+,Legumes based dishes,7.93,396.211,23,662.72,10.3,711.5157,23,662.72
+,Meat and vegetable soup,11.84,161.202,9.24,189.655,9.4,412.3632,9.24,290.742
+,Meat balls,21.1,517.918,16.99,900.763,3.1,518.716,19.6,477.973
+,Meat burger (no sandwich),25.5,674.69,22.52,492.325,40.1,441.7184,26,640.74
+,Meat in aspic,0,14.529,0,14.529,0.6,511.75,0.6,511.75
+,Meat loaf,33.4,334.168,33,552.5,,,33,552.5
+,"Meat loaf with cheese, vegetables or other",27.8,356.062,27.8,356.062,27.8,430.9994,27.8,356.062
+,Meat soup,7.26,107.011,8.24,191.489,9.1,264.0936,8,181.254
+,Meat stew,25.2,376.635,26.8,375.6,30.1,210.2277,26.8,375.6
+,Meat terrine,49.1,444.435,49.1,444.435,50,348.997,50,348.997
+,Mixed green salad,107,392.348,107,402.045,107,338.447,107,227.658
+,Mixed vegetable salad,31,395.55,31,402.947,31.3,377.2699,31.2,318.92
+,Mixed vegetables soup,20.8,240.822,19,96.912,19.4,242.3616,19,162.56
+,"Mixed vegetables, boiled",25.3,325.019,26,336.997,0.4,311.35,26,241.354
+,"Mixed vegetables, braised",25.7,337.158,25.7,337.158,25.7,398.225,25.7,398.225
+,"Mixed vegetables, fried",26.74,353.177,26.6,325.765,26.5,511.2847,26.6,325.765
+,"Mixed vegetables, grilled",26.4,324.391,26.4,324.391,,,26.4,418.513
+,Moussaka,8,889.85,8.8,476.78,,,8.8,476.78
+,Mushroom based dishes,19.7,453.677,19.1,464.956,37.9,409.942,19.1,464.956
+,Mushroom salad,10.82,383.028,10.82,383.028,31.7,366.0603,10.8,445.097
+,Mushroom soup,1.71,86.098,1,53.842,1.48,190.9395,2,121.765
+,Omelette with bacon,19.96,500.583,19.96,500.583,20.6,437.617,20.6,437.617
+,Omelette with mushrooms,23.18,408.065,23.18,408.065,23.7,494.462,23.7,494.462
+,Omelette with vegetables,22.23,457.63,15.9,359.96,,,15.9,359.96
+,"Omelette, plain",23.09,386.816,22.2,362.73,35.7,405.2683,22.2,362.73
+,Onion soup,2,71.862,0,94.727,0,40.7355,0,145.19
+,Paella,13.26,262.148,13.26,262.148,18.2,259.3741,13.5,227.653
+,Pasta based dishes (cooked),15.3,424.697,15.3,424.697,15.6,314.1915,15.3,424.697
+,"Pasta based dishes (cooked), PROCESS Baking",5.28,461.59,5.28,461.59,,,5.28,461.59
+,"Pasta based dishes (cooked), PROCESS Cooking in water",,354.5,,354.5,,354.5,,354.5
+,"Pasta based dishes (cooked), PROCESS Steaming",,354.5,,354.5,,354.5,,354.5
+,"Pasta-based dishes, uncooked",0,565.63,0,565.63,0,565.63,0,565.63
+,"Pasta-based dishes, uncooked, PROCESS Baking",1.6,130.065,1.6,130.065,1.6,130.065,1.6,130.065
+,"Pasta-based dishes, uncooked, PROCESS Cooking in water",14.6,443.43,3.21,326.321,1.29,611.12,3.21,354.08
+,"Pasta-based dishes, uncooked, PROCESS Steaming",3.6,130.445,3.21,326.321,1.29,611.12,3.21,354.5
+,"Pasta, cooked, with cheese/cream",3.11,229.674,3.11,229.674,3.8,654.631,3.8,654.631
+,"Pasta, cooked, with vegetables",8,150.355,8,150.355,,,8.2,175.345
+,"Pasta, cooked, with vegetables and cheese/cream",1,166.982,1,166.982,1,166.982,1,166.982
+,"Pasta, filled with meat mix, cooked",0,565.63,0,565.63,0,565.63,0,565.63
+,"Pasta, filled with meat mix, cooked, PROCESS Baking",1.6,130.065,1.6,130.065,1.6,130.065,1.6,130.065
+,"Pasta, filled with meat mix, cooked, PROCESS Cooking in water",3.6,130.112,3.21,325.044,1.3,215.7749,3.21,325.044
+,"Pasta, filled with meat mix, cooked, PROCESS Steaming",3.6,130.112,3.21,325.044,3.6,130.112,3.21,325.044
+,"Pasta, filled with vegetable mix, cooked",0,481.045,0,481.045,0,481.045,0,481.045
+,"Pasta, filled with vegetable mix, cooked, PROCESS Cooking in water",2.21,354.5,2.21,326.321,,,2.21,354.5
+,"Pasta, filled with vegetable mix, cooked, PROCESS Steaming",2.21,354.5,2.21,326.321,2.21,354.5,2.21,354.5
+,Pastas and rice (or other cereal) �based dishes,1.3,172.859,1.3,172.859,1.3,172.859,1.3,172.859
+,"Pastas and rice (or other cereal) �based dishes, PROCESS Baking",,,,436.39,,436.39,,436.39
+,"Pastas and rice (or other cereal) �based dishes, PROCESS Cooking in water",,,,156.38,,156.38,,156.38
+,"Pastas and rice (or other cereal) �based dishes, PROCESS Steaming",,,,342.27,,342.27,,342.27
+,Pizza and similar with cheese topping,0.28,216.1,2.08,449.332,,,7.2,644.2
+,"Pizza and similar with cheese, and mushrooms",6.2,367.109,6.08,449.365,,,6.08,449.365
+,"Pizza and similar with cheese, and vegetables",6.1,287.371,6.08,449.332,,,6.08,577.99
+,"Pizza and similar with cheese, meat, and mushrooms",2,2.675,5.13,378.377,,,5.13,378.377
+,"Pizza and similar with cheese, meat, and vegetables",9.03,565.49,6.13,378.377,6.29,564.68,6.5,688.59
+,"Pizza and similar with meat, and vegetables",5.2,364.036,5.13,378.377,5.29,492.497,5.13,378.377
+,Poached eggs,22.28,410.658,21,407.74,21.5,405.387,21,407.74
+,Pork meat loaf,22.4,696.027,22.4,696.027,22.4,696.027,22.4,696.027
+,Potato casserole,4.2,397.162,4,411.884,6.5,648.3817,4,411.884
+,Potato croquettes,4,293.995,4,483.57,8.24,474.9828,4,476.326
+,Potato soup,3.81,230.523,2.2,241.7,2.4,361.762,2.2,241.7
+,Potatoes and cheese meal,4.17,383.884,5.6,443.93,,,5.6,443.93
+,Potatoes and meat meal,5.62,315.152,4.4,324.699,2.2,497.7295,4.4,324.699
+,Potatoes and vegetables meal,11.3,432.162,11.4,453.656,9.4,241.4726,11.4,453.656
+,"Potatoes, meat, and vegetables meal",6.2,482.567,5.6,388.089,1.4,439.2126,5.6,388.089
+,Prepared fish salad,9.45,377.758,41.78,462.306,,3,41.78,462.306
+,Prepared legume (beans) salad,20,300.434,22,327.86,,0.3,22,327.86
+,Prepared meat salad,7,301.956,9.37,373.534,,,9.37,373.534
+,Prepared mixed egg/meat/fish/vegetable salad,32.2,294.502,32.2,294.502,,,32.2,294.502
+,Prepared nut salad,14,247.156,14,416.35,14.3,343.7322,14,416.35
+,Prepared pasta salad,11.53,285.323,11.53,285.323,,,11.4,207.663
+,Prepared potato salad,6,342.73,7.6,297.063,6.6,555.0419,7.3,262.144
+,Prepared rice salad,10,330.16,10,330.16,19.5,368.3856,10,215.986
+,Quiche,24.195,327.973,24.65,496.021,23.3,488.466,24.5,697.98
+,Ratatouille,11.2,320.678,10,348.299,,,10,348.299
+,Rice and meat meal,10.1,189.87,9.16,161.211,,,10.3,341.89
+,Rice and vegetables meal,16,172.24,13.16,160.811,,,16,407.76
+,"Rice based dishes cooked, PROCESS Baking",,,,337.75,,337.75,,337.75
+,"Rice based dishes cooked, PROCESS Cooking in water",4,330.66,4,330.66,,,4,330.66
+,"Rice based dishes cooked, PROCESS Steaming",3.54,163.538,3.54,163.538,,,3.54,163.538
+,Rice pudding,2.08,263.824,2.2,317.94,,,2.2,317.94
+,"Rice, meat, and vegetables meal",5.54,163.038,6.16,160.251,,,6.16,160.251
+,Risotto,3.7,36.618,3.7,377.678,3.8,125.8614,3.7,377.678
+,Roesti,2.27,705.873,2.27,349.212,,,2.27,349.212
+,Sandwich and sandwich-like dishes,9.69,413.749,9.69,413.749,9.5,304.42,9.5,304.42
+,Sandwich with cheese and vegetable topping/filling,12.4,1126.927,12.4,1126.927,11.6,411.3332,12.4,1126.927
+,Sandwich with cheese topping/filling,10.16,442.895,10.7,662.99,8.72,850.4749,10.7,662.99
+,Sandwich with fish and vegetable topping/filling,14.01,325.508,14.01,325.508,32.27,420.172,30.6,592.415
+,Sandwich with fish topping/filling,14.01,325.508,38.4,395.86,,,38.4,395.86
+,Sandwich with meat and vegetable topping/filling,12.92,313.341,12.2,388.18,29.5,401.9386,12.2,388.18
+,Sandwich with processed meat topping/filling,8.4,577.184,11.2,444.35,12.9,360.9251,11.2,444.35
+,Sausage roll,7.8,319.945,7.8,319.945,7.8,319.945,7.8,319.945
+,Seafood salad,45.8,429.803,47.78,465.131,,,58,427.23
+,Seafood-based meals,5.6,444.58,25.7,537.848,14.51,355.017,25.7,537.848
+,Spring rolls,19.72,278.029,17.17,302.275,,,17.17,231.59
+,Tomato soup,3.99,34.324,3,54.697,0.2,170.0782,3,237.77
+,Vegetable casserole,21.1,280.469,21,411.71,26.4,574.3737,21,411.71
+,Vegetable souffl�,83.7,455.468,83.7,455.468,83.7,455.468,83.7,455.468
+,"Vegetables, gratinated",84.92,345.112,85.4,453.712,,,85.4,453.712
+Eggs and egg products,Boiled eggs,23.11,387.358,30.54,479.524,54.32,392.56,21.1,407.73
+,Duck eggs,5.4,407.423,5.4,534.33,5.4,534.33,5.4,479.14
+,"Duck eggs, PROCESS Cooking in water",4.3,396.489,4.3,396.489,4.3,396.489,4.3,396.489
+,Eggs from other eggs producer birds,89.6,412.93,89.6,433.56,89.6,433.58,89.6,433.56
+,"Eggs from other eggs producer birds, PROCESS Cooking in water",4.1,481.179,4.1,481.179,4.1,481.179,4.1,481.179
+,Geese eggs,5.1,487.956,5.1,505.215,5.1,505.215,5.1,507.185
+,"Geese eggs, PROCESS Cooking in water",4.1,481.179,4.1,481.179,4.1,481.179,4.1,481.179
+,Hen egg mixed whole,7.59,412.62,18.92,455.489,53.9,399.37,18.77,455.489
+,"Hen egg mixed whole, dried",51.6,1711.598,53.2,1803.18,92.55,1622.516,53.2,1803.18
+,Hen egg white,3.256,173.12,6.65,179.52,20.1,171.43,6.1,203.103
+,"Hen egg white, dried",49.5,1361.792,49.18,1407.317,49.18,1407.317,50,1658.9
+,Hen egg yolk,13.6,823.058,25.22,900.67,143.48,811.72,27.77,784.298
+,"Hen egg yolk, dried",6.2,1731.833,5.33,1485.321,5.33,1485.321,6.2,1731.833
+,Hen eggs,7.59,412.62,18.92,455.489,57.4,419.6,13.78,407.87
+,"Hen eggs, PROCESS Cooking in water",23.11,387.362,30.54,479.094,36.2,419.77,21,407.74
+,"Hen eggs, PROCESS Frying",16.12,403.652,29.1,434.283,27.7,436.6135,13.6,470.31
+,Quail eggs,35.8,428.813,35.8,464.285,35.5,420.84,35.8,464.285
+,"Quail eggs, PROCESS Cooking in water",10.5,406.744,10.5,406.744,10.5,406.744,10.5,406.744
+"Fish, seafood, amphibians, reptiles and invertebrates",Amphibians and Reptiles,14.1,505.09,14.1,505.09,14.1,505.09,14.1,505.09
+,Anchovies,26.9,675.419,23.5,548.345,68,402.96,20.6,664.547
+,"Anchovies, PROCESS Baking",0.6,708.376,0.6,708.376,0.6,708.376,0.6,708.376
+,"Anchovies, PROCESS Cooking in water",20.6,688.331,20.6,688.331,20,423.627,20.6,688.331
+,"Anchovies, PROCESS Frying",0.6,709.979,0.6,709.979,0.6,709.979,0.6,709.979
+,"Anchovies, PROCESS Steaming",0.6,688.331,0.6,688.331,0.6,688.331,0.6,688.331
+,Anglerfish and monkfish,38,619.857,39,665.55,39,511.565,39,665.55
+,"Anglerfish and monkfish, PROCESS Baking",2.1,534.246,2.1,960.565,2.1,534.246,2.1,960.565
+,"Anglerfish and monkfish, PROCESS Cooking in water",2.1,532.863,2.1,532.863,2.1,532.863,2.1,532.863
+,"Anglerfish and monkfish, PROCESS Frying",2.1,532.863,2.1,532.863,2.1,532.863,2.1,532.863
+,"Anglerfish and monkfish, PROCESS Steaming",2.1,532.863,2.1,532.863,2.1,532.863,2.1,532.863
+,Atlantic salmon,27.33,658.191,30,694.65,,0.08,30,673.05
+,"Atlantic salmon, PROCESS Baking",35.2,688.953,21.02,867.183,35.2,688.747,36,803.93
+,"Atlantic salmon, PROCESS Cooking in water",31.9,659.121,25.99,866.502,31.9,658.928,32,727.678
+,"Atlantic salmon, PROCESS Curing",,,,,31,568.6,,
+,"Atlantic salmon, PROCESS Frying",32.5,689.555,32.5,689.555,32,751.4801,32.5,689.555
+,"Atlantic salmon, PROCESS Preserving with salt",,,29.6,685.129,30,685.89,29.6,657.019
+,"Atlantic salmon, PROCESS Steaming",22.05,705.941,25.99,866.502,31.9,658.928,32,727.678
+,"Atlantic salmon, PROD Farmed / cultivated / aquaculture",,,,,,,,
+,"Atlantic salmon, STATE Primal cuts / fillets / halves or quarters",,,,,,,,
+,Barracudas,2,508.383,2,508.383,2,508.383,2,508.383
+,"Barracudas, PROCESS Baking",11.6,706.798,11.6,706.798,11.6,706.798,11.6,706.798
+,"Barracudas, PROCESS Cooking in water",11.5,701.712,11.5,701.712,11.5,701.712,11.5,701.712
+,"Barracudas, PROCESS Frying",11.6,706.798,11.6,706.798,11.6,706.798,11.6,706.798
+,"Barracudas, PROCESS Steaming",11.5,701.712,11.5,701.712,11.5,701.712,11.5,701.712
+,Bogue,,442,,442,,442,,442
+,"Bream, silver",2,573.19,2,573.19,2,573.19,2,573.19
+,Canned/jarred fish in brine-deprecated,28.84,479.764,29,614.2,,,83,456.7
+,"Canned/jarred fish in brine-deprecated, RACSOURCE Atlantic salmon",29.6,697.421,,,,,,
+,Canned/jarred fish in oil-deprecated,31.8,564.67,95,563.82,47,865.22,96,531.69
+,"Canned/jarred fish in vinegar, pickles or sauces-deprecated",50,347.47,34.4,775.85,70.2,566.088,39,618.73
+,Canned/jarred smoked fish in oil-deprecated,37,777.545,37,777.545,42.9,612.089,42.9,612.089
+,Carps,4.5,602.984,4.5,783.695,4.5,783.695,4.5,783.695
+,"Carps, PROCESS Baking",24.7,785.02,24.7,785.02,24.8,828.883,24.8,828.883
+,"Carps, PROCESS Cooking in water",4.5,799.08,4.5,799.08,4.5,799.08,4.5,799.08
+,"Carps, PROCESS Frying",4.7,847.196,4.7,847.196,4.7,847.196,4.7,847.196
+,"Carps, PROCESS Steaming",4.5,799.08,4.5,799.08,4.5,799.08,4.5,799.08
+,Catfishes (freshwater),59.6,579.97,59.7,531.815,,,59.5,516.56
+,"Catfishes (freshwater), PROCESS Baking",2.3,714.02,2.3,714.02,,,2.3,714.02
+,"Catfishes (freshwater), PROCESS Cooking in water",2.3,707.89,3,625.85,,,3,625.85
+,"Catfishes (freshwater), PROCESS Frying",2.3,714.02,2.3,714.02,,,2.3,714.02
+,"Catfishes (freshwater), PROCESS Steaming",2.3,707.89,3,625.85,,,3,625.85
+,Clams,2,595.468,2,595.468,2,595.468,2,595.468
+,"Clams, cockles, arkshells",1.8,571.47,52.8,634.91,52.8,551.611,52.8,634.91
+,"Clams, cockles, arkshells, PROCESS Baking",8.7,585.318,8.7,585.318,8.7,585.318,8.7,585.318
+,"Clams, cockles, arkshells, PROCESS Cooking in water",31.4,632.189,65,435.72,51,550.983,65,435.72
+,"Clams, cockles, arkshells, PROCESS Frying",8.7,585.318,8.7,585.318,8.7,585.318,8.7,585.318
+,"Clams, cockles, arkshells, PROCESS Steaming",50.6,510.167,65,435.72,50.6,510.167,65,435.72
+,"Clams, PROCESS Baking",8.7,585.318,8.7,585.318,8.7,585.318,8.7,585.318
+,"Clams, PROCESS Cooking in water",91.3,440.22,91.3,440.22,59.8,549.383,59.8,549.383
+,"Clams, PROCESS Frying",8.7,585.318,8.7,585.318,8.7,585.318,8.7,585.318
+,"Clams, PROCESS Steaming",7.6,508.7,7.6,508.7,7.6,508.7,7.6,508.7
+,Cockles,41,346.1,41,346.1,41,346.1,41,346.1
+,"Cockles, PROCESS Cooking in water",90,421.48,90,421.48,90,421.48,90,421.48
+,"Cockles, PROCESS Steaming",90,421.48,90,421.48,90,421.48,90,421.48
+,Cod,17.53,569.065,38,496.306,28,556.353,29,558.53
+,Cod liver,35.6,276.66,73.5,278.75,73.5,278.75,73.5,254.9
+,Cod roe,9,704.56,17.7,804.636,17.7,804.176,11,513.367
+,"Cod roe, PROCESS Smoking",,0.87,53.2,770.404,53.2,770.164,,0.74
+,"Cod, atlantic",,,,,,,,
+,"Cod, murray",29.81,584.19,29.81,584.19,29.81,584.19,29.81,584.19
+,"Cod, murray, PROCESS Cooking in water",0,3.67,0,3.67,0,3.67,0,3.67
+,"Cod, murray, PROCESS Frying",,1.07,,1.07,,1.07,,1.07
+,"Cod, murray, PROCESS Steaming",0,3.67,0,3.67,0,3.67,0,3.67
+,"Cod, PROCESS Boiling",,100,,100,,100,53.2,329.048
+,"Cod, PROCESS Drying (dehydration)",53.2,750.776,,100,,100,,100
+,"Cod, PROCESS Preserving with salt",,,,,,,,
+,"Cod, STATE Slices, steaks or other flat cuts",,,,,,,,
+,"Cods, hakes, haddocks",,,,0.1,,0.1,,0.09
+,"Cods, hakes, haddocks, PROCESS Baking",24.4,595.58,36,584.78,35.3,628.625,36,584.78
+,"Cods, hakes, haddocks, PROCESS Cooking in water",30.6,637.414,39,722.19,31.2,597.823,32,638.18
+,"Cods, hakes, haddocks, PROCESS Frying",38.3,628.761,39,533.693,38.3,628.761,39,533.693
+,"Cods, hakes, haddocks, PROCESS Steaming",30.6,637.414,33.4,655.844,31.2,597.823,32,638.18
+,Conger,1,674.382,1,674.382,1,674.382,1,674.382
+,"Conger, european",1,674.782,3,619.48,1,674.782,3,619.48
+,"Conger, european, PROCESS Baking",1.1,708.977,4,739.9,1.1,708.977,4,739.9
+,"Conger, european, PROCESS Cooking in water",31.1,698.259,34,501.869,31.1,698.259,34,501.869
+,"Conger, european, PROCESS Frying",1.1,707.494,1.1,707.494,1.1,707.494,1.1,707.494
+,"Conger, european, PROCESS Steaming",31.1,698.259,34,501.869,31.1,698.259,34,501.869
+,"Conger, PROCESS Baking",1.1,707.494,1.1,707.494,1.1,707.494,1.1,707.494
+,"Conger, PROCESS Cooking in water",31.1,698.259,34,501.869,31.1,698.259,34,501.869
+,"Conger, PROCESS Frying",1.1,707.494,1.1,707.494,1.1,707.494,1.1,707.494
+,"Conger, PROCESS Steaming",31.1,698.259,34,501.869,31.1,698.259,34,501.869
+,"Crabmeat, cooked-deprecated",47.3,279.085,26,413.37,12.29,269.28,84,535.46
+,"Crabs, sea-spiders",46,694.17,95.5,567.62,82,567.7,82.8,664.925
+,"Crabs, sea-spiders, PROCESS Baking",0.9,711.522,0.9,711.522,0.9,711.522,0.9,712.349
+,"Crabs, sea-spiders, PROCESS Cooking in water",67.1,696.905,60,717.88,50,379.49,84.8,784.087
+,"Crabs, sea-spiders, PROCESS Frying",0.8,693.911,0.8,693.911,0.8,693.911,0.8,694.741
+,"Crabs, sea-spiders, PROCESS Steaming",84.8,698.347,60,717.88,50,379.49,84.8,784.087
+,Cuttlefishes,68,488.33,68,481.69,67,681.4,67,681.4
+,"Cuttlefishes, PROCESS Cooking in water",2,1,2,1,2,1,2,1
+,"Cuttlefishes, PROCESS Frying",2,481.2,2,481.2,2,481.2,2,481.2
+,"Cuttlefishes, PROCESS Steaming",2,1,2,1,2,1,2,1
+,Diadromous fish,3.9,656.313,3.9,666.943,3.9,666.943,3.9,666.943
+,"Diadromous fish, PROCESS Baking",4.2,688.953,4.2,688.953,4.2,688.953,4.2,688.953
+,"Diadromous fish, PROCESS Cooking in water",3.9,659.121,3.9,659.121,3.9,659.121,3.9,659.121
+,"Diadromous fish, PROCESS Frying",4.2,689.555,4.2,689.555,4.2,689.555,4.2,689.555
+,"Diadromous fish, PROCESS Steaming",3.9,659.121,3.9,659.121,3.9,659.121,3.9,659.121
+,Dories,72,574.12,72,574.12,72,574.12,72,574.12
+,Dried fish,159.6,1073.299,156.85,1489.149,,,159,694.709
+,"Dried fish, PROCESS Baking",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,"Dried fish, PROCESS Cooking in water",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,"Dried fish, PROCESS Steaming",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,Drums,,679.3,,679.3,,679.3,,679.3
+,Fish paste or surimi,29.6,450.24,20.6,385.826,20.6,385.826,20.6,933.71
+,"Flat-fishes, dried",3.6,1073.299,0.8,617.546,0.8,617.546,3.6,1073.299
+,"Flat-fishes, dried, PROCESS Baking",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,"Flat-fishes, dried, PROCESS Cooking in water",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,"Flat-fishes, dried, PROCESS Steaming",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,Flounders,21.4,535.784,23.4,646.126,25,538.54,27,548.79
+,"Flounders, PROCESS Baking",1.1,572.227,1.1,572.227,1.1,572.227,1.1,572.227
+,"Flounders, PROCESS Cooking in water",33.1,572.246,33,491.365,33.1,572.246,33,628.515
+,"Flounders, PROCESS Frying",31.1,572.227,31.1,572.227,31,611.2088,31.1,572.227
+,"Flounders, PROCESS Steaming",33.1,572.246,33,491.365,33.1,572.246,33,628.515
+,Freshwater bream - Europe,25.6,564.947,25.6,658.158,30,659.64,25.6,564.947
+,Freshwater crabs,,545.25,,545.25,,545.25,,545.25
+,Freshwater crayfishes,72,569.58,17.1,343.63,52,274.65,72,566.73
+,"Freshwater crayfishes, cooked-deprecated",132.7,572.963,132,556.841,64.8,341.811,132,556.841
+,"Freshwater crayfishes, PROCESS Baking",2.9,595.805,2.9,595.755,2.9,595.755,2.9,595.755
+,"Freshwater crayfishes, PROCESS Cooking in water",132.7,571.015,132,556.45,132.7,570.965,132,556.45
+,"Freshwater crayfishes, PROCESS Frying",52.9,593.518,52.9,595.755,50.5,564.246,52.9,595.755
+,"Freshwater crayfishes, PROCESS Steaming",132.6,519.521,132,556.45,132.6,519.471,132,556.45
+,Freshwater crustaceans,47.85,479.017,47.85,479.017,46.3,663.862,46.3,663.862
+,"Freshwater crustaceans, PROCESS Baking",0.9,711.894,0.9,711.894,0.9,711.894,0.9,711.894
+,"Freshwater crustaceans, PROCESS Cooking in water",0.8,693.911,0.8,693.911,0.8,693.911,0.8,693.911
+,"Freshwater crustaceans, PROCESS Frying",0.9,711.894,0.9,711.894,0.9,711.894,0.9,711.894
+,"Freshwater crustaceans, PROCESS Steaming",0.8,624.81,0.8,624.81,0.8,624.81,0.8,624.81
+,Freshwater fish,33,530.654,25,523.75,25,523.75,33,668.014
+,"Freshwater fish, PROCESS Baking",16.97,680.293,16.97,680.293,17.4,700.839,17.4,700.839
+,"Freshwater fish, PROCESS Cooking in water",14,670.774,14,670.774,,,14,670.774
+,"Freshwater fish, PROCESS Frying",14.5,714.315,14.5,714.315,14.5,714.315,14.5,714.315
+,"Freshwater fish, PROCESS Steaming",17,588.843,17,588.843,,,17,670.774
+,Freshwater shrimps or prawns,30,771.78,30,771.78,30,771.78,30,771.78
+,"Freshwater shrimps or prawns, PROCESS Cooking in water",47.85,474.51,47.85,474.51,47.85,474.51,47.85,474.51
+,Frogs (legs),14.1,797.12,14.1,507.79,14.1,507.79,14.1,507.79
+,Garfish,33.6,615.597,33.6,615.517,33.6,615.517,33.6,615.597
+,Hakes,26.02,502.693,26.02,577.193,,,26.02,502.693
+,"Hakes, PROCESS Baking",,626.04,,626.04,,,,626.04
+,"Hakes, PROCESS Cooking in water",26.5,448.978,26.5,448.978,26.5,448.978,26.5,448.978
+,"Hakes, PROCESS Steaming",26.5,448.978,26.5,448.978,26.5,448.978,26.5,448.978
+,Halibut,37.5,668.633,37.46,665.737,37.46,665.737,37.5,676.543
+,"Halibut, PROCESS Baking",1.1,733.679,1.37,629.448,1.1,733.679,1,806.65
+,"Halibut, PROCESS Cooking in water",1,700.405,1,841.33,1,700.405,1,841.33
+,"Halibut, PROCESS Frying",1.1,733.562,1.1,733.562,1.1,733.562,1.1,733.562
+,"Halibut, PROCESS Steaming",1,700.405,1,841.33,1,700.405,1,841.33
+,Herring roe,18,675.795,6,1330.075,18,675.795,6,1330.075
+,"Herring, atlantic",43.5,686.446,44,593.12,43.5,686.446,48,653.11
+,"Herring, atlantic, PROCESS Baking",61,873.05,61,873.088,55,711.253,61,873.088
+,"Herring, atlantic, PROCESS Cooking in water",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,"Herring, atlantic, PROCESS Frying",61,872.662,61,872.662,55,710.836,55,710.836
+,"Herring, atlantic, PROCESS Pickling",27.84,137.643,28.1,205.33,35.2,629.333,28.1,90.383
+,"Herring, atlantic, PROCESS Steaming",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,Herrings,42.3,541.193,44,593.32,30.4,623.97,48,653.11
+,"Herrings, PROCESS Baking",61,873.05,61,873.088,55,711.253,61,873.088
+,"Herrings, PROCESS Cooking in water",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,"Herrings, PROCESS Frying",9,710.836,9,710.836,9,710.808,9,710.836
+,"Herrings, PROCESS Pickling",27.84,209.814,25.1,204.4,30,350.22,25.1,90.333
+,"Herrings, PROCESS Steaming",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,Largemouth black bass,,202.24,,202.24,,202.24,,202.24
+,"Lobster, european",55,589.87,44.4,372.115,42.3,506.273,39.1,550.658
+,"Lobster, european, PROCESS Baking",1.1,589.982,1.1,589.982,1.1,589.941,1.1,589.921
+,"Lobster, european, PROCESS Cooking in water",68.5,593.39,132,556.17,52.8,631.1987,57,627.93
+,"Lobster, european, PROCESS Frying",1.1,589.982,1.1,589.982,1.1,589.941,1.1,589.921
+,"Lobster, european, PROCESS Steaming",39,517.246,132,556.17,52.8,631.1987,57,627.93
+,"Lobster, norway",55.9,487.32,55.9,487.32,55.9,487.32,55.9,487.32
+,"Lobster, norway, PROCESS Cooking in water",132,552.67,132,552.67,,,132,552.67
+,"Lobster, norway, PROCESS Steaming",132,552.67,132,552.67,,,132,552.67
+,"Lobsters (including lobster meat), cooked-deprecated",24.3,452.58,2,556.17,38.6,470.78,57,627.93
+,Mackerel,20.8,701.13,41.5,690.81,40.3,576.54,40,539.85
+,Mackerel and mackerel-like fishes-deprecated,20.8,701.13,43.5,691.71,41,682.177,40,539.85
+,"Mackerel and mackerel-like fishes-deprecated, PROCESS Baking",53.6,797.473,39,646.67,47.6,706.798,39,646.67
+,"Mackerel and mackerel-like fishes-deprecated, PROCESS Cooking in water",47.5,701.712,44,695.74,42,606.917,44,695.74
+,"Mackerel and mackerel-like fishes-deprecated, PROCESS Frying",63.6,475.5,51,682.445,49.6,706.931,51,682.445
+,"Mackerel and mackerel-like fishes-deprecated, PROCESS Steaming",47.5,701.712,44,695.74,47.5,701.712,44,695.74
+,"Mackerel, PROCESS Baking",53.6,797.473,39,646.67,,,39,646.67
+,"Mackerel, PROCESS Cooking in water",47.5,701.712,44,695.74,47.5,701.712,44,695.74
+,"Mackerel, PROCESS Frying",63.6,475.5,51,682.445,49.6,706.931,51,682.445
+,"Mackerel, PROCESS Steaming",47.5,701.712,44,695.74,47.5,701.712,44,695.74
+,"Marine shrimps or prawns, cooked-deprecated",13.85,415.532,31,465.702,19.7,543,31,702.88
+,Miscellaneous coastal marine fishes,4.77,579.353,51.4,681.943,51.4,682.023,50,669.73
+,"Miscellaneous coastal marine fishes, PROCESS Baking",19.1,609.424,57,782.02,60.9,432.225,57,782.02
+,"Miscellaneous coastal marine fishes, PROCESS Cooking in water",7,483.76,7,483.89,11.5,701.469,11.5,701.331
+,"Miscellaneous coastal marine fishes, PROCESS Frying",11.6,706.413,11.6,706.413,11.6,706.493,11.6,706.413
+,"Miscellaneous coastal marine fishes, PROCESS Steaming",28.5,456.657,28.5,456.787,38,701.469,38,701.431
+,Miscellaneous demersal marine fishes,18,602.042,18,734.195,18,734.195,18,602.042
+,"Miscellaneous demersal marine fishes, PROCESS Baking",18.1,609.233,18.1,609.233,19,642.257,19,642.257
+,"Miscellaneous demersal marine fishes, PROCESS Cooking in water",24.2,442.852,24.2,442.852,23.6,616.172,23.6,616.172
+,"Miscellaneous demersal marine fishes, PROCESS Frying",1.6,642.587,1.6,642.587,1.6,642.587,1.6,642.587
+,"Miscellaneous demersal marine fishes, PROCESS Steaming",26.5,450.39,26.5,450.39,28,616.172,28,616.172
+,Miscellaneous marine crustaceans,0.8,663.862,0.8,663.862,0.8,663.862,0.8,663.862
+,"Miscellaneous marine crustaceans, PROCESS Baking",13.85,415.608,13.85,415.608,13.4,711.894,13.4,711.894
+,"Miscellaneous marine crustaceans, PROCESS Cooking in water",13.85,414.327,13.85,414.327,13.3,693.911,13.3,693.911
+,"Miscellaneous marine crustaceans, PROCESS Frying",13.85,415.608,13.85,415.608,13.4,711.894,13.4,711.894
+,"Miscellaneous marine crustaceans, PROCESS Steaming",13.85,414.725,13.85,414.725,13.3,624.81,13.3,624.81
+,Miscellaneous pelagic marine fishes,26.9,505.765,32.1,670.216,32.1,670.216,34.8,686.446
+,"Miscellaneous pelagic marine fishes, PROCESS Baking",9,710.836,9,710.836,9,710.836,9,710.836
+,"Miscellaneous pelagic marine fishes, PROCESS Cooking in water",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,"Miscellaneous pelagic marine fishes, PROCESS Frying",9,710.836,9,710.836,9,710.836,9,710.836
+,"Miscellaneous pelagic marine fishes, PROCESS Steaming",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,Mullets,48.2,687.205,48,666.863,48.2,715.995,48,666.863
+,"Mullets, PROCESS Baking",46.8,769.32,56,782.02,55.5,611.574,56,782.02
+,"Mullets, PROCESS Cooking in water",1.5,611.574,1.5,611.574,1.5,611.574,1.5,611.574
+,"Mullets, PROCESS Frying",1.5,611.574,1.5,611.574,1.5,611.574,1.5,611.574
+,"Mullets, PROCESS Steaming",1.5,611.574,1.5,611.574,1.5,611.574,1.5,611.574
+,Mussels,57,702.506,56.2,378.216,82,586.75,70,634.91
+,"Mussels, PROCESS Baking",8.7,585.318,8.7,585.318,8.7,585.318,8.7,585.318
+,"Mussels, PROCESS Cooking in water",31.4,632.189,68.16,588.44,70,591.13,65,435.72
+,"Mussels, PROCESS Frying",8.7,585.318,22,489.881,8.7,585.318,22,489.881
+,"Mussels, PROCESS Steaming",53.6,511.737,68.16,588.44,70,591.13,65,435.72
+,Nile perch,1,699.345,1,699.345,1,699.345,1,699.345
+,"Nile perch, PROCESS Baking",1.1,750.691,1.1,750.691,1.1,750.691,1.1,750.691
+,"Nile perch, PROCESS Cooking in water",1,726.818,1,726.818,1,726.818,1,726.818
+,"Nile perch, PROCESS Frying",1.1,765.986,1.1,765.986,1.1,765.986,1.1,765.986
+,"Nile perch, PROCESS Steaming",1,726.818,1,726.818,1,726.818,1,726.818
+,Ocean perch,56.3,545.326,56.3,545.326,56.3,545.326,56.3,545.326
+,"Ocean perch, PROCESS Baking",14.6,613.621,14.6,613.621,14.6,613.621,14.6,613.621
+,"Ocean perch, PROCESS Cooking in water",4.41,1.2,4.41,1.2,4.41,1.2,4.41,1.2
+,"Ocean perch, PROCESS Steaming",4.41,1.2,4.41,1.2,4.41,1.2,4.41,1.2
+,Octopuses,80.3,621.86,68,482.09,85,477.703,77,474.8
+,"Octopuses, PROCESS Baking",5.7,516.849,5.7,516.849,5.7,516.849,5.7,516.849
+,"Octopuses, PROCESS Cooking in water",5.3,492.164,2,492.361,5.3,492.164,2,492.361
+,"Octopuses, PROCESS Frying",5.7,516.849,5.7,516.849,5.7,516.849,5.7,516.849
+,"Octopuses, PROCESS Steaming",5.3,492.164,2,492.361,5.3,492.164,2,492.361
+,Other fish offal,19,135.4066,19,135.4066,19,135.4066,19,135.4066
+,Oysters,1.8,829.36,52.2,605.63,88,449.01,40,729.85
+,"Oysters, PROCESS Baking",15.9,529.834,15.9,529.834,15.9,529.834,15.9,529.834
+,"Oysters, PROCESS Cooking in water",13.8,460.149,13.8,460.149,13.8,460.149,13.8,460.149
+,"Oysters, PROCESS Frying",15.9,529.834,15.9,529.834,15.9,529.834,15.9,529.834
+,"Oysters, PROCESS Steaming",13.8,460.149,13.8,460.149,13.8,460.149,13.8,460.149
+,Pacific salmon (generic),35.2,730.295,30,694.65,38.4,588.115,30,694.65
+,"Pacific salmon (generic), PROCESS Baking",25.99,862.402,25.99,862.402,25.99,862.402,25.99,862.402
+,"Pacific salmon (generic), PROCESS Cooking in water",25.99,862.402,25.99,862.402,25.99,862.402,25.99,862.402
+,"Pacific salmon (generic), PROCESS Frying",4.2,689.555,4.2,689.555,4.2,689.555,4.2,689.555
+,"Pacific salmon (generic), PROCESS Steaming",25.99,862.402,25.99,862.402,25.99,862.402,25.99,862.402
+,Perch,15,318.54,25,715.713,29.9,715.01,25,699.345
+,"Perch, golden",62.9,465.91,62.9,465.91,62.9,465.91,62.9,465.91
+,"Perch, golden, PROCESS Baking",4.41,1.2,4.41,1.2,4.41,1.2,4.41,1.2
+,"Perch, golden, PROCESS Cooking in water",4.41,1.2,4.41,1.2,4.41,1.2,4.41,1.2
+,"Perch, golden, PROCESS Steaming",4.41,1.2,4.41,1.2,4.41,1.2,4.41,1.2
+,"Perch, PROCESS Baking",14.6,616.737,17.01,616.837,30.5,779.2586,17.01,616.837
+,"Perch, PROCESS Cooking in water",1,726.818,4.41,727.614,1,726.818,4.41,727.614
+,"Perch, PROCESS Frying",1.1,765.986,1.1,765.986,,,1.1,765.986
+,"Perch, PROCESS Steaming",1,726.818,4.41,727.614,1,726.818,4.41,727.614
+,Pike,7.42,528.836,5.42,695.745,24,669.7,7.42,629.074
+,Pike-perch,24.6,697.065,21.6,648.907,39,649.04,24.6,697.065
+,"Pike-perch, PROCESS Baking",4.8,753.325,4.8,753.325,4.8,753.325,4.8,753.325
+,"Pike-perch, PROCESS Cooking in water",4.6,708.966,4.6,708.966,4.6,708.966,4.6,708.966
+,"Pike-perch, PROCESS Frying",4.8,753.325,4.8,753.325,4.8,753.325,4.8,753.325
+,"Pike-perch, PROCESS Steaming",4.6,708.966,4.6,708.966,4.6,708.966,4.6,708.966
+,"Pike, PROCESS Baking",2,649.424,2,649.424,2.2,677.221,2.2,677.221
+,"Pike, PROCESS Cooking in water",2,637.333,2,637.333,2,637.333,2,637.333
+,"Pike, PROCESS Frying",2.2,677.221,2.2,677.221,,,2.2,677.221
+,"Pike, PROCESS Steaming",2.2,675.225,2.2,675.225,2.2,675.225,2.2,675.225
+,Plaice,30.4,602.042,37.6,488.18,30.49,617.396,38,536.397
+,"Plaice, PROCESS Baking",32.4,564.836,47,650.791,46.6,642.824,47,650.791
+,"Plaice, PROCESS Cooking in water",41.5,617.289,41,634.604,41.5,617.289,41,507.032
+,"Plaice, PROCESS Frying",32.4,565.158,50,640.236,49.6,642.587,50,640.236
+,"Plaice, PROCESS Steaming",32.4,564.58,41,634.604,41.5,617.289,41,507.032
+,"Pomfret, atlantic",,719.61,,719.61,,719.61,,719.61
+,Rays,0.47,546.16,0.47,546.16,0.47,549.16,0.47,546.16
+,"Rays, PROCESS Baking",8,631.59,8,631.59,8,631.59,8,631.59
+,"Rays, PROCESS Cooking in water",5,473.13,5,473.13,5,473.13,5,473.13
+,"Rays, PROCESS Steaming",5,473.13,5,473.13,5,473.13,5,473.13
+,River eels,19,511.365,34.4,502.99,58,733.76,32,632.31
+,"River eels, PROCESS Baking",30.89,691.564,30.89,691.564,29.1,707.494,29.1,707.494
+,"River eels, PROCESS Cooking in water",29,484.078,34,501.869,31.1,698.259,34,501.869
+,"River eels, PROCESS Frying",1.1,707.677,1.1,707.677,1.1,707.677,1.1,707.677
+,"River eels, PROCESS Steaming",29,484.078,34,501.869,31.1,698.259,34,501.869
+,Roaches,24.4,712.414,24.4,712.414,24.4,712.414,24.4,712.414
+,"Salmon roe, atlantic",18,810.217,18,810.217,18,810.217,18,810.217
+,"Salmon, threadfin",30,691.15,30,691.15,30,691.15,30,691.15
+,"Salmon, threadfin, PROCESS Baking",25.99,862.402,25.99,862.402,25.99,862.402,25.99,862.402
+,"Salmon, threadfin, PROCESS Cooking in water",25.99,862.402,25.99,862.402,25.99,862.402,25.99,862.402
+,"Salmon, threadfin, PROCESS Steaming",25.99,862.402,25.99,862.402,25.99,862.402,25.99,862.402
+,Sardines and sardine-type fishes,34.1,906.23,45,762.14,34.1,806.61,45,762.14
+,"Sardines and sardine-type fishes, PROCESS Baking",50,761.03,50,902.592,38.2,854.484,50,902.592
+,"Sardines and sardine-type fishes, PROCESS Cooking in water",35.2,849.621,46.5,857.62,46.5,916.84,35.2,849.621
+,"Sardines and sardine-type fishes, PROCESS Frying",0.2,853.684,0.2,853.684,0.2,853.684,0.2,853.684
+,"Sardines and sardine-type fishes, PROCESS Steaming",35.2,849.621,46.5,857.62,46.5,857.62,35.2,849.621
+,"Scallops, pectens",24,627.313,23.53,627.263,24,587.643,23.53,627.263
+,"Scallops, pectens, PROCESS Baking",2.2,625.655,2.2,625.655,2.2,625.655,2.2,625.655
+,"Scallops, pectens, PROCESS Cooking in water",31.2,991.23,60,557.549,53,594.619,60,557.549
+,"Scallops, pectens, PROCESS Frying",31.2,989.263,31.2,989.263,,0.05,24.4,625.559
+,"Scallops, pectens, PROCESS Steaming",53,594.619,60,557.549,53,594.619,60,557.549
+,Sea bass,2.77,551.853,4,742.359,4,742.359,4,742.359
+,"Sea bass, PROCESS Cooking in water",1.1,722.45,1.1,722.45,1.1,722.45,1.1,722.45
+,"Sea bass, PROCESS Steaming",1.1,722.45,1.1,722.45,1.1,722.45,1.1,722.45
+,Sea bream,2.77,817.891,2,573.44,2,573.44,2,573.44
+,"Sea bream, PROCESS Cooking in water",1.1,524.729,1.1,524.729,1.1,524.729,1.1,524.729
+,"Sea bream, PROCESS Steaming",1.1,524.729,1.1,524.729,1.1,524.729,1.1,524.729
+,Sea-squirts and other tunicates,2,642.857,2,642.857,2,642.857,2,642.857
+,"Sea-squirts and other tunicates, PROCESS Baking",1.5,588.292,1.5,588.292,1.5,588.292,1.5,588.292
+,"Sea-squirts and other tunicates, PROCESS Cooking in water",64.4,967.805,65.8,529.59,46.1,462.729,65.8,529.59
+,"Sea-squirts and other tunicates, PROCESS Frying",1.5,588.292,1.5,588.292,1.5,588.292,1.5,588.292
+,"Sea-squirts and other tunicates, PROCESS Steaming",1.3,462.729,21,529.59,1.3,462.729,21,529.59
+,Shads,11,655.103,11,655.103,11,655.103,11,655.103
+,"Shads, PROCESS Baking",9,710.836,9,710.836,9,710.836,9,710.836
+,"Shads, PROCESS Cooking in water",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,"Shads, PROCESS Frying",9,710.836,9,710.836,9,710.836,9,710.836
+,"Shads, PROCESS Steaming",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,Sharks,35.4,472.347,35.4,521.482,35.4,521.482,38.6,571.914
+,"Sharks, PROCESS Baking",43.2,533.502,43.2,533.502,43.2,405.466,43.2,405.466
+,"Sharks, PROCESS Cooking in water",43.2,533.502,43.2,533.502,43.2,405.466,43.2,405.466
+,"Sharks, PROCESS Frying",43.2,533.502,43.2,533.502,43.2,405.466,43.2,405.466
+,"Sharks, PROCESS Steaming",43.2,533.502,43.2,533.502,43.2,405.466,43.2,405.466
+,Shrimps and prawns,42,377.31,23,635.23,17.7,627.36,23,635.23
+,"Shrimps and prawns, PROCESS Baking",13.85,414.248,13.85,414.248,14.3,674.304,14.3,674.304
+,"Shrimps and prawns, PROCESS Cooking in water",13.85,415.532,31,465.702,,,31,702.88
+,"Shrimps and prawns, PROCESS Frying",13.85,414.54,13.85,414.54,14.3,674.591,14.3,674.591
+,"Shrimps and prawns, PROCESS Steaming",13.85,415.532,31,465.702,,,31,702.88
+,"Shrimps, common",30.8,779.71,21.8,664.395,24,276.18,21.8,664.395
+,"Shrimps, common, PROCESS Baking",13.85,415.608,13.85,415.608,,,13.4,711.894
+,"Shrimps, common, PROCESS Cooking in water",13.85,415.132,31,464.047,21,564.791,49,1117.065
+,"Shrimps, common, PROCESS Frying",13.85,415.608,13.85,415.608,,0.04,13.4,711.894
+,"Shrimps, common, PROCESS Steaming",13.85,415.532,31,464.445,21,565.15,47.78,464.125
+,Smelt,3.44,617.31,3.44,617.31,3.4,663.8,3.4,663.8
+,"Smelt, PROCESS Baking",3.8,716.959,3.8,716.959,3.8,716.959,3.8,716.959
+,"Smelt, PROCESS Cooking in water",3.8,715.961,3.8,715.961,3.8,715.961,3.8,715.961
+,"Smelt, PROCESS Frying",3.8,716.959,3.8,716.959,3.8,716.959,3.8,716.959
+,"Smelt, PROCESS Steaming",3.8,715.961,3.8,715.961,3.8,715.961,3.8,715.961
+,Smoked herring,39.8,591.54,37.1,717.493,31.99,634.873,42,661.2
+,Smoked salmon,16.9,730.85,21.02,866.183,36.48,642.88,27,738.7
+,Snails,18,919.11,55,751.31,,,55,751.31
+,Sole,37,514.817,61,473.194,26.3,684.994,24,596.83
+,"Sole, PROCESS Baking",18.1,607.486,18.1,607.486,18.5,625.091,18.5,625.091
+,"Sole, PROCESS Cooking in water",52.1,623.076,52,489.41,52.1,623.076,52,489.41
+,"Sole, PROCESS Frying",1.1,627.241,1.1,627.241,1.1,627.241,1.1,627.241
+,"Sole, PROCESS Steaming",19.6,510.428,52,489.41,52.1,623.076,52,489.41
+,Spiny and rock lobsters,130.5,813.488,130.5,813.488,130.5,813.488,130.5,813.488
+,"Spiny and rock lobsters, PROCESS Baking",1.1,589.921,1.1,589.841,1.1,589.841,1.1,589.841
+,"Spiny and rock lobsters, PROCESS Cooking in water",27.84,570.61,27.84,570.53,24.7,517.436,24.7,517.436
+,"Spiny and rock lobsters, PROCESS Frying",0.5,859.295,0.5,859.215,0.5,859.215,0.5,859.215
+,"Spiny and rock lobsters, PROCESS Steaming",0.9,517.516,0.9,517.436,0.9,517.436,0.9,517.436
+,Sprat,38,651.997,17,483.778,17,483.778,38,704.843
+,"Sprat, PROCESS Baking",9,710.836,9,710.836,9,710.836,9,710.836
+,"Sprat, PROCESS Cooking in water",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,"Sprat, PROCESS Frying",22,712.053,22,893.298,22,712.053,22,893.298
+,"Sprat, PROCESS Steaming",8.5,685.548,8.5,685.548,8.5,685.548,8.5,685.548
+,Squids,69,511.12,68,481.59,69,522.39,69,522.39
+,"Squids, cuttlefishes, octopuses",68,760.53,68,481.59,69,522.39,69,522.39
+,"Squids, cuttlefishes, octopuses, PROCESS Cooking in water",2,1,2,1,2,1,2,1
+,"Squids, cuttlefishes, octopuses, PROCESS Frying",2,483.93,2,483.93,2,483.93,2,483.93
+,"Squids, cuttlefishes, octopuses, PROCESS Steaming",2,1,2,1,2,1,2,1
+,"Squids, PROCESS Cooking in water",2,1,2,1,2,1,2,1
+,"Squids, PROCESS Frying",34.17,260.74,34.17,260.74,34.17,260.74,34.17,260.74
+,"Squids, PROCESS Steaming",2,1,2,1,2,1,2,1
+,Stockfish,157,595.365,157,467.439,156.85,467.439,157,467.439
+,"Stockfish, PROCESS Baking",1.3,730.467,1.3,730.467,1.3,730.467,1.3,730.467
+,"Stockfish, PROCESS Cooking in water",21.3,380.467,21.3,730.467,20.8,308.053,21.3,730.467
+,"Stockfish, PROCESS Steaming",21.3,380.467,21.3,380.467,20.8,308.053,21.3,380.467
+,Sturgeon,,593.1,,593.1,,593.1,,593.1
+,Sturgeon roe,13.45,854.113,13.45,442.743,29,332.063,13.45,442.043
+,Tilapia,32,956.38,32,956.38,,,32,956.38
+,Trouts,31,722.26,23.7,744.439,31,847.44,31,697.4
+,"Trouts, PROCESS Baking",18,838.248,35,717.83,35.4,700.872,35,717.83
+,"Trouts, PROCESS Cooking in water",38,671.874,30.71,903.515,,,37.9,719.51
+,"Trouts, PROCESS Frying",30.5,714.315,30.71,900.018,30.5,714.315,30.71,900.018
+,"Trouts, PROCESS Steaming",18.4,736.162,30.71,903.515,,,37.9,719.51
+,Tuna and bonito (generic),117.11,738.431,95,564.4,40,700.95,61,702.46
+,"Tuna and bonito (generic), PROCESS Baking",66.26,854.047,66.26,854.047,66.2,692.041,66.2,692.041
+,"Tuna and bonito (generic), PROCESS Cooking in water",4.2,669.685,4.2,669.665,4.2,669.685,4.2,669.685
+,"Tuna and bonito (generic), PROCESS Frying",46.5,692.041,46.5,692.041,44.2,649.1844,46.5,692.041
+,"Tuna and bonito (generic), PROCESS Steaming",4.5,683.92,4.5,683.901,4.5,683.92,4.5,683.92
+,"Water snails, conches and whelks, PROCESS Cooking in water",64.4,963.885,65.8,523.4,65.8,523.4,65.8,523.4
+,Whitefishes or coregonus,19.2,792.234,19.2,770.786,38,771.54,19.2,692.359
+,"Whitefishes or coregonus, PROCESS Baking",3.5,743.012,3.5,743.012,3.5,743.012,3.5,743.012
+,"Whitefishes or coregonus, PROCESS Cooking in water",3.5,739.991,3.5,739.991,3.5,739.991,3.5,739.991
+,"Whitefishes or coregonus, PROCESS Frying",3.5,743.012,3.5,743.012,3.5,743.012,3.5,743.012
+,"Whitefishes or coregonus, PROCESS Steaming",3.5,739.991,3.5,739.991,3.5,739.991,3.5,739.991
+,Wolffish,59.7,517.543,59.7,531.908,59.7,531.908,59.7,517.543
+,"Wolffish, PROCESS Baking",2.4,547.808,2.4,547.808,2.4,547.808,2.4,547.808
+,"Wolffish, PROCESS Cooking in water",2.4,545.803,2.4,545.803,2.4,545.803,2.4,545.803
+,"Wolffish, PROCESS Frying",2.4,547.808,2.4,547.808,2.4,547.808,2.4,547.808
+,"Wolffish, PROCESS Steaming",2.2,520.847,2.2,520.847,2.2,520.847,2.2,520.847
+,Wolffishes,2.77,572.159,59.7,531.908,59.7,531.908,59.7,517.543
+,"Wolffishes, PROCESS Baking",2.4,547.808,2.4,547.808,2.4,547.808,2.4,547.808
+,"Wolffishes, PROCESS Cooking in water",2.4,545.803,2.4,545.803,2.4,545.803,2.4,545.803
+,"Wolffishes, PROCESS Frying",2.4,547.808,2.4,547.808,2.4,547.808,2.4,547.808
+,"Wolffishes, PROCESS Steaming",2.2,520.847,2.2,520.847,2.2,520.847,2.2,520.847
+Food products for young population,"Biscuits, rusks and cookies for children",7,715.016,6,914.269,7,570.8,6,891.1
+,Cereals with an added high protein food which have to be reconstituted with water or other protein-free liquid,0.7,1446.3,0.7,1446.3,0.7,1446.3,0.7,1446.3
+,"Follow-on formulae, liquid",1.8,238.347,1.8,278.347,1.8,238.347,1.8,278.047
+,"Follow-on formulae, powder",1.5,1725.38,1.5,1795.38,1.5,1725.38,1.5,1795.38
+,Fruit and vegetable juices and nectars specific for infants and young children,,0.3,,0.3,,0.3,,0.3
+,"Infant formulae, liquid",1.8,228.347,1.8,228.347,1.8,154.888,1.8,227.747
+,"Infant formulae, powder",39.4,1156.18,38.75,1319.864,38.7,1210.0697,39.4,1156.18
+,"Pasta for children (dry, to be cooked)",0,444.927,0,444.927,0,444.927,0,444.927
+,Ready-to-eat cereal-based meal for children,5.24,225.616,1,253.66,,,1,253.66
+,Ready-to-eat dairy-based meal for children,0,124.85,0,124.85,,,0,124.85
+,Ready-to-eat fish-based meal for children,1.284,260.907,3,347.43,3.6,278.5975,3,347.43
+,Ready-to-eat fruit-based meal for children,1,219.03,1,230.89,0.6,189.3962,1,219.03
+,Ready-to-eat meat-based meal for children,1.284,260.807,1,304.06,3,274.2369,1,304.06
+,Ready-to-eat mixed meal for children,1.284,260.107,1.284,260.107,1.284,260.107,1.284,260.107
+,Ready-to-eat vegetable-based meal for children,1,303.44,1,303.44,0.3,325.952,1,303.44
+,Simple cereals which have to be reconstituted with milk or other appropriate nutritious liquids,4,831.98,4,831.98,4,1117.46,4,831.98
+Fruit and fruit products,American persimmons,0,387.575,8.8,538.22,8.8,538.22,0.8,222.912
+,Apples and similar-,6.3,143.537,6,138.897,0,130.3595,6,141.253
+,"Apples and similar-, PROCESS Baking",6,141.337,6,323.255,6,323.255,6,116.195
+,"Apples and similar-, PROCESS Cooking in water",6,103.333,6,106.669,6,103.333,6,165.842
+,"Apples and similar-, PROCESS Steaming",6,103.333,6,106.669,6,103.333,6,165.842
+,Apricots,3.06,363.167,3,336.583,0.2,337.923,4,318.283
+,Arbutus berries,0.6,460.602,0.6,460.602,0.6,460.602,0.6,460.602
+,Avocados,14.4,543.841,15,458.73,1,696.52,15,546.12
+,Bilberries (European blueberries),12,106.348,12,115.6,12.1,161.4,12,122.29
+,Blackberries,0.25,372.778,0,297.46,0,274.38,0,259.15
+,Blackcurrants,31.1,497.833,31,275.18,30.1,498.538,31,493.473
+,Blueberries,12.1,240.722,12,110.163,12,137.563,12,110.163
+,"Candied fruit, cherry",1,97.225,1,95.365,1,178,1,95.365
+,"Candied fruit, mixed fruit",,69.09,,69.09,,69.09,,69.09
+,"Candied fruit, orange peel",0,101,7,438.903,7,438.903,7,159.03
+,Canned fruit cocktail,2,109.86,2,88.745,1,111.38,2,88.745
+,"Canned fruit cocktail, MEDIUM In diluted sweet liquid-syrup",1,109.96,1,88.845,1.2,117.48,1,115.78
+,"Canned fruit cocktail, MEDIUM In fruit/vegetable juice",1.1,63.62,1.1,126.148,1.1,63.62,1.1,126.148
+,Canned or jarred apple,5.031,92.986,0.031,100.04,0.031,100.04,5.031,92.986
+,"Canned or jarred apple, MEDIUM In diluted sweet liquid-syrup",3.212,68.705,3.212,90.42,3.212,90.42,3.212,68.705
+,"Canned or jarred apple, MEDIUM In fruit/vegetable juice",3,68.672,3,68.672,3,68.672,3,68.672
+,Canned or jarred apricot,5,188.472,5,183.91,0.2,172.33,5,183.91
+,"Canned or jarred apricot, MEDIUM In diluted sweet liquid-syrup",2.1,185.671,2,183.738,2.2,212.178,2,183.738
+,"Canned or jarred apricot, MEDIUM In fruit/vegetable juice",2.2,156.337,2.2,172.013,2.2,172.013,2.2,211.303
+,Canned or jarred cranberry,8,129.365,8,129.365,8,129.365,8,129.365
+,"Canned or jarred cranberry, MEDIUM In diluted sweet liquid-syrup",5.6,95.474,5.6,121.876,5.6,121.876,5.6,95.474
+,"Canned or jarred cranberry, MEDIUM In fruit/vegetable juice",5,95.441,5,95.441,5,95.441,5,95.441
+,Canned or jarred mandarin,3,145.862,3,81.559,0.2,104.243,3,81.559
+,"Canned or jarred mandarin, MEDIUM In diluted sweet liquid-syrup",2,105.604,2,81.538,2,105.604,2,81.62
+,"Canned or jarred mandarin, MEDIUM In fruit/vegetable juice",2,105.671,2,125.235,2,105.671,2,125.235
+,Canned or jarred mixed fruit,2,109.86,2,88.745,2,89.816,2,88.745
+,"Canned or jarred mixed fruit, MEDIUM In diluted sweet liquid-syrup",1.5,113.594,1,88.845,1,63.62,1,115.78
+,"Canned or jarred mixed fruit, MEDIUM In fruit/vegetable juice",1.1,63.62,1.1,243.378,1.1,63.62,1.1,126.148
+,Canned or jarred peach,2,171.053,2.5,130.985,0.3,113.803,2.5,130.985
+,"Canned or jarred peach, MEDIUM In diluted sweet liquid-syrup",1.2,131.73,1.2,130.73,1.5,121.39,1.2,130.604
+,"Canned or jarred peach, MEDIUM In fruit/vegetable juice",1,109.375,1,201.825,1,109.375,1,201.825
+,Canned or jarred pear,0,111.341,0,92.862,0.2,81.75,0,92.862
+,"Canned or jarred pear, MEDIUM In diluted sweet liquid-syrup",0.2,84.22,0,93.183,0.2,172.013,0,86.12
+,"Canned or jarred pear, MEDIUM In fruit/vegetable juice",0,84.952,0,102.865,0,84.952,0,102.865
+,Canned or jarred pineapple,0,113.04,0,132.853,0.2,157.02,0,132.853
+,"Canned or jarred pineapple, MEDIUM In diluted sweet liquid-syrup",0.25,101.505,0,132.953,0,175.16,0,101.83
+,"Canned or jarred pineapple, MEDIUM In fruit/vegetable juice",0,108.665,0,98.22,0,175.181,0,98.22
+,Canned or jarred plum,6,201.077,6,102.952,6,201.077,6,102.952
+,"Canned or jarred plum, MEDIUM In diluted sweet liquid-syrup",4.3,151.293,4,102.933,4.3,158.25,4,102.89
+,"Canned or jarred plum, MEDIUM In fruit/vegetable juice",4,151.21,4,151.21,4,151.21,4,151.21
+,Canned or jarred sour cherry,0,103.663,0,103.663,0,103.663,0,103.663
+,"Canned or jarred sour cherry, MEDIUM In diluted sweet liquid-syrup",0.156,75.154,0.156,184.01,0.156,184.01,0.156,75.154
+,"Canned or jarred sour cherry, MEDIUM In fruit/vegetable juice",0,75.154,0,75.154,0,75.154,0,75.154
+,Canned or jarred sweet cherry,3,189.915,3,155.9,3,189.911,3,155.9
+,"Canned or jarred sweet cherry, MEDIUM In diluted sweet liquid-syrup",1.3,166.86,2,155.85,2,139.663,2,155.61
+,"Canned or jarred sweet cherry, MEDIUM In fruit/vegetable juice",1.3,139.646,1.3,147.012,1.3,147.012,1.3,139.646
+,Carambolas,0.6,176.447,1,177.697,1,256.495,1,177.697
+,Cherimoyas,1,322.85,1,260.554,1,192.623,1,322.85
+,Cherries (sweet),2.05,288.544,2,309.527,2.1,218.447,3,255.013
+,Chocolate coated dried fruit,7.9,478.119,7.9,478.119,7.9,478.119,7.9,478.119
+,Chokecherries,2,812.61,2,812.61,2,812.61,2,812.61
+,Citrons,0,160.118,0,160.118,0,160.118,0,160.118
+,Citrus fruit peel,0,92.28,2,171.689,2,322.897,2,171.689
+,Cloudberries,0.189,123.366,0.189,306.015,0,256.6,0.189,123.366
+,Common banana,0.3,417.6,4,438.191,0.5,456.94,1,470.21
+,"Common banana, PROCESS Baking",0.6,422.473,0.6,146.015,,,0.6,422.473
+,"Common banana, PROCESS Cooking in water",0,308.385,0,308.385,0,308.385,0,308.385
+,"Common banana, PROCESS Steaming",0,367.425,0,367.425,0,367.425,0,367.425
+,Cranberries,0,123.249,0,122.063,0.1,58.663,0,127.287
+,Dates,0,466.1,1,487.87,3,324.413,1,490.32
+,Dewberries and similar-,0,347.3,0,297.65,0,222.686,0,347.3
+,Dried apples,19,864.162,19,1022.46,0.2,522.05,19,618.88
+,Dried apricots,18.1,1221.397,25,1787.497,0.5,1599.496,25,2170.957
+,Dried bananas,0.9,1380.891,0.9,1317.125,,,0.9,615.422
+,Dried dates,3,942.09,3,785.643,3,762.124,3,852.31
+,Dried figs,0.3,1371.587,1,982.333,2.3,986.527,1,1396.857
+,Dried pears,21,525.004,21,1037.798,1,660.882,21,907.798
+,Dried prunes,39.3,1007.69,40,983.33,0.5,930.08,42,898.65
+,"Dried prunes, PROCESS Baking",40.5,911.558,0.5,525.022,0.5,525.022,40.5,911.558
+,"Dried prunes, PROCESS Cooking in water",18,268.07,18,518.832,18,268.07,18,518.832
+,"Dried prunes, PROCESS Steaming",17,313.022,17,518.765,17,313.022,17,518.765
+,Dried vine fruits (raisins etc.),4.4,1008.393,12,987.63,0.5,931.82,12,1183.81
+,Elderberries,0,432.61,0,410.597,0,432.61,0,410.597
+,Figs,0.2,356.278,0,355.98,2,297.838,0,269.527
+,Fruit chips,18.641,729.502,0.641,1134.665,0.641,1134.665,18.641,614.296
+,"Fruit compote, apple",3.3,154.309,3,111.05,3.1,115.7065,3,154.65
+,"Fruit compote, apricot",3,158.447,3,217.961,,,3,217.961
+,"Fruit compote, mixed fruit",,272.24,0.3,184.94,0.3,184.94,0.3,184.94
+,"Fruit compote, peach",1,108.423,1,108.423,1,108.423,1,108.423
+,"Fruit compote, pear",3,72.66,3,133.676,3,72.66,3,133.676
+,"Fruit compote, pineapple",0,143.901,0,143.901,0,143.901,0,143.901
+,"Fruit compote, plum",6,122.462,6,122.462,6,122.462,6,122.462
+,"Fruit compote, sour cherry",0,94.259,0,94.259,0,94.259,0,94.259
+,"Fruit compote, sweet cherry",2,176.028,2,203.821,2,176.028,2,203.821
+,Fruit or fruit-vegetable puree,1,136.012,1,136.012,1,136.012,1,136.012
+,Fruit preparations for fillings and/or flavouring,1,97.774,1,171.876,1,97.774,1,135.436
+,Fruit salad,3.36,245.9307,4,221.297,,,4,221.297
+,Gooseberries and similar-,0.35,249.319,0,267.203,0,221.603,0,280.41
+,Granate apples,0.6,304.911,0,258.624,1,276.274,0,294.77
+,Grapefruits,3.1,271.814,3,212.23,0.2,180.04,4,252.87
+,Guavas and similar-,0,178.677,1,348.62,1,343.05,1,282.637
+,"Jam, apricots",1,109.04,1,91.203,1,97.741,1,86.493
+,"Jam, apricots, SWEET Fructose",0,52.385,0,52.385,0,52.385,0,52.385
+,"Jam, blackberries",0,85.965,0,91.203,0,85.965,0,70.543
+,"Jam, blackberries, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, blueberries",2,42.775,2,91.203,2,42.775,2,91.203
+,"Jam, blueberries, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, cranberries",0,43.734,0,91.203,0,43.734,0,91.203
+,"Jam, cranberries, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, currants (black)",6,147.299,6,91.203,6,147.299,6,70.543
+,"Jam, currants (black), SWEET Fructose",2,103.695,2,69.558,2,69.558,2,103.695
+,"Jam, currants (red)",2,115.071,2,91.203,2,115.071,2,70.543
+,"Jam, currants (red), SWEET Fructose",2,103.695,2,103.922,2,103.922,2,103.695
+,"Jam, gooseberries",0,103.771,0,91.203,0,103.771,0,91.203
+,"Jam, gooseberries, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, lingonberry",0,43.734,0,91.203,0.3,74.482,0,91.203
+,"Jam, lingonberry, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, mixed fruit",1.5,132.99,1,91.203,1.3,28.19,1,91.203
+,"Jam, mixed fruit, SWEET Fructose",2.3,103.695,2.3,82.147,2,79.02,2.3,103.695
+,"Jam, oranges",0,92.8,0,91.203,0,93.403,0,91.203
+,"Jam, oranges, SWEET Fructose",0.3,78.257,0.3,162.827,0.3,162.827,0.3,78.257
+,"Jam, peaches",1,86.734,1,91.203,1,86.734,1,86.493
+,"Jam, peaches, SWEET Fructose",0,52.385,0,52.385,0,52.385,0,52.385
+,"Jam, plums",2,413.91,2,91.203,2,86.635,2,86.493
+,"Jam, plums, SWEET Fructose",0,52.385,0,52.385,0,52.385,0,52.385
+,"Jam, raspberries",2,99.021,2,91.203,2,99.021,2,70.543
+,"Jam, raspberries, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, rose hips",17,318.857,17,149.85,17,318.857,17,149.85
+,"Jam, rose hips, SWEET Fructose",2,103.695,2,103.695,2,103.695,2,103.695
+,"Jam, sour cherry",0,112.839,0,91.203,0,112.839,0,91.203
+,"Jam, sour cherry, SWEET Fructose",0,52.385,0,52.385,0,52.385,0,52.385
+,"Jam, strawberries",1.3,110.667,1,91.42,0,125.1405,1,70.76
+,"Jam, strawberries, SWEET Fructose",2.3,103.712,0.3,77.179,0.3,77.179,2.3,103.712
+,"Jam, sweet cherry",2,106.85,0,91.203,0,112.839,0,86.493
+,"Jam, sweet cherry, SWEET Fructose",0,52.385,0,52.385,0,52.385,0,52.385
+,Kaki and similar-,0.6,206.308,0.6,226.105,,,0.6,222.779
+,"Kiwi fruits (green, red, yellow)",25.25,509.641,26,392.952,1,359.45,26,364.88
+,Lemons,1.39,175.147,0,238.403,0.4,225.103,1,193.8
+,Limes,3,263.24,3,231.18,0.2,163.435,3,183.18
+,Lingonberries,1.1,113.067,0,122.147,0,130.887,0,122.147
+,Litchis,0.6,195.401,0,238,0,456.685,0,207.353
+,Loganberries,0,347.063,0,297.443,0,347.063,0,347.16
+,Loquats,0.6,291.895,1,273.563,1,316.313,1,273.563
+,Mandarins,5.2,270.668,0,200.076,0.1,217.37,0,200.076
+,Mandarins and similar-,5.2,218.601,3,200.009,0.2,196.023,3,200.009
+,Mangoes,0.6,282.855,2,182.25,1,188.916,2,224.99
+,"Marmalade, oranges",0,92.773,0,91.203,0.3,43.5988,1,71.063
+,"Marmalade, oranges, SWEET Fructose",0.4,78.2,0.4,124.39,0.4,124.39,0.4,78.2
+,Medlars,0.212,320.717,0.212,152.242,0.212,152.242,0.212,320.75
+,Mixed dried fruits,7,1113.43,10,1208.16,10,796.493,10,1061.823
+,Mulberries (black and white),0,347.167,0.6,362.4,0.6,362.157,0.6,362.4
+,Oranges and similar-,0.6,284.054,0,235.35,0.2,235.496,1,229.24
+,Papayas,0.6,202.368,2,214.99,1,296.55,2,214.99
+,Passionfruits,0.6,312.076,1,345.87,1,464.71,1,309.67
+,Peaches and similar-,2.15,249.789,2,212.981,0.2,241.777,3,199.44
+,Pears and similar-,5.15,161.213,5,159.565,6,181.92,5,182.15
+,"Pears and similar-, PROCESS Baking",6,125.131,6,234.715,6,234.715,6,125.131
+,"Pears and similar-, PROCESS Cooking in water",6.2,84.07,6.2,157.076,6.2,106.127,6.2,157.076
+,Pineapples,0.33,296.938,0,152.166,0.6,142.21,0,205.11
+,"Pineapples, PROCESS Baking",1,224.257,1,566.58,1,566.58,1,224.257
+,"Pineapples, PROCESS Cooking in water",0,163.177,0,163.177,0,163.177,0,163.177
+,"Pineapples, PROCESS Steaming",0,194.207,0,194.207,0,194.207,0,194.207
+,Plums and similar-,8,225.972,8,236.481,8.1,268.06,8,286.54
+,Pomelos,0,283.96,0,283.96,0,283.96,0,283.96
+,Prickly pears,0,332.48,0,349.37,1,386.19,0,349.37
+,Quinces,0.6,224.643,0.326,195.387,0.326,195.387,0.326,240.677
+,Raspberries (red and yellow),10.2,346.11,10,290.163,0,233.643,10,247.52
+,Raspberries and similar-,10,323.91,10,290.36,10.1,320.44,10,247.52
+,Redcurrants,11,488.942,11,369.99,11.1,413.481,11,361.233
+,Rose hips and similar-,92.2,919.266,92.2,919.266,92.2,1038.213,92.2,919.266
+,Sea buckthorns,0.1,218.937,0.1,309.692,0.1,218.13,0.1,218.937
+,Sour cherries,1,155.41,1,291.167,0,264.6107,1,291.167
+,Strawberries and similar-,5.1,237.01,5,241.866,5.1,258.22,5,211.65
+,Table grapes,10,231.323,9,285.19,0.4,219.459,10,249.277
+,Tamarillos,0,388.278,0.3,349.263,0.3,349.263,0.3,388.073
+,Tangelos (except minneolas),3.251,146.612,3.251,146.612,3.251,146.612,3.251,146.612
+,Wine grapes,9.2,237.664,20.2,244.178,20.1,257.3675,9.2,237.664
+Fruit and vegetable juices and nectars,Dehydrated/powdered vegetable juice,0,3821.371,0,3821.371,0,3821.371,0,3821.371
+,Fruit smoothies,4,584.183,4,206.022,4,584.183,4,206.022
+,"Juice concentrate, black currant",3,114.187,3,142.037,3,142.037,3,114.187
+,"Juice concentrate, orange",0.042,133.776,0.042,217.563,0.042,217.563,0.042,133.776
+,"Juice concentrate, raspberry",,0.4,,0.4,,0.4,,0.4
+,"Juice concentrate, sweet cherry",,0.25,,0.25,,0.25,,0.25
+,"Juice, apple",0,123.457,0,121.274,0,138.7827,0,128.477
+,"Juice, apple-carrot",10,164.322,10,346.667,,,10,164.322
+,"Juice, apple-cherry",0,172.856,0,172.856,0,172.856,0,172.856
+,"Juice, apple-cherry, FORT Combination of vitamin and mineral only supplements",1.5,226.2,1.5,226.5,1.5,226.26,1.5,226.2
+,"Juice, apple, FORT Vitamin only supplements",6,128.2,6,144.499,6,128.2,6,144.499
+,"Juice, apricot",3,23.411,3,289.298,3,289.298,3,289.298
+,"Juice, apricot-orange",2,212.546,2,173.127,2,212.546,2,173.127
+,"Juice, apricot-orange, FORT Combination of vitamin and mineral only supplements",1.5,226.21,1.5,226.5,1.5,226.27,1.5,226.2
+,"Juice, beetroot",5,243.992,5,345.538,5,296.279,5,345.538
+,"Juice, black currant",0.3,362.088,0.3,238.928,0.3,237.228,0.3,238.928
+,"Juice, blackberry",0,275.46,0,238.92,0,275.46,0,238.92
+,"Juice, carrot",16.6,337.982,17,309.11,0.1,375.639,17,290.94
+,"Juice, celery",43,526.573,43,526.573,43,526.573,43,526.573
+,"Juice, cranberry",0,113.216,0,238.813,0.1,94.41,0,238.813
+,"Juice, elderberry",0,382.5,0,380.943,0,380.943,0,382.5
+,"Juice, grape",1.1,147.442,1,136.312,0.1,163.05,1,96.733
+,"Juice, grapefruit",3,150.36,3,170.762,3.1,226.815,4,133.81
+,"Juice, lemon",0.1,170.592,1,167.45,1.8,144.76,1,152.57
+,"Juice, lime",3.1,104.622,4,167.519,0.2,131.499,4,132.469
+,"Juice, mango",0.1,66.878,0.1,63.614,0.1,193.53,0.1,63.614
+,"Juice, mixed fruit",1,90.052,1,172.856,1.1,162.28,1,172.856
+,"Juice, multi-vegetable",24.34,293.134,13.208,237.779,,,13.208,237.779
+,"Juice, orange",0.6,224.507,0,213.875,0.1,226.033,1,227.05
+,"Juice, orange-grapefruit",,181.08,0,172.856,0,172.856,0,172.856
+,"Juice, orange-grapefruit, FORT Combination of vitamin and mineral only supplements",0.5,194.24,1.5,226.5,1.5,226.26,1.5,226.2
+,"Juice, orange-peach",0.5,194.32,0,172.856,0,172.856,0,172.856
+,"Juice, orange-peach, FORT Combination of vitamin and mineral only supplements",1.5,226.2,1.5,226.5,1.5,226.26,1.5,226.2
+,"Juice, orange, FORT Vitamin only supplements",0,186.056,0.15,219.673,0.3,230.0547,0.15,219.693
+,"Juice, peach",2,52.119,2,202.369,2,202.369,2,202.369
+,"Juice, pear",5,8.704,6,137.01,6,31.82,6,19.01
+,"Juice, pineapple",0,160,0,194.018,0.2,173.1,0,68.77
+,"Juice, pomegranate",,212.43,0,215.5,0,215.5,0,215.5
+,"Juice, red currant",11,298.433,11,238.762,11,273.891,11,238.762
+,"Juice, strawberry-cherry",0,172.856,0,172.856,0,172.856,0,172.856
+,"Juice, strawberry-cherry, FORT Combination of vitamin and mineral only supplements",1.5,226.2,1.5,226.5,1.5,226.26,1.5,226.2
+,"Juice, tomato",4.2,271.103,7.9,255.22,0.5,260.957,4,271.47
+,"Juice, tomato-leafy vegetables",24.34,293.134,8.2,237.5,8.2,284.059,8.2,237.5
+,Mixed fruit nectars,1.3,125.596,2,119.742,2,76.712,2,119.742
+,Mixed vegetable juice,24.208,349.485,13.208,237.779,13.208,502.662,13.208,237.779
+,Multivitamin juices,2.5,145.075,2.5,219.7,,0.35,2.5,217.19
+,"Multivitamin juices, FORT Combination of vitamin and mineral only supplements",3,137.888,3,138.387,3,137.948,3,137.888
+,"Multivitamin juices, FORT Vitamin only supplements",1.5,163.763,2.5,219.7,2.5,143.535,2.5,217.19
+,"Nectar, apple",4,68.638,4,119.607,4,68.638,4,119.607
+,"Nectar, apricot",1,93.205,2,119.76,2,119.939,2,119.76
+,"Nectar, banana",0,101.593,0,101.593,0,101.593,0,101.593
+,"Nectar, mango",1.1,36.103,1,119.712,1,72.909,1,119.712
+,"Nectar, orange",1.1,115.775,1,119.607,0,149.53,1,119.607
+,"Nectar, peach",1,51.675,2,119.8,2,96.089,2,119.8
+,"Nectar, pear",3,21.62,4,119.555,4,69.557,4,119.555
+,"Nectar, pineapple",0,159.9,1,119.6,1,74.533,1,119.6
+,Vegetable juice concentrate,24,349.485,24,349.485,24,349.485,24,349.485
+Grains and grain-based products,Amaranth flour,1,1317.461,1,1317.461,1,1317.461,1,1317.461
+,Apple strudel,4.14,216.242,4.14,216.242,4.14,240.611,4.14,240.611
+,Asian-style noodles other than glass noodles,20,52.613,20,365.44,20,52.663,20,538.89
+,"Asian-style noodles other than glass noodles, PROCESS Cooking in water",1,18.699,1,158.206,1,18.719,1,124.31
+,"Asian-style noodles other than glass noodles, PROCESS Steaming",1,19.699,1,159.006,1,19.719,1,69.31
+,Baklava,11.2,578.76,11.2,185.75,11.2,517.234,11.2,237.057
+,Barley flour,2,1061.58,2,788.58,9.6,788.28,2,1058.58
+,"Barley grain, pearled",2,397.07,2,519.11,9.6,576.18,2,576.457
+,"Barley grain, pearled, PROCESS Cooking in water",2.2,191.822,2.2,195.637,2.2,146.4062,2.2,195.637
+,"Barley grain, pearled, PROCESS Steaming",2.2,191.822,2.2,195.637,2.2,146.4062,2.2,195.637
+,Barley porridge,0.17,315.52,0.17,315.52,0.17,315.52,0.17,315.52
+,"Barley porridge, INGRED Cow milk, skimmed (low fat)",0.17,315.52,0.17,315.52,0.17,315.52,0.17,315.52
+,"Barley porridge, INGRED Cow milk, whole",3.4,358.8516,3.4,358.8516,3.4,358.8516,3.4,358.8516
+,"Barley porridge, INGRED Tap water",1.3,116.0404,1.3,116.0404,1.3,116.0504,1.3,116.0404
+,Barley rolled grains,2,439.87,2,766.89,9.6,598.82,2,766.89
+,Beignets,7,246.716,7,246.716,7.6,200.735,7.6,200.735
+,"Biscuit with inclusions, filling or coating",11.04,374.525,11,571.756,1.2,281.7229,11,326.48
+,"Biscuits, chocolate",5,481.854,3.1,341.047,,,8.2,566.26
+,"Biscuits, oat meal",26.7,468.976,26.4,445.986,,,26.4,553.45
+,"Biscuits, sweet, plain",8.05,367.895,10.01,428.211,6.38,264.2235,8.3,271.67
+,"Biscuits, sweet, plain, FORT Combination of vitamin and mineral only supplements",8.04,1288.65,8.04,1289.01,8.04,1288.65,8.04,1288.65
+,"Biscuits, sweet, plain, FORT Vitamin only supplements",6.04,511.53,6.04,549.89,6.04,549.53,6.04,549.53
+,"Biscuits, sweet, wheat wholemeal",10,627.692,10,708.66,14.65,362.124,10,385.58
+,Bread and rolls with special ingredients added,4.57,422.952,10,692.555,6.9,417.809,4,451.42
+,"Bread and rolls with special ingredients added, FORT Protein and amino acids supplements",0.1,490.824,0.1,490.824,0.1,490.824,0.1,490.824
+,Bread stuffing,2.3,353.76,2.3,353.76,2.3,353.76,2.3,353.76
+,Breadcrumbs,2.7,459.007,5,438.565,7.5,373.46,5,466.79
+,Brioche type products,6,157.28,,,6.4,338.677,,
+,Buckwheat flour,7,393.417,16,491.53,27,456.93,16,491.53
+,Buckwheat groats,9,929.836,9,469.62,5,989.25,9,458.017
+,Buns,1.14,217.742,4,574.357,3,381.685,3.3,458.99
+,Butter biscuits,10.35,271.03,3.05,263.685,4.71,218.31,3.05,263.685
+,"Cake marbled, with chocolate",5.71,309.595,5.71,309.595,,,6.1,497.258
+,Cereal bars mixed,21.31,594.81,18.2,469.893,,,18.2,828.63
+,Cereal bars plain,16,657.617,16,1033.239,,,16,1033.239
+,Cereal bran,4.3,3072.12,2,2994.51,0,3693.524,2,2994.51
+,Cereals and cereal-like grains not separately listed,30,858.377,30,858.377,30,858.377,30,858.377
+,Chapatti flour,3,461.84,3,461.84,3,461.84,3,461.84
+,Cheese cake,3.5,395.292,5.5,228.69,1.5,658.244,5.5,228.69
+,Chocolate cake,14.7,558.717,9.22,503.135,16.37,399.427,5.6,430.547
+,Chocolate cake with fruits,5.3,375.375,5,258.894,5,258.894,5.3,375.375
+,Choux pastry doughs,6.6,188.875,6.6,216.142,6.6,188.875,6.6,216.142
+,"Choux pastry doughs, PROCESS Baking",3,461.57,9,331.172,8.6,189.575,9,331.172
+,Common millet and similar-,3,662.8,3,716.49,17,586.421,3,716.49
+,"Common millet and similar-, PROCESS Cooking in water",1,206.537,1,244.996,0.8,236.042,1,244.996
+,"Common millet and similar-, PROCESS Steaming",1,206.537,1,244.996,0.8,236.042,1,244.996
+,Common wheat grain,5,832.139,5,307.21,4.1,814.75,5,307.21
+,Corn chips,0.6,374.417,7,747.196,13.4,642.583,3.18,707
+,Corn curls,7.15,571.996,1.6,427.22,1.1,529.192,3,348.126
+,Corn semolina based thick soup,0,120.63,0,20.488,,,0,20.488
+,Cornmeal porridge,0,120.63,0,156.348,,,0,156.348
+,"Cornmeal porridge, INGRED Cow milk, whole",3.3,391.2405,3.3,391.2405,3.3,391.2405,3.3,391.2405
+,"Cornmeal porridge, INGRED Tap water",0,120.63,0,120.63,0,156.348,0,156.348
+,Couscous,0,440.937,0,410.03,7.7,284.907,0,410.03
+,"Couscous, PROCESS Cooking in water",2.2,254.369,0,143.177,0.58,76.9616,0,97.557
+,"Couscous, PROCESS Steaming",2.2,254.369,0,143.177,0.58,76.9616,0,97.557
+,Crackers and breadsticks,2,372.6,4,372.74,3.62,443.44,6,372.9
+,Cream cake,24.01,265.158,12.25,333.975,2.2,308.8654,6.4,249.79
+,Cream cheese cake,4.5,256.915,4.5,228.69,4.5,256.915,4.5,228.69
+,Cream custard cake,10.14,269.052,10.42,321.87,10.42,238.406,10.42,321.87
+,Cream-cheese strudel,4.5,322.995,4.5,322.995,4.5,322.995,4.5,322.995
+,"Crisp bread, rye wholemeal",5,628.562,2,974.48,5.51,985.85,8,966.35
+,"Crisp bread, rye, refined flour",11.6,1006.076,6.6,1042.865,6.6,1042.795,11.6,1006.076
+,"Crisp bread, wheat, refined flour",1,331.51,2,655.45,,,2,655.45
+,"Crisp bread, wheat, wholemeal",3,451.256,2,1053.43,17.4,798.298,2,1053.43
+,Croissant,1.2,378.15,4,230.811,5.7,327.698,8,319.6
+,Croissant from puff pastry,14,137.45,18,230.811,,,22,319.6
+,"Croissant, filled with chocolate",5.2,341.731,7.07,348.697,7.3,529.798,7.07,348.697
+,"Croissant, filled with cream",,157.59,,157.59,,157.59,,157.59
+,"Croissant, filled with jam",,135.41,,135.41,,135.41,,135.41
+,Croquembouche,19.01,264.71,19.01,264.71,19.01,264.71,19.01,264.71
+,Croutons,1,332.207,4,275.687,,,4,275.687
+,Doughnuts-berliner,6.2,220.561,7.3,302.023,27.21,486.7926,,
+,Dried egg pasta,0,435.693,0,446.477,,0.43,0,446.477
+,"Dried egg pasta, PROCESS Baking",0,157.911,0,157.901,0,157.941,0,157.911
+,"Dried egg pasta, PROCESS Cooking in water",15.76,174.144,15.76,184.024,15.6,136.902,15.76,184.024
+,"Dried egg pasta, PROCESS Steaming",0,136.87,0,184.024,0,136.902,0,184.024
+,"Dumpling, sweet",2.3,290.467,2.3,290.467,2.3,290.467,2.3,290.467
+,Durum wheat grain,3.8,1029.13,5,311.92,5,867.248,5,311.92
+,"Durum wheat grain, PROCESS Baking",0,290.964,0,290.964,0,290.964,0,290.964
+,"Durum wheat grain, PROCESS Cooking in water",3.8,1027.04,1.6,299.653,1.6,290.988,1.6,290.988
+,"Durum wheat grain, PROCESS Steaming",1.6,299.653,1.6,299.653,1.6,290.988,1.6,290.988
+,�clair,4.37,326.573,6.34,219.721,6.6,256.332,7,392.09
+,"Extruded, pressed or puffed bread",,333.08,,329.26,7.49,735.711,,329.26
+,Flan tart,7.42,293.187,7,242.734,6.2,210.972,6,160.45
+,Flour mix (like wheat/rye/barley/oats and other),9.5,494.76,9.5,494.76,9.5,494.76,9.5,494.76
+,Fresh egg pasta,1,338.689,24,338.637,,0.35,24,338.637
+,"Fresh egg pasta, PROCESS Baking",0,157.911,0,157.901,0,157.901,0,157.911
+,"Fresh egg pasta, PROCESS Cooking in water",15.76,174.26,13,184.424,,0.05,13,195.27
+,"Fresh egg pasta, PROCESS Steaming",13,137.27,13,184.424,,0.05,13,195.27
+,Fruit cake,5.1,356.891,6.15,208.748,1.97,418.165,5.3,654.28
+,Fruit pie-tarts,7,344.684,9.08,197.519,7.1,224.506,7.08,260.21
+,Gingerbread,0,110.51,5,1031.998,5,1031.968,2.4,295.46
+,"Gingerbread dough, PROCESS Baking",,202.51,2.4,292.94,2.4,292.94,2.4,292.94
+,"Gluten free bread, brown",1,414.79,1,759.79,,,1,759.79
+,"Gluten free bread, white",0,123.833,0,483.833,,,0,483.833
+,Gnocchi,2.1,242.872,2.1,242.872,,,2.1,242.872
+,"Gnocchi, PROCESS Baking",2.1,225.742,2.1,225.742,2.1,225.742,2.1,225.742
+,"Gnocchi, PROCESS Cooking in water",7.15,250.981,7.15,250.981,7.1,197.485,7.1,197.485
+,"Gnocchi, PROCESS Steaming",2.1,213.654,2.1,213.654,2.1,213.654,2.1,213.654
+,Gougere,16.179,759.626,13.81,300.108,13.7,409.186,13.81,300.108
+,Graham flour,6,835.91,0.1,840.802,1.1,840.802,6.76,835.91
+,Indian rice grain,2,1076.446,2,1076.446,2,1076.446,2,1076.446
+,"Indian rice grain, PROCESS Cooking in water",1.8,365.056,1.8,365.056,0.8,223.226,1.8,365.056
+,"Indian rice grain, PROCESS Steaming",1.8,365.056,1.8,365.056,0.8,223.226,1.8,365.056
+,Ingredient rich fine dough without yeast,3.5,272.017,3.5,272.017,3.5,272.017,3.5,272.017
+,"Ingredient rich fine dough without yeast, PROCESS Baking",7.54,431.421,7.54,431.421,7.5,272.017,7.5,272.017
+,Kringles,9.1,440.698,9.1,379.93,9.1,440.698,9.1,379.93
+,Laminated doughs,3,253.18,3,198.657,3,126.943,3,198.657
+,"Laminated doughs, PROCESS Baking",3,186.705,3,186.705,3,126.433,3,126.433
+,Leavened bread doughs-deprecated,2.2,285.333,2.2,285.333,2.2,285.333,2.2,285.333
+,"Leavened bread doughs-deprecated, PROCESS Baking",8.5,219.55,31,341.83,,,31,341.83
+,"Leavened bread doughs-deprecated, PROCESS Cooking in water",1.2,217.967,1.2,217.967,1.2,217.967,1.2,217.967
+,"Leavened bread doughs-deprecated, PROCESS Steaming",0,428.977,0,428.977,0,428.977,0,428.977
+,Lebkuchen,18.4,526.435,18,586.091,18,586.091,18.4,526.435
+,Macaroons,,573.965,3,239.541,18.71,454.797,2,680.95
+,Maize flour,3.2,290.028,3.2,540.323,8,175.305,3.2,540.323
+,Maize semolina,0,181.592,0,181.592,0,181.592,0,181.592
+,"Maize semolina, PROCESS Baking",15,196.761,15,196.761,15,196.761,15,196.761
+,"Maize semolina, PROCESS Cooking in water",15,120.63,15,120.63,15,196.809,15,196.809
+,"Maize semolina, PROCESS Steaming",15,120.63,15,120.63,15,196.809,15,196.809
+,Maize starch,0,43.276,0,56.933,0,36.383,0,56.933
+,Marzipan pie,3,352.78,4.3,425.32,9.41,470.689,4.3,425.32
+,Matzo,0,307.76,0,421.58,0,307.76,0,307.76
+,Meringue,,115.15,4.1,134.28,3.66,143.9721,4.1,134.28
+,Meringue tart,2.2,180.786,1.14,367.113,0.94,180.786,2.14,156.47
+,Millet flour,3,831.867,3,832.297,3,585.023,3,832.297
+,Millet groats,3,947.18,3,947.18,3,947.18,3,947.18
+,Millet rolled grains,1,947.18,1,947.18,1,947.18,1,947.18
+,Miscellaneous mixed and processed breakfast cereals-deprecated,19.8,641.055,16,839.48,16,877.647,16.9,683.43
+,Mixed breakfast cereals,11.68,644.73,10.8,877.992,10.2,666.0385,10.8,878.442
+,Mixed cereal rolled grains,0,767.94,0,767.94,,,0,767.94
+,Mixed cereal-based snacks,5.683,404.983,16.683,376.764,9.46,361.225,5.683,517.05
+,Muesli plain,13.84,907.53,4,1036.88,6,700.9929,4,938
+,Muffins,11.66,337.456,7.5,635.996,,,7.5,635.996
+,Multigrain (not only rye-wheat) bread and rolls,11.29,630.391,9,484.697,7.1,516.2362,9,484.697
+,"Noodle, rice",15.1,217.802,15.1,66.683,15.1,217.838,15.1,66.683
+,"Noodle, rice, PROCESS Cooking in water",5.8,85.6598,5.8,85.6598,5.8,85.6598,5.8,85.6598
+,"Noodle, rice, PROCESS Steaming",5.8,85.6598,5.8,85.6598,5.8,85.6598,5.8,85.6598
+,Nut cream cake,5.5,382.053,3.14,368.254,,,5.5,546.661
+,Oat bran,1,857.86,1,1103.06,1,1616.84,1,857.86
+,Oat flour,12.6,937.518,12.6,873.508,12.6,1033.58,12.6,873.508
+,Oat groats,10,910.287,10,930.917,10,910.287,10,930.917
+,Oat high-bran flakes,0,958.135,0,883.243,0,883.243,0,883.243
+,Oat porridge,8.3,332.333,6.3,348.39,6.1,136.3973,8,905
+,"Oat porridge, INGRED Cow milk, skimmed (low fat)",3.5,427.9951,3.5,428.0651,3.5,427.9851,3.5,428.0051
+,"Oat porridge, INGRED Cow milk, whole",6.3,330.633,6.3,346.73,8.5,419.6843,6.9,500.09
+,"Oat porridge, INGRED Tap water",17,143.296,17,115.041,17.1,134.5683,17,115.081
+,Oat rolled grains,3,858.144,7,911.757,1,1025.827,3,929.217
+,"Oat rolled grains, instant",3,858.144,7,911.757,3,858.144,3,906.577
+,Pancakes,5.14,437.877,5.35,541.052,4.2,327.746,4.8,397.91
+,Pasta flavoured and/or/coloured-deprecated,82.8,449.687,82.8,449.687,82.8,294.0223,82.8,449.687
+,Pasta wholemeal,16,928.95,4,1082.1,8.1,688.25,16,889.54
+,"Pasta wholemeal, PROCESS Baking",0,324.401,0,324.291,0,324.291,0,324.421
+,"Pasta wholemeal, PROCESS Cooking in water",25.9,220.83,11,278.223,6,324.363,6,309.89
+,"Pasta wholemeal, PROCESS Steaming",6,309.69,11,278.223,6,309.76,6,309.89
+,Pasta with egg-deprecated,,0.3,,0.3,,0.3,,0.3
+,"Pasta, gluten free",2.4,47.378,2.4,138.378,2.4,581.14,2.4,125.378
+,"Pasta, gluten free, PROCESS Cooking in water",0,20.414,0,20.414,,,0,20.414
+,"Pasta, gluten free, PROCESS Steaming",0,20.997,0,20.997,,,0,20.997
+,"Pasta, simple-deprecated",2.7,464.09,20,303.01,7.7,473.92,17,532.74
+,"Pasta, simple-deprecated, PROCESS Baking",0,140.85,0,140.85,0,140.847,0,140.897
+,"Pasta, simple-deprecated, PROCESS Cooking in water",1,96.033,1,159.386,1.8,167.81,5,92.5
+,"Pasta, simple-deprecated, PROCESS Steaming",1,96.074,1,159.186,1,140.89,1,159.236
+,Pita bread,2,307.203,3,206.553,1.38,315.3785,2,444.783
+,"Pizza base, cooked",3,177.51,5.8,185.794,4.42,,3,185.794
+,"Popcorn (maize, popped)",9.9,753.04,1,622.94,1,612.3256,1,487.386
+,Popcorn kernels,15.5,688.168,5,621.2,5,471.867,5.37,621.2
+,Popped cereals,3.95,721.36,4.9,893.68,15.2,263.9172,4.9,892.48
+,Pretzels,1,371.383,1,335.743,,,1,335.743
+,Processed and mixed breakfast cereals,13.86,1021.85,13.86,1022.01,13.1,882.934,13.1,882.934
+,Processed barley-based flakes,1,439.87,1,821.07,1,821.07,1,439.87
+,Processed maize-based flakes,2.83,268.08,5.9,183.63,4.65,133.04,5.9,183.63
+,Processed mixed cereal-based flakes,114.68,515.7,114.68,517.75,69.6,369.8009,113,858.2
+,Processed oat-based flakes,7,786.466,7,819.49,8.6,926.068,7.7,952.9
+,Processed rice-based flakes,1.84,824.65,2.7,652.11,2.49,217.163,2.7,652.13
+,Processed rye-based flakes,2,995.858,2,1088.783,2.8,891.033,2,1088.783
+,Processed wheat-based flakes,24.83,914.02,16.7,2517.04,21.9,955.3262,16.7,2517.04
+,Profiterole,6.4,427.711,4.34,219.821,5.3,392.21,5.3,392.21
+,Pumpernickel,2.2,429.63,1,545.95,1,888.4138,1,545.95
+,Pyramid cake,7,310.128,7,310.128,7,310.128,7,310.128
+,Rice and similar-,,0.32,,0.32,,0.32,,0.32
+,Rice chips,8,248.032,8,285.207,,,8,285.207
+,Rice flour,3,228.357,3,304.58,15,286.51,3,424.12
+,"Rice grain, brown",10,589.572,10,732,13.6,622.868,10,692.92
+,"Rice grain, brown, PROCESS Baking",0,88.988,0,88.978,0,89.018,0,89.028
+,"Rice grain, brown, PROCESS Cooking in water",2.2,202.717,9,201.546,5.33,236.1072,4,269.936
+,"Rice grain, brown, PROCESS Steaming",2.2,202.717,9,201.546,5.33,236.1072,4,269.936
+,"Rice grain, long-grain",7.2,260.353,14,230.06,3,600.72,14,392.1
+,"Rice grain, long-grain, PROCESS Cooking in water",1,85.725,1,90.579,4.66,78.064,5,139.62
+,"Rice grain, long-grain, PROCESS Steaming",1,85.725,1,90.579,4.66,78.064,5,139.62
+,"Rice grain, mixed",11,780.216,11,667.01,3.2,730.22,11,667.01
+,"Rice grain, mixed, PROCESS Cooking in water",4,264.795,4,270.83,9.2,262.0216,4,270.83
+,"Rice grain, mixed, PROCESS Steaming",9.2,88.975,9.2,88.995,9.2,262.0216,9.2,88.995
+,"Rice grain, parboiled",15,453.62,6,496.417,7,573.77,14,391.81
+,"Rice grain, parboiled, PROCESS Cooking in water",1,126.811,5,73.19,5,103.491,5,139.888
+,"Rice grain, parboiled, PROCESS Steaming",8.2,131.835,5,163.19,5,103.491,5,139.888
+,"Rice grain, polished",11,236.665,13,230.16,3,448.3,11,233.78
+,Rice porridge,2.3,297.12,2.29,353.168,2.3,297.12,2.29,353.168
+,"Rice porridge, INGRED Cow milk, skimmed (low fat)",4.6,341.4432,4.6,341.4432,4.6,341.4432,4.6,341.4432
+,"Rice porridge, INGRED Cow milk, whole",2.3,296.603,2.29,352.607,5.7,353.2822,2.29,352.607
+,Rice rolled grains,1,265.625,1,265.625,1,265.625,1,265.625
+,Rice starch,0,58.363,0,58.363,0,58.363,0,58.363
+,"Rice, popped",10.05,405.61,10,786.6,13.2,259.3812,10,785.7
+,"Rusk, refined flour",6.7,380.72,10,409.731,9.32,388.86,10,890.4
+,"Rusk, wholemeal",1.7,877.095,2,444.255,9.48,708.808,2,1221.07
+,Rye bran,2.8,2014.92,2.8,2014.92,2.8,2014.92,2.8,2014.92
+,"Rye bread, refined flour",5.83,485.319,2.83,443.551,,,5.83,487.61
+,"Rye bread, wholemeal",1.1,590.636,3,522.191,0.69,620.94,3,522.191
+,"Rye flour, light",1,352.122,1,436.278,1,371.494,1,436.278
+,"Rye flour, medium",,522.11,0,999.49,1,566.43,0,999.49
+,"Rye flour, wholemeal",,,1.5,875.863,2.8,1012.45,3,905.29
+,Rye groats,2.8,923.225,2.8,923.225,2.8,1116.077,2.8,923.225
+,Rye porridge,0.4,127.0412,0.4,127.0412,0.4,127.0412,0.4,127.0412
+,"Rye porridge, INGRED Cow milk, whole",2.8,381.4978,2.8,381.4978,2.8,381.4978,2.8,381.4978
+,"Rye porridge, INGRED Tap water",0.4,108.4323,0.4,108.4323,0.4,108.4423,0.4,108.4323
+,Rye rolled grains,2,995.858,2,1088.783,2,995.858,2,1088.783
+,Rye starch,1,186.88,1,186.88,1,186.88,1,186.88
+,"Rye-wheat bread, refined flour",4.2,274.845,3,314.763,1,371.88,3,403.885
+,"Rye-wheat bread, wholemeal",4,643.422,4,533.31,2.63,302.0786,6,533.31
+,Scones and similar,2.3,878.94,2.3,878.94,2.3,878.94,2.3,878.94
+,Short pastry dough and similar,4.2,192.56,4.2,267.4,11.7,242.4744,4.2,267.4
+,"Short pastry dough and similar, PROCESS Baking",,186.84,1.1,309.72,1.1,193.091,1.1,309.72
+,Sorghum flour,1,831.867,1,831.867,1,831.867,1,831.867
+,Speculaas,6.2,369.466,6,308.775,6.2,369.466,6,308.775
+,Spelt flour,23.5,297.392,23.5,297.392,23.5,297.392,23.5,297.392
+,"Spelt flour, wholemeal",0,830.114,0,830.114,0,830.114,0,830.114
+,Spelt grain,0,1054.185,0,1016.835,0,1016.835,0,1016.835
+,"Spelt grain, PROCESS Baking",0,290.889,0,290.889,0,290.889,0,290.889
+,"Spelt grain, PROCESS Cooking in water",0,290.988,0,290.988,0,290.988,0,290.988
+,"Spelt grain, PROCESS Steaming",0,290.988,0,290.988,0,290.988,0,290.988
+,Spelt rolled grains,0,1016.835,0,1117.167,0,1117.167,0,1016.835
+,Spice cakes,3,110.315,8.65,146.696,5.4,202.6872,8.65,146.696
+,Sponge cake,4.7,302.818,12.71,282.083,8.9,264.955,13,423.923
+,"Sponge cake dough (g�noise), PROCESS Baking",7.7,303.401,15.71,282.666,16,265.467,15.71,282.666
+,"Sponge cake dough (g�noise), PROCESS Steaming",6,265.467,6,265.467,6,265.467,6,265.467
+,Sponge cake roll,6.69,297.93,7.22,270.103,9.29,250.369,10.1,394.28
+,"Sticks, salty",5,533.03,5,337.96,1.1,346.76,5,346.06
+,Sweet almond pastry mass,3.16,922.987,3.16,922.987,3.16,922.987,3.16,922.987
+,"Sweet almond pastry mass, PROCESS Baking",2.2,745.886,2.2,660.93,2.2,660.93,2.2,660.93
+,Tortilla,2,540.005,,383.089,6.2,419.4309,2,330.267
+,Tortilla chips,5.78,595.417,7,747.013,0.5,558.08,3,707
+,"Unleavened doughs, PROCESS Baking",5.2,193.477,5,445.364,5.2,193.477,5,445.364
+,Waffles,11.49,378.122,5,221.921,7.4,358.636,8,863.05
+,Wheat bran,4.3,3071.299,2,2994.84,11.5,3070.37,12.4,3058.27
+,Wheat bran rolled flakes,13.86,1024.75,13.86,1024.41,8.1,1102.5107,13.1,869.541
+,"Wheat bread and rolls, brown or wholemeal",7.5,471.612,4,390.742,4,,6,613.04
+,"Wheat bread and rolls, white (refined flour)",4.6,249.387,4,247.052,1.54,303.27,0,345.43
+,"Wheat bread and rolls, white with maize",5,330.765,5,330.765,,,5,330.765
+,Wheat flour white,2,237.674,5,307.04,7.7,284.56,2,427.14
+,"Wheat flour, brown",4,855.73,4,791.95,9.5,691.69,4,703.38
+,"Wheat flour, durum",2.3,358.731,5,286.91,7,1134.513,5,286.91
+,Wheat germ,3.9,2298.02,3,2549.49,9.5,2456.71,3,2389.23
+,Wheat germs rolled flakes,4.12,2459.15,4.12,1010.715,21.12,1010.715,4.12,2459.15
+,Wheat groats,7,989.686,7,762.912,7,1135.213,7,762.912
+,Wheat rolled grains,0,867.106,0,867.106,0,867.106,0,867.106
+,Wheat semolina,1,391.375,1,242.1,7.7,284.93,1,335.163
+,"Wheat semolina porridge, INGRED Cow milk, whole",2.2,215.206,2.28,327.179,4.3,325.8394,2.28,327.179
+,"Wheat semolina porridge, INGRED Tap water",16,36.584,16,36.584,16,109.7115,16,36.584
+,"Wheat semolina, PROCESS Cooking in water",0,65.856,,30.03,0,59.886,,51
+,"Wheat semolina, PROCESS Steaming",0,133.856,,70.03,0,119.886,,119
+,Wheat starch,0,40.227,0,40.227,0,40.227,0,40.227
+,Wheat wholemeal flour,6,804.95,0.1,840.802,9.5,911.42,6,835.91
+,"Wheat, popped",3.95,721.86,3.1,925.52,3.78,377.85,3.1,924.32
+,Yeast leavened sweet doughs,0,279.137,0,279.137,0,279.137,0,279.137
+,"Yeast leavened sweet doughs, PROCESS Baking",0.45,247.788,3.4,479.29,3,279.275,3.4,479.29
+Human milk,Human milk,0.04,,1.04,99.35,1.14,91.543,0.04,
+"Legumes, nuts, oilseeds and spices",Allspice fruit,5,912.57,5,1953.16,5,1953.16,5,1953.16
+,Almonds sweet,1.5,1874.213,2,2072.52,2,1778.215,2,1878.79
+,"Almonds sweet, PROCESS Baking",4,1380.248,4,1899.545,2,1836.485,4,1899.545
+,"Almonds sweet, PROCESS Cooking in water",0,1248.813,0,1248.813,0,1248.813,0,1248.813
+,"Almonds sweet, PROCESS Steaming",0,1248.813,0,1248.813,0,1248.813,0,1248.813
+,Anise seed,5,2748.527,5,2748.527,5,2748.527,5,2748.527
+,Azuki beans (dry),0,1700.441,2,1832.146,0,2017.541,2,1832.146
+,"Azuki beans (dry), PROCESS Baking",0,2256.925,0,2256.925,0,2256.925,0,2256.925
+,"Azuki beans (dry), PROCESS Cooking in water",1,724.562,1,856.65,1,724.562,1,856.65
+,"Azuki beans (dry), PROCESS Steaming",1,724.562,1,856.65,1,724.562,1,856.65
+,Beans (dry) and similar-,16,2219.757,179,1893.04,178.8,2027.045,16,2048.357
+,"Beans (dry) and similar-, PROCESS Baking",0,671.718,0,671.718,0,671.718,0,671.718
+,"Beans (dry) and similar-, PROCESS Cooking in water",1.4,650.106,2,620.253,6,671.718,6,638.815
+,"Beans (dry) and similar-, PROCESS Steaming",1.4,650.106,2,620.253,6,671.718,6,638.815
+,Beans (fresh seeds without pods) and similar-,0,920.27,0,493.61,0,524.462,0,493.61
+,"Beans (fresh seeds without pods) and similar-, PROCESS Cooking in water",2.7,305.579,2.7,333,2.7,460.5955,2.7,333
+,"Beans (fresh seeds without pods) and similar-, PROCESS Steaming",2.7,305.579,2.7,333,2.7,460.5955,2.7,333
+,Bitter almonds,2,1366.871,2,2072.117,4,1828.087,2,2072.117
+,Borage seeds,0,675.1,0,675.1,0,675.1,0,675.1
+,Borlotti or other common beans (dry),16,2227.377,179,1893.21,178.8,2279.831,9,269.18
+,"Borlotti or other common beans (dry), PROCESS Baking",0,671.718,0,671.718,0,671.718,0,671.718
+,"Borlotti or other common beans (dry), PROCESS Cooking in water",6,487.123,2,620.253,4.7,615.152,2,276.225
+,"Borlotti or other common beans (dry), PROCESS Steaming",6,487.123,2,620.253,4.7,615.152,2,276.225
+,Broad beans (dry),2.5,1818.62,2.5,1987.62,2.5,118.487,2.5,1987.62
+,"Broad beans (dry), PROCESS Baking",0,671.718,0,671.668,0,671.718,0,671.598
+,"Broad beans (dry), PROCESS Cooking in water",1.8,376.462,1.8,333.07,1.8,671.718,1.8,333
+,"Broad beans (dry), PROCESS Steaming",1.8,376.462,1.8,333.07,1.8,671.718,1.8,333
+,Broad beans (without pods),1,359.017,1,553.497,1,524.462,1,493.61
+,"Broad beans (without pods), PROCESS Cooking in water",3,305.64,3,543.05,3,305.64,3,333
+,"Broad beans (without pods), PROCESS Steaming",3,305.64,3,543.05,3,305.64,3,333
+,Canned or jarred chickpea,1,145.064,211,971.476,211,971.476,1,153.994
+,Canned or jarred common beans,6,409.74,71,473.328,78.2,523.2195,6,516.22
+,Canned or jarred lentils,9,285.816,7.8,219.886,7.8,373.701,7.8,373.701
+,Canned or jarred peas,0.6,292.36,1,284.381,1,256.332,31.4,266.06
+,Capers buds,0,280.987,1,127.26,,,1,127.26
+,Caraway fruit,5.2,3667.904,5.2,3118.087,5.2,3102.017,5.2,3118.087
+,Cardamom fruit,0,1757.797,0,1757.797,0,1757.797,0,1757.797
+,Cashew nuts,12,1382.937,37,1626.955,11,1380.92,29,1595.387
+,"Cashew nuts, PROCESS Baking",0,1226.523,0,1548.723,2,1384.313,0,1548.723
+,"Cashew nuts, PROCESS Cooking in water",0,1274.76,0,1274.76,0,1274.76,0,1274.76
+,"Cashew nuts, PROCESS Steaming",0,1515.458,0,1515.458,0,1515.458,0,1515.458
+,Cassia buds,0,1616.217,0,1616.217,0,1616.217,0,1616.217
+,Chestnut puree (castanea vulgaris),10.2,337.585,10.2,337.585,10.2,526.938,10.2,526.938
+,Chestnuts,0,555.52,0,780.75,0,1143.48,0,657.7
+,"Chestnuts, PROCESS Baking",1.2,767.142,1.2,767.142,2,764.427,1.2,767.142
+,"Chestnuts, PROCESS Cooking in water",2.2,611.375,2.2,611.375,2.2,710.974,2.2,710.974
+,"Chestnuts, PROCESS Steaming",0,710.974,0,710.974,0,710.974,0,710.974
+,Chickpea flour,,1233.427,2,1660.56,2,1402.358,2,1660.56
+,Chickpeas (dry),2,1587.83,266,1400.497,266,1400.497,2,1618.29
+,"Chickpeas (dry), PROCESS Baking",0,5.77,0,5.77,0,5.77,0,5.77
+,"Chickpeas (dry), PROCESS Cooking in water",1,552.68,1,475.9,13.7,374.642,1,442.79
+,"Chickpeas (dry), PROCESS Steaming",1,552.68,1,475.9,5,561.992,1,442.79
+,Cinnamon bark and similar-,0,1831.563,15,1894.09,3.1,1571.36,15,1889.763
+,Cloves buds,0,2211.487,0,2211.487,0,2211.487,0,2211.487
+,Coconut milk (cocos nucifera) liquid,3,385.59,3,384.828,,,3,369.56
+,Coconuts,0.8,414.187,10,548.35,1,530.92,1,522.85
+,"Coconuts, PROCESS Drying (dehydration)",13.8,941.525,12,941.48,1,869.693,12,941.48
+,Coriander seed,26.2,2744.454,26.2,2739.829,26.2,2739.829,26.2,2679.05
+,Cumin seed,0,3301.387,5.2,3671.232,5.2,3313.697,5.2,3313.697
+,Dill seed,0,3278.58,0,3278.58,0,3278.58,0,3278.58
+,Fennel seed,0,3404.39,0,3797.151,0,3797.151,0,3793.2
+,Fenugreek seed,0,1480.243,0,1332.203,0,1480.243,0,1332.203
+,Garden peas (dry),3,1490.308,84,1590.12,83.1,1652.65,3,1488.14
+,"Garden peas (dry), PROCESS Cooking in water",3.4,466.784,1,641.241,,,1,440.001
+,"Garden peas (dry), PROCESS Steaming",3.4,466.784,1,641.241,,,1,440.001
+,Ginger roots,38.5,1802.911,38.5,364.947,,,38.5,411.28
+,Hazelnuts,13,1127.574,13,1291.22,13,1282.35,13,1367.79
+,"Hazelnuts, PROCESS Baking",14,1392.969,14,1392.969,3,1137.328,14,1392.969
+,"Hazelnuts, PROCESS Cooking in water",10,1134.733,10,1134.733,10,1134.733,10,1134.733
+,"Hazelnuts, PROCESS Steaming",10,1134.733,10,1134.733,10,1134.733,10,1134.733
+,Juniper berry,0,3102.017,0,3102.017,0,3102.017,0,3102.017
+,Kidney bean (dry seeds),16,2193.925,16,2048.041,16,2246.071,16,2048.061
+,"Kidney bean (dry seeds), PROCESS Baking",0,2256.746,0,2256.746,0,2256.746,0,2256.746
+,"Kidney bean (dry seeds), PROCESS Cooking in water",6,542.048,6,638.448,7.9,462.65,6,638.448
+,"Kidney bean (dry seeds), PROCESS Steaming",6,542.048,6,638.448,6,724.562,6,638.448
+,Lentils (dry),32.5,1516.235,22,1607.027,0,569.617,22,1494.877
+,"Lentils (dry), PROCESS Cooking in water",12,475.826,8,881.19,9.9,597.353,8,503.657
+,"Lentils (dry), PROCESS Steaming",12,475.826,8,881.19,9.9,597.353,8,503.657
+,Lentils (without pods),32.5,1516.235,,,,,32.5,1471.167
+,"Lentils (without pods), PROCESS Cooking in water",12,475.979,12,464.324,12,464.324,12,464.324
+,"Lentils (without pods), PROCESS Steaming",12,475.979,12,464.324,12,464.324,12,464.324
+,Lima beans (without pods),0,345.56,0,2312.26,0,345.56,0,2312.26
+,"Lima beans (without pods), PROCESS Cooking in water",0,319.401,0,549.03,0,319.401,0,549.03
+,"Lima beans (without pods), PROCESS Steaming",0,319.401,0,549.03,0,319.401,0,549.03
+,Linseeds,4,1815.39,4,1844.64,2,1790.36,4,1844.64
+,Liquorice roots,0,3179.47,0,510.335,0,510.335,0,3179.47
+,Macadamias,4,759.775,12,759.219,,,7,655.54
+,Mace aril,0,1010.277,0,917.997,0,1010.277,0,1002.247
+,Mung beans (dry),130,1358.853,178.8,1567.195,178.8,1567.195,146,1510.703
+,"Mung beans (dry), PROCESS Cooking in water",90,545.118,90,435.756,0.7,456.527,90,435.756
+,"Mung beans (dry), PROCESS Steaming",90,545.118,90,435.756,0.7,456.527,90,435.756
+,Mustard seeds and similar-,0,2381.13,0,2381.13,0,2381.13,0,2381.13
+,Navy beans (dry seeds),12,2030.934,12,1847.36,12,2030.934,12,1847.36
+,"Navy beans (dry seeds), PROCESS Cooking in water",2.2,650.862,4,556.112,4,745.212,4,556.112
+,"Navy beans (dry seeds), PROCESS Steaming",2.2,650.862,4,556.112,4,745.212,4,556.112
+,Nutmeg seed,0,680.317,1.6,938.05,1.6,938.083,1.6,929.307
+,"Olives, processed",2,127.576,2,195.503,1.12,241.151,2,195.125
+,Paprika powder,0,2915.56,4,3105.09,4,3138.9,4,3109.1
+,Peanut butter,6.25,1258.611,9,1106.242,2,1286.837,3,1276.03
+,Peanuts,4.7,1381.477,6.9,1377.218,3,1301.11,3,1408.24
+,"Peanuts, PROCESS Baking",4.7,1231.163,16,1520.578,3,1681.325,3,1418.6
+,"Peanuts, PROCESS Cooking in water",0,1020.586,0,1020.586,0,1020.586,0,1020.586
+,"Peanuts, PROCESS Steaming",0,1020.586,0,1020.586,0,1020.586,0,1020.586
+,Peas (without pods) and similar-,37,378.458,71,437.103,1,351.973,37,523.64
+,"Peas (without pods) and similar-, PROCESS Baking",39,473.715,39,473.715,39,473.715,39,473.715
+,"Peas (without pods) and similar-, PROCESS Cooking in water",23.9,388.037,24,436.44,0.3,182.581,24,414.46
+,"Peas (without pods) and similar-, PROCESS Steaming",37.9,388.39,38,436.44,38,426.881,38,414.46
+,Pecans,7,1103.97,13,1037.87,10,859.76,13,1040.46
+,"Peppercorn (black, green and white) and similar-",3.1,2070.432,3,2087.812,3.1,2097.818,3,2067.397
+,"Peppers, dried",0,203.267,0,2630.497,0,2630.497,0,2630.497
+,Pine nut kernels and similar-,2,1378.189,2,1411.81,2,1483.205,2,1747.517
+,"Pine nut kernels and similar-, PROCESS Baking",2,1406.68,2,1412.93,2,1406.68,2,1412.93
+,"Pine nut kernels and similar-, PROCESS Cooking in water",0,1425.566,0,1425.566,0,1425.566,0,1425.566
+,"Pine nut kernels and similar-, PROCESS Steaming",0,1425.566,0,1425.566,0,1425.566,0,1425.566
+,Pistachios,67,1782.34,63.7,1764.38,,,63.7,1838.11
+,"Pistachios, PROCESS Baking",4.7,1745.085,20,1984.55,2,1903.31,6,1716.72
+,"Pistachios, PROCESS Cooking in water",54,1514.24,54,1514.24,54,1514.24,54,1514.24
+,"Pistachios, PROCESS Steaming",54,1514.24,54,1514.24,54,1514.24,54,1514.24
+,Poppy seeds,18,3381.245,18,3926.62,18,3355.808,18,3482.733
+,"Poppy seeds, PROCESS Baking",18,3921.95,18,3921.95,18,3921.95,18,3921.95
+,Pumpkin seeds,6,1408.232,6,2012.449,6,1408.232,6,2012.449
+,"Pumpkin seeds, PROCESS Baking",7,1408.007,7,2451.422,2,2623.092,7,2451.422
+,"Pumpkin seeds, PROCESS Cooking in water",0,1184.58,0,1184.58,0,1184.58,0,1184.58
+,"Pumpkin seeds, PROCESS Steaming",0,1184.58,0,1184.58,0,1184.58,0,1184.58
+,Saffron,0,2098.28,0,2297.43,0,2297.43,0,2297.43
+,Sesame paste (tahini) (sesamus indicum),8.9,1713.665,34,1860.796,,,36,2402.012
+,Sesame seeds,7.7,2408.428,26.4,2255.636,51,1825.87,26.4,2361.94
+,"Sesame seeds, PROCESS Baking",14,2022.499,14,2022.499,2,1685.811,14,2022.499
+,Soya proteins,9,2743.183,9,2737.31,79,2740.42,32.5,2737.31
+,Sunflower seeds,,1522.83,49,1806.26,49,1922.49,49,1915.63
+,"Sunflower seeds, PROCESS Baking",51,1778.046,51,1963.883,0,1916.119,51,1963.883
+,"Sunflower seeds, PROCESS Cooking in water",0,1681.005,0,1681.005,0,1681.005,0,1681.005
+,"Sunflower seeds, PROCESS Steaming",0,1681.005,0,1681.005,0,1681.005,0,1681.005
+,Table olives and similar-,0,158.46,0,159.307,0,159.307,0,158.46
+,Table olives ready for consumption,2.2,156.589,1,104.353,,,1,104.31
+,"Thyme, dry",,,,,,,,
+,Turmeric roots,0,3220.89,0,3610.44,0,3220.89,0,3610.44
+,Vanilla,0,1887.733,0,1887.733,0,1887.733,0,1887.733
+,Walnuts,6.18,976.96,15,1382.047,2,1067.12,6,1099.98
+Meat and meat products,Bacon,9.6,336.56,8.65,387.79,6.2,331.77,8.65,483.08
+,"Bacon, PROCESS Baking",13.6,459.079,13,563.25,5.6,319.401,13,563.25
+,"Bacon, PROCESS Cooking in water",0.7,640.724,0.7,640.724,1.5,584.365,1.5,584.537
+,"Bacon, PROCESS Frying",0.7,642.7,14.3,283.725,8.3,447.7789,13,606.11
+,"Bacon, PROCESS Steaming",0.7,640.724,0.7,640.724,1.5,584.365,1.5,584.537
+,Beef kidney,178.4,499.89,165,530.75,183.4,546.55,165,530.7
+,"Beef kidney, PROCESS Baking",208.1,595.063,143,513.56,143,513.56,150,517.432
+,"Beef kidney, PROCESS Cooking in water",208.1,597.096,248,564.85,227.2,777.9899,248,564.85
+,"Beef kidney, PROCESS Frying",,,177.3,630.4652,,,,
+,"Beef kidney, PROCESS Steaming",194,500.254,248,564.85,227.2,777.9899,248,564.85
+,Beef liver,182,738.638,104,830.571,121,821.877,165,705.237
+,"Beef liver, PROCESS Baking",146,688.968,117,664.35,117,664.35,146,688.968
+,"Beef liver, PROCESS Cooking in water",160.3,570.194,215,579.288,160.3,570.194,215,579.288
+,"Beef liver, PROCESS Frying",85,817.75,39,1019.85,85,817.75,85,816.69
+,"Beef liver, PROCESS Steaming",160.3,570.194,215,579.288,160.3,570.194,215,579.288
+,"Beerwurst, PROCESS Baking",6.8,395.439,6.8,395.439,6.8,395.439,6.8,395.439
+,"Beerwurst, PROCESS Cooking in water",6.8,395.439,6.8,395.439,6.8,395.439,6.8,395.439
+,"Beerwurst, PROCESS Steaming",6.8,395.439,6.8,395.439,6.8,395.439,6.8,395.439
+,Blood-type sausage,11.2,245.485,16.3,364.065,3.4,345.1448,7,343.35
+,"Blood-type sausage, QUAL Low fat (naturally or reduced)",1.1,362.105,1.1,362.105,1.1,362.105,1.1,362.105
+,"Bockwurst, PROCESS Baking",10.9,344.138,10.9,344.138,10.9,344.138,10.9,344.138
+,"Bockwurst, PROCESS Cooking in water",10.9,344.138,10.9,344.138,10.9,344.138,10.9,344.138
+,"Bockwurst, PROCESS Steaming",10.9,344.138,10.9,344.138,10.9,344.138,10.9,344.138
+,"Bockwurst, QUAL Low fat (naturally or reduced), PROCESS Baking",0.5,508.982,0.5,508.982,0.5,508.982,0.5,508.982
+,"Bockwurst, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",0.5,508.982,0.5,508.982,0.5,508.982,0.5,508.982
+,"Bockwurst, QUAL Low fat (naturally or reduced), PROCESS Steaming",0.5,508.982,0.5,508.982,0.5,508.982,0.5,508.982
+,"Bologna-type sausage, PROCESS Baking",1.9,335.204,1.9,335.204,1.9,335.204,1.9,335.204
+,"Bologna-type sausage, PROCESS Cooking in water",9.8,415.604,8.66,584.788,19.9,727.3179,8.66,314.393
+,"Bologna-type sausage, PROCESS Steaming",9.8,415.604,8.66,584.788,19.9,727.3179,8.66,314.393
+,"Bologna-type sausage, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",8.66,387.855,8.66,387.855,8.66,387.855,8.66,387.855
+,"Bologna-type sausage, QUAL Low fat (naturally or reduced), PROCESS Steaming",8.66,387.855,8.66,387.855,8.66,387.855,8.66,387.855
+,"Bologna-type sausage, QUAL Low sodium / reduced salt, PROCESS Cooking in water",21.5,830.0601,21.5,830.0601,21.5,830.0601,21.5,830.0601
+,"Bologna-type sausage, QUAL Low sodium / reduced salt, PROCESS Steaming",21.5,830.0601,21.5,830.0601,21.5,830.0601,21.5,830.0601
+,Bovine and pig fresh meat,14.3,569.151,12.25,514.803,26,399.967,12.25,514.803
+,"Bovine and pig fresh meat, PROCESS Baking",4.8,503.249,4.8,503.249,4.8,503.249,4.8,503.249
+,"Bovine and pig fresh meat, PROCESS Cooking in water",5.9,553.666,5.9,553.666,5.9,553.666,5.9,553.666
+,"Bovine and pig fresh meat, PROCESS Frying",21.6,657.398,19.86,1078.048,21.6,657.398,19.86,1078.048
+,"Bovine and pig fresh meat, PROCESS Steaming",5.9,553.666,5.9,553.666,5.9,553.666,5.9,553.666
+,"Bovine and pig fresh meat, QUAL Half fat or medium fat, PROCESS Frying",31.3,519.8928,31.3,519.8928,31.3,519.8928,31.3,519.8928
+,Bovine fresh meat,5,562.22,10.02,540.592,11.8,484.971,9,594.58
+,"Bovine fresh meat, PROCESS Baking",18,694.64,7.55,364.317,,0.09,14,635.126
+,"Bovine fresh meat, PROCESS Cooking in water",2,610.487,13,501.203,,0.07,13,501.293
+,"Bovine fresh meat, PROCESS Frying",13.3,444.692,13.31,710.54,19.7,768.756,11,686.36
+,"Bovine fresh meat, PROCESS Steaming",14.5,594.705,13,501.203,,0.07,13,501.293
+,Bovine heart,12.9,570.54,24,482.405,24,482.405,16,546.947
+,"Bovine heart, PROCESS Baking",52.9,495.079,52.9,495.079,47.8,396.31,47.8,396.31
+,"Bovine heart, PROCESS Cooking in water",52.9,495.079,13,508.06,8.9,399.427,13,508.06
+,"Bovine heart, PROCESS Frying",8.9,396.527,8.9,396.527,8.9,396.527,8.9,396.527
+,"Bovine heart, PROCESS Steaming",52.9,495.079,13,508.06,8.9,399.427,13,508.06
+,Bovine marrowbone,30.5,379.55,21,27.653,21,27.653,21,27.653
+,"Bovine meat, dried",13,1426.841,1.78,1202.963,,0.15,1.78,1147.089
+,"Bovine meat, dried, PROCESS Cooking in water",1.8,216.06,1.8,216.06,1.8,216.06,1.8,216.06
+,"Bovine meat, dried, PROCESS Steaming",1.8,216.06,1.8,216.06,1.8,216.06,1.8,216.06
+,Bovine stomach,0,99.183,0,133.903,0,133.903,0,133.903
+,"Bovine stomach, PROCESS Baking",0,132.791,0,132.791,0,132.791,0,132.791
+,"Bovine stomach, PROCESS Cooking in water",0,132.791,0,132.791,0,132.791,0,132.791
+,"Bovine stomach, PROCESS Frying",0,132.791,0,132.791,0,132.791,0,132.791
+,"Bovine stomach, PROCESS Steaming",0,132.791,0,132.791,0,132.791,0,132.791
+,Bovine tail,2.2,591.878,3,477.18,2.2,591.878,3,477.18
+,"Bovine tail, PROCESS Cooking in water",1.8,546.977,2,365.56,1.8,546.977,2,365.56
+,"Bovine tail, PROCESS Frying",2.3,661.329,2.3,661.329,2.3,661.329,2.3,661.329
+,"Bovine tail, PROCESS Steaming",1.8,546.977,2,365.56,1.8,546.977,2,365.56
+,Bovine tongue,7,425.642,6.9,488.415,18.5,469.37,6.9,488.415
+,"Bovine tongue, PROCESS Baking",6.6,352.767,6.6,352.767,6.4,426.614,6.4,426.614
+,"Bovine tongue, PROCESS Cooking in water",6.6,352.767,6.2,316.899,23.9,672.4569,6.2,316.899
+,"Bovine tongue, PROCESS Frying",6.6,352.767,6.6,352.767,6.4,427.364,6.4,427.364
+,"Bovine tongue, PROCESS Steaming",6.6,352.767,6.2,316.899,23.9,672.4569,6.2,316.899
+,Breakfast-type sausage,15.34,401.644,6.66,497.774,6.66,497.6,14,458.13
+,"Breakfast-type sausage, PROCESS Baking",16.3,386.658,16,544.89,16.3,386.361,16,544.89
+,"Breakfast-type sausage, PROCESS Cooking in water",15.1,386.658,15.1,386.658,15.1,386.361,15.1,386.658
+,"Breakfast-type sausage, PROCESS Frying",7,533.9,7,533.9,7,533.6,7,533.9
+,"Breakfast-type sausage, PROCESS Steaming",10.3,386.658,10.3,386.658,10.3,386.361,10.3,386.658
+,Canned meat,7.4,379.183,7.44,270.261,20.6,577.12,7.44,270.261
+,"Cervelat (swiss type), PROCESS Baking",10.9,344.138,13,417.911,10.9,344.138,13,417.911
+,"Cervelat (swiss type), PROCESS Cooking in water",10.9,344.138,0.9,445.075,0.9,445.075,10.9,344.138
+,"Cervelat (swiss type), PROCESS Steaming",10.9,344.138,0.9,445.075,0.9,445.075,10.9,344.138
+,"Cervelat (swiss type), QUAL Low fat (naturally or reduced), PROCESS Baking",0.5,508.982,0.5,508.982,0.5,508.982,0.5,508.982
+,"Cervelat (swiss type), QUAL Low fat (naturally or reduced), PROCESS Cooking in water",0.5,508.982,0.5,508.982,0.5,508.982,0.5,508.982
+,"Cervelat (swiss type), QUAL Low fat (naturally or reduced), PROCESS Steaming",0.5,508.982,0.5,508.982,0.5,508.982,0.5,508.982
+,Chicken fresh meat,10.373,631.14,18.2,624.876,13.3,404.037,12.2,641.57
+,"Chicken fresh meat, PROCESS Baking",17.72,500.541,17.29,644.652,18.4,780.61,16.29,604.62
+,"Chicken fresh meat, PROCESS Cooking in water",0.26,456.676,15.2,470.51,15.2,308.848,15.2,470.51
+,"Chicken fresh meat, PROCESS Frying",25.35,782.267,18.29,814.032,,,15.29,762.49
+,"Chicken fresh meat, PROCESS Steaming",25.35,825.025,15.3,499.808,15.3,499.808,15.2,470.51
+,Chicken liver,154.7,521.005,164,668.473,152,811.005,164,601.393
+,"Chicken liver, PROCESS Baking",132.2,688.136,132.2,688.136,120.1,489.274,120.1,489.274
+,"Chicken liver, PROCESS Cooking in water",88.1,396.914,88.1,396.914,88.1,396.914,88.1,396.914
+,"Chicken liver, PROCESS Frying",117.9,489.274,140,719.16,117.9,489.274,140,719.16
+,"Chicken liver, PROCESS Steaming",108.2,682.525,108.2,682.525,90.3,396.914,90.3,396.914
+,"Chicken, other organs (edible offal non-muscle)",105.7,518.142,87.29,405.416,87.29,405.416,94,474.51
+,"Chicken, other organs (edible offal non-muscle), PROCESS Baking",117.9,486.811,117.9,486.811,117.9,486.811,117.9,486.811
+,"Chicken, other organs (edible offal non-muscle), PROCESS Cooking in water",117.9,486.811,110,546.865,117.9,486.811,110,546.865
+,"Chicken, other organs (edible offal non-muscle), PROCESS Steaming",117.9,486.811,110,546.865,117.9,486.811,110,546.865
+,Chorizo and similar,19.83,812.73,25.92,622.595,11.96,510.553,25.92,613.595
+,"Chorizo and similar, QUAL Low fat (naturally or reduced)",16,751.519,16,751.519,8.9,382.323,16,751.519
+,Cooked bovine tongue,6.6,352.767,7.2,296.661,6.4,426.964,7.2,296.661
+,"Cooked bratwurst-type sausage, PROCESS Baking",5.7,375.019,5,431.792,5.7,375.019,5,431.792
+,"Cooked bratwurst-type sausage, PROCESS Cooking in water",10.5,375.019,10.5,375.019,,,10.5,375.019
+,"Cooked bratwurst-type sausage, PROCESS Steaming",5.7,375.019,5.7,375.019,5.7,375.019,5.7,375.019
+,"Cooked bratwurst-type sausage, QUAL Low fat (naturally or reduced), PROCESS Baking",3.7,571.472,3.7,571.472,3.7,571.472,3.7,571.472
+,"Cooked bratwurst-type sausage, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",3.7,571.472,3.7,571.472,3.7,571.472,3.7,571.472
+,"Cooked bratwurst-type sausage, QUAL Low fat (naturally or reduced), PROCESS Steaming",3.7,571.472,3.7,571.472,3.7,571.472,3.7,571.472
+,Cooked other poultry meat,11,767.07,11,767.07,,,11,767.07
+,Cooked pork ham,5.6,509.545,11.44,705.82,6.8,545.95,12,724.84
+,Cooked pork tongue,12.7,484.248,15.7,516.33,15.7,516.33,12.7,484.248
+,"Cooked sausages (generic), QUAL Low fat (naturally or reduced)",16.4,444.008,17.75,673.245,18.4,513.024,15.75,452.7
+,"Cooked sausages (generic), QUAL Low sodium / reduced salt",9.9,425.827,9.9,425.827,9.9,425.827,9.9,425.827
+,Cooked turkey meat,33.2,582.346,12.3,687.31,5.4,525.624,12.3,687.31
+,"Corned beef, uncooked",1,201.217,,,,,9,320.427
+,"Corned beef, uncooked, PROCESS Baking",1,399.899,1,399.899,1,399.899,1,399.899
+,"Corned beef, uncooked, PROCESS Cooking in water",9,402.132,9.9,293.83,9,402.132,10,330.35
+,"Corned beef, uncooked, PROCESS Frying",1,399.899,1,399.899,1,399.899,1,399.899
+,"Corned beef, uncooked, PROCESS Steaming",9,402.132,9.9,293.83,9,402.132,10,330.35
+,"Corned pork meat, cooked",10.83,656.969,10.83,656.969,10.83,656.969,10.83,656.969
+,"Corned pork, uncooked, PROCESS Baking",0.4,346.748,0.4,346.748,0.4,346.748,0.4,346.748
+,"Corned pork, uncooked, PROCESS Cooking in water",0.4,346.748,0.4,346.748,0.4,346.748,0.4,346.748
+,"Corned pork, uncooked, PROCESS Steaming",0.4,346.748,0.4,346.748,0.4,346.748,0.4,346.748
+,Cured pork fat,7.6,37.285,7.6,61.512,7.6,61.512,7.6,61.512
+,Cured seasoned poultry meat,0.4,554.131,0.4,554.131,0.4,554.131,0.4,554.131
+,"Cured seasoned poultry meat, PROCESS Baking",18.3,500.632,18.3,556.491,18.3,500.632,18.3,556.491
+,"Cured seasoned poultry meat, PROCESS Cooking in water",0.3,500.632,0.3,500.632,0.3,500.632,0.3,500.632
+,"Cured seasoned poultry meat, PROCESS Steaming",0.3,500.632,0.3,500.632,0.3,500.632,0.3,500.632
+,"Deer, fallow fresh meat",10,809.36,10,590.773,10,527.553,10,590.773
+,"Deer, fallow fresh meat, PROCESS Baking",1.2,661.623,1.2,661.623,1.2,661.623,1.2,661.623
+,"Deer, fallow fresh meat, PROCESS Cooking in water",0.7,383.934,0.7,383.934,0.7,383.934,0.7,383.934
+,"Deer, fallow fresh meat, PROCESS Steaming",0.7,383.934,0.7,383.934,0.7,383.934,0.7,383.934
+,"Deer, red fresh meat",10,527.553,10,590.773,12.21,582.1,10,590.773
+,"Deer, red fresh meat, PROCESS Baking",0.8,624.39,0.8,624.39,,,1.2,661.623
+,"Deer, red fresh meat, PROCESS Cooking in water",0.7,383.934,0.7,383.934,,,0.7,383.934
+,"Deer, red fresh meat, PROCESS Steaming",0.7,383.934,0.7,383.934,,,0.7,383.934
+,Dry and fermented sausages-deprecated,21.4,832.51,21.92,476.195,18.5,510.546,19,533.24
+,"Dry and fermented sausages-deprecated, QUAL Low fat (naturally or reduced)",11.92,454.275,11.92,454.275,11.92,454.275,11.92,454.275
+,Duck fresh meat,27.3,531.41,39,535.823,36.3,513.625,38,342.743
+,"Duck fresh meat, PROCESS Baking",2.2,508.831,24.49,679.972,,,25,453.138
+,"Duck fresh meat, PROCESS Cooking in water",1.2,380.039,1.2,380.039,,,1.2,380.039
+,"Duck fresh meat, PROCESS Steaming",1.2,380.039,1.2,380.039,,,1.2,380.039
+,Duck liver,54,597.769,54,597.769,54,597.769,54,597.769
+,"Duck liver, PROCESS Baking",115,619.86,115,619.86,115,619.86,115,619.86
+,"Duck liver, PROCESS Frying",,392.69,,392.69,,392.69,,392.69
+,Equine fresh meat,6,613.21,6,551.68,6,671.5,6,551.68
+,"Equine fresh meat, PROCESS Baking",9.05,602.083,20,652.605,20,652.605,13.1,806.613
+,"Equine fresh meat, PROCESS Frying",2.6,583.94,2.6,583.94,2.6,583.94,2.6,583.94
+,European moose meat,12.73,563.31,11.7,658.99,12.73,563.31,12.73,563.31
+,"European moose meat, PROCESS Baking",12.9,944.4031,12.9,944.4031,12.9,944.4031,12.9,944.4031
+,"European moose meat, PROCESS Frying",,,12.9,945.0235,,,,
+,"Frankfurt-type sausage, PROCESS Baking",9.9,350.844,9,402.302,9.9,335.204,9,402.302
+,"Frankfurt-type sausage, PROCESS Cooking in water",9,305.213,7.44,269.931,3.1,411.66,7.44,269.931
+,"Frankfurt-type sausage, PROCESS Steaming",0.5,361.568,7.44,269.564,8.8,415.604,7.44,269.564
+,"Frankfurt-type sausage, QUAL Low fat (naturally or reduced), PROCESS Baking",15.4,534.859,15.4,534.859,15.4,534.859,15.4,534.859
+,"Frankfurt-type sausage, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",22.4,534.859,21.44,308.762,22.4,534.859,21.44,308.762
+,"Frankfurt-type sausage, QUAL Low fat (naturally or reduced), PROCESS Steaming",22.4,534.859,21.44,308.762,22.4,534.859,21.44,308.762
+,"Frankfurter sausage, PROCESS Baking",9.1,335.204,8.3,466.5,8.3,466.5,9,402.302
+,"Frankfurter sausage, PROCESS Cooking in water",2.5,401.483,7.44,269.261,10.5,374.9723,7.44,269.261
+,"Frankfurter sausage, PROCESS Steaming",9,415.604,8.3,391.914,10.5,374.9723,9,415.604
+,"Frankfurter sausage, QUAL Low fat (naturally or reduced), PROCESS Baking",15.4,534.859,15.4,534.859,15.4,534.859,15.4,534.859
+,"Frankfurter sausage, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",22.4,534.859,21.44,308.762,22.4,534.859,21.44,308.762
+,"Frankfurter sausage, QUAL Low fat (naturally or reduced), PROCESS Steaming",15.4,534.859,15.4,534.859,15.4,534.859,15.4,534.859
+,Fresh bratwurst,16.7,401.644,10.69,534.505,8.15,526.573,10.69,534.505
+,"Fresh bratwurst, PROCESS Baking",10.3,386.658,10,430.612,10.3,386.658,10,430.612
+,"Fresh bratwurst, PROCESS Cooking in water",10.3,386.658,10.3,386.658,10.3,386.658,10.3,386.658
+,"Fresh bratwurst, PROCESS Steaming",10.3,386.658,10.3,386.658,10.3,386.658,10.3,386.658
+,Fresh raw sausages,6.88,416.155,10.69,534.335,,0.38,6,475.79
+,"Fresh raw sausages, PROCESS Baking",16.3,386.658,16,544.89,16.3,386.658,16,544.89
+,"Fresh raw sausages, PROCESS Cooking in water",15.88,557.678,15.88,557.678,16.9,386.658,16.9,386.658
+,"Fresh raw sausages, PROCESS Frying",16.3,540.204,22.88,668.33,16.3,386.658,16,534.113
+,"Fresh raw sausages, PROCESS Steaming",10.3,386.658,10.3,386.658,10.3,386.658,10.3,386.658
+,Fresh smoked sausages-deprecated,6.95,536.903,6.95,536.903,7.7,420.495,7.7,420.495
+,"Fresh smoked sausages-deprecated, QUAL Low fat (naturally or reduced)",15.4,840.99,15.4,840.99,15.4,840.99,15.4,840.99
+,"Fresh smoked sausages-deprecated, QUAL Low sodium / reduced salt",7.7,420.495,7.7,420.495,7.7,420.495,7.7,420.495
+,Fresh spiced sausages in casing,10.69,644.835,10.69,532.505,10.69,532.505,10.69,532.505
+,"Fresh spiced sausages in casing, PROCESS Baking",7,531.25,13.88,666.33,13.88,666.33,13.88,666.33
+,Game birds fresh meat,13,455.659,13,455.659,13.4,775.087,13,455.659
+,"Game birds fresh meat, PROCESS Baking",3.5,819.36,22,737.97,18.6,1041.1691,22,737.97
+,"Game birds fresh meat, PROCESS Cooking in water",1.2,378.189,1.2,378.189,,0.24,1.2,378.189
+,"Game birds fresh meat, PROCESS Steaming",1.2,378.189,1.2,378.189,,0.24,1.2,378.189
+,"Generic traditionally farmed mammals, fresh fat tissue",0.2,77.582,0.2,77.582,0.2,77.582,0.2,77.582
+,"Generic traditionally farmed mammals, fresh fat tissue, PROCESS Cooking in water",1.4,293.37,1.4,293.37,1.4,293.37,1.4,293.37
+,"Generic traditionally farmed mammals, fresh fat tissue, PROCESS Steaming",1.4,293.37,1.4,293.37,1.4,293.37,1.4,293.37
+,German salami,26.4,473.391,25.92,473.428,26.4,473.391,25.92,473.428
+,"German salami, QUAL Low fat (naturally or reduced)",19.1,751.519,18.92,461.116,19.1,751.519,18.92,461.116
+,Goat fresh meat,3,563.483,1.13,614.593,3,530.513,1.13,614.593
+,"Goat fresh meat, PROCESS Baking",9,627.165,9.1,523.224,9.1,523.224,9,627.165
+,"Goat fresh meat, PROCESS Cooking in water",1.1,794.25,1.1,794.25,1.1,794.25,1.1,794.25
+,"Goat fresh meat, PROCESS Steaming",1.1,794.25,1.1,794.25,1.1,794.25,1.1,794.25
+,"Goat liver, PROCESS Baking",152,603.91,152,603.91,152,603.91,152,603.91
+,Goose fresh meat,0.3,653.013,2,468.543,0.3,653.223,2,468.543
+,"Goose fresh meat, PROCESS Baking",1.2,751.004,2,593.018,0.3,888.63,2,593.018
+,"Goose fresh meat, PROCESS Cooking in water",0.2,471.848,0.2,471.848,,,0.2,471.848
+,"Goose fresh meat, PROCESS Steaming",0.2,471.848,0.2,471.848,,,0.2,471.848
+,Goose liver,21,572.905,21,572.905,21,572.905,21,572.905
+,"Goose liver, PROCESS Baking",144,485.03,144,485.03,144,485.03,144,485.03
+,"Goose liver, PROCESS Cooking in water",21,566.003,21,566.003,21,566.003,21,566.003
+,"Goose liver, PROCESS Frying",21,266.12,21,266.12,21,266.12,21,266.12
+,"Grouse fresh meat, PROCESS Baking",21,737.97,21,777.78,21,777.78,21,737.97
+,Guinea-fowl fresh meat,0.4,477.473,0.4,585.373,0.4,585.373,0.4,585.373
+,"Ham, beef",16.6,729.587,16.6,610.177,14.5,642.012,16.6,610.177
+,"Ham, beef, PROCESS Baking",7.3,610.177,7.3,610.177,7.3,610.177,7.3,610.177
+,"Ham, beef, PROCESS Cooking in water",7.3,610.177,7.3,610.177,7.3,610.177,7.3,610.177
+,"Ham, beef, PROCESS Steaming",7.3,610.177,7.3,610.177,7.3,610.177,7.3,610.177
+,"Ham, pork",11.475,811.676,17.61,1029.279,26.65,831.83,11.61,356.155
+,"Ham, pork, PROCESS Baking",15.7,441.737,13.42,749.229,6.7,579.572,15,659.41
+,"Ham, pork, PROCESS Cooking in water",9.9,618.615,11.44,705.82,26.6,495.82,12.44,460.919
+,"Ham, pork, PROCESS Steaming",9.3,498.882,11.44,705.82,26.6,495.82,12.44,460.919
+,Hare fresh meat,16,527.906,25,671.76,10,573.16,25,671.76
+,"Hare fresh meat, PROCESS Baking",19.6,660.033,12.82,502.881,6.7,793.9192,19.6,660.033
+,"Hare fresh meat, PROCESS Cooking in water",4.7,389.186,4.7,515.981,,,4.7,515.981
+,"Hare fresh meat, PROCESS Steaming",4.7,389.186,4.7,515.981,,,4.7,515.981
+,Head cheese,14.78,111.44,12.74,527.614,7.9,236.14,12.74,527.614
+,Hungarian-type salami,18.5,669.406,15.4,516.619,15.4,550.35,15.4,516.619
+,"Hungarian-type salami, QUAL Low fat (naturally or reduced)",8.1,751.519,8.1,751.519,8.1,751.519,8.1,751.519
+,Italian-type salami,14.6,878.62,1.4,514.71,6.3,351.6,11,459.545
+,"Knackwurst-type sausage, PROCESS Baking",6.6,383.967,6.6,383.967,6.6,383.967,6.6,383.967
+,"Knackwurst-type sausage, PROCESS Cooking in water",8.5,401.828,7.44,269.101,8.4,449.981,7.44,269.101
+,"Knackwurst-type sausage, PROCESS Steaming",6.6,383.967,1.6,445.658,1.6,445.658,6.6,383.967
+,"Knackwurst-type sausage, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",7.44,306.231,7.44,306.231,7.44,306.231,7.44,306.231
+,Liver based spreadable-textured specialities,26.9,411.923,37.55,386.971,,,27,642.98
+,Liver cheese,33.7,471.131,38.59,623.046,33.7,471.131,38.59,623.046
+,Liver-type sausage,31.5,373.41,29.43,418.969,23.5,464.2528,30,491.98
+,"Liver-type sausage, QUAL Low fat (naturally or reduced)",43.9,779.014,43.9,779.014,36.8,450.3163,43.9,779.014
+,Luncheon spiced ham-type tinned meat,23.3,444.602,8.66,534.945,8.54,468.895,22,376.958
+,Mallard fresh meat,0,455.659,3,541.249,0,455.659,3,541.249
+,"Mallard fresh meat, PROCESS Baking",1.3,646.492,1.3,646.492,1.3,646.492,1.3,646.492
+,"Mallard fresh meat, PROCESS Cooking in water",1.2,378.189,1.2,378.189,1.2,378.189,1.2,378.189
+,"Mallard fresh meat, PROCESS Steaming",1.2,378.189,1.2,378.189,1.2,378.189,1.2,378.189
+,Matured charcuterie products for cooking,11.5,510.546,11.5,510.546,11.5,510.546,11.5,510.546
+,Meat based spreadable-textured specialities,14.3,481.993,16,403.534,14.3,481.993,16,403.534
+,Mettwurst-type sausage,9.1,329.347,11.92,475.225,8.04,473.217,11.92,475.225
+,"Mettwurst-type sausage, QUAL Low fat (naturally or reduced)",48.8,1352.928,47.82,1134.03,48.8,1352.928,47.82,1134.03
+,Miscellaneous cooked sausages,14.88,557.148,14.88,557.148,15.9,419.406,15.9,419.406
+,Mixed beef and mutton/lamb fresh meat,20,623.5178,20,623.5178,20,623.5178,20,623.5178
+,"Mixed beef and mutton/lamb fresh meat, QUAL Half fat or medium fat",,206.04,,206.04,,206.04,,206.04
+,"Mixed beef and mutton/lamb fresh meat, QUAL Low fat (naturally or reduced)",,215.15,,215.15,,215.15,,215.15
+,Mixed fresh fat tissue,0.2,76.882,0.2,76.882,0.2,76.882,0.2,76.882
+,"Mixed fresh fat tissue, PROCESS Baking",141.7,706.84,141.7,706.84,141.7,706.84,141.7,706.84
+,Mixed fresh meat,24.98,542.438,21.08,481.128,22.8,548.917,22.8,548.917
+,"Mixed fresh meat, PROCESS Baking",9.3,485.937,8.3,499.626,8.3,499.626,9.3,485.937
+,"Mixed fresh meat, PROCESS Cooking in water",11.4,534.119,11.4,534.119,11.4,534.119,11.4,534.119
+,"Mixed fresh meat, PROCESS Steaming",11.4,534.119,11.4,534.119,11.4,534.119,11.4,534.119
+,"Mixed fresh meat, QUAL Half fat or medium fat",,508.87,,508.87,,508.87,,508.87
+,"Mixed fresh meat, QUAL Low fat (naturally or reduced)",3,556.95,3,556.95,3,556.95,3,556.95
+,Mixed pork and mutton/lamb fresh meat,0.6,489.308,0.6,489.308,0.6,489.308,0.6,489.308
+,"Mixed pork and mutton/lamb fresh meat, QUAL Half fat or medium fat, PROCESS Cooking in water",22.4,697.4754,22.4,697.4754,22.4,697.4754,22.4,697.4754
+,"Mixed pork and mutton/lamb fresh meat, QUAL Half fat or medium fat, PROCESS Steaming",22.4,697.4754,22.4,697.4754,22.4,697.4754,22.4,697.4754
+,Mortadella-type sausage,14.6,336.83,19.66,585.555,20.3,494.283,21,459.22
+,"Mortadella-type sausage, QUAL Low fat (naturally or reduced)",9.8,460.541,9.66,391.32,9.8,460.541,9.66,391.32
+,Pancetta,,535.655,,645.495,,645.495,,645.495
+,"Pancetta, PROCESS Baking",1,479.75,1,479.75,1,479.75,1,479.75
+,Partridge fresh meat,16.77,288.777,16.8,803.714,16.8,804.067,16.8,803.714
+,"Partridge fresh meat, PROCESS Baking",0.84,825.369,0.84,540.459,0.84,540.459,0.84,825.369
+,"Partridge fresh meat, PROCESS Cooking in water",0.43,484.42,0.43,484.42,0.43,484.42,0.43,484.42
+,"Partridge fresh meat, PROCESS Steaming",0.43,484.42,0.43,484.42,0.43,484.42,0.43,484.42
+,"Pastrami, beef",1.8,500.96,1.8,540.96,1.8,500.96,1.8,500.96
+,"Pate, chicken liver",8,313.98,8,642.38,8,642.38,8,642.38
+,"Pate, goose liver",58.17,316.544,58.17,316.544,82.9,609.946,82.9,609.946
+,"Pate, pork liver",31,290.115,38.55,387.571,36.6,430.52,38.55,387.571
+,Pheasant fresh meat,0.8,595.631,3,797.022,0.8,621.441,3,797.022
+,"Pheasant fresh meat, PROCESS Baking",2.5,819.58,14.47,631.102,14.47,631.102,17,653.68
+,"Pheasant fresh meat, PROCESS Cooking in water",0.5,458.338,0.5,458.338,,,0.5,458.338
+,"Pheasant fresh meat, PROCESS Frying",0.5,458.338,0.5,458.338,0.5,458.338,0.5,458.338
+,"Pheasant fresh meat, PROCESS Steaming",0.5,458.338,0.5,458.338,,,0.5,458.338
+,Pig fresh meat,10.624,588.963,12.46,667.33,18.1,468.572,14,617.14
+,"Pig fresh meat, PROCESS Baking",18.62,785.86,5,469.195,0.7,621.8294,17,616.75
+,"Pig fresh meat, PROCESS Cooking in water",1.1,634.332,22,566.36,8.8,454.689,22,566.36
+,"Pig fresh meat, PROCESS Frying",15,729.93,21.7,987.264,22.6,597.2639,21,926.75
+,"Pig fresh meat, PROCESS Steaming",21.5,473.871,22,566.36,25.9,673.719,22,566.36
+,Pig kidney,165,550.36,190,522.677,165,550.36,190,522.717
+,"Pig kidney, PROCESS Baking",15,581.55,15,581.55,13.5,519.607,13.5,519.607
+,"Pig kidney, PROCESS Cooking in water",15,579.463,265,580.17,259.7,409.144,265,580.17
+,"Pig kidney, PROCESS Frying",283.5,520.04,298,909.65,283.5,520.04,298,909.65
+,"Pig kidney, PROCESS Steaming",15,579.463,265,580.17,259.7,409.144,265,580.17
+,Pig liver,81,801.337,88.23,799.652,96,897.267,65,762.597
+,"Pig liver, PROCESS Baking",25.1,709.896,25.1,709.896,25.1,709.896,25.1,709.896
+,"Pig liver, PROCESS Cooking in water",76,677.461,75,584.45,76,677.461,76,721.81
+,"Pig liver, PROCESS Frying",113.4,971.14,113.4,971.14,,,113.4,971.14
+,"Pig liver, PROCESS Steaming",76,677.461,75,584.45,76,677.461,76,721.81
+,Pig trotters and feet,,311.27,,311.27,,311.27,,311.27
+,"Pig trotters and feet, PROCESS Cooking in water",1,228.02,1,286.03,1,286.03,1,286.03
+,"Pig trotters and feet, PROCESS Steaming",1,228.02,1,286.03,1,286.03,1,286.03
+,Pigeon fresh meat,0.5,595.463,0.5,646.113,0.5,646.113,0.5,646.113
+,"Pigeon fresh meat, PROCESS Baking",0,863.3,0,796.13,0.4,655.324,0,796.13
+,"Pigeon fresh meat, PROCESS Frying",0.4,655.324,0.4,655.324,0.4,655.324,0.4,655.324
+,Polish-type cooked sausage,12,668.46,12,668.46,12,668.46,12,668.46
+,Ptarmigan fresh meat,,754.24,,754.24,,754.24,,754.24
+,Quail fresh meat,0.5,439.157,0.5,553.997,0.5,553.997,0.5,553.997
+,"Quail fresh meat, PROCESS Baking",0,12.784,0,12.784,0.4,502.713,0.4,502.713
+,"Quail fresh meat, PROCESS Cooking in water",0.33,604,0.33,604,0.33,604,0.33,604
+,"Quail fresh meat, PROCESS Steaming",0.33,604,0.33,604,0.33,604,0.33,604
+,Rabbit fresh meat,19.9,643.31,27,551.93,6.7,794.9696,27,642.88
+,"Rabbit fresh meat, PROCESS Baking",32.8,617.685,32.8,617.685,38.4,558.839,38.4,558.839
+,"Rabbit fresh meat, PROCESS Cooking in water",9.76,525.06,19,421.986,22.7,444.995,19,421.986
+,"Rabbit fresh meat, PROCESS Steaming",22.7,444.995,19,421.986,22.7,444.995,19,421.986
+,Reindeer meat,35,569.307,35,569.307,36.3,818.807,35,569.307
+,"Reindeer meat, PROCESS Baking",34.3,540.134,34.3,540.134,36.3,875.1427,34.3,540.134
+,"Reindeer meat, PROCESS Cooking in water",48.8,1167.6107,48.8,1167.6107,48.8,1167.6107,48.8,1167.6107
+,"Reindeer meat, PROCESS Frying",,,40.3,944.2582,,,,
+,"Reindeer meat, PROCESS Steaming",48.8,1167.6107,48.8,1167.6107,48.8,1167.6107,48.8,1167.6107
+,Roe deer meat,15.3,593.35,10.4,618.647,10,618.827,10.4,618.647
+,"Roe deer meat, PROCESS Baking",1.2,708.456,1.2,708.456,1.2,708.456,1.2,708.456
+,"Roe deer meat, PROCESS Cooking in water",0.7,410.573,0.7,410.573,,,0.7,410.573
+,"Roe deer meat, PROCESS Steaming",0.7,410.573,0.7,410.573,,,0.7,410.573
+,Sheep fresh meat,20.6,585.39,3.56,533.046,14.5,388.819,4,494.62
+,"Sheep fresh meat, PROCESS Baking",19.6,582.34,7,615.27,14.5,558.61,7,615.27
+,"Sheep fresh meat, PROCESS Cooking in water",5.2,448.377,5,502.93,20.4,625.7415,5,502.93
+,"Sheep fresh meat, PROCESS Frying",6,597.57,6.2,659.32,18.1,525.0342,6,597.57
+,"Sheep fresh meat, PROCESS Steaming",5.2,448.377,5,502.93,20.4,625.7415,5,502.93
+,Sheep kidney,213,566.513,167,581.03,213,566.513,167,581
+,"Sheep kidney, PROCESS Baking",56.9,537.773,56.9,537.773,56.9,537.773,56.9,537.773
+,"Sheep kidney, PROCESS Cooking in water",79,771.92,79,771.92,40.8,421.723,40.8,421.723
+,"Sheep kidney, PROCESS Frying",265.9,538.756,263,699.29,265.9,538.756,263,699.29
+,"Sheep kidney, PROCESS Steaming",79,771.92,79,771.92,40.8,421.723,40.8,421.723
+,Sheep liver,77,740.543,96,753.14,77,718.683,96,753.14
+,"Sheep liver, PROCESS Baking",31.2,673.174,31.2,673.174,31.2,673.174,31.2,673.174
+,"Sheep liver, PROCESS Cooking in water",31.2,673.174,31.2,673.174,31.2,673.174,31.2,673.174
+,"Sheep liver, PROCESS Frying",145,925.54,145,925.54,,7.26,145,925.54
+,"Sheep liver, PROCESS Steaming",31.2,673.174,31.2,673.174,31.2,673.174,31.2,673.174
+,"Smoked cooked sausage-deprecated, PROCESS Baking",11.1,335.204,11.1,335.204,9.7,368.5478,11.1,335.204
+,"Smoked cooked sausage-deprecated, PROCESS Cooking in water",5.06,345.193,12.6,509.408,9,342.0512,12.6,509.408
+,"Smoked cooked sausage-deprecated, PROCESS Steaming",10.4,415.604,10.4,415.604,9,343.6542,10.4,415.604
+,"Smoked cooked sausage-deprecated, QUAL Low fat (naturally or reduced), PROCESS Baking",7.8,274.8822,7.8,274.8822,7.8,274.8822,7.8,274.8822
+,"Smoked cooked sausage-deprecated, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",12.5,516.015,12.5,516.015,12.5,516.015,12.5,516.015
+,Snack sausages (like Cabanos and landj�ger),1.8,338.687,1.8,338.687,1.8,338.687,1.8,338.687
+,"Snack sausages (like Cabanos and landj�ger), QUAL Low fat (naturally or reduced)",0.7,654.463,0.7,654.463,0.7,654.463,0.7,654.463
+,Teewurst-type sausage,7.4,417.334,6.64,561.529,7.4,417.334,6.64,561.529
+,"Teewurst-type sausage, QUAL Low fat (naturally or reduced)",23.6,840.804,23.6,840.804,23.6,840.804,23.6,840.804
+,"Teewurst-type sausage, QUAL Low sodium / reduced salt",4.4,417.334,4.4,417.334,4.4,417.334,4.4,417.334
+,Thuringian sausage,9.3,401.644,9.3,401.644,9.3,401.644,9.3,401.644
+,"Thuringian sausage, PROCESS Baking",10.3,386.658,10.3,386.658,10.3,386.658,10.3,386.658
+,"Thuringian sausage, PROCESS Cooking in water",10.3,386.658,10.3,386.658,10.3,386.658,10.3,386.658
+,"Thuringian sausage, PROCESS Steaming",10.3,386.658,10.3,386.658,10.3,386.658,10.3,386.658
+,Tinned bulk sausages,7.2,534.883,8.3,337.854,8.3,337.854,7.2,534.883
+,Tiroler speck,1.5,583.712,1.5,212.772,1.5,212.772,1.5,212.772
+,"Tiroler speck, PROCESS Cooking in water",1.2,163.096,1.2,163.096,1.2,163.096,1.2,163.096
+,"Tiroler speck, PROCESS Steaming",1.2,163.096,1.2,163.096,1.2,163.096,1.2,163.096
+,Turkey fresh meat,9,635.83,12.44,613.229,30.7,591.6073,15,605.83
+,"Turkey fresh meat, PROCESS Baking",33.2,536.34,24.4,546.31,20,592.9345,18,669.19
+,"Turkey fresh meat, PROCESS Cooking in water",20.3,313.164,21,442.26,5.4,489.964,21,442.26
+,"Turkey fresh meat, PROCESS Frying",16,757.65,16,759.22,,,16,759.22
+,"Turkey fresh meat, PROCESS Steaming",20.3,313.164,21,442.26,5.4,489.964,21,442.26
+,"Turkey liver, PROCESS Baking",178,592.574,178,592.574,178,592.574,178,592.574
+,"Undefined mixed fresh meat, other species",10.7,548.917,10.7,548.917,,,10.7,548.917
+,"Undefined mixed fresh meat, other species, PROCESS Baking",9.3,485.937,9.3,567.738,9.3,567.738,9.3,485.937
+,"Undefined mixed fresh meat, other species, PROCESS Cooking in water",11.4,534.119,11.4,534.119,11.4,534.119,11.4,534.119
+,"Undefined mixed fresh meat, other species, PROCESS Steaming",11.4,534.119,11.4,534.119,11.4,534.119,11.4,534.119
+,"Undefined mixed poultry fresh meat, PROCESS Baking",21.57,624.532,21.57,624.532,21.57,624.532,21.57,624.532
+,"Undefined mixed poultry fresh meat, PROCESS Cooking in water",21.57,624.532,21.57,624.532,21.57,624.532,21.57,624.532
+,"Undefined mixed poultry fresh meat, PROCESS Steaming",21.57,624.532,21.57,624.532,21.57,624.532,21.57,624.532
+,Veal kidney,175,606.877,165,531.217,175,606.877,165,531.217
+,"Veal kidney, PROCESS Baking",208.1,596.264,199,528.368,199,528.368,204.4,569.56
+,"Veal kidney, PROCESS Cooking in water",42,610.108,42,610.108,22.4,569.56,22.4,569.56
+,"Veal kidney, PROCESS Steaming",42,610.108,42,610.108,22.4,569.56,22.4,569.56
+,Veal liver,178,692.663,186,755.704,178,692.663,186,755.704
+,"Veal liver, PROCESS Baking",171.8,631.114,117.6,710.785,117.6,710.785,171.8,631.114
+,"Veal liver, PROCESS Cooking in water",118.9,521.327,118.9,521.327,118.9,521.327,118.9,521.327
+,"Veal liver, PROCESS Frying",128,593.35,128,593.35,128,593.35,128,593.35
+,"Veal liver, PROCESS Steaming",118.9,521.327,118.9,521.327,118.9,521.327,118.9,521.327
+,Weisswurst,13,219.167,13,219.167,13.9,316.72,13.9,316.72
+,"Wiener sausage, PROCESS Baking",10.3,411.741,10.3,411.741,10.3,411.741,10.3,411.741
+,"Wiener sausage, PROCESS Cooking in water",17.5,411.741,7.44,269.261,8.3,410.99,7.44,269.261
+,"Wiener sausage, PROCESS Steaming",17.5,411.741,8.3,410.99,8.3,410.99,17.5,411.741
+,"Wiener sausage, QUAL Low fat (naturally or reduced), PROCESS Baking",0.4,467.526,0.4,467.526,0.4,467.526,0.4,467.526
+,"Wiener sausage, QUAL Low fat (naturally or reduced), PROCESS Cooking in water",7.4,467.526,7.44,310.681,7.4,467.526,7.44,310.681
+,"Wiener sausage, QUAL Low fat (naturally or reduced), PROCESS Steaming",0.4,467.526,0.4,467.526,0.4,467.526,0.4,467.526
+,Wild boar fresh meat,5,571.943,5,571.943,5,571.943,5,571.943
+,"Wild boar fresh meat, PROCESS Baking",0.7,589.382,11,578.49,,,15.8,707.98
+,"Wild boar fresh meat, PROCESS Cooking in water",3.3,405.998,3.3,405.998,,,3.3,405.998
+,"Wild boar fresh meat, PROCESS Steaming",3.3,405.998,3.3,405.998,,,3.3,405.998
+,Wild goose fresh meat,0.3,653.223,0.3,653.223,0.3,653.223,0.3,653.223
+,"Wild goose fresh meat, PROCESS Baking",0.3,888.18,0.3,888.18,0.3,888.18,0.3,888.18
+,"Wild goose fresh meat, PROCESS Cooking in water",0.2,471.848,0.2,471.848,0.2,471.848,0.2,471.848
+,"Wild goose fresh meat, PROCESS Steaming",0.2,471.848,0.2,471.848,0.2,471.848,0.2,471.848
+Milk and dairy products,Acidophilus milk,2.43,419.424,1.13,352.558,1.98,392.073,1.13,352.558
+,"Acidophilus milk, QUAL Semi-skimmed",1.095,284.506,1.13,352.298,1.4,377.475,1.13,352.298
+,"Acidophilus milk, QUAL Skim",1.5,380.588,1.13,352.32,1.3,385.502,1.13,352.32
+,Ass milk,1.1,250.932,1.1,250.932,1.1,250.932,1.1,250.932
+,Buttermilk,1.5,363.747,1.13,352.491,1.55,362.803,1.1,379.6
+,"Buttermilk, QUAL Fat free",1.13,351.708,1.13,351.708,1.13,351.708,1.13,351.708
+,"Buttermilk, QUAL Low fat (naturally or reduced)",1.13,352.508,1.13,352.508,3.2,413.89,1.13,352.508
+,"Cheese, asiago",31.7,1552.99,31.7,1552.99,31.7,1552.99,31.7,1552.99
+,"Cheese, bavarian blue",1.2,1055.37,1.2,1055.37,1.2,1055.37,1.2,1055.37
+,"Cheese, beaufort",16.04,1886.73,16.04,1886.73,16.04,1886.73,16.04,1886.73
+,"Cheese, bleu d'auvergne",,,,,,,,
+,"Cheese, blue castello",9.2,1055.37,9.23,990.74,9.23,990.74,9.2,1055.37
+,"Cheese, brie",11.9,1055.89,15.2,630.48,13.25,1160.522,10.6,602.78
+,"Cheese, brie, QUAL Half fat or medium fat",11.2,893.963,15.2,722.925,15.65,1227.049,15.2,722.925
+,"Cheese, butterkase",23.4,1230.157,24,1839.967,24,1839.967,24,1839.967
+,"Cheese, butterkase, QUAL Half fat or medium fat",2,1840.763,2,1840.763,2,1840.763,2,1840.763
+,"Cheese, butterkase, QUAL Low fat (naturally or reduced)",2,1840.763,2,1840.763,2,1840.763,2,1840.763
+,"Cheese, caciocavallo",,1639.251,,1639.251,,1639.251,,1639.251
+,"Cheese, caerphilly",23.1,1072.13,23.1,1072.13,23.1,1072.13,23.1,1072.13
+,"Cheese, camembert",15.45,793.45,15.1,1041.67,7.1,1307.48,15.1,603.62
+,"Cheese, cantal",12.3,1449.82,12.3,1449.82,12.3,1449.82,12.3,1449.82
+,"Cheese, chaource",12.6,323.13,12.6,323.13,12.6,323.13,12.6,323.13
+,"Cheese, cheddar",26.1,1515.77,25.2,1367.934,19.1,1466.611,30.1,1321.84
+,"Cheese, cheddar, QUAL Half fat or medium fat",24,2281.169,23.3,1620.71,24,2281.169,23.3,1620.73
+,"Cheese, cheddar, QUAL Low fat (naturally or reduced)",1,2022.117,1,2022.117,1,2022.117,1,2022.155
+,"Cheese, cheshire",17.1,1336.268,17.5,1476.446,17.5,1476.446,22.9,1076.73
+,"Cheese, cheshire, QUAL Half fat or medium fat",31.4,1643.94,31.4,1336.81,31.4,1643.94,31.4,1336.81
+,"Cheese, cheshire, QUAL Low fat (naturally or reduced)",1,1803.49,1,1803.49,1,1803.49,1,1803.49
+,"Cheese, chevre mould ripened",22,1095.657,12.29,491,12,1338.489,12.5,517.61
+,"Cheese, comte",,,,,,,,
+,"Cheese, coulommiers",11.7,724.88,11.7,724.88,12.8,1058.315,12.8,1058.315
+,"Cheese, danbo",17.8,1401.42,17.18,1287.798,17.18,1287.798,17.8,1401.42
+,"Cheese, danbo, QUAL Half fat or medium fat",21,1751.84,20.52,1430.137,20.52,1430.137,21,1751.84
+,"Cheese, danbo, QUAL Low fat (naturally or reduced)",22,2351.98,20.6,1368.385,20.6,1368.385,22,2351.98
+,"Cheese, edam",17.47,1465.834,16.37,1605.043,43.1,1524.738,16.1,1437.29
+,"Cheese, edam, QUAL Half fat or medium fat",51.8,1513.343,51.8,1513.139,51.7,1605.96,51.8,1513.139
+,"Cheese, edam, QUAL Low fat (naturally or reduced)",54.6,1512.31,54.6,1512.31,54.5,1580.727,54.6,1512.31
+,"Cheese, emmental",18.3,2007.367,16.7,1819.655,40.6,1604.78,19,1697.477
+,"Cheese, emmental, QUAL Half fat or medium fat",22.48,1910.653,22.48,1910.653,22,2280.849,22,2281.169
+,"Cheese, emmental, QUAL Low fat (naturally or reduced)",1,2022.117,1,2022.117,1,2021.856,1,2022.117
+,"Cheese, feta",10.43,757.693,13.3,994.68,7.3,1071.57,11.1,760.56
+,"Cheese, feta, QUAL Low fat (naturally or reduced)",14.13,1197.165,14.13,1197.165,,,14.13,1197.165
+,"Cheese, fourme d'ambert",8.6,1491.47,8.6,1491.47,8.6,1491.47,8.6,1491.47
+,"Cheese, gorgonzola",15.8,866.527,5.2,1113.697,5.2,1256.727,5.2,1113.697
+,"Cheese, gouda",31.7,1128.24,25.97,1498.035,39.7,1539.605,17.7,1397.31
+,"Cheese, gouda, QUAL Half fat or medium fat",2.2,1775.587,2.2,1775.587,2.2,1775.587,2.2,1775.587
+,"Cheese, gouda, QUAL Low fat (naturally or reduced)",2.2,1775.587,2.2,1775.587,2.2,1775.587,2.2,1775.587
+,"Cheese, grana padano",25.6,2060.221,21.6,2258.618,21.6,2258.618,21.6,2258.618
+,"Cheese, gruyere",18.35,1941.523,15.6,1638.985,21.5,1757.748,18.6,1706.77
+,"Cheese, gruyere, QUAL Half fat or medium fat",2,2281.169,2,2281.169,2,2281.169,2,2281.169
+,"Cheese, gruyere, QUAL Low fat (naturally or reduced)",2,2281.169,2,2281.169,2,2281.169,2,2281.169
+,"Cheese, leicester",23.2,1247.64,23.2,1247.64,23.2,1247.64,23.2,1247.64
+,"Cheese, livarot",,,,,,,,
+,"Cheese, maasdam",17.5,1069.19,27.5,1623.46,27.5,1623.46,27.5,1623.46
+,"Cheese, mimolette",10.37,1512.44,10.37,1512.44,10.37,1512.44,10.37,1512.44
+,"Cheese, morbier",17.5,1418.37,17.5,1418.37,17.5,1418.37,17.5,1418.37
+,"Cheese, munster",10.07,784.292,17.38,1459.352,17.38,1459.352,17.4,720.969
+,"Cheese, nagelkaas, QUAL Half fat or medium fat",26.37,1658.5,26.37,1658.5,26.37,1658.5,26.37,1658.5
+,"Cheese, nagelkaas, QUAL Low fat (naturally or reduced)",20.37,2031.38,20.37,2031.38,20.37,2031.38,20.37,2031.38
+,"Cheese, ossau-iraty",,,,,,,,
+,"Cheese, parmigiano reggiano",26.85,1996.43,23.9,2083.276,23.6,2258.618,23.9,2083.276
+,"Cheese, pecorino romano",,1490.42,,1490.42,,1490.42,,1490.42
+,"Cheese, pont l'eveque",,,,,,,,
+,"Cheese, provolone",27,1431.237,27,1490.715,27,1490.715,27,1490.715
+,"Cheese, provolone, QUAL Half fat or medium fat",2,1514.542,2,1514.542,2,1514.542,2,1514.542
+,"Cheese, provolone, QUAL Low fat (naturally or reduced)",2,1751.773,2,1751.773,2,1751.773,2,1751.773
+,"Cheese, reblochon",,,,,,,,
+,"Cheese, roquefort",6.4,1062.833,14.4,1077.83,15.23,1130.482,14.4,1062.833
+,"Cheese, saint marcellin",2.02,795.187,2.02,795.187,3.02,1438.537,3.02,1438.537
+,"Cheese, saint nectaire",,,,,,,,
+,"Cheese, scamorza",,811.78,,811.78,,811.78,,811.78
+,"Cheese, stilton",15,820.41,21.15,709.885,15,820.41,15.2,761.97
+,"Cheese, tilsit",41.6,1450.496,41.6,1450.496,41.5,1604.767,41.6,1450.496
+,"Cheese, tilsit, QUAL Half fat or medium fat",2,1751.773,2,1751.773,2,1751.773,2,1751.773
+,"Cheese, tilsit, QUAL Low fat (naturally or reduced)",3,2351.98,3,2351.98,3,2351.98,3,2351.98
+,"Cheese, tomme de savoie",,,,,,,,
+,"Cheese, trappist",2,1346.357,2,1346.357,2,1346.357,2,1346.357
+,"Cheese, trappist, QUAL Half fat or medium fat",2,1397.933,2,1397.933,2,1397.933,2,1397.933
+,"Cheese, trappist, QUAL Low fat (naturally or reduced)",2,1397.933,2,1397.933,2,1397.933,2,1397.933
+,"Cheese, white stilton",19,820.177,21.15,709.052,19,820.177,19.3,627.167
+,"Cheese, white stilton, QUAL Half fat or medium fat",1,820.177,1,820.177,1,820.177,1,820.177
+,"Cheese, white stilton, QUAL Low fat (naturally or reduced)",1,820.177,1,820.177,1,820.177,1,820.177
+,Condensed milk (sometimes with added sugars),3.74,947.38,3.7,857.77,3.4,940.088,3.7,923.37
+,Cottage cheese,11.7,250.75,8.76,312.022,8.6,270.004,11.6,476.96
+,"Cottage cheese, QUAL Fat free",4.3,360.499,8.6,476.72,4.1,428.5961,8.6,476.72
+,"Cow milk, natural high fat",1.4,382.61,1.44,354.488,2.61,377.599,1.8,379.57
+,"Cow milk, natural high fat, QUAL Low / reduced lactose",1.4,365.483,1.4,365.483,1.4,365.483,1.4,365.483
+,"Cow milk, semi skimmed (half fat)",1.87,391.646,1.44,399.538,2.33,392.619,1.4,382.7
+,"Cow milk, semi skimmed (half fat), FORT Mixed supplements/formulations",1.16,386.907,1.48,275.37,1.4,393.73,1.4,393.77
+,"Cow milk, semi skimmed (half fat), QUAL Low / reduced lactose",3.2,343.407,3.2,343.407,3.2,373.366,3.2,343.407
+,"Cow milk, skimmed (low fat)",1.07,384.719,1.43,415.756,2.23,394.681,1.8,390.64
+,"Cow milk, skimmed (low fat), FORT Mixed supplements/formulations",4.14,372.373,4.14,372.373,4.14,372.283,4.14,372.373
+,"Cow milk, skimmed (low fat), QUAL Low / reduced lactose",3.2,384.684,3.2,384.684,3.2,384.692,3.2,384.684
+,"Cow milk, whole",3,375.55,1.39,403.671,2.52,382.638,2.9,378.63
+,"Cow milk, whole, QUAL Low / reduced lactose",1.4,365.483,1.4,365.483,,,1.4,365.483
+,Cream powder,3,2487.775,3,2487.775,3,2487.775,3,2487.775
+,Cream sprayable,1.1,226.91,1.2,240.83,1.1,226.91,1.1,226.91
+,Cream with other ingredients,1.7,262.177,1.17,211.271,,,1.17,211.271
+,"Cream with other ingredients, QUAL Half fat or medium fat",0.4,261.957,0.4,261.957,0.4,261.957,0.4,261.957
+,"Cream, plain",2.32,249.82,1.2,244.554,5.46,238.138,3.6,174.03
+,"Cream, plain, QUAL Half fat or medium fat",0.8,295.242,1.31,332.082,3.18,347.689,1.4,281.63
+,"Cream, plain, QUAL Low fat (naturally or reduced)",1.6,336.67,1.37,263.756,3.27,318.845,1.37,263.756
+,Cr�me fraiche and other mild variants of sour cream,2.32,325.721,1.2,235.237,1.68,260.813,0.2,204.82
+,"Cr�me fraiche and other mild variants of sour cream, QUAL Half fat or medium fat",0.8,295.207,1.31,313.557,1.93,327.6012,4.2,308.807
+,"Cr�me fraiche and other mild variants of sour cream, QUAL Low fat (naturally or reduced)",1.6,336.71,1.862,361.495,2.23,389.209,2.13,323.243
+,Cultured buttermilk,1.29,352.068,1.29,352.068,3.2,407.979,1.29,352.068
+,Custard,2.17,508.351,2.26,304.724,,,2.2,313.36
+,"Evaporated milk (liquid, unsweetened)",3.5,802.271,3.38,748.685,3.5,1020.449,3.1,943.357
+,"Extra hard cheese (parmesan, grana type)",25.85,2215.967,29.6,2016.079,7.6,2362.58,27.3,1915.06
+,Filmj�lk,2.07,381.84,2.07,381.84,2.07,381.84,2.07,381.84
+,"Filmj�lk, QUAL Low fat (naturally or reduced)",2.07,391.8,2.07,391.8,2.07,391.8,2.07,391.8
+,Firm brined cheese (ricotta salata type),29.34,588.02,29.3,537.903,29.6,526.668,29.3,537.903
+,Firm-ripened bloomy (white mould) or washed rind cheese,17.5,1244.73,17.5,1244.73,17.5,1244.73,17.5,1244.73
+,Firm-ripened blue mould-veined cheese,6.4,1063.12,16.23,1032.54,16.23,1032.54,16.2,1055.67
+,"Firm-ripened cheese with added herbs, spices or other ingredients",,0.05,,0.05,,0.38,,0.46
+,Firm/semi-hard cheese (gouda and edam type),19.7,1446.27,18.86,1246.354,43.1,1524.106,16.1,1437.29
+,"Firm/semi-hard cheese (gouda and edam type), QUAL Half fat or medium fat",22.2,1776.62,21.6,1368.857,51.7,1605.26,22.2,1777.05
+,"Firm/semi-hard cheese (gouda and edam type), QUAL Low fat (naturally or reduced)",21.6,1144.157,19.2,1774.81,19.2,1774.81,19.2,1775.587
+,Flavoured milks,1.87,355.82,,0.08,3.29,277.09,,
+,Flavoured sour cream,2.9,251.198,2.9,251.198,2.8,306.68,2.9,251.198
+,"Flavoured sour cream, QUAL Half fat or medium fat",0.3,323.073,0.3,323.073,0.3,323.073,0.3,323.073
+,"Flavoured sour cream, QUAL Low fat (naturally or reduced)",0.3,336.684,0.3,336.684,0.3,336.684,0.3,336.684
+,Flavoured traditional sour milk products,10.83,342.468,10.83,342.468,,,10.83,342.468
+,Flavoured whey,0.4,214.759,0.4,214.759,0.4,214.759,0.4,214.759
+,Frozen yoghurt,0.3,268.155,0.3,268.155,0.3,268.155,0.3,268.155
+,Goat milk,5.98,441.853,1.8,394.77,2.1,353.072,5.8,374.61
+,"Hard cheese (cheddar, emmental type)",18.3,1865.377,17.5,1476.446,17.5,1476.226,28.1,1323.537
+,"Hard cheese (cheddar, emmental type), QUAL Half fat or medium fat",22.48,1910.653,23.6,2058.463,23.6,2058.463,23.3,1620.71
+,"Hard cheese (cheddar, emmental type), QUAL Low fat (naturally or reduced)",1,2022.117,1,2022.117,1,2021.836,1,2022.117
+,Horse milk,2.3,238.058,2.3,238.058,2.3,238.058,2.3,238.058
+,Human milk,,,,0.14,,0.14,,
+,"Ice cream, milk-based",0.64,478.348,1.17,344.153,0.6,398.492,2.5,379.43
+,"Ice cream, milk-imitate based",2.7,323.21,2.7,323.21,0.5,241.21,2.7,323.21
+,Kefir,3.8,385.705,,,1.48,391.448,,
+,Lactose,0,3.325,0,3.325,0,3.325,0,3.325
+,Mascarpone,4.3,230.8,4.3,231.24,4.3,346.74,4.3,231.24
+,Milk from other milk producer animals,0.1,393.86,0.1,393.86,0.1,393.86,0.1,393.86
+,"Milk powder, full fat",14.5,3149.69,14.2,2986.81,17.25,3067.134,14.4,3127.22
+,"Milk powder, skimmed",14.49,4134.925,18,3746.962,14.7,4144.949,14.6,3986.779
+,Milk protein,1.2,878.06,1.2,878.06,1.2,878.06,1.2,878.06
+,Milkshakes,3.11,422.925,3.23,360.49,0.9,326.0062,3.5,434.43
+,Mozzarella,7.2,674.17,17.38,825.116,13.7,704.151,13.7,703.84
+,Probiotic milk-like drinks,1.43,418.732,1.51,407.098,1.2,167.701,1.51,407.098
+,"Probiotic milk-like drinks, QUAL Semi-skimmed",1.095,284.124,1.51,407.098,1.2,167.701,1.51,407.098
+,"Probiotic milk-like drinks, QUAL Skim",1.5,380.184,1.5,380.184,1.5,167.701,1.5,167.701
+,Processed cheese and spreads,14.3,412.28,17,1586.06,43.2,1352.547,11.2,1591.95
+,"Processed cheese and spreads, QUAL Half fat or medium fat",15.7,1215.878,18.6,1706.356,50,2312.551,15.2,1665.13
+,"Processed cheese and spreads, QUAL Low fat (naturally or reduced)",20.07,1528.57,18.83,1729.728,53.4,2408.581,24.82,2607.93
+,Processed cheese wedges and similar,14.3,1211.4,22.6,1420.21,17,1585.91,22.6,1420.21
+,"Processed cheese wedges and similar, QUAL Half fat or medium fat",15.7,1251.668,18.2,1418.21,18.6,1706.156,18.2,1418.21
+,"Processed cheese wedges and similar, QUAL Low fat (naturally or reduced)",20.07,1528.99,16.6,1618.04,18.83,1729.522,16.6,1618.04
+,"Processed cheese, sliceable",20.9,1561.61,17,1586.06,24.6,1494.58,11.2,1591.95
+,"Processed cheese, sliceable, QUAL Half fat or medium fat",19.6,2206.95,16.37,1541.91,26.4,1791.35,15.2,1665.13
+,"Processed cheese, sliceable, QUAL Low fat (naturally or reduced)",24.82,2807.93,16.37,1989.88,18.83,1729.612,16.37,1989.88
+,"Processed cheese, spreadable",20.9,1218.567,22.6,1416.88,2.2,1470.0071,8.6,1582.11
+,"Processed cheese, spreadable, QUAL Half fat or medium fat",20.9,1305.437,18.2,1418.21,2.4,1388.78,10,1600.3
+,"Processed cheese, spreadable, QUAL Low fat (naturally or reduced)",24.82,2607.93,16.6,1618.04,18.83,1729.482,16.6,1618.04
+,Quark,9.37,365.805,8.7,407.64,8.7,452.476,8.7,475.98
+,Ricotta,8.14,672.309,29.3,537.903,29.6,526.668,29.3,537.903
+,Sheep milk,10.06,479.053,10,461.12,9.9,527.008,10,461.12
+,Skyr,13.22,398.266,13.22,398.266,13.22,398.266,13.22,398.266
+,Soft brined cheese (feta type),32.1,760.56,13.3,994.68,15.1,883.45,12.1,760.56
+,"Soft brined cheese (feta type), QUAL Low fat (naturally or reduced)",14.13,1197.165,14.13,1197.165,,,14.13,1197.165
+,"Soft-ripened cheese veined with blue mould (blue bavarian, blue de graven type )",32.97,915.4,15.23,1132.202,15.23,1132.202,15.2,1055.37
+,"Soft-ripened cheese with bloomy rind (white mould) (brie, camembert type)",30.2,1068.06,13.25,1160.522,13.25,1160.522,10.6,602.63
+,Soft-ripened cheese with natural rind and other soft-ripened cheeses,19.8,1058.485,18.38,1559.359,18.38,1559.359,19.8,1058.485
+,Soft-ripened cheese with white and blue mould (cambozola type),9.2,1055.37,9.23,990.74,12.2,500.7923,9.2,1055.37
+,Soft-ripened washed-rind cheese (limburger type),11.7,1044.531,15,1277.673,14.38,983.708,15,1277.673
+,Sour cream products,0.4,251.348,0.2,326.065,0.4,251.348,0.2,296.39
+,"Sour cream products, QUAL Half fat or medium fat",0.3,323.073,0.3,323.073,0.3,323.073,0.3,323.073
+,"Sour cream products, QUAL Low fat (naturally or reduced)",0.3,336.684,0.3,336.684,0.3,336.684,0.3,336.684
+,"Sour cream, plain",0.4,251.348,0.2,326.065,1.94,348.072,0.2,296.39
+,"Sour cream, plain, QUAL Half fat or medium fat",0.3,323.073,0.3,323.073,0.3,323.073,0.3,323.073
+,"Sour cream, plain, QUAL Low fat (naturally or reduced)",0.3,336.684,0.3,336.684,0.3,336.684,0.3,336.684
+,Starchy pudding,0,352.15,2.75,358.32,2.7,435.2717,2.75,317.94
+,Traditional buttermilk (churning),1.13,351.708,1.13,351.708,1.13,351.708,1.13,351.708
+,Traditional nordic fermented milks,1.48,391.448,1.48,391.448,1.48,391.448,1.48,391.448
+,Viili,3.1,415.061,3.1,415.061,3.1,415.061,3.1,415.061
+,"Viili, QUAL Fat free",3,382.98,3,382.98,3,382.98,3,382.98
+,"Viili, QUAL Low fat (naturally or reduced)",3,392.961,3,392.961,3,392.961,3,392.961
+,Water buffalo milk,8.3,452.113,8.3,458.113,8.3,458.113,8.3,458.113
+,Whey powder,13.4,3516.54,13.37,3995.113,13.4,3700.25,13.4,3700.827
+,"Whey, sour",0.4,300.952,0.4,300.952,0.4,300.952,0.4,300.952
+,"Whey, sweet",2.1,241.855,2.18,262.709,5.4,693.809,2.1,253.876
+,"Yoghurt drinks, including sweetened and/or flavoured variants",2.7,325.506,1.45,371.761,,,2.2,323.485
+,"Yoghurt drinks, including sweetened and/or flavoured variants, FORT Mixed supplements/formulations",0,387.033,0,387.033,0,387.033,0,387.033
+,"Yoghurt drinks, including sweetened and/or flavoured variants, FORT Mixed supplements/formulations, QUAL Semi-skimmed",1.3,354.812,1.3,354.812,1.3,354.812,1.3,354.812
+,"Yoghurt drinks, including sweetened and/or flavoured variants, FORT Mixed supplements/formulations, QUAL Skim",3.01,654.86,3.01,654.86,3.01,654.86,3.01,654.86
+,"Yoghurt drinks, including sweetened and/or flavoured variants, QUAL Low / Reduced sugar",0.4,374.569,0.4,374.569,0.4,374.569,0.4,374.569
+,"Yoghurt drinks, including sweetened and/or flavoured variants, QUAL Semi-skimmed",7.67,1049.494,7.88,1060.89,8.2,1042.472,8.08,1048.946
+,"Yoghurt drinks, including sweetened and/or flavoured variants, QUAL Skim",1.2,1261.315,0.82,1033.673,1.2,1261.291,0.82,1033.673
+,"Yoghurt drinks, including sweetened and/or flavoured variants, QUAL Sugar free",0.4,374.569,0.4,374.569,0.4,374.569,0.4,374.569
+,"Yoghurt, cow milk, flavoured",0.9,391.724,2.25,418.922,1.3,361.5744,2.3,402.81
+,"Yoghurt, cow milk, flavoured, FORT Mixed supplements/formulations, QUAL Skim",1.5,333.474,1.5,333.474,1.5,333.474,1.5,333.474
+,"Yoghurt, cow milk, flavoured, QUAL Low / Reduced sugar",0.4,384.734,0.4,384.734,0.4,384.734,0.4,384.734
+,"Yoghurt, cow milk, flavoured, QUAL Semi-skimmed",10.28,1139.024,10.66,1146.981,10.81,1049.3767,11.68,1228.381
+,"Yoghurt, cow milk, flavoured, QUAL Skim",2.92,1346.528,3.04,1230.182,1.72,849.438,2.92,1284.488
+,"Yoghurt, cow milk, flavoured, QUAL Sugar free",1.1,365.698,1.4,384.634,1.4,384.634,1.4,384.634
+,"Yoghurt, cow milk, plain",2.2,414.289,1.25,430.82,2.04,382.752,2.2,671.78
+,"Yoghurt, cow milk, plain, FORT Mixed supplements/formulations, QUAL Semi-skimmed",1.88,429.43,1.88,429.82,1.88,429.48,1.88,429.43
+,"Yoghurt, cow milk, plain, FORT Mixed supplements/formulations, QUAL Skim",0.8,908.858,0.8,909.638,0.8,908.958,0.8,908.858
+,"Yoghurt, cow milk, plain, QUAL Low / Reduced sugar",0.4,384.634,0.4,384.634,0.4,384.634,0.4,384.634
+,"Yoghurt, cow milk, plain, QUAL Semi-skimmed",9.32,1127.222,9.31,1171.75,8.07,1162.749,10.1,1282.02
+,"Yoghurt, cow milk, plain, QUAL Skim",3.19,1325.813,4.13,1294.291,3.1,909.482,5.3,1485.692
+,"Yoghurt, cow milk, plain, QUAL Sugar free",2.2,413.708,2.4,384.634,2.4,384.634,2.4,384.634
+,"Yoghurt, goat milk, plain",,480.52,,480.52,,480.52,,480.52
+,"Yoghurt, goat milk, plain, QUAL Semi-skimmed",,388.15,,388.15,,388.15,,388.15
+,"Yoghurt, sheep milk, flavoured",0.4,347.505,0.4,347.505,0.4,347.505,0.4,347.505
+,"Yoghurt, sheep milk, flavoured, QUAL Low / Reduced sugar",0.4,384.634,0.4,384.634,0.4,384.634,0.4,384.634
+,"Yoghurt, sheep milk, flavoured, QUAL Semi-skimmed",7.2,1060.178,7.2,1060.178,7.2,1060.178,7.2,1060.178
+,"Yoghurt, sheep milk, flavoured, QUAL Skim",1.2,1319.292,1.2,1319.292,1.2,1319.292,1.2,1319.292
+,"Yoghurt, sheep milk, flavoured, QUAL Sugar free",0.4,384.634,0.4,384.634,0.4,384.634,0.4,384.634
+,"Yoghurt, sheep milk, plain",1.4,382.946,1.2,498.946,1.4,382.946,1.2,498.946
+,"Yoghurt, sheep milk, plain, QUAL Low / Reduced sugar",0.4,384.634,0.4,384.634,0.4,384.634,0.4,384.634
+,"Yoghurt, sheep milk, plain, QUAL Semi-skimmed",7.2,1093.348,7.2,1093.348,7.2,1093.348,7.2,1093.348
+,"Yoghurt, sheep milk, plain, QUAL Skim",1.2,1363.641,1.2,1363.641,1.2,1363.641,1.2,1363.641
+,"Yoghurt, sheep milk, plain, QUAL Sugar free",0.4,384.634,0.4,384.634,0.4,384.634,0.4,384.634
+"Products for non-standard diets, food imitates and food supplements or fortifying agents",Almond drink,0,48.01,0.5,135.34,0.5,135.34,0.5,135.34
+,Carbohydrate-electrolyte solutions for sports people,2,9.102,2,9.102,2,53.414,2,53.414
+,Dietary foods for special medical purposes,0,0,0,0,,,0,0
+,Imitation cheese,0.1,465.997,2.5,966.99,0.1,465.997,2.5,966.99
+,Imitation cream,2,188.88,2,271.73,4.4,165.4493,2,271.73
+,"Imitation cream, QUAL Half fat or medium fat",2,335.08,2,335.08,1,100,2,335.08
+,Non dairy coffee creamer,3.9,260.083,3.9,1503.71,3.9,260.083,3.9,1503.71
+,"Non dairy coffee creamer, QUAL Half fat or medium fat",0,1493.861,0,1493.861,0,1493.861,0,1493.861
+,Oats drink,0.9,106.103,0.9,106.103,0.9,106.103,0.9,106.103
+,Protein and protein components for sports people,0.5,1356.875,1.6,2909.84,0.5,1356.875,1.6,2909.8
+,Rice drink,0,74.52,,,0,74.52,0,74.52
+,Single meal replacement for weight reduction,8.03,648.29,5.8,709.28,,,5.8,709.28
+,Soya drink,10.4,194.214,7,316.869,0.3,393.73,7,316.96
+,Soya yoghurt,5.2,174.059,5,198.893,3.1,288.2905,5,198.703
+,"Soya yoghurt, QUAL Half fat or medium fat",0.38,330.61,0.38,330.53,,0.03,0.38,330.34
+,Textured fungal proteins,1,412.19,1,412.19,1,412.19,1,412.19
+,Textured soy protein,0.8,3422.36,0.8,1835.88,0.8,3748.756,0.8,3865.88
+,Tofu,16,333.14,24.9,448.6,17,414.1256,24.9,448.6
+,Total daily diet replacement for weight reduction,4.8,1249.55,4.8,1249.55,4.8,1249.55,4.8,1249.55
+"Seasoning, sauces and condiments",Alcoholic sweet sauce,2.4,197.1,2.4,197.1,2.4,197.1,2.4,197.1
+,Apple chutney,3,196.437,3,79.8,3,196.437,3,239.9
+,Barbecue or steak sauces,1.3,235.083,1.3,251.689,,,1.3,310.463
+,Bechamel sauce,4.67,253.647,4.5,444.75,4.73,403.0627,4.5,444.75
+,Butter sauce,0.48,92.437,0.48,92.437,1.5,248.4732,0.4,25.345
+,Cheese sauce,1.84,397.261,3.51,433.327,8.6,521.1105,3.8,610.05
+,Chilli pickle,11.62,480.293,11.62,228.054,11.62,145.201,11.62,480.293
+,Chocolate sauce,1.3,373.91,1,477.982,1.3,373.91,1,591.982
+,Chutneys,0,216.756,0,79.964,,,0,79.964
+,"Continental european brown cooked sauce, gravy",0.23,167.589,0,32.254,0,20.382,0,32.254
+,Cream sauce,0.24,98.446,0.24,98.446,1.88,270.073,1.85,126.049
+,Curry powder,17.1,2666.694,17.1,2454.844,17.1,2685.844,17.1,3090.334
+,Curry sauce,10.14,189.747,5,416.24,5.1,226.659,5,261.787
+,Fruit sauce,1.34,268.88,1.34,59.395,1.34,136.643,1.34,52.574
+,Fudge sauce,1.3,293.745,1.3,293.745,1.3,293.745,1.3,293.745
+,Gravy browning,0,486.77,0,334.87,0,486.77,0,334.87
+,Gravy ingredients,0,486.77,0,486.77,0,486.77,0,486.77
+,Gravy instant granules,0,486.77,0,170.81,0,486.77,0,264.31
+,Gravy thickener,0,50.243,0,9.73,0,50.243,0,9.73
+,Hollandaise type sauce,6.29,139.59,12.1,293.225,17.8,262.1132,12.1,293.225
+,Horseradish sauce,0,857.33,0,325.58,,,0,325.58
+,Lime pickle,0,447.26,0,447.26,0,447.26,0,447.26
+,Malt extract,0,471,0,471,0,471,0,471
+,Mango chutney,0,217.389,0,80.5,,,0,80.5
+,Mango pickle,0,293.33,0,293.33,0,293.33,0,293.33
+,Mayonnaise sauce,3.89,112.983,4,106.646,9.6,128.8,5,69.69
+,"Mayonnaise, low fat",10,18.558,3,69.494,1.4,53.8119,3,74.887
+,Meat extract,0,1014.68,28.6,942.553,28.6,942.553,35.6,1582.23
+,Mint sauce,0,410.9,0,410.9,0,410.9,0,410.9
+,Miscellaneous savoury extracts,0,1474.3,1,3365.43,0,1474.3,1,3365.43
+,Mixed and other not listed condiments,2.2,371.46,3.5,622.8673,3.5,141.5573,2.2,91.1
+,Mixed herbs and spices,0,780.137,0,4124.598,0,3774.328,0,4124.598
+,Mushrooms cooked sauce,0.64,153.03,0.64,153.03,2.49,360.1472,2.38,31.724
+,Mustard and related sauces,6,727.294,6,381.307,6,446.037,6,553.36
+,"Mustard, hot",6,543.99,6,385.847,6,446.137,6,553.46
+,"Mustard, mild",6,540.037,6,801.77,6,957.65,6,801.77
+,"Mustard, sweet",6,530.037,6,385.487,6,558.927,6,385.487
+,Oyster sauce,58,769.111,63,321.528,58,769.111,63,321.528
+,Pesto,213.35,478.983,38.63,755.294,277.83,476.4305,209.75,1261.084
+,Piccalilly pickle,0,80.06,0,80.06,0,80.06,0,80.06
+,Pickles,0,128.39,0,103.96,0,184.437,0,128.39
+,Pickling spice,0,1785.532,0,1785.532,0,1785.532,0,1785.532
+,Salad dressing,12.6,75.715,14,74.224,11.6,51.768,14,86.9
+,"Salad dressing, low fat",24.6,103.191,24,184.331,23.1,43.5385,24,199.731
+,Salsa,0.4,91,0.4,343.34,0.2,327.0649,0.4,343.34
+,Salt,0,87.48,0.5,3.21,0,477.79,0.5,87.48
+,"Salt, flavoured",0,727.175,0,727.175,0,5359.8734,0,727.175
+,"Salt, iodised",0.5,524.25,0.5,10.21,0,291.06,0.5,10.21
+,"Salt, iodised and fluoridated",0,524.25,0,524.25,0,524.25,0,524.25
+,"Salt, low sodium",1.2,45000,1.2,34600,1.2,19124.36,1.2,34600
+,Sea salt,0,287.32,0,148.22,0,148.24,0,148.22
+,Seasoning mixes,16.8,2035.567,16.8,1698.099,,,16.8,1698.099
+,Soy sauce,58.5,637.25,58.5,602.54,1,610.81,58.5,288.59
+,"Stock cube or granulate, beef",0.6,978.085,0.6,143.11,0.6,951.87,0,809.65
+,Stock cubes or granulate (bouillon base),0,5.61,0.6,136.11,1.9,628.3,0.6,136.11
+,"Stock cubes or granulate (bouillon base), QUAL Low sodium / reduced salt",1.7,2391.3367,1.7,2391.4267,1.7,2391.6267,1.7,2391.4267
+,"Stock cubes or granulate, chicken",0.1,10.66,0.5,131.07,1.7,391.9298,0.5,778.5
+,"Stock cubes or granulate, vegetables",0,618.48,0,129.4,0.4,521.4718,0,607.85
+,Tabasco sauce,0,1234.526,0,1234.526,0,1234.526,0,1234.526
+,Tartar sauce,1,121.39,1,121.39,7.1,198.2145,1,121.39
+,Teriyaki sauce,3.39,769.111,3.39,769.111,3.39,239.831,3.39,769.111
+,Tomato chutney,3.91,460.86,4,356.16,4,229.652,4,356.16
+,Tomato ketchup and related sauces,0.4,92.817,0,416.307,0.4,467.817,0,417.47
+,Tomato-containing cooking sauces,15.7,464.18,12,254.924,,0.01,12,579.542
+,Vegetable savoury extracts,0,246.689,0,246.689,0,246.689,0,246.689
+,Vegetables-based cooked sauce,11.64,153.13,11,255.311,11,193.235,11,255.311
+,Vinegar,1,141.173,1,51.21,0,155.516,1,51.243
+,"Vinegar, apple",1,135.873,1,51.243,0,34.3366,1,51.243
+,"Vinegar, wine",0.1,155.553,1,51.243,0,158.6338,1,51.243
+,Yeast extract,21,127.43,18,2891.9,18.5,3090.1,22,3371.962
+"Starchy roots or tubers and products thereof, sugar plants",Arrowroots,0,1163.356,0,1163.356,0,1163.356,0,1163.356
+,"Arrowroots, PROCESS Baking",0,1060.993,0,1060.993,0,1060.993,0,1060.993
+,"Arrowroots, PROCESS Cooking in water",0,988.731,0,988.731,0,988.731,0,988.731
+,"Arrowroots, PROCESS Steaming",0,988.731,0,988.731,0,988.731,0,988.731
+,Cassava roots,0,482.07,0,405.474,0,482.07,0,405.474
+,"Cassava roots, PROCESS Baking",0,444.908,0,433.35,0,444.908,0,433.35
+,"Cassava roots, PROCESS Cooking in water",0,416.784,0,335.873,0,416.784,0,335.873
+,"Cassava roots, PROCESS Steaming",0,416.784,0,335.873,0,416.784,0,417.373
+,Fries (finger chips),2.27,766.482,4,540.08,0.1,638.5318,4,826.26
+,Main-crop potatoes,2,667.387,3,541.19,,,3,422.23
+,"Main-crop potatoes, PROCESS Baking",2.3,658.272,2,416.307,2.6,534.4641,3,428.42
+,"Main-crop potatoes, PROCESS Cooking in water",2.3,330.776,2,415.757,2.6,577.808,3,332.25
+,"Main-crop potatoes, PROCESS Steaming",2,667.28,0,416.507,0.6,577.841,3,332.25
+,Mashed potato powder,0.5,1785.585,1,2175.26,7.8,2602.0067,1,1812.57
+,Mexican yam beans,0,226.197,0,226.197,0,226.197,0,226.197
+,"Mexican yam beans, PROCESS Cooking in water",0,189.971,0,189.971,0,189.971,0,189.971
+,"Mexican yam beans, PROCESS Steaming",0,189.971,0,189.971,0,189.971,0,189.971
+,New potatoes,1,425.79,1,532.95,0.6,551.6,1,376.06
+,"New potatoes, PROCESS Baking",1,417.977,0,415.357,0,415.357,0,415.357
+,"New potatoes, PROCESS Cooking in water",1,518.23,0,415.657,0.6,551.5,1,518.23
+,"New potatoes, PROCESS Steaming",1,518.23,0,415.674,0.6,551.77,1,518.23
+,Pan-fried potato,4.2,664.71,2,397.094,2.9,681.4359,4,837.788
+,Potato baked,2,671.751,2,416.307,0.1,582.1447,2,416.66
+,Potato boiled,2,667.446,2,415.974,0.1,398.371,2,416.117
+,Potato crisps or sticks,11.2,1309.65,10,1300.73,11.9,1081.39,10.6,1249.75
+,Potato flakes,0,1870.237,2.5,1784.282,2.5,1561.911,2.5,1784.282
+,Potato flour,0.4,65.376,0,64.01,0.4,72.964,0,64.01
+,Potato starch,0,58.863,0,64.08,1,167.09,0,64.08
+,Potato starch-based snacks,3,918.73,3,1298.73,3.1,327.4348,3,1028.19
+,Sweet potatoes,1,441.475,1,464.674,0.6,441.718,1,464.48
+,"Sweet potatoes, PROCESS Baking",0.2,453.066,1,420.781,,,1,607.821
+,"Sweet potatoes, PROCESS Cooking in water",0.2,453.066,1,420.37,,,1,420.35
+,"Sweet potatoes, PROCESS Steaming",0.2,453.066,1,420.581,0.6,441.682,1,440.641
+,Tannias,0,573.14,0,558.56,0,573.14,0,573.14
+,"Tannias, PROCESS Baking",0,812.9,0,812.9,0,812.9,0,812.9
+,Tapioca starch,0,48.315,0,78.785,0,48.315,0,78.785
+,Tapioca starch-based snacks,3,263.83,3,263.83,3,263.83,3,263.83
+,Taros,0,763.325,0,482.079,0,763.325,0,482.079
+,"Taros, PROCESS Baking",0,577.05,0,577.05,0,577.05,0,577.05
+,"Taros, PROCESS Cooking in water",0,654.999,0,317.401,0,654.999,0,317.401
+,"Taros, PROCESS Steaming",0,654.999,0,317.401,0,654.999,0,441.301
+,Yams,1,485.817,1,439.707,1,485.817,1,439.707
+,"Yams, PROCESS Baking",0,442.321,0,588.585,0,442.321,0,588.585
+,"Yams, PROCESS Cooking in water",0,411.193,0,306.963,0,411.193,0,306.963
+,"Yams, PROCESS Steaming",0,411.193,0,306.963,0,411.193,0,427.143
+"Sugar, confectionery and water-based sweet desserts",Basic sweet masses,2,888.187,2.2,884.75,0.4,5.7584,2.2,884.75
+,Bitter chocolate,6.77,1261.967,4.29,697.741,0.5,741.97,7.29,700.497
+,"Bitter chocolate, QUAL Sugar free",3.77,1159.35,4.29,796.858,4.29,796.858,4.29,796.858
+,Bitter-sweet chocolate,9.4,746.983,4.5,73.665,12.2,480.457,9,268.98
+,"Bitter-sweet chocolate, QUAL Sugar free",4.29,796.858,4.29,796.858,4.29,796.858,4.29,796.858
+,"Caramel, hard",1,3.177,1,167.857,0,244.357,1,151.857
+,"Caramel, hard, QUAL Low / Reduced sugar",0,4.041,0,4.041,0,329.222,0,4.041
+,"Caramel, hard, QUAL Sugar free",0,4.041,0,4.041,0,4.041,0,4.041
+,"Caramel, soft",0.5,186.5,1,230.14,0,144.2,1,214.14
+,"Caramel, soft, QUAL Low / Reduced sugar",0,4.041,0,4.041,0,4.041,0,4.041
+,"Caramel, soft, QUAL Sugar free",0,4.041,0,4.041,0,4.041,0,4.041
+,Chewing gum,0.6,58.807,0,1879.1,0,1360.517,0,1879.1
+,"Chewing gum, QUAL Low / Reduced sugar",0,28.097,0,28.097,0,28.097,0,28.097
+,"Chewing gum, QUAL Sugar free",0.5,283.157,0,5.157,0,1360.517,0,5.157
+,Chocolate and chocolate products,2,547.987,8.58,828.671,5,978.442,7,886.867
+,"Chocolate and chocolate products, QUAL Low / Reduced sugar",2.7,1836.75,2.7,1836.75,2.7,1836.75,2.7,1836.75
+,"Chocolate and chocolate products, QUAL Sugar free",6.7,787.75,10.58,968.366,6.7,787.75,6.58,792.175
+,Chocolate coated confectionery,6.4,626.441,5.06,343.394,1.56,375.013,5.06,601.91
+,Cream chocolate,5.5,777.68,2,434.37,4.5,937.797,5,744.24
+,Dessert halva,2,131.297,2,115.237,2,131.297,2,115.237
+,"Drag�e, sugar coated",1.2,986.995,1,10.925,,,1,10.925
+,"Drag�e, sugar coated, QUAL Low / Reduced sugar",0,4.041,0,4.041,0,4.041,0,4.041
+,"Drag�e, sugar coated, QUAL Sugar free",0,4.041,0,14.307,0,4.041,0,14.307
+,Filled chocolate,,,2,434.58,,,7,584.777
+,Foamed sugar products (marshmallows),2,32.033,2,28.133,0,46.433,2,12.833
+,Fructose,0,0,0.5,1.01,0,0.41,0.5,1.01
+,Fudge,0.5,396.5,1,254.14,0.5,396.62,1.3,385.98
+,Gelatine dessert,4.59,196.188,0,16,0.3,61.2562,0,16.41
+,"Gelatine dessert, QUAL Sugar free",0,8.062,0,8.062,0,8.062,0,8.062
+,Glucose,0,3.325,0,2.11,0,3.325,0,24.61
+,Granita,,0,,0,,0,,0
+,Gum drops,0,28.64,0,26.722,0,18.12,0,26.722
+,"Gum drops, QUAL Sugar free",20,564.66,20,564.66,20,564.66,20,564.66
+,Hard candies,1.8,119.715,0,14.407,,,0,27.647
+,"Hard candies, QUAL Low / Reduced sugar",0,4.041,0,14.307,0,4.041,0,14.307
+,"Hard candies, QUAL Sugar free",1,2.041,0,95.307,20,400.077,0,79.307
+,"Honey, polyfloral",1.4,66.219,0,69.619,0.5,75.897,1,76.649
+,Jelly candies,0.8,96.734,0,20.58,0,154.91,0,19.57
+,Liquorice candies,0,823.104,1,484.117,1,300.507,1,899.444
+,"Liquorice candies, QUAL Sugar free",1,506.9,1,506.9,1,506.9,1,506.9
+,Marzipan,2.6,748.518,1.05,657.709,1,728.35,1,434
+,Marzipan raw mass,2,888.187,1.05,658.929,2,888.187,2.2,884.75
+,Milk chocolate,5.89,956.104,8.58,828.911,2,828.789,7,886.867
+,"Milk chocolate, QUAL Low / Reduced sugar",2.7,1836.75,2.7,1836.75,2.7,1836.75,2.7,1836.75
+,"Milk chocolate, QUAL Sugar free",10.7,787.75,10.58,968.366,10.7,787.75,10.58,968.366
+,Molasses,0,2151.977,0,1948.61,0,2151.977,0,1948.61
+,Nougat,6.61,671.872,5,626.308,9.7,867.096,6,373.754
+,"Nougat, QUAL Low / Reduced sugar",7.2,916.237,7.2,916.107,7.2,916.077,7.2,916.187
+,"Nougat, QUAL Sugar free",7.2,916.237,7.2,916.107,7.2,916.077,7.2,916.187
+,Nuts-seeds based halva,36.4,124.301,36.4,815.945,36.4,1853.443,36.4,815.945
+,Polyols,0,0,0,0,0,0,0,0
+,Pralines,2.1,416.841,3,434.65,1,649.651,2,497.03
+,Sorbet,2.54,78.365,0,45.552,0.2,127.3934,1,57.592
+,Sucrose (common sugar),0.3,4.839,0,6.13,0.5,2.81,0,18.42
+,Sweet confectionery-deprecated,0.8,95.401,0,14.407,1,141.092,0,30.317
+,"Sweet confectionery-deprecated, QUAL Low / Reduced sugar",0,4.181,0,4.151,0,4.111,0,4.041
+,"Sweet confectionery-deprecated, QUAL Sugar free",0,4.041,0,14.307,20,565.078,0,14.307
+,Syrups,2.2,54.769,,,1,332.95,1,75.757
+,Toffee,1,396.5,1,254.34,1.1,283.7,1,254.32
+,"Toffee, QUAL Low / Reduced sugar",0,4.041,0,4.041,0,4.041,0,4.041
+,"Toffee, QUAL Sugar free",0,4.041,0,4.041,0,4.041,0,4.041
+,White chocolate,5,855.68,13.67,983.161,9.03,718.84,13.67,881.69
+Vegetables and vegetable products,Alfalfa sprouts,,184.423,1,211.663,1,211.88,1,211.663
+,"Alfalfa sprouts, PROCESS Cooking in water",0,195.519,0,195.519,0,195.519,0,195.519
+,"Alfalfa sprouts, PROCESS Steaming",0,221.85,0,299.017,0,299.017,0,221.85
+,Angelica (leaves and stems),0.1,1080.864,0.1,1080.864,0.1,1080.864,0.1,1080.864
+,Aniseed myrtle,310.1,381.023,310.1,381.023,310.1,381.023,310.1,381.023
+,Asparagus,40,314.571,40,304.363,39.2,376.36,40,376.45
+,"Asparagus, PROCESS Baking",43,325.369,43,325.369,43,325.369,43,325.369
+,"Asparagus, PROCESS Cooking in water",39.6,195.498,40,297.58,0.2,183.597,40,312.19
+,"Asparagus, PROCESS Steaming",43.8,311.56,42,297.58,0.2,183.632,42,312.19
+,Aubergines,2,246.504,1,234.67,1.4,261.67,2,248.433
+,"Aubergines, PROCESS Baking",1.5,164.183,1.5,312.55,1.5,312.55,1.5,277.85
+,"Aubergines, PROCESS Cooking in water",1.5,163.783,2,231.509,2,225.478,2,231.509
+,"Aubergines, PROCESS Frying",17.4,217.617,16.7,192.108,16.7,225.9054,17.4,217.617
+,"Aubergines, PROCESS Steaming",2,277.667,2,231.606,2,277.667,2,231.606
+,Bamboo shoots,6,541.793,6,541.793,1,39.143,6,541.793
+,"Bamboo shoots, PROCESS Cooking in water",6,318.347,6,610.043,6,588.427,6,588.423
+,"Bamboo shoots, PROCESS Frying",0.046,414.427,0.046,414.427,0.046,414.427,0.046,414.427
+,"Bamboo shoots, PROCESS Steaming",6,318.347,6,610.043,6,588.427,6,588.423
+,Basil,0.3,677.873,310.1,608.183,0.3,772.653,0.1,607.78
+,Beans (with pods) and similar-,37,383.76,36,402.44,0.5,347.18,36,308.84
+,"Beans (with pods) and similar-, PROCESS Baking",51,387.561,51,1190.389,51,1190.389,51,387.561
+,"Beans (with pods) and similar-, PROCESS Cooking in water",35.4,262.887,35,390.638,0.5,182.1115,35,189.437
+,"Beans (with pods) and similar-, PROCESS Steaming",36.4,262.984,36,390.735,38.7,460.0345,36,189.534
+,Beetroots,5,362.482,5,465.512,0.8,361.38,5,464.017
+,"Beetroots, PROCESS Baking",100.3,287.737,100.2,575.05,100.2,575.05,100.2,575.05
+,"Beetroots, PROCESS Cooking in water",5.3,287.003,5,411.348,,,5,643.89
+,"Beetroots, PROCESS Steaming",5,394.818,5,411.389,,,5,643.931
+,Borage,0,675.1,0,675.1,0,675.1,0,675.1
+,Broccoli and similar-,179,438.387,185,349.939,196.4,566.09,185,540.62
+,"Broccoli and similar-, PROCESS Baking",0,444.053,157.1,617.713,197.1,617.713,136.1,438.613
+,"Broccoli and similar-, PROCESS Cooking in water",0.8,358.663,156,553.717,196.4,565.83,135,284.18
+,"Broccoli and similar-, PROCESS Frying",188,390.114,188,390.114,188,390.114,188,390.114
+,"Broccoli and similar-, PROCESS Steaming",0.8,358.88,156,553.934,196.4,565.997,135,284.397
+,Brussels sprouts,155.4,578.823,156,579.063,153.3,420.089,156,565.353
+,"Brussels sprouts, PROCESS Baking",127.767,672.466,127.767,333.18,127.767,333.18,127.767,672.466
+,"Brussels sprouts, PROCESS Cooking in water",128.5,346.75,137,560.222,127,,137,407.37
+,"Brussels sprouts, PROCESS Steaming",1.5,432.96,10,560.032,,,10,407.18
+,Canned mushrooms,,243.862,2,249.912,2,339.398,2,249.912
+,"Canned mushrooms, PROCESS Baking",18,412.302,18,412.302,18,412.302,18,412.302
+,"Canned mushrooms, PROCESS Cooking in water",2,260.545,2,249.478,2,296.545,2,119.518
+,"Canned mushrooms, PROCESS Steaming",2,462.839,2,250.778,2,297.914,2,220.988
+,Cardoons,0.2,433.86,0.2,503.505,0.2,566.166,0.2,566.166
+,"Cardoons, PROCESS Cooking in water",0,402.559,0,402.559,0,402.559,0,402.559
+,"Cardoons, PROCESS Steaming",0,402.559,0,402.559,0,402.559,0,402.559
+,Carrots,16,317.364,15,330.784,0.6,269.11,16,214.54
+,"Carrots, PROCESS Baking",17,468.228,17,466.289,17,466.289,17,466.289
+,"Carrots, PROCESS Cooking in water",16.6,175.1,16,277.878,16.2,485.091,17,165.77
+,"Carrots, PROCESS Frying",0.7,327.418,0.2,790.7,0.2,790.75,0.2,790.7
+,"Carrots, PROCESS Steaming",15.7,326.868,15,277.878,15.2,485.091,16,165.77
+,Cauliflowers,31,495.279,31,386.332,27.5,374.6,31,485.55
+,"Cauliflowers, PROCESS Baking",28,421.503,29.5,386.389,28,386.389,29.5,407.678
+,"Cauliflowers, PROCESS Cooking in water",30.2,209.924,28.5,306.943,27,,28.5,203.29
+,"Cauliflowers, PROCESS Steaming",30.2,209.995,28.5,307.024,27,,28.5,203.371
+,Celeriacs,41.8,504.031,42,582.135,0.7,594.308,42,587.02
+,"Celeriacs, PROCESS Baking",45,604.132,45,604.132,45,604.132,45,604.132
+,"Celeriacs, PROCESS Cooking in water",41,345.01,43,585.78,43,301.302,43,431.51
+,"Celeriacs, PROCESS Steaming",43.4,279.31,46,586.31,43.03,680.018,46,431.719
+,Celeries,32,375.168,29,454.04,1,425.984,32,388.21
+,"Celeries, PROCESS Cooking in water",35,383.108,35,446,35,326.243,35,300.61
+,"Celeries, PROCESS Steaming",3,383.126,3,446.3,0,476.549,3,300.61
+,Celery leaves,2.7,410.61,2.7,838.08,2.7,937.04,2.7,838.08
+,"Celtuce, PROCESS Steaming",0.558,337.013,0.558,337.013,0.558,337.013,0.558,337.013
+,Ceps,11,423.099,11,436.662,11.1,336.25,11,436.662
+,"Ceps, PROCESS Baking",0,531.216,0,531.216,0,531.216,0,531.216
+,"Ceps, PROCESS Cooking in water",16.9,286.74,16.9,286.74,17,513.2934,16.9,286.74
+,"Ceps, PROCESS Steaming",16.9,520.331,16.9,520.331,17,516.7304,16.9,520.331
+,Chanterelles,0,435.5,0,606.68,18,435.04,0,606.68
+,"Chanterelles, PROCESS Baking",0,509.703,0,517.667,0,509.703,0,517.667
+,"Chanterelles, PROCESS Cooking in water",0,262.102,0,605.654,0,262.102,0,605.654
+,"Chanterelles, PROCESS Steaming",0,573.051,0,610.063,0,573.051,0,610.063
+,Chards,0,335.85,0.3,448.654,255.3,652.023,0.3,563.314
+,"Chards, PROCESS Baking",0,621.622,0,482.337,255,482.337,0,623.031
+,"Chards, PROCESS Cooking in water",0.9,670.964,0.9,448.892,255.9,417.785,0.9,732.727
+,"Chards, PROCESS Steaming",0.9,671.101,0.9,447.617,255.9,482.337,0.9,732.856
+,Chervil,1.2,1069.644,1.2,1069.644,1.2,1069.647,1.2,1069.644
+,Chickpea sprouts,7,345.17,7,345.17,7,345.17,7,345.17
+,Chili peppers,5,293.87,5,523.62,,,5,360.7
+,"Chili peppers, PROCESS Baking",5,435.708,5,506.933,5,506.933,5,435.708
+,"Chili peppers, PROCESS Cooking in water",5,321.062,5,321.062,5,321.062,5,321.062
+,Chinese cabbages and similar-,80,227.191,80,433.27,80.2,248.551,80,319.893
+,"Chinese cabbages and similar-, PROCESS Baking",2.1,589.531,2.1,589.531,2.1,589.531,2.1,589.531
+,"Chinese cabbages and similar-, PROCESS Cooking in water",89,160.883,89,432.997,89,160.883,89,432.997
+,"Chinese cabbages and similar-, PROCESS Steaming",0,432.99,0,432.99,0,432.99,0,432.99
+,Chives,380,400.64,380.1,713.031,0.5,365.187,380.1,400.539
+,Chives and similar-,380,400.64,380.1,713.031,380.1,688.076,380.1,400.539
+,Common bean sprouts,5,452.323,5,452.323,5,452.323,5,452.323
+,Common mushrooms,21.54,447.567,14,566.41,3,522.82,23,423.02
+,"Common mushrooms, PROCESS Baking",17,421.373,17,677.058,17,677.058,17,677.058
+,"Common mushrooms, PROCESS Cooking in water",18,214.933,23,563.583,29.2,581.7836,23,332.143
+,"Common mushrooms, PROCESS Frying",12,475.06,13,533.377,12,475.06,12,475.06
+,"Common mushrooms, PROCESS Steaming",19,217.15,24,565.8,30.2,581.7836,24,334.36
+,Common nettle,0,1364.083,0,1416.423,0.1,54.953,0,1416.423
+,Courgettes,1,280.183,3.3,277.06,3,320.58,1,454.427
+,Courgettes and similar-,0.6,379.457,3.3,277.427,3.2,444.407,1,454.427
+,"Courgettes and similar-, PROCESS Baking",0,277.39,4.2,281.183,3.57,281.183,0,277.39
+,"Courgettes and similar-, PROCESS Cooking in water",12,167.762,12,364.922,,0.02,12,283.907
+,"Courgettes and similar-, PROCESS Frying",1,624.88,1,624.88,,0.02,1,624.88
+,"Courgettes and similar-, PROCESS Steaming",1,243.03,5.2,365.019,3.57,0.02,1,284.004
+,"Courgettes, PROCESS Baking",1,368.366,4.2,179.473,3.57,179.473,0,277.39
+,"Courgettes, PROCESS Cooking in water",1,167.762,5.2,364.922,3.57,,1,283.907
+,"Courgettes, PROCESS Frying",1,624.88,1,624.88,1,624.88,1,624.88
+,"Courgettes, PROCESS Steaming",1,243.03,5.2,365.019,3.57,,1,284.004
+,Cresses,0,760.367,560,882.63,0,786.49,0,219.907
+,Cucumbers,13.1,186.401,13,252.214,0,188.82,13,215.86
+,Curly kales,819,788.753,819,700.737,2.3,784.213,819,682.427
+,"Curly kales, PROCESS Cooking in water",721,466.529,721,433.159,721,466.529,721,362.929
+,"Curly kales, PROCESS Frying",2,612.89,2,612.89,2,612.89,2,612.89
+,"Curly kales, PROCESS Steaming",721,466.529,721,433.159,721,466.529,721,362.929
+,Curry leaves,0,1107,0,1107,0,1107,0,1107
+,Dandelions,0.5,850.323,0.5,339.718,0.5,781.397,0.5,339.718
+,Dill leaves,2,1003.357,2,1230.197,0.5,1232.917,2,1230.197
+,Dried mushrooms,164,3559.618,274,5121.511,274,5610.841,274,5121.511
+,"Dried mushrooms, PROCESS Cooking in water",15,505.841,15,505.841,15,505.841,15,505.841
+,"Dried mushrooms, PROCESS Steaming",15,505.841,15,505.841,15,505.841,15,505.841
+,Dried vegetables,164,2248.367,164,2248.367,,,164,2248.367
+,Dulse,0,136.562,0,136.562,0,136.562,0,136.562
+,"Dulse, PROCESS Cooking in water",0,284.655,0,284.655,0,284.655,0,284.655
+,"Dulse, PROCESS Steaming",0,284.655,0,284.655,0,284.655,0,284.655
+,Escaroles,1,518.3,232,357.057,1,449.687,1,357.057
+,Escaroles and similar-,0.2,515.855,232,357.05,1,238.896,1,505.283
+,"Escaroles and similar-, PROCESS Baking",2.2,328.076,2.2,328.076,2.2,328.076,2.2,328.076
+,"Escaroles and similar-, PROCESS Cooking in water",0,259.321,0,259.321,0,259.321,0,259.321
+,"Escaroles and similar-, PROCESS Steaming",2.2,328.076,0,259.321,0,259.321,0,259.321
+,Fennel leaves,0.7,516.771,790.1,930.803,790.1,930.803,0.1,500.483
+,Florence fennels,0.9,496.184,4.1,525.81,1,529.34,0,499.75
+,"Florence fennels, PROCESS Baking",0.9,357.042,5.9,343.302,1,547.073,5.9,546.903
+,"Florence fennels, PROCESS Cooking in water",1,343.215,4.9,524.595,0,319.902,4.9,349.395
+,"Florence fennels, PROCESS Steaming",1,343.264,4.9,524.644,0,477.999,4.9,349.444
+,Garden cress sprouts,0,218.54,0,218.54,0,218.54,0,218.54
+,"Garden cress sprouts, PROCESS Steaming",0,563.748,0,563.748,0,563.748,0,563.748
+,Garden sorrel,0.9,604.359,0.9,214.359,0.1,52.407,0,435.442
+,Garlic and similar-,5.1,704.81,2,820.62,0.5,805.1,2,839.843
+,"Garlic and similar-, PROCESS Baking",0.5,791.374,0.5,266.959,0.5,266.959,0.5,791.374
+,"Garlic and similar-, PROCESS Cooking in water",0,498.471,0,498.471,0,498.471,0,498.471
+,"Garlic and similar-, PROCESS Steaming",0,707.904,0,707.904,0,707.904,0,707.904
+,Garlic puree,2,498.471,2,421.125,2,498.471,2,421.125
+,Gherkins,13,153.457,13,104.514,13.58,353.61,13,299.31
+,Globe artichokes,0.2,578.039,1,561.903,,0.06,1,464.42
+,"Globe artichokes, PROCESS Cooking in water",0.07,541.889,0.07,443.921,1,451.408,0.07,443.921
+,"Globe artichokes, PROCESS Steaming",0.07,541.889,0.07,587.354,0.07,587.354,0.07,443.921
+,Grape leaves,109,831.354,109,831.354,109,521.505,109,831.354
+,"Grape leaves, PROCESS Cooking in water",121,701.205,121,701.205,121,701.205,121,701.205
+,"Grape leaves, PROCESS Steaming",121,701.205,121,701.205,121,701.205,121,701.205
+,Head cabbages,61.3,366.639,61,373.38,45,371.7,61,373.36
+,Head cabbages and similar-,61,334.353,61,373.36,45.5,417.72,61,373.36
+,"Head cabbages and similar-, PROCESS Baking",64.793,402.37,64.793,323.009,47.293,323.009,64.793,402.37
+,"Head cabbages and similar-, PROCESS Cooking in water",65.1,284.68,66.5,183.28,47,,66.5,183.28
+,"Head cabbages and similar-, PROCESS Frying",1.7,439.7023,1.7,439.7023,1.7,439.7023,1.7,439.7023
+,"Head cabbages and similar-, PROCESS Steaming",0.6,284.719,2,183.28,,,2,183.28
+,"Head cabbages, PROCESS Baking",66.6,403.283,66.6,589.491,49.1,589.491,66.6,403.283
+,"Head cabbages, PROCESS Cooking in water",64.9,373.53,66.5,183.28,49,226.828,66.5,183.28
+,"Head cabbages, PROCESS Frying",,,1.7,439.7023,,,,
+,"Head cabbages, PROCESS Steaming",0.4,373.549,2,183.28,,,2,183.28
+,Hijiki,0,425.35,0,425.35,0,425.35,0,425.35
+,"Hijiki, PROCESS Cooking in water",0,253.667,0,253.667,0,253.667,0,253.667
+,"Hijiki, PROCESS Steaming",0,253.667,0,253.667,0,253.667,0,253.667
+,Honey mushroom,0,561.803,0,573.409,0,573.409,0,573.409
+,"Honey mushroom, PROCESS Cooking in water",0,518.76,0,518.76,0,518.76,0,518.76
+,"Honey mushroom, PROCESS Steaming",0,518.76,0,518.76,0,518.76,0,518.76
+,Horseradish roots,0.2,610.62,0,811.06,0.2,985.53,0,811.06
+,"Horseradish roots, PROCESS Cooking in water",0,734.007,0,734.007,0,734.007,0,734.007
+,"Horseradish roots, PROCESS Steaming",0.2,734.007,0.2,822.02,0.2,822.02,0.2,734.007
+,Jerusalem artichokes,0.4,592.36,0.4,592.36,0.4,684.76,0.4,592.36
+,"Jerusalem artichokes, PROCESS Baking",0.7,543.868,0,724.91,0,724.91,0,536.004
+,"Jerusalem artichokes, PROCESS Cooking in water",0.7,543.848,0.7,496.615,0.7,494.724,0.7,496.615
+,"Jerusalem artichokes, PROCESS Steaming",0.7,543.848,0.7,496.615,0.7,494.724,0.7,496.615
+,Kales and similar-,819,788.753,819,700.737,817.3,423.136,819,682.427
+,"Kales and similar-, PROCESS Baking",0,440.466,0,440.466,0,440.466,0,440.466
+,"Kales and similar-, PROCESS Cooking in water",721,466.529,721,433.159,721,466.529,721,362.929
+,"Kales and similar-, PROCESS Steaming",721,466.529,721,433.159,721,466.529,721,362.929
+,Kohlrabies,8,477.333,8,696.57,0.5,442.156,8,417.79
+,"Kohlrabies, PROCESS Baking",8.5,524.651,8.5,266.959,8.5,266.959,8.5,524.651
+,"Kohlrabies, PROCESS Cooking in water",8,306.599,8,695.86,,,8,298.95
+,"Kohlrabies, PROCESS Steaming",1,297.91,1,695.02,,,1,297.93
+,Lamb's lettuces,0.9,531.46,0.9,531.46,,,0.9,522.128
+,Land cresses,0,849.187,0,472.62,0,849.187,0,472.62
+,Laurel,,1479.42,310.9,668.983,310.9,668.983,0.9,130.484
+,Laver,0,492.562,0,492.562,0,492.562,0,492.562
+,"Laver, PROCESS Cooking in water",0,284.655,0,284.655,0,284.655,0,284.655
+,"Laver, PROCESS Steaming",0,284.655,0,284.655,0,284.655,0,284.655
+,Leeks,47.6,411.842,48,315.191,0.5,290.637,48,334.66
+,"Leeks, PROCESS Baking",52.8,67.902,52.8,67.896,52.8,448.262,52.8,448.222
+,"Leeks, PROCESS Cooking in water",47.8,154.682,47,296.876,48,282.665,48,206.39
+,"Leeks, PROCESS Steaming",49.8,67.802,49,296.909,49.371,432.699,50,206.39
+,Lentil sprouts,5,227.18,5,227.18,5,227.18,5,227.18
+,"Lentil sprouts, PROCESS Steaming",33,298.95,33,298.95,33,298.95,33,298.95
+,"Lentils, fresh",127,1471.131,127,1495.72,127,1471.131,127,1495.72
+,"Lentils, fresh, PROCESS Baking",15.1,334.531,15.1,334.531,15.1,334.531,15.1,334.531
+,"Lentils, fresh, PROCESS Cooking in water",10.8,532.42,8,881.19,8,464.377,8,503.657
+,"Lentils, fresh, PROCESS Steaming",10.8,532.42,8,881.19,8,464.377,8,503.657
+,Lettuces (generic),129.2,327.595,129,404.687,,,130,284.16
+,Lovage leaves,0,636.467,0,636.467,0,636.467,0,636.467
+,Mashed vegetable puree,0.6,326.589,0,1334.767,0.1,264.76,0,1270.53
+,Melons and similar-,1.2,381.708,0.3,246.75,0.3,246,1,229.43
+,Mints,0.5,630.163,0.5,593.253,0.5,593.253,0.5,593.253
+,Morels,1,587.073,1,296.533,14.1,435.653,1,296.533
+,"Morels, PROCESS Baking",6.47,539.42,6.47,475.053,6.47,475.053,6.47,539.42
+,"Morels, PROCESS Cooking in water",0,539.42,0,539.42,0,539.42,0,539.42
+,"Morels, PROCESS Steaming",0,706.16,0,706.16,0,706.16,0,706.16
+,Mung bean sprouts,5.6,271.205,6,187.02,1,241.067,6,163.43
+,"Mung bean sprouts, PROCESS Cooking in water",0.5,141.002,1,168.52,1,119.52,1,119.52
+,"Mung bean sprouts, PROCESS Steaming",0.5,141.002,1,168.52,1,119.52,1,119.52
+,Mushy peas,0.9,306.757,0.9,184.643,0.9,184.643,0.9,310.061
+,Nasturtium flowers and leaves,250,559.948,250,559.948,250,559.948,250,559.948
+,Okra,5.243,379.544,6,496.647,5.243,362.033,6,623.83
+,"Okra, PROCESS Cooking in water",6,357.39,6,543.904,6,357.39,6,543.904
+,"Okra, PROCESS Steaming",6,357.39,6,543.904,6,357.39,6,543.904
+,Onions,1.22,210.883,1.4,257.428,0,266.717,2,221.2
+,Onions and similar-,1,201.91,2,257.428,1.5,305.74,2,221.2
+,"Onions and similar-, PROCESS Baking",1.3,209.855,4,621.221,4,251.789,4,621.221
+,"Onions and similar-, PROCESS Cooking in water",1,153.126,1,231.348,,,1,129.432
+,"Onions and similar-, PROCESS Frying",2,471.73,1,285.048,0.6,314.8314,2,471.73
+,"Onions and similar-, PROCESS Steaming",0,129.62,0,129.62,,,0,129.62
+,"Onions, PROCESS Baking",1.3,209.855,1.1,408.081,2.3,595.776,4,621.221
+,"Onions, PROCESS Cooking in water",1,153.126,0.5,231.348,1,153.112,1,129.432
+,"Onions, PROCESS Frying",2,471.73,1,285.048,,0,2,471.73
+,"Onions, PROCESS Steaming",0,129.62,0,129.62,0,129.61,0,129.62
+,Palm hearts,0,519.24,0,519.24,0,519.24,0,519.24
+,"Palm hearts, PROCESS Cooking in water",0.7,314.99,0.7,314.99,0.7,477.125,0.7,477.125
+,"Palm hearts, PROCESS Steaming",0,477.142,33,299.144,33,299.144,0,477.142
+,Parsley,548.48,1012.505,549,805.843,0.5,1157.413,549,1060.343
+,Parsley roots,0.1,526.813,0.1,526.813,0.1,736.477,0.1,526.813
+,Parsnip roots,1.6,259.281,1.1,318.68,0,686.39,3,591.8
+,"Parsnip roots, PROCESS Baking",0.3,305.347,0.3,305.347,0.3,305.347,0.3,305.347
+,"Parsnip roots, PROCESS Cooking in water",1.3,305.764,1.3,502.21,1.4,775.3429,1.3,502.21
+,"Parsnip roots, PROCESS Frying",0.3,305.347,0.3,305.347,0.3,305.347,0.3,305.347
+,"Parsnip roots, PROCESS Steaming",1.3,305.764,1.3,502.21,1.4,775.3429,1.3,502.21
+,Pearl oyster mushrooms,3.1,388.948,3,422.093,1.3,436.125,3,422.093
+,"Pearl oyster mushrooms, PROCESS Baking",2.2,214.316,2.2,214.316,2.2,214.316,2.2,214.316
+,"Pearl oyster mushrooms, PROCESS Cooking in water",0.1,239.064,0.1,239.064,0.1,239.064,0.1,239.064
+,"Pearl oyster mushrooms, PROCESS Steaming",0.1,326.063,0.1,326.063,0.1,326.063,0.1,326.063
+,Peas (with pods) and similar-,0.4,321.047,0.4,287.907,0.4,436.924,0.4,287.957
+,"Peas (with pods) and similar-, PROCESS Cooking in water",0,293.731,0,236.608,0,293.731,0,236.638
+,"Peas (with pods) and similar-, PROCESS Frying",0.2,411.425,0.2,411.385,,0.15,0.2,411.445
+,"Peas (with pods) and similar-, PROCESS Steaming",0,420.435,0,237.04,0,420.435,0,237.07
+,Peas shoots and sprouts,7,345.387,7,345.387,7,345.387,7,345.387
+,Pickled / marinated vegetables,7,131.449,7,104.379,0.1,209.761,7,104.379
+,Pumpkins,5,375.09,5,190.65,5,300.71,5,190.61
+,"Pumpkins, PROCESS Baking",6.2,273.086,6.2,273.086,6.2,418.368,6.2,418.368
+,"Pumpkins, PROCESS Cooking in water",5.2,289.17,5.2,130.868,5.2,122.321,5.2,130.828
+,"Pumpkins, PROCESS Steaming",5.2,272.99,5.2,131.35,5.2,344.101,5.2,131.31
+,Purslanes,381.9,674.355,381.9,1067.29,0.1,46.27,381.9,1067.29
+,Purslanes and similar-,381.9,674.355,381.9,1067.29,381.9,676.79,381.9,1067.29
+,Radish sprouts,0,430.61,0,430.61,0,430.61,0,430.61
+,"Radish sprouts, PROCESS Cooking in water",0,239.67,0,239.67,0,239.67,0,239.67
+,"Radish sprouts, PROCESS Steaming",0,282.678,0,282.678,0,282.678,0,282.678
+,Radishes and similar-,0.4,318.409,0,317.853,0.1,369.043,2,285.44
+,"Radishes and similar-, PROCESS Cooking in water",0,458.548,0,458.548,0,458.548,0,458.548
+,"Radishes and similar-, PROCESS Steaming",0,458.765,0,539.954,0,539.954,0,458.765
+,Red mustard leaves,566,383.155,566,383.155,560.1,655.828,566,383.155
+,Rhubarbs,11,387.226,11,385.337,0.5,450.347,11,414.15
+,"Rhubarbs, PROCESS Cooking in water",13,344.399,13,273.537,13,344.399,13,291.007
+,"Rhubarbs, PROCESS Steaming",13,344.399,13,273.537,13,470.699,13,291.007
+,Roman rocket,250.3,860.14,250.3,830.516,0.3,631.9,250.3,830.516
+,Roman rocket and similar-,250,860.14,250,830.516,250,631.44,250,830.516
+,Rosemary,4,715.567,4,743.939,4,421.889,4,743.939
+,Sage,3,1098.873,3,1190.814,3,529.885,3,1190.814
+,Salsifies,0,476.685,0,523.35,0.4,477.18,0,416.7
+,"Salsifies, PROCESS Cooking in water",0.6,335.86,0,529.4,0,360.518,0,289.433
+,"Salsifies, PROCESS Steaming",0.6,406.035,0,529.93,0,393.068,0,289.433
+,Sauerkraut,25.2,394.99,3,312.257,1.3,391.6241,,
+,"Sauerkraut, PROCESS Baking",28,434.068,28,434.068,28,434.068,28,434.068
+,"Sauerkraut, PROCESS Cooking in water",30.2,374.326,31,223.23,0,345.053,31,265.25
+,"Sauerkraut, PROCESS Steaming",30.2,374.326,31,223.48,31,267.87,31,265.25
+,Shallots,0,256.91,1,258.011,1,438.36,1,260.96
+,"Shallots, PROCESS Baking",8.2,262.883,8.2,262.883,8.2,262.883,8.2,262.883
+,"Shallots, PROCESS Cooking in water",0,230.936,0,230.936,0,230.936,0,230.936
+,"Shallots, PROCESS Frying",1,284.548,1,284.548,1,284.548,1,284.548
+,Shiitake,0.3,169.664,0.3,169.664,0.4,314.394,0.3,169.664
+,"Shiitake, PROCESS Baking",0,168.21,0,168.21,0,168.21,0,168.21
+,"Shiitake, PROCESS Cooking in water",0,152.389,0,152.389,0,152.389,0,152.389
+,"Shiitake, PROCESS Frying",3.3,298.87,3.3,298.87,3.3,298.87,3.3,298.87
+,"Shiitake, PROCESS Steaming",0,152.389,0,152.389,0,152.389,0,152.389
+,Sorrel,0.9,604.359,0.9,604.359,0.9,435.442,0.9,435.442
+,Soyabeans sprouts,0,358.77,0,367.557,0,367.557,0,367.557
+,"Soyabeans sprouts, PROCESS Cooking in water",0,324.097,0,324.097,0,324.097,0,324.097
+,"Soyabeans sprouts, PROCESS Steaming",0,324.097,0,324.097,0,324.097,0,324.097
+,Spinaches,382,738.458,381,767.752,0.5,770.09,382,775.78
+,Spinaches and similar-,381.39,709.675,381,767.852,381.3,652.98,382,775.78
+,"Spinaches and similar-, PROCESS Baking",420,866.202,420,866.202,420,866.202,420,866.202
+,"Spinaches and similar-, PROCESS Cooking in water",427.5,816.257,426,951.955,428,528.707,428,514.584
+,"Spinaches and similar-, PROCESS Steaming",402.5,816.406,401,951.955,403,761.247,403,514.733
+,"Spinaches, PROCESS Baking",421,806.474,421.5,816.408,0.1,52.666,420,866.01
+,"Spinaches, PROCESS Cooking in water",427.5,816.162,426,951.538,428,561.759,428,514.624
+,"Spinaches, PROCESS Steaming",402.5,816.311,401,951.955,0.1,52.534,403,514.773
+,Spirulina,0,314.694,0,573.21,0,573.21,0,314.694
+,Spring onions,1,343.32,1,372.655,1,409.12,1,343.887
+,"Spring onions, PROCESS Baking",0,447.236,0,447.236,0,447.236,0,447.236
+,"Spring onions, PROCESS Cooking in water",0,310.306,0,432.959,0,310.306,0,432.959
+,"Spring onions, PROCESS Frying",0.1,301.83,0.1,301.83,0.1,301.83,0.1,301.83
+,"Spring onions, PROCESS Steaming",0,432.535,0,432.535,0,432.535,0,432.535
+,"Sprouts, shoots and similar",6,247.417,6,187.02,,,6,163.43
+,"Sprouts, shoots and similar, PROCESS Cooking in water",1,324.097,1,170.779,1,324.097,1,122.479
+,"Sprouts, shoots and similar, PROCESS Steaming",1,324.097,1,168.52,1,211.249,1,122.479
+,Sun-dried tomatoes,24,487.55,30,4109.862,27.67,1132.263,30,601.852
+,"Sunflower shoots and sprouts, PROCESS Steaming",0.9,460.69,0.9,460.69,0.9,460.69,0.9,460.69
+,Swedes,6,319.283,5,307.9,0,300.35,6,274.1
+,"Swedes, PROCESS Baking",5,273.091,5,273.091,5,273.091,5,273.091
+,"Swedes, PROCESS Cooking in water",6,194.87,5,305.654,,,6,128.49
+,"Swedes, PROCESS Steaming",6,309.159,5,305.79,,,6,128.49
+,Sweet corn,3,685.707,3.4,411.387,3.4,400.973,3.4,395.49
+,Sweet corn canned,3.7,326.023,16.268,500.353,16.268,500.353,3.268,329.735
+,"Sweet corn, PROCESS Baking",3.8,389.958,3.8,389.958,3.8,436.65,3.8,436.65
+,"Sweet corn, PROCESS Cooking in water",3.27,235.158,3,410.33,0.5,307.78,3,362.8
+,"Sweet corn, PROCESS Steaming",3.8,390.038,3,410.33,0.5,307.78,3,362.8
+,Sweet peppers,5.1,268.843,5,280.989,5.2,296.547,5,207.493
+,"Sweet peppers, PROCESS Baking",5.1,228.937,5.2,290.483,5.2,290.463,5.2,301.689
+,"Sweet peppers, PROCESS Cooking in water",5.2,219.23,6,235.943,6,200.872,6,232.201
+,"Sweet peppers, PROCESS Frying",,,,200.42,,,,200.38
+,"Sweet peppers, PROCESS Steaming",5.2,219.502,6,236.215,6,305.13,6,232.473
+,Tarragon,0,727.212,0,727.212,0,727.212,0,727.212
+,Thyme,,2922.043,0.4,894.58,4.6,899.78,0.4,1063.803
+,Tigernuts,0,277.33,0,277.33,0,277.33,0,277.33
+,"Tigernuts, PROCESS Steaming",0,116.498,0,116.498,0,116.498,0,116.498
+,Tomato puree,0.6,77.762,0,1333.667,0.4,86.933,0,1362.83
+,Tomatoes and similar-,8.3,343.459,6,311.113,0.5,256.17,6,291.17
+,"Tomatoes and similar-, PROCESS Baking",7.6,900.415,7.6,450.848,7.6,450.848,7.6,344.69
+,"Tomatoes and similar-, PROCESS Cooking in water",7.6,265.977,7,281.582,0.5,279.577,7,281.582
+,"Tomatoes and similar-, PROCESS Steaming",6,267.08,6,293.399,6,267.08,6,293.399
+,Truffles,2.2,229.024,2.2,217.85,2.2,646.7,2.2,646.7
+,Turnips,2.3,302.788,3,378.523,0.1,406.9,3,378.523
+,"Turnips, PROCESS Baking",2.6,259.099,2.6,259.099,2.6,312.619,2.6,312.619
+,"Turnips, PROCESS Cooking in water",2.6,259.003,3,283.321,,,3,283.321
+,"Turnips, PROCESS Steaming",2.6,259.003,3.2,285.705,,,3,283.321
+,Vietnamese mint,5.5,4111.579,5.5,4111.579,5.5,4111.579,5.5,4111.579
+,Wakame,0,1209.16,0,425.35,0,425.35,0,425.35
+,"Wakame, PROCESS Cooking in water",0,253.667,0,253.667,0,253.667,0,253.667
+,"Wakame, PROCESS Steaming",0,253.667,0,253.667,0,253.667,0,253.667
+,Watercresses,250,457.893,542.2,356.097,0.1,376.447,315.3,472.62
+,Watercresses and similar-,250,457.893,250.9,472.62,250.9,560.015,250.9,472.62
+,Watermelons,0.25,302.422,0.25,188.414,0,145.168,0.25,125.08
+,White ginger,38.5,1814.211,38.5,1814.211,38.5,1814.211,38.5,1814.211
+,Winter savory,0,614.038,0,614.038,0,614.038,0,614.038
+,Witloofs,0.2,244.955,0,261.18,0,264.819,0,225.403
+,"Witloofs, PROCESS Baking",2.2,328.505,2.2,328.505,2.2,290.994,2.2,290.994
+,"Witloofs, PROCESS Cooking in water",0,170.603,0,249.245,0,170.603,0,161.635
+,"Witloofs, PROCESS Steaming",2.2,328.45,0,249.297,0,254.758,0,161.687
+Water and water-based beverages,Bottled drinking water,0.1,14.356,0,7,0.1,25.702,0,7
+,"Cola beverages, caffeinic",0.1,23.024,0,25.01,0.1,19.905,0,38.01
+,"Cola beverages, decaffeinated",0.1,12.07,0,3,0,17.045,0,3
+,"Cola mix, flavoured cola",0,22,0.1,19.024,0.1,18.274,0.1,18.274
+,Cola-type drinks,1.85,14.64,0,25.01,0.1,38.058,0,38.01
+,Diet soft drink with caffeine,0.1,27,0,25.01,0,22.088,0,25.01
+,Diet soft drinks with flavours,0,6,0,7.2,0,15.517,0,7.2
+,Diet soft drinks with fruit juice,0,5.542,0,15.042,0.1,0.042,0,15.042
+,Energy drinks,1.85,15.22,0.4,33.66,0,12.4008,0.4,33.66
+,Filtered tap water,0,8.005,0,0,0,8.005,0,0
+,Flavoured bottled water,4.1,27.737,4.1,27.737,4.1,31.381,4.1,31.381
+,"Flavoured bottled water, FORT Combination of vitamin and mineral only supplements",4,89.881,4,89.881,4,89.881,4,89.881
+,"Flavoured bottled water, FORT Mineral only supplements",4,33.881,4,18.231,4,33.881,4,18.231
+,"Flavoured bottled water, FORT Vitamin only supplements",4,89.881,4,89.881,4,89.881,4,89.881
+,Fortified bottled water,4,34.933,4,18.251,,16,4,18.251
+,"Fruit soft drink, currant red",3,88.684,3,22.12,3,88.684,3,22.12
+,"Fruit soft drink, gooseberry",0,22,0,22,0,22,0,22
+,"Fruit soft drink, grape red",2,72.516,2,22.089,2,72.516,2,22.089
+,"Fruit soft drink, grape white",2,72.516,2,22.089,2,72.516,2,22.089
+,"Fruit soft drink, grapefruit",0,21.548,0,22.026,0,21.548,0,22.026
+,"Fruit soft drink, mixed fruit",0.1,5.02,0,22,0,55,0,43
+,"Fruit soft drink, orange",0.1,27.181,0,22.026,0,21.548,0,22.026
+,"Fruit soft drink, pear",0,22,0,22,0,22,0,22
+,"Fruit soft drink, pineapple",0,22,0,22,0,22,0,22
+,"Fruit soft drink, plum",0,22,0,22,0,22,0,22
+,"Fruit soft drink, raspberry",0,22,0,22,0,22,0,22
+,Isotonic and sport drinks,2,9.102,2,16.102,2.1,21.304,2,16.102
+,Liquid drink bases (including concentrates and home-made preparations),2,130.479,2,84.22,2,130.474,2,67.58
+,Natural mineral water,0.1,27.48,0,9,,,0,9
+,Powdered drink bases,0,227.71,0,227.71,0,227.71,0,227.71
+,Soft drink with bitter principle,0,1,0,0,0,22.455,0,1
+,"Soft drink, apple flavour",0,3,0,3,0,3,0,3
+,"Soft drink, cherry flavour",0,3,0,3,0,3,0,3
+,"Soft drink, flavoured with herbs",0,3,0,3,0,3,0,3
+,"Soft drink, flavoured, no fruit",0,7.001,0,3,0,9.63,0,7.101
+,"Soft drink, lemon flavour",0,22.474,0,3,0.1,5.602,0,6
+,"Soft drink, lime flavour",0.1,3.014,0,3,0,22.474,0,3
+,"Soft drink, mixed flavours",0.1,31.071,0,3.001,0,9.453,0,15.001
+,"Soft drink, orange flavour",0,23.52,0,3,0,22.474,0,3
+,"Soft drink, with fruit juice (fruit content below the minimum for nectars)",0,23.046,0,22,0.001,29.068,0,43.026
+,Tap water,0,13,0,7,0,5.3,0,7

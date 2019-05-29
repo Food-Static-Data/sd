@@ -7,7 +7,10 @@ var writeInFile = require("../../writeFile");
 let results = [];
 
 fs.createReadStream(
-  path.join(__dirname, "../../../src/data/FoodComposition/Food_Composition.csv")
+  path.join(
+    __dirname,
+    "../../../src/data/FoodComposition/Food_Composition - United Kingdom.csv"
+  )
 )
   .pipe(
     csv({
@@ -30,7 +33,7 @@ fs.createReadStream(
     // }
   })
   .on("end", function() {
-    const country = "Finland";
+    const country = "United Kingdom";
     results = results.map(obj => ({ ...obj, country }));
     writeInFile.writeFile(
       path.join(__dirname, `/FoodComposition-${country}.json`),
