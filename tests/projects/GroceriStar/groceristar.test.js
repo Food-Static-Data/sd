@@ -113,7 +113,7 @@
 // })
 
 /* global describe, it, expect */
-const groceristar = require('../groceristar.js')
+const groceristar = require('../../../generator/projects/GroceriStar/groceristar.js')
 
 describe('getKeyArrayDepAndIng method', () => {
   const notEmptyMethodOutput = (method) => {
