@@ -4,7 +4,7 @@ const path = require("path");
 
 var writeInFile = require("../../writeFile");
 
-const results = [];
+let results = [];
 
 fs.createReadStream(
   path.join(__dirname, "../../../src/data/FoodComposition/Food_Composition.csv")
@@ -30,8 +30,10 @@ fs.createReadStream(
     // }
   })
   .on("end", function() {
+    const country = "Finland";
+    results = results.map(obj => ({ ...obj, country }));
     writeInFile.writeFile(
-      path.join(__dirname, "/FoodComposition.json"),
+      path.join(__dirname, `/FoodComposition-${country}.json`),
       results
     );
   });
