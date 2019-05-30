@@ -42,7 +42,7 @@
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.3",
     "husky": "2.3.0",
-    "jest": "24.8.0",
+    "jest": "^24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
     "nodemon": "1.19.1",
