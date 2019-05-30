@@ -41,10 +41,11 @@
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.3",
-    "husky": "2.3.0",
+    "husky": "^2.3.0",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
+    "lint-staged": "^8.1.7",
     "nodemon": "1.19.1",
     "regenerator-runtime": "0.13.2",
     "rollup": "1.12.5",
@@ -71,6 +72,22 @@
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "npm run code-fix",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/dist/*.js"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "files": [
     "dist",
