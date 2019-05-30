@@ -87,10 +87,11 @@ https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 https://www.grzegorowski.com/publishing-npm-package-with-rollup-babel-and/
 https://github.com/codecov/example-node/blob/master/.travis.yml
 
+```
 "precommit": "yarn flow src && yarn lint && yarn test" - run before each commit to ensure commited code quality
 "prepublishOnly": "yarn clean && yarn lint && yarn test && yarn build" - run ONLY before yarn publish to ensure quality and most recent output
 Other tools and files
-
+```
 ![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
 
 ```
@@ -341,7 +342,7 @@ const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')
 ~~~~
 
 =======
-
+```
 "renovate": {
   "extends": [
     "config:js-lib"
@@ -352,7 +353,7 @@ const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')
   },
   "automergeType": "branch"
 },
-
+```
 https://github.com/algolia/rollup-jest-boilerplate
 
 
@@ -362,7 +363,7 @@ stages:
   - lint # lint code and docs
   - test # all tests
 
-  https://boneskull.com/mocha-and-travis-ci-build-stages/
+https://boneskull.com/mocha-and-travis-ci-build-stages/
 
 
   - stage: lint
@@ -392,6 +393,7 @@ stages:
 - https://github.com/sheerun/babel-plugin-file-loader#example-usage
 - https://github.com/rollup/rollup/commit/c103967c6f5db503e25bbc0ae81a83742839fa53
 - https://github.com/rollup/rollup-starter-lib
+
 ```
 "files": [
    "dist/*.js",
