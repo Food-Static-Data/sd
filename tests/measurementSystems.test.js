@@ -21,28 +21,28 @@ describe('users data files returns array', () => {
 describe('MeasurementSystem json schema testing', () => {
   it('validates MeasurementSystem json schema', () => {
     const schema = {
-      "properties": {  
-        "alias": { "type": "string" }
+      'properties': {
+        'alias': { 'type': 'string' }
       },
-      "required": [ "alias" ]    
+      'required': [ 'alias' ]
     }
-    expect({ "alias": "universal" }).toMatchSchema(schema)
+    expect({ 'alias': 'universal' }).toMatchSchema(schema)
   })
 })
 
 describe('generatedMeasurementSystem json schema testing', () => {
   it('validates generatedMeasurementSystem json schema', () => {
     const schema = {
-      "properties": {
-        "id": { "type": "string" },
-        "alias": { "type": "string" },
-        "title": { "type": "string" }  
+      'properties': {
+        'id': { 'type': 'string' },
+        'alias': { 'type': 'string' },
+        'title': { 'type': 'string' }
       },
-      "required": [ "id", "alias", "title" ]
-    
+      'required': [ 'id', 'alias', 'title' ]
+
     }
-    expect({ 
-      "id": "fbe4fd00-7a3e-11e9-8ec5-0d5ec94f7bcf", "alias": "universal", "title": "Universal" 
+    expect({
+      'id': 'fbe4fd00-7a3e-11e9-8ec5-0d5ec94f7bcf', 'alias': 'universal', 'title': 'Universal'
     }).toMatchSchema(schema)
   })
 })
