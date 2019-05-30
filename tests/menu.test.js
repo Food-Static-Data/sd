@@ -13,7 +13,9 @@ describe('menu data files returns array', () => {
 })
 
 describe('types json schema testing', () => {
+  
   it('validates type json schema', () => {
+    const index=7;
     const schema = {
       properties: {
         id: { type: 'string' },
