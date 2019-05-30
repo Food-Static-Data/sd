@@ -75,7 +75,7 @@ describe('nutritions2 json schema testing', () => {
         }
     },
     'required': [
-      { type: "string" }
+      'type', 'items'
     ]
   }
   const schema = {
