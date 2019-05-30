@@ -65,17 +65,25 @@ it('validates nutrition1 json-schema', () => {
 
 
 describe('nutritions2 json schema testing', () => {
-  it('validates nutritions2 json schema', () => {
-    const schema = {
-      "properties": {  
-          type: { type: "string" },
-          items: { 
+  
+  const { properties, required } = {
+    'properties': {
+        type: { type: "string" },
+        items: { 
             type: "array", 
             items: [{type: "string"}]
-         }
-      },
-      "required": [ "type", "items"]
-    }
+        }
+    },
+    'required': [
+      { type: "string" }
+    ]
+  }
+  const schema = {
+    properties, required
+  }
+    
+  it('validates nutritions2 json schema', () => {
+
     expect({ 
       "type": "Fatty acids", 
       "items": [ 
