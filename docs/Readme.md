@@ -33,19 +33,6 @@ List of plugins related to this universe:
 
 
 
-#### Developers junk
-- https://github.com/sheerun/babel-plugin-file-loader#example-usage
-- https://github.com/sheerun/babel-plugin-file-loader
-- https://github.com/sheerun/babel-plugin-file-loader#example-usage
-- https://github.com/rollup/rollup/commit/c103967c6f5db503e25bbc0ae81a83742839fa53
-- https://github.com/rollup/rollup-starter-lib
-```
-"files": [
-   "dist/*.js",
-   "dist/*.d.ts",
-   "bin/rollup"
- ]
- ```
 
 ## Minify
 https://github.com/TrySound/rollup-plugin-terser
@@ -391,9 +378,24 @@ stages:
  llup-plugin-terser is a plugin which minifies the generated bundles. While minification will not affect bundle size when you have only a few exported functions, minification will drastically reduce bundle size the larger your library becomes.
  
  #### Add coveralls
-https://docs.travis-ci.com/user/coveralls/
-https://github.com/dwyl/learn-coveralls.io
-https://www.youtube.com/watch?v=bt1iOy9lv0U
-https://docs.coveralls.io/
-https://stackoverflow.com/questions/39501417/how-can-i-connect-coveralls-and-travis-in-github
-https://medium.com/the-code-review/add-badges-for-travisci-coveralls-and-code-climate-to-your-readme-ruby-6d27caad74ed
+- https://docs.travis-ci.com/user/coveralls/
+- https://github.com/dwyl/learn-coveralls.io
+- https://www.youtube.com/watch?v=bt1iOy9lv0U
+- https://docs.coveralls.io/
+- https://stackoverflow.com/questions/39501417/how-can-i-connect-coveralls-and-travis-in-github
+- https://medium.com/the-code-review/add-badges-for-travisci-coveralls-and-code-climate-to-your-readme-ruby-6d27caad74ed
+
+
+#### Developers junk
+- https://github.com/sheerun/babel-plugin-file-loader#example-usage
+- https://github.com/sheerun/babel-plugin-file-loader
+- https://github.com/sheerun/babel-plugin-file-loader#example-usage
+- https://github.com/rollup/rollup/commit/c103967c6f5db503e25bbc0ae81a83742839fa53
+- https://github.com/rollup/rollup-starter-lib
+```
+"files": [
+   "dist/*.js",
+   "dist/*.d.ts",
+   "bin/rollup"
+ ]
+ ```
