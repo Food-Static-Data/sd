@@ -207,7 +207,7 @@ describe('test carrots json schema', () => {
       },
       required: ['name', 'boil', 'microwave', 'steam', 'roast'],
     };
-    ecpect({ name: 'carrots', boil: '8 - 10 mins', microwave: '5 - 8 mins', steam: '10 - 13 mins', roast: '40 - 45 mins' }).toMatchSchema(schema);
+    expect({ name: 'carrots', boil: '8 - 10 mins', microwave: '5 - 8 mins', steam: '10 - 13 mins', roast: '40 - 45 mins' }).toMatchSchema(schema);
   });
 })
 
