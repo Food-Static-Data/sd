@@ -23,6 +23,6 @@ describe('test gallon json schema', () => {
       },
       required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight'],
     };
-    expect({ name: 'gallon', americanStandart: '16 cups, 4 quarts', americanStandartOunces: '128 ounces', volume: '3.79 liters', weight: null }).toMatchSchema(schema);
+    expect({ name: 'gallon', americanStandart: '16 cups, 4 quarts', americanStandartOunces: '128 ounces', volume: '3.79 liters', weight: 'null' }).toMatchSchema(schema);
   });
 })

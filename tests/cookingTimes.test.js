@@ -37,7 +37,7 @@ describe('test frenchBeans json schema', () => {
         steam: { type: 'string' },
         roast: { type: 'string' }
       },
-      required: ['name', 'boil', 'microvave', 'steam', 'roast'],
+      required: ['name', 'boil', 'microwave', 'steam', 'roast'],
     };
     expect({ name: 'frenchBeans', boil: '6 - 10 mins', microwave: '4 - 6 mins', steam: '8 - 12 mins', roast: '25 - 30 mins' }).toMatchSchema(schema);
   });

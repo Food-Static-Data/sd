@@ -23,6 +23,6 @@ describe('test cup3_4 json schema', () => {
       },
       required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight'],
     };
-    expect({ name: "cup3_4", americanStandart: "12 tablespoons", americanStandartOunces: "6 ounces", volume: "180 milliliters", weight: null }).toMatchSchema(schema);
+    expect({ name: "cup3_4", americanStandart: "12 tablespoons", americanStandartOunces: "6 ounces", volume: "180 milliliters", weight: 'null' }).toMatchSchema(schema);
   });
 })
