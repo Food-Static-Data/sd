@@ -11,7 +11,7 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('test cup18 json schema', () => {
+describe('test cup1_8 json schema', () => {
   it('validates my json', () => {
     const schema = {
       properties: {
@@ -23,6 +23,6 @@ describe('test cup18 json schema', () => {
       },
       required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight'],
     };
-    expect({name: 'cup18', americanStandart: '2 tablespoons', americanStandartOunces: '1 ounce', volume: '30 milliliters', weight: '28.3 grams' }).toMatchSchema(schema);
+    expect({name: 'cup1_8', americanStandart: '2 tablespoons', americanStandartOunces: '1 ounce', volume: '30 milliliters', weight: '28.3 grams' }).toMatchSchema(schema);
   });
 })

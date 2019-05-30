@@ -11,7 +11,7 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('test cup34 json schema', () => {
+describe('test cup3_4 json schema', () => {
   it('validates my json', () => {
     const schema = {
       properties: {
