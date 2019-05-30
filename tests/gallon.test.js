@@ -3,11 +3,11 @@
 const { matchers } = require('jest-json-schema');
 expect.extend(matchers);
 
-const {gallon1} = require('../filesObjects')
+const {gallon} = require('../filesObjects')
 
-describe('this test prevents to any issues and problems, also to break the structure of gallon1 data', () => {
-  it('gallon1 data files returns object', () => {
-    expect(gallon1).not.toBe('')
+describe('this test prevents to any issues and problems, also to break the structure of gallon data', () => {
+  it('gallon data files returns object', () => {
+    expect(gallon).not.toBe('')
   })
 })
 
