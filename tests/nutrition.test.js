@@ -69,8 +69,8 @@ describe('nutritions2 json schema testing', () => {
     const schema = {
       "properties": {  
           "type": { "type": "string" },
-          "items":{ "type": "array", "items": [{ type: 'string'}] }
-            },
+          "items": { "type": "array", "items": [{ type: 'string'}] }
+      },
       "required": [ "type", "items"]
     }
     expect({ 
