@@ -30,7 +30,8 @@ describe(' MeasurementUnits schema testing', () => {
     "pattern": { "type": "string" }
   },
   "required": [ "type", "name", "singular", "plural", "short", "pattern" ]
-
+      
+    }
     expect({"type": "Weight", "name": "Pound", "singular": "pound", "plural": "pounds", "short": "lb", "pattern": "[\\d]{1,2}" }).toMatchSchema(schema)
   })
 })
