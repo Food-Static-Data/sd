@@ -3,15 +3,15 @@
 const { matchers } = require('jest-json-schema');
 expect.extend(matchers);
 
-const { cup3_4 } = require('../filesObjects')
+const { cup34 } = require('../filesObjects')
 
 describe('this test prevents to any issues and problems, also to break the structure of cup3_4 data', () => {
   it('cup3_4 data files returns object', () => {
-    expect(cup3_4).not.toBe('')
+    expect(cup34).not.toBe('')
   })
 })
 
-describe('test cup3_4 json schema', () => {
+describe('test cup34 json schema', () => {
   it('validates my json', () => {
     const schema = {
       properties: {
