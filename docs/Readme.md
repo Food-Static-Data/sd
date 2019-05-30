@@ -34,85 +34,6 @@ List of plugins related to this universe:
 
 
 
-## Minify
-https://github.com/TrySound/rollup-plugin-terser
-
-`yarn add rollup-plugin-terser --dev`
-
-```
-import { terser } from "rollup-plugin-terser";
-
-rollup({
-  input: "main.js",
-  plugins: [terser()]
-});
-```
-
-
-https://github.com/Comandeer/rollup-plugin-babel-minify
-`npm install rollup-plugin-babel-minify [--save-dev]`
-
-```
-import { rollup } from 'rollup';
-import minify from 'rollup-plugin-babel-minify';
-
-rollup( {
-	input: './src/index.js',
-	plugins: [
-		minify( {
-			// Options for babel-minify.
-		} )
-	]
-} );
-```
-
-`yarn add rollup-plugin-uglify --dev`
-
-```
-import { uglify } from "rollup-plugin-uglify";
-
-rollup({
-  input: "main.js",
-  plugins: [uglify()]
-});
-```
-
-https://www.npmjs.com/package/rollup-plugin-minify-es
-https://www.npmjs.com/package/type-detect
-
-- [ ] Connect meal calendar with a grocery list that we have.
-- [ ] Grocery lists should be divided, not like it's right now.
-
-https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
-https://www.grzegorowski.com/publishing-npm-package-with-rollup-babel-and/
-https://github.com/codecov/example-node/blob/master/.travis.yml
-
-```
-"precommit": "yarn flow src && yarn lint && yarn test" - run before each commit to ensure commited code quality
-"prepublishOnly": "yarn clean && yarn lint && yarn test && yarn build" - run ONLY before yarn publish to ensure quality and most recent output
-Other tools and files
-```
-![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
-
-```
-"husky": {
-   "hooks": {
-     "pre-commit": "yarn precommit"
-   }
- }
-```
-
-#### Jest
-Add it in your package.json:
-```
-"jest": {
-  "coverageDirectory": "./coverage/",
-  "collectCoverage": true
-}
-```
-Jest will now generate coverage files into `coverage/`
-Run your tests with a command like this:
-`jest && codecov`
 
 
 ## Generate Array API
@@ -235,7 +156,7 @@ Output:
 ~~~
 [
   {
-    key:String, 
+    key:String,
     user_id: String,
     grocery_id: String
   }
@@ -246,7 +167,7 @@ Output:
 ~~~
 [
   {
-    key:String, 
+    key:String,
     item_id: String,
     name: String,
     description: String,
@@ -261,7 +182,7 @@ Output:
 ~~~
 [
   {
-    key:String, 
+    key:String,
     userId: String,
     favs:Boolean,
     ingredient_id:Number,
@@ -342,6 +263,96 @@ const cup1 = path.resolve(__dirname, './src/data/Cup1/cup1.json')
 ~~~~
 
 =======
+
+
+## Minify
+https://github.com/TrySound/rollup-plugin-terser
+
+`yarn add rollup-plugin-terser --dev`
+
+```
+import { terser } from "rollup-plugin-terser";
+
+rollup({
+  input: "main.js",
+  plugins: [terser()]
+});
+```
+
+
+https://github.com/Comandeer/rollup-plugin-babel-minify
+
+`npm install rollup-plugin-babel-minify [--save-dev]`
+
+
+
+```
+import { rollup } from 'rollup';
+import minify from 'rollup-plugin-babel-minify';
+
+rollup( {
+	input: './src/index.js',
+	plugins: [
+		minify( {
+			// Options for babel-minify.
+		} )
+	]
+} );
+```
+
+`yarn add rollup-plugin-uglify --dev`
+
+```
+import { uglify } from "rollup-plugin-uglify";
+
+rollup({
+  input: "main.js",
+  plugins: [uglify()]
+});
+```
+
+- https://www.npmjs.com/package/rollup-plugin-minify-es
+- https://www.npmjs.com/package/type-detect
+
+- [ ] Connect meal calendar with a grocery list that we have.
+- [ ] Grocery lists should be divided, not like it's right now.
+
+- https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+- https://www.grzegorowski.com/publishing-npm-package-with-rollup-babel-and/
+- https://github.com/codecov/example-node/blob/master/.travis.yml
+
+
+```"precommit": "yarn flow src && yarn lint && yarn test"``` - run before each commit to ensure commited code quality
+
+```"prepublishOnly": "yarn clean && yarn lint && yarn test && yarn build"``` - run ONLY before yarn publish to ensure quality and most recent output
+
+Other tools and files
+
+![Example](https://raw.githubusercontent.com/MikeKovarik/rollup-plugin-notify/master/example.gif)
+
+```
+"husky": {
+   "hooks": {
+     "pre-commit": "yarn precommit"
+   }
+ }
+```
+
+#### Jest
+
+Add it in your package.json:
+```
+"jest": {
+  "coverageDirectory": "./coverage/",
+  "collectCoverage": true
+}
+```
+Jest will now generate coverage files into `coverage/`
+Run your tests with a command like this:
+`jest && codecov`
+
+
+
 ```
 "renovate": {
   "extends": [
@@ -377,8 +388,9 @@ https://boneskull.com/mocha-and-travis-ci-build-stages/
  ],
 
  llup-plugin-terser is a plugin which minifies the generated bundles. While minification will not affect bundle size when you have only a few exported functions, minification will drastically reduce bundle size the larger your library becomes.
- 
- #### Add coveralls
+
+#### Add coveralls
+
 - https://docs.travis-ci.com/user/coveralls/
 - https://github.com/dwyl/learn-coveralls.io
 - https://www.youtube.com/watch?v=bt1iOy9lv0U
@@ -388,11 +400,14 @@ https://boneskull.com/mocha-and-travis-ci-build-stages/
 
 
 #### Developers junk
+
 - https://github.com/sheerun/babel-plugin-file-loader#example-usage
 - https://github.com/sheerun/babel-plugin-file-loader
 - https://github.com/sheerun/babel-plugin-file-loader#example-usage
 - https://github.com/rollup/rollup/commit/c103967c6f5db503e25bbc0ae81a83742839fa53
 - https://github.com/rollup/rollup-starter-lib
+
+#### Files, that we publishing
 
 ```
 "files": [
