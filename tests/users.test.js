@@ -12,17 +12,17 @@ describe('users data files returns array', () => {
     expect(users).not.toBe('')
   })
 })
-
+const schema = {
+  properties: {
+    name: { type: 'string' },
+    email: { type: 'string' },
+    password: { type: 'string' }
+  },
+  required: ['name', 'email', 'password']
+}
+const example = { name: 'page', email: 'page@gmail.com', password: 'pagethesdwrapper' }
 describe('testing for user json schema', () => {
   it('validates users json', () => {
-    const schema = {
-      properties: {
-        name: { type: 'string' },
-        email: { type: 'string' },
-        password: { type: 'string' }
-      },
-      required: ['name', 'email', 'password']
-    }
-    expect({ name: 'page', email: 'page@gmail.com', password: 'pagethesdwrapper' }).toMatchSchema(schema)
+    expect(example).toMatchSchema(schema)
   })
 })

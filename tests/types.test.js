@@ -13,16 +13,21 @@ describe('types data files returns array', () => {
   })
 })
 
+const schema = {
+  properties: {
+    Field: { type: 'string' },
+    Type: { type: 'string' },
+    Description: { type: 'string' }
+  },
+  required: ['Field', 'Type', 'Description']
+}
+
+const example = { Field: 'from',
+  Type: 'integer',
+  Description: 'First result index as submitted' }
+
 describe('types json schema testing', () => {
   it('validates type json schema', () => {
-    const schema = {
-      properties: {
-        Field: { type: 'string' },
-        Type: { type: 'string' },
-        Description: { type: 'string' }
-      },
-      required: ['Field', 'Type', 'Description']
-    }
-    expect({ Field: 'from', Type: 'integer', Description: 'First result index as submitted' }).toMatchSchema(schema)
+    expect(example).toMatchSchema(schema)
   })
 })
