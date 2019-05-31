@@ -29,18 +29,18 @@ const getKeyArrayDepAndIng = () => {
 
 
 //get ultimate grocery list for each grocery store
-const ultimateGroceryList=()=>{
-  const ultimategroceries=[]
-  const groceries=getAllGroceryWithId();
+const ultimateGroceryList = () => {
+  const ultimategroceries = []
+  const groceries = getAllGroceryWithId();
 
-  _.map(groceries,grocery=>{
-    const ultimategrocery={}
+  _.map(groceries, grocery => {
+    const ultimategrocery = {}
     
-    ultimategrocery.name=grocery.name;
-    ultimategrocery.groceryId=grocery.key;
-    ultimategroceries.messages={};
-    ultimategrocery.departments=getGroceryDepartmentsWithIngredients(grocery.departments,grocery.key);
-    ultimategrocery.ultimate={name:grocery.name, id:grocery.key}
+    ultimategrocery.name = grocery.name;
+    ultimategrocery.groceryId = grocery.key;
+    ultimategroceries.messages = {};
+    ultimategrocery.departments = getGroceryDepartmentsWithIngredients(grocery.departments, grocery.key);
+    ultimategrocery.ultimate = { name:grocery.name, id:grocery.key }
     
     ultimategroceries.push(ultimategrocery)
   })  
@@ -49,19 +49,19 @@ const ultimateGroceryList=()=>{
 }
 
 //get all departments with their ingredients in a grocery
-const getGroceryDepartmentsWithIngredients=(grocerydept,key)=>{
-  const departs=[]
+const getGroceryDepartmentsWithIngredients = (grocerydept, key) => {
+  const departs = []
   let departments = getAllDepartmentsWithId()
-  _.map(grocerydept,dept=>{
+  _.map(grocerydept, dept => {
     //search for a particular grocery department in the department json to get the obj
-    const deptObj= departments.filter(depart=>{
+    const deptObj = departments.filter(depart=>{
         return depart.name === dept;
       })
 
       if (deptObj){
-        const obj={ id: deptObj.key, name: deptObj.name, type: deptObj.type}
+        const obj = { id: deptObj.key, name: deptObj.name, type: deptObj.type}
 
-        obj.ingredients=getDepartmentIngredients(dept,key) //add all the ingredients in this department to the obj
+        obj.ingredients = getDepartmentIngredients(dept, key) //add all the ingredients in this department to the obj
         departs.push(deptObj)
       }     
     })
@@ -71,12 +71,12 @@ const getGroceryDepartmentsWithIngredients=(grocerydept,key)=>{
 
 
 //get all ingredients in a department
-const getDepartmentIngredients=(department,key)=>{
-  const ingredients=[];
+const getDepartmentIngredients = (department, key) => {
+  const ingredients = [];
   let ingreds = getAllIngredientsWithId()
-  _.map(ingreds,ingredient=>{
+  _.map(ingreds,ingredient => {
       if(ingredient.department === department){
-        const ingred=[
+        const ingred = [
           ingredient.key,
           ingredient.name,
           `/del/ing/${ingredient.key}/${key}`
@@ -91,7 +91,7 @@ const getDepartmentIngredients=(department,key)=>{
 
 
 //get grocery with key
-const getAllGroceryWithId= () => {
+const getAllGroceryWithId = () => {
   let result = getResult(grocery)
 
   return result
