@@ -14,14 +14,14 @@ function splitObject() {
     let grocery = JSON.parse(data);
     var len = grocery.length; //Object Length
 
-    foldername = obj.slice(0, -5); //Folder associated to the object file name
+    var foldername = obj.slice(0, -5); //Folder associated to the object file name
     if (!fs.existsSync(src + foldername)) { //Check if Folder exists or not.
         fs.mkdirSync(src + foldername);
     }
 
     for (var i = 0; i < len; i++) {
         let temp = JSON.stringify(grocery[i]);
-        fileName = grocery[i].name + ".json";
+        var fileName = grocery[i].name + ".json";
 
 
         //Checking if file already exists or not
