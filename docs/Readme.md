@@ -1,9 +1,6 @@
 we will put releases plan here
 
 
-#### Generate Array
-Nothing here :( ) So sad like very sad.
-
 List of plugins related to this universe:
 - https://github.com/GroceriStar/static-data
 
@@ -109,9 +106,6 @@ rollup({
 
 - https://www.npmjs.com/package/rollup-plugin-minify-es
 - https://www.npmjs.com/package/type-detect
-
-- [ ] Connect meal calendar with a grocery list that we have.
-- [ ] Grocery lists should be divided, not like it's right now.
 
 - https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
 - https://www.grzegorowski.com/publishing-npm-package-with-rollup-babel-and/
