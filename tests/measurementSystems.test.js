@@ -18,31 +18,37 @@ describe('users data files returns array', () => {
   })
 })
 
+let schema = {
+  'properties': {
+    'alias': { 'type': 'string' }
+  },
+  'required': [ 'alias' ]
+}
+
+let example = { 'alias': 'universal' }
+
 describe('MeasurementSystem json schema testing', () => {
   it('validates MeasurementSystem json schema', () => {
-    const schema = {
-      'properties': {
-        'alias': { 'type': 'string' }
-      },
-      'required': [ 'alias' ]
-    }
-    expect({ 'alias': 'universal' }).toMatchSchema(schema)
+    expect(example).toMatchSchema(schema)
   })
 })
 
+schema = {
+  'properties': {
+    'id': { 'type': 'string' },
+    'alias': { 'type': 'string' },
+    'title': { 'type': 'string' }
+  },
+  'required': [ 'id', 'alias', 'title' ]
+
+}
+
+example = {
+  'id': 'fbe4fd00-7a3e-11e9-8ec5-0d5ec94f7bcf', 'alias': 'universal', 'title': 'Universal'
+}
+
 describe('generatedMeasurementSystem json schema testing', () => {
   it('validates generatedMeasurementSystem json schema', () => {
-    const schema = {
-      'properties': {
-        'id': { 'type': 'string' },
-        'alias': { 'type': 'string' },
-        'title': { 'type': 'string' }
-      },
-      'required': [ 'id', 'alias', 'title' ]
-
-    }
-    expect({
-      'id': 'fbe4fd00-7a3e-11e9-8ec5-0d5ec94f7bcf', 'alias': 'universal', 'title': 'Universal'
-    }).toMatchSchema(schema)
+    expect(example).toMatchSchema(schema)
   })
 })

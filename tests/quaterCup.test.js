@@ -5,9 +5,9 @@ expect.extend(matchers)
 
 const staticData = require('../filesObjects')
 
-describe('this test prevents to any issues and problems, also to break the structure of pint data', () => {
-  it('pint data files returns object', () => {
-    expect(staticData.pint).not.toBe('')
+describe('this test prevents to any issues and problems, also to break the structure of quaterCup data', () => {
+  it('quaterCup data files returns object', () => {
+    expect(staticData.quaterCup).not.toBe('')
   })
 })
 
@@ -26,11 +26,9 @@ const example = { name: 'teaspoon',
   americanStandart: '4 tablespoons',
   americanStandartOunces: '2 ounces',
   volume: '2 milliliters',
-  weight: '56.7 grams'
-}
-
-describe('test pint json schema', () => {
-  it('validates pint json schema', () => {
+  weight: '56.7 grams' }
+describe('test quarter cup json schema', () => {
+  it('validates my json', () => {
     expect(example).toMatchSchema(schema)
   })
 })

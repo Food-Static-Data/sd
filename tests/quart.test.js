@@ -11,19 +11,25 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
+const schema = {
+  properties: {
+    name: { type: 'string' },
+    americanStandart: { type: 'string' },
+    americanStandartOunces: { type: 'string' },
+    volume: { type: 'string' },
+    weight: { type: 'null' }
+  },
+  required: [ 'name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight' ]
+}
+const example = {
+  name: 'teaspoon',
+  americanStandart: '4 cups,  2 pints',
+  americanStandartOunces: '32 ounces',
+  volume: '2 milliliters',
+  weight: null
+}
 describe('testng for quart json data schema', () => {
   it('validates quart json-schema', () => {
-    const schema = {
-      properties: {
-        name: { type: 'string' },
-        americanStandart: { type: 'string' },
-        americanStandartOunces: { type: 'string' },
-        volume: { type: 'string' },
-        weight: { type: 'null' }
-      },
-      required: [ 'name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight' ]
-    }
-
-    expect({ name: 'teaspoon', americanStandart: '4 cups,  2 pints', americanStandartOunces: '32 ounces', volume: '2 milliliters', weight: null }).toMatchSchema(schema)
+    expect(example).toMatchSchema(schema)
   })
 })
