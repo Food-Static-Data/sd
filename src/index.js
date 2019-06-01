@@ -25,8 +25,27 @@
 //   dbIngredients
 // } from './files'
 
-import files from './files'
-export default files
+import cookingTimes from './files'
+
+cookingTimes.forEach(function(value) {
+    console.log(value);
+});
+
+
+
+import cup1 from './files'
+
+cup1.forEach(function(value) {
+    console.log(value);
+});
+
+
+
+export default {
+    cookingTimes,
+    cup1
+}
+
 
 // export default {
 //   allergies,
