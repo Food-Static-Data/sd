@@ -1,6 +1,8 @@
 /* global describe, it, expect */
 'use strict'
-const { matchers } = require('jest-json-schema')
+const {
+  matchers
+} = require('jest-json-schema')
 expect.extend(matchers)
 
 const {
@@ -28,16 +30,32 @@ describe('this test prevents to any issues and problems, also to break the struc
 })
 const schema = {
   properties: {
-    name: { type: 'string' },
-    boil: { type: 'string' },
-    microwave: { type: 'string' },
-    steam: { type: 'string' },
-    roast: { type: 'string' }
+    name: {
+      type: 'string'
+    },
+    boil: {
+      type: 'string'
+    },
+    microwave: {
+      type: 'string'
+    },
+    steam: {
+      type: 'string'
+    },
+    roast: {
+      type: 'string'
+    }
   },
   required: ['name', 'boil', 'microwave', 'steam', 'roast']
 }
 
-let example = { name: 'frenchBeans', boil: '6 - 10 mins', microwave: '4 - 6 mins', steam: '8 - 12 mins', roast: '25 - 30 mins' }
+let example = {
+  name: 'frenchBeans',
+  boil: '6 - 10 mins',
+  microwave: '4 - 6 mins',
+  steam: '8 - 12 mins',
+  roast: '25 - 30 mins'
+}
 describe('test frenchBeans json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -49,11 +67,13 @@ describe('this test prevents to any issues and problems, also to break the struc
     expect(sprouts).not.toBe('')
   })
 })
-example = { name: 'sprouts',
+example = {
+  name: 'sprouts',
   boil: '5 - 10 mins',
   microwave: '3 - 5 mins',
   steam: '7 - 12 mins',
-  roast: '30 - 35 mins' }
+  roast: '30 - 35 mins'
+}
 describe('test sprouts json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -65,11 +85,13 @@ describe('this test prevents to any issues and problems, also to break the struc
     expect(jacketPotato).not.toBe('')
   })
 })
-example = { name: 'jacketPotato',
+example = {
+  name: 'jacketPotato',
   boil: '-',
   microwave: '4 - 9 mins',
   steam: '-',
-  roast: '60 - 90 mins' }
+  roast: '60 - 90 mins'
+}
 describe('test jacketPotato json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -81,11 +103,13 @@ describe('this test prevents to any issues and problems, also to break the struc
     expect(sweetPotato).not.toBe('')
   })
 })
-example = { name: 'sweetPotato',
+example = {
+  name: 'sweetPotato',
   boil: '15 - 25 mins',
   microwave: '4 - 9 mins',
   steam: '20 - 30 mins',
-  roast: '45 - 50 mins' }
+  roast: '45 - 50 mins'
+}
 describe('test sweetPotato json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -98,11 +122,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'kale',
+example = {
+  name: 'kale',
   boil: '15 - 20 mins',
   microwave: '5 - 6 mins',
   steam: '18 - 25 mins',
-  roast: '-' }
+  roast: '-'
+}
 
 describe('test kale json schema', () => {
   it('validates my json', () => {
@@ -116,11 +142,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'leek',
+example = {
+  name: 'leek',
   boil: '10 - 15 mins',
   microwave: '5 - 8 mins',
   steam: '8 - 12 mins',
-  roast: '30 - 40 mins' }
+  roast: '30 - 40 mins'
+}
 
 describe('test leek json schema', () => {
   it('validates my json', () => {
@@ -134,11 +162,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'broccoli',
+example = {
+  name: 'broccoli',
   boil: '4 - 8 mins',
   microwave: '3 - 5 mins',
   steam: '5 - 10 mins',
-  roast: '-' }
+  roast: '-'
+}
 
 describe('test broccoli json schema', () => {
   it('validates my json', () => {
@@ -152,11 +182,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'carrots',
+example = {
+  name: 'carrots',
   boil: '8 - 10 mins',
   microwave: '5 - 8 mins',
   steam: '10 - 13 mins',
-  roast: '40 - 45 mins' }
+  roast: '40 - 45 mins'
+}
 describe('test carrots json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -169,11 +201,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'mushrooms',
+example = {
+  name: 'mushrooms',
   boil: '7 - 10 mins',
   microwave: '2 - 3 mins',
   steam: '8 - 12 mins',
-  roast: '20 - 25 mins' }
+  roast: '20 - 25 mins'
+}
 describe('test mushrooms json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -185,11 +219,13 @@ describe('this test prevents to any issues and problems, also to break the struc
     expect(onionsShallots).not.toBe('')
   })
 })
-example = { name: 'onionsShallots',
+example = {
+  name: 'onionsShallots',
   boil: '-',
   microwave: '3 - 5 mins',
   steam: '-',
-  roast: '35 - 40 mins' }
+  roast: '35 - 40 mins'
+}
 
 describe('test onionsShallots json schema', () => {
   it('validates my json', () => {
@@ -203,11 +239,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'parsnips',
+example = {
+  name: 'parsnips',
   boil: '10 - 15 mins',
   microwave: '5 - 8 mins',
   steam: '15 - 20 mins',
-  roast: '40 - 80 mins' }
+  roast: '40 - 80 mins'
+}
 
 describe('test parsnips json schema', () => {
   it('validates my json', () => {
@@ -220,11 +258,13 @@ describe('this test prevents to any issues and problems, also to break the struc
     expect(peppers).not.toBe('')
   })
 })
-example = { name: 'peppers',
+example = {
+  name: 'peppers',
   boil: '15 - 25 mins',
   microwave: '4 - 6 mins',
   steam: '20 - 30 mins',
-  roast: '25 -45 mins' }
+  roast: '25 -45 mins'
+}
 
 describe('test peppers json schema', () => {
   it('validates my json', () => {
@@ -238,7 +278,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'marrowSquash', boil: '10 - 15 mins', microwave: '5 - 7 mins', steam: '20 - 25 mins', roast: '45 -70 mins' }
+example = {
+  name: 'marrowSquash',
+  boil: '10 - 15 mins',
+  microwave: '5 - 7 mins',
+  steam: '20 - 25 mins',
+  roast: '45 -70 mins'
+}
 
 describe('test marrowSquash json schema', () => {
   it('validates my json', () => {
@@ -252,7 +298,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'sweetcorn', boil: '8 - 15 mins', microwave: '5 - 10 mins', steam: '15 -20 mins', roast: '20 - 35 mins' }
+example = {
+  name: 'sweetcorn',
+  boil: '8 - 15 mins',
+  microwave: '5 - 10 mins',
+  steam: '15 -20 mins',
+  roast: '20 - 35 mins'
+}
 describe('test sweetcorn json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -265,7 +317,13 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-example = { name: 'courgettes', boil: '6 - 10 mins', microwave: '3 - 4 mins', steam: '15 - 20 mins', roast: '30 - 45 mins' }
+example = {
+  name: 'courgettes',
+  boil: '6 - 10 mins',
+  microwave: '3 - 4 mins',
+  steam: '15 - 20 mins',
+  roast: '30 - 45 mins'
+}
 
 describe('test courgettes json schema', () => {
   it('validates my json', () => {

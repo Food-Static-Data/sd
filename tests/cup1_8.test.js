@@ -1,9 +1,13 @@
 /* global describe, it, expect */
 'use strict'
-const { matchers } = require('jest-json-schema')
+const {
+  matchers
+} = require('jest-json-schema')
 expect.extend(matchers)
 
-const { cup18 } = require('../filesObjects')
+const {
+  cup18
+} = require('../filesObjects')
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_8 data', () => {
   it('cup1_8 data files returns object', () => {
@@ -13,20 +17,33 @@ describe('this test prevents to any issues and problems, also to break the struc
 
 const schema = {
   properties: {
-    name: { type: 'string' },
-    americanStandart: { type: 'string' },
-    americanStandartOunces: { type: 'string' },
-    volume: { type: 'string' },
-    weight: { type: 'string' }
+    name: {
+      type: 'string'
+    },
+    americanStandart: {
+      type: 'string'
+    },
+    americanStandartOunces: {
+      type: 'string'
+    },
+    volume: {
+      type: 'string'
+    },
+    weight: {
+      type: 'string'
+    }
   },
   required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight']
 }
 
-const example = { name: 'cup1_8',
+const example = {
+  name: 'cup1_8',
   americanStandart: '2 tablespoons',
   americanStandartOunces: '1 ounce',
   volume: '30 milliliters',
-  weight: '28.3 grams' }
+  weight: '28.3 grams'
+}
+
 describe('test cup1_8 json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
