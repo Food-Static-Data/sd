@@ -1,5 +1,6 @@
 // at this file we'll run nodejs command
 var shell = require('shelljs')
+const _ = require('lodash')
 
 // @TODO add here all new generated at generator files too
 const jsonFiles = require('./files.js')
