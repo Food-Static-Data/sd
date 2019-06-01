@@ -18,12 +18,15 @@ const getMenuGenerator = numberOfWeeks => {
 }
 
 function generateArrWithId (data, id) {
-  return data.map(element => {
-    return {
+  var result=[]
+  _.map(data,element => {
+    result.push({
       ...element,
       [id]: __generateId()
-    }
+    })
   })
+  
+ return result
 }
 
 function favorites () {
