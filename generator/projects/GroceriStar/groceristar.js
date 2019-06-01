@@ -14,8 +14,8 @@ const getKeyArrayDepAndIng = () => {
 
   _.forEach(departments, (department) => {
     _.forEach(ingredients, (ingredient) => {
-      // @TODO can be redo later with lodash methods
-      if (ingredient.department === department.name) {
+     
+      if (_.includes(ingredient,department.name)) {
         keys.push({
           [department.key]: ingredient.key
         })
@@ -75,7 +75,7 @@ const getDepartmentIngredients = (department, key) => {
   const ingredients = [];
   let ingreds = getAllIngredientsWithId()
   _.map(ingreds,ingredient => {
-      if(ingredient.department === department){
+      if(_.includes(ingredient,department)){
         const ingred = [
           ingredient.key,
           ingredient.name,
