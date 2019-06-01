@@ -6,7 +6,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/GroceriStar/sd/)
 [![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=101)](https://github.com/GroceriStar/sd/)
 [![Coveralls](http://img.shields.io/coveralls/GroceriStar/sd.svg?style=flat)](https://coveralls.io/r/GroceriStar/sd)
-<!-- [![CodeClimate](http://img.shields.io/codeclimate/github/GroceriStar/sd.svg?style=flat)](https://codeclimate.com/github/GroceriStar/sd) -->
+[![Maintainability](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/maintainability)](https://codeclimate.com/github/GroceriStar/sd/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/test_coverage)](https://codeclimate.com/github/GroceriStar/sd/test_coverage)
 
 Table of Contents
 =================
