@@ -1,7 +1,7 @@
 /* global describe, it, expect */
 'use strict'
-const { matchers } = require('jest-json-schema');
-expect.extend(matchers);
+const { matchers } = require('jest-json-schema')
+expect.extend(matchers)
 
 const { cup34 } = require('../filesObjects')
 
@@ -21,8 +21,8 @@ describe('test cup3_4 json schema', () => {
         volume: { type: 'string' },
         weight: { type: 'string' }
       },
-      required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight'],
-    };
-    expect({ name: "cup3_4", americanStandart: "12 tablespoons", americanStandartOunces: "6 ounces", volume: "180 milliliters", weight: 'null' }).toMatchSchema(schema);
-  });
+      required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight']
+    }
+    expect({ name: 'cup3_4', americanStandart: '12 tablespoons', americanStandartOunces: '6 ounces', volume: '180 milliliters', weight: 'null' }).toMatchSchema(schema)
+  })
 })

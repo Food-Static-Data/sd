@@ -1,15 +1,16 @@
 const fs = require('fs')
 const csv = require('csv-parser')
 const path = require('path')
-
+const _ = require('lodash')
 var writeInFile = require('../../writeFile')
 
 let results = []
+let tmp = []
 
 fs.createReadStream(
   path.join(
     __dirname,
-    '../../../src/data/FoodComposition/Food_Composition - United Kingdom.csv'
+    '../../../src/data/FoodComposition/Food_Composition.csv'
   )
 )
   .pipe(
@@ -24,19 +25,19 @@ fs.createReadStream(
     })
   )
   .on('data', function (data) {
-    results.push(data)
-    // try {
-    //   ;
-    //   console.log(data[0])
-    // } catch (err) {
-    //   console.log(err)
-    // }
+    tmp.push(data)
+
+    let countriesArr = ['Finland', 'France', 'Germany', 'Italy', 'Netherlands', 'Sweden', 'United Kingdom']
+    results = _.map(tmp, obj => {
+      const country = _.sample(countriesArr)
+      obj.country = country
+
+      return obj
+    })
   })
   .on('end', function () {
-    const country = 'United Kingdom'
-    results = results.map(obj => ({ ...obj, country }))
     writeInFile.writeFile(
-      path.join(__dirname, `/FoodComposition-${country}.json`),
+      path.join(__dirname, `/FoodComposition.json`),
       results
     )
   })
