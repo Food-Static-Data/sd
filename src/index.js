@@ -1,56 +1,16 @@
-// import {
-//   // allergies,
-//   course,
-//   cuisine,
-//   departments,
-//   diet,
-//   grocery,
-//   holiday,
-//   ingredients,
-//   ingredients1,
-//   ingredients3,
-//   favorites,
-//   items,
-//   mealCalendar,
-//   firstVeganGLMC,
-//   measurements,
-//   menu,
-//   recipes,
-//   nutritions,
-//   nutritions2,
-//   users,
-//   userGrocery,
-//   ultimateGroceryList,
-//   groceryListWithUserRelations,
-//   dbIngredients
-// } from './files'
+const fs = require('fs');
+var src = ".././src/data/Grocery/elements/";
+var list = [];
 
-import files from './files'
-export default files
+var files = fs.readdirSync(src);
 
-// export default {
-//   allergies,
-//   course,
-//   cuisine,
-//   departments,
-//   diet,
-//   grocery,
-//   holiday,
-//   ingredients,
-//   ingredients1,
-//   ingredients3,
-//   favorites,
-//   items,
-//   mealCalendar,
-//   firstVeganGLMC,
-//   measurements,
-//   menu,
-//   recipes,
-//   nutritions,
-//   nutritions2,
-//   users,
-//   userGrocery,
-//   ultimateGroceryList,
-//   groceryListWithUserRelations,
-//   dbIngredients
-// }
+files.forEach(file => {
+    let fileStat = fs.statSync(src + file).isDirectory();
+    if (!fileStat) {
+        list.push(file);
+    }
+});
+
+console.log(list);
+
+module.exports = list;
