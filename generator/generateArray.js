@@ -1,9 +1,7 @@
 const _ = require('lodash')
 const { __generateDate, __generateId } = require('../src/utils')
 
-// @TODO change require by using variables from filesObjects.js
 const { users, grocery, ingredients, measurementSystem, measurementUnits } = require('../files')
-
 
 const getMenuGenerator = numberOfWeeks => {
   let
