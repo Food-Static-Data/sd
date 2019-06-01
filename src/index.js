@@ -25,15 +25,16 @@
 //   dbIngredients
 // } from './files'
 
-import cookingTimes from './files'
+import {
+    cookingTimes,
+    cup1
+} from './files'
 
 cookingTimes.forEach(function(value) {
     console.log(value);
 });
 
 
-
-import cup1 from './files'
 
 cup1.forEach(function(value) {
     console.log(value);
