@@ -10,8 +10,7 @@ const __generateDate = () => {
   return dayjs().toDate()
 }
 
-const testFile= (file) => {
-
+const testFile = (file) => {
     describe(`tests for ${file}`, () => {
         it(`${file} data files returns array`, () => {
           expect(file).not.toBe('')
@@ -19,4 +18,14 @@ const testFile= (file) => {
       })    
 }
 
-module.exports = { __generateId, __generateDate, testFile }
+
+const jsonSchemaTest = ( file, example, schema) => {
+    describe(`test ${file} json schema`, () => {
+    it(`validates ${file} json-schema`, () => {
+      expect(example).toMatchSchema(schema)
+    })
+  })
+
+}
+
+module.exports = { __generateId, __generateDate, testFile, jsonSchemaTest }
