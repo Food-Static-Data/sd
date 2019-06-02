@@ -1,9 +1,10 @@
 const fs = require('fs');
+var list = [];
 
 function index() {
 
     var src = ".././src/data/Grocery/elements/";
-    var list = [];
+
     var files = fs.readdirSync(src);
 
     files.forEach(file => {
@@ -12,7 +13,7 @@ function index() {
             list.push(file);
         }
     });
-    console.log(list);
-    module.exports = list;
+    return (list);
 }
 index();
+module.exports = { data: list };

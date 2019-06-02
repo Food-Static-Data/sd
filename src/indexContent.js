@@ -1,8 +1,8 @@
 const fs = require('fs');
+var content = [];
 
 function indexContent() {
     var src = ".././src/data/Grocery/elements/";
-    var content = [];
     var files = fs.readdirSync(src);
     files.forEach(file => {
         let fileStat = fs.statSync(src + file).isDirectory();
@@ -12,8 +12,7 @@ function indexContent() {
             content.push(data);
         }
     });
-    console.log(content);
-    module.exports = content;
 }
 
 indexContent();
+module.exports = { cont: content };
