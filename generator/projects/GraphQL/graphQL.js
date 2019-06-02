@@ -3,14 +3,17 @@ const { __generateId, __generateDate } = require('../../../src/utils.js')
 
 const { favorites, departments, userGrocery, items, users, ingredients, grocery } = require('../../../src/files.js')
 
-const getFavoritesKey = function () {
-  return _.map(favorites, (favorite, index) => {
+const getFileKey = ( file ) => { 
+    return _.map( file, ( item, index) => {
     return {
       key: __generateId(),
-      ...favorite
+      ...item
     }
   })
 }
+
+
+const getFavoritesKey = getFileKey( favorites )
 
 const getDepartmentsKey = function () {
   let results = departments
@@ -23,23 +26,10 @@ const getDepartmentsKey = function () {
   }))
 }
 
-const getUserGroceryKey = function () {
-  return _.map(userGrocery, (item, index) => {
-    return {
-      key: __generateId(),
-      ...item
-    }
-  })
-}
+const getUserGroceryKey = getFileKey( userGrocery )
 
-const getItemsKey = function () {
-  return _.map(items, (item, index) => {
-    return {
-      key: __generateId(),
-      ...item
-    }
-  })
-}
+const getItemsKey = getFileKey( items )
+
 
 
 const getUsersKey = function () {
