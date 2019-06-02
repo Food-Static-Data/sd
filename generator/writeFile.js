@@ -22,19 +22,20 @@ function writeFile (path, data) {
   // var dataStr = JSON.stringify(users);
   // console.log(typeof users);
   // console.log(typeof usersStr);
-  if (typeof data !== 'undefined') {
-    if ((typeof data) === 'object') {
-      var dataStr = JSON.stringify(data)
-
-      if (typeof dataStr === 'string') {
-        main(path, dataStr).catch(error => console.error(error))
-      } else {
-        console.error('Error occured after stringify or variabe has another type not string')
-      }
-    }
-  } else {
+   if ( typeof data === 'undefined' ){
     console.error('Error variable is undefined')
+    return
   }
+
+  if ( typeof data === 'object' ){
+    var dataStr = JSON.stringify(data)
+    if( typeof dataStr !== 'string' ){ 
+      console.error('Error occured after stringify or variabe has another type not string')
+      return
+    }
+
+    main( path, dataStr ).catch(error => console.error(error))
+  } 
 }
 
 function test () {
