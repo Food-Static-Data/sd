@@ -1,3 +1,4 @@
+/* global describe, it, expect */
 const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 
@@ -9,4 +10,23 @@ const __generateDate = () => {
   return dayjs().toDate()
 }
 
-module.exports = { __generateId, __generateDate }
+//test expecting json file not to be empty
+const jsonFileNotEmptyTest = (file) => {
+    describe(`tests for ${file}`, () => {
+        it(`${file} data files returns array`, () => {
+          expect(file).not.toBe('')
+        })
+      })    
+}
+
+
+const jsonSchemaTest = ( file, example, schema) => {
+    describe(`test ${file} json schema`, () => {
+    it(`validates ${file} json-schema`, () => {
+      expect(example).toMatchSchema(schema)
+    })
+  })
+
+}
+
+module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest }
