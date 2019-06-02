@@ -7,7 +7,7 @@ const jsonFiles = require('./files.js')
 
 //each can be used instead of forEach
 _.forEach( Object.keys(jsonFiles), function (key) {
-    try{
+    try {
       
       shell.exec('jsonlint ' + jsonFiles[key], { silent: true })
     }
