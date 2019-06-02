@@ -1,10 +1,10 @@
 /* global describe, it, expect */
 'use strict'
-// maybe import only object that we need, not all of them? @TODO
-const staticData = require('../filesObjects')
 
-describe('this test prevents to any issues and problems, also to break the structure of cup1_2 data', () => {
-  it('cup1_2 data files returns object', () => {
-    expect(staticData.cup12).not.toBe('')
+const { halfCup } = require('../files')
+
+describe('this test prevents to any issues and problems, also to break the structure of halfCup data', () => {
+  it('halfCup data files returns object', () => {
+    expect(halfCup).not.toBe('')
   })
 })
