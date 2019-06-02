@@ -1,19 +1,18 @@
 const fs = require('fs');
-var list = [];
+var content = [];
 
-function index() {
-
+function indexContent() {
     var src = ".././src/data/Grocery/elements/";
-
     var files = fs.readdirSync(src);
-
     files.forEach(file => {
         let fileStat = fs.statSync(src + file).isDirectory();
         if (!fileStat) {
-            list.push(file);
+            let data = fs.readFileSync(src + file);
+            data = JSON.parse(data);
+            content.push(data);
         }
     });
-    return (list);
 }
-index();
-module.exports = { data: list };
+
+indexContent();
+module.exports = { cont: content };
