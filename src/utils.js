@@ -10,7 +10,8 @@ const __generateDate = () => {
   return dayjs().toDate()
 }
 
-const testFile = (file) => {
+//test expecting json file not to be empty
+const jsonFileNotEmptyTest = (file) => {
     describe(`tests for ${file}`, () => {
         it(`${file} data files returns array`, () => {
           expect(file).not.toBe('')
@@ -28,4 +29,4 @@ const jsonSchemaTest = ( file, example, schema) => {
 
 }
 
-module.exports = { __generateId, __generateDate, testFile, jsonSchemaTest }
+module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest }
