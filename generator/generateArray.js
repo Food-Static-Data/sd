@@ -16,15 +16,15 @@ const getMenuGenerator = numberOfWeeks => {
 }
 
 function generateArrWithId (data, id) {
-  var result=[]
-  _.map(data,element => {
+  var result = []
+  _.map(data, element => {
     result.push({
       ...element,
       [id]: __generateId()
     })
   })
-  
- return result
+
+  return result
 }
 
 function favorites () {
@@ -34,7 +34,7 @@ function favorites () {
 
   var result = []
 
-  _.map( usersId, (user, index) => {
+  _.map(usersId, (user, index) => {
     result.push({
       'ingredient_id': ingredientsId[index++]['ingredient_id'],
       'user_id': user['user_id'],
@@ -42,7 +42,6 @@ function favorites () {
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
-   
   })
 
   return result
@@ -54,13 +53,12 @@ function usersGrocery () {
   // return object for three users
   var result = []
 
-  _.map( usersId, (user, index) => {
+  _.map(usersId, (user, index) => {
     result.push({
       'user_id': user['user_id'],
       // one grocery id for all users
       'grocery_id': groceryId[index++]['grocery_id']
     })
-    
   })
   return result
 }
@@ -70,7 +68,7 @@ function items () {
   var items = [1, 2, 3]
   var result = []
 
-  _.map( items,(item, index) => {
+  _.map(items, (item, index) => {
     result.push({
       'item_id': item,
       'name': ingredientsId[index++]['name'],
@@ -78,7 +76,6 @@ function items () {
       'quantity': 50,
       'purchase': false
     })
-    
   })
 
   return result
@@ -88,7 +85,7 @@ function getMeasurementSystem () {
   var result = []
   var measurementSystemId = generateArrWithId(measurementSystem, 'id')
 
-  _.map( measurementSystemId, system => {
+  _.map(measurementSystemId, system => {
     result.push({
       'id': system.id,
       'alias': system.alias,
@@ -102,8 +99,8 @@ function getMeasurementUnits () {
   var result = []
   var measurementUnitsId = generateArrWithId(measurementUnits, 'id')
   measurementUnitsId = generateArrWithId(measurementUnitsId, 'system_id')
- 
-  _.map( measurementUnitsId, unit => {
+
+  _.map(measurementUnitsId, unit => {
     result.push({
       'id': unit.id,
       'system_id': unit.system_id,

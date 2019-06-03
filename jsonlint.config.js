@@ -5,18 +5,13 @@ const _ = require('lodash')
 // @TODO add here all new generated at generator files too
 const jsonFiles = require('./files.js')
 
-//each can be used instead of forEach
-_.forEach( Object.keys(jsonFiles), function (key) {
-    try {
-      
-      shell.exec('jsonlint ' + jsonFiles[key], { silent: true })
-    }
-    catch(e){
-      
-       console.log(e)
-    }
-
- 
+// each can be used instead of forEach
+_.forEach(Object.keys(jsonFiles), function (key) {
+  try {
+    shell.exec('jsonlint ' + jsonFiles[key], { silent: true })
+  } catch (e) {
+    console.log(e)
+  }
 
   // // Run external tool synchronously
   // if (shell.exec('git commit -am "Auto-commit"').code !== 0) {
