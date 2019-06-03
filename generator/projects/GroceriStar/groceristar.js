@@ -46,42 +46,42 @@ const ultimateGroceryList = () => {
 }
 
 // get all departments with their ingredients in a grocery
-const getGroceryDepartmentsWithIngredients = (grocerydept, key) => {
-  const departs = []
+const getGroceryDepartmentsWithIngredients = ( grocerydepartments, key) => {
+  const results = []
   let departments = getAllDepartmentsWithId()
-  _.map(grocerydept, dept => {
-    // search for a particular grocery department in the department json to get the obj
-    const deptObj = departments.filter(depart => {
-      return depart.name === dept
+  _.map( grocerydepartments, grocerydepartment => {
+    // search for a particular grocery department in the department json to get the department object
+    const department = _.filter( departments, department => {
+      return department.name === grocerydepartment
     })
 
-    if (deptObj) {
-      const obj = { id: deptObj.key, name: deptObj.name, type: deptObj.type }
+    if (department) {
+      const departmentIngredients = { id: department.key, name: department.name, type: department.type }
 
-      obj.ingredients = getDepartmentIngredients(dept, key) // add all the ingredients in this department to the obj
-      departs.push(deptObj)
+      departmentIngredients.ingredients = getDepartmentIngredients(grocerydepartment, key) // add all the ingredients in this department to the obj
+      results.push( departmentIngredients )
     }
   })
 
-  return departs
+  return results
 }
 
 // get all ingredients in a department
 const getDepartmentIngredients = (department, key) => {
-  const ingredients = []
-  let ingreds = getAllIngredientsWithId()
-  _.map(ingreds, ingredient => {
-    if (_.includes(ingredient, department)) {
-      const ingred = [
+  const results = []
+  let ingredients = getAllIngredientsWithId()
+  _.map( ingredients, ingredient => {
+    if ( _.includes( ingredient, department)) {
+      const ingredientItem = [
         ingredient.key,
         ingredient.name,
         `/del/ing/${ingredient.key}/${key}`
       ]
-      ingredients.push(ingred)
+      results.push( ingredientItem )
     }
   })
 
-  return ingredients
+  return results
 }
 
 // get grocery with key
