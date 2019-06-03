@@ -46,12 +46,12 @@ const ultimateGroceryList = () => {
 }
 
 // get all departments with their ingredients in a grocery
-const getGroceryDepartmentsWithIngredients = ( grocerydepartments, key) => {
+const getGroceryDepartmentsWithIngredients = (grocerydepartments, key) => {
   const results = []
   let departments = getAllDepartmentsWithId()
-  _.map( grocerydepartments, grocerydepartment => {
+  _.map(grocerydepartments, grocerydepartment => {
     // search for a particular grocery department in the department json to get the department object
-    const department = _.filter( departments, department => {
+    const department = _.filter(departments, department => {
       return department.name === grocerydepartment
     })
 
@@ -59,7 +59,7 @@ const getGroceryDepartmentsWithIngredients = ( grocerydepartments, key) => {
       const departmentIngredients = { id: department.key, name: department.name, type: department.type }
 
       departmentIngredients.ingredients = getDepartmentIngredients(grocerydepartment, key) // add all the ingredients in this department to the obj
-      results.push( departmentIngredients )
+      results.push(departmentIngredients)
     }
   })
 
@@ -70,14 +70,14 @@ const getGroceryDepartmentsWithIngredients = ( grocerydepartments, key) => {
 const getDepartmentIngredients = (department, key) => {
   const results = []
   let ingredients = getAllIngredientsWithId()
-  _.map( ingredients, ingredient => {
-    if ( _.includes( ingredient, department)) {
+  _.map(ingredients, ingredient => {
+    if (_.includes(ingredient, department)) {
       const ingredientItem = [
         ingredient.key,
         ingredient.name,
         `/del/ing/${ingredient.key}/${key}`
       ]
-      results.push( ingredientItem )
+      results.push(ingredientItem)
     }
   })
 
