@@ -10,23 +10,21 @@ const __generateDate = () => {
   return dayjs().toDate()
 }
 
-//test expecting json file not to be empty
+// test expecting json file not to be empty
 const jsonFileNotEmptyTest = (file) => {
-    describe(`tests for ${file}`, () => {
-        it(`${file} data files returns array`, () => {
-          expect(file).not.toBe('')
-        })
-      })    
+  describe(`tests for ${file}`, () => {
+    it(`${file} data files returns array`, () => {
+      expect(file).not.toBe('')
+    })
+  })
 }
 
-
-const jsonSchemaTest = ( file, example, schema) => {
-    describe(`test ${file} json schema`, () => {
+const jsonSchemaTest = (file, example, schema) => {
+  describe(`test ${file} json schema`, () => {
     it(`validates ${file} json-schema`, () => {
       expect(example).toMatchSchema(schema)
     })
   })
-
 }
 
 module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest }
