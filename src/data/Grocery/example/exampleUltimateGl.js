@@ -1,9 +1,9 @@
-const ultimateGl = require('./ultimate-gl-from-loopback-server-example.json')
+const ultimateGroceryList = require('./ultimate-gl-from-loopback-server-example.json')
 
-// for (let i = 0; i < ultimateGl['departments'].length; i++) {
-//     console.log(ultimateGl['departments'][i]['name'])
+// for (let i = 0; i < ultimateGroceryList['departments'].length; i++) {
+//     console.log(ultimateGroceryList['departments'][i]['name'])
 //   }
 
 module.exports = {
-    ultimateGl
+    ultimateGroceryList
 }
