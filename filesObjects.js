@@ -1,5 +1,6 @@
 const jsonFiles = require('./files.js')
 
+// @TODO use lodash for it
 var arr
 Object.keys(jsonFiles).forEach(function (key) {
   arr = {

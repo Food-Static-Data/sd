@@ -46,6 +46,8 @@ countries.forEach(country => {
     })
     .on('end', function () {
       let i
+
+      // @TODO I don't  like this loops. Wahaj should solve it
       for (i = 0; i < 12; i++) {
         results[i]['Food class'] =
           'Additives, flavours, baking and processing aids'
