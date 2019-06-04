@@ -54,11 +54,4 @@ const jsonSchemaTest = (file, example, schema) => {
     })
   })
 }
-/*
 module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest, getList , getListContent }
-removed __generateId, __generateDate
-
-use : const { __generateDate, __generateId } = require('../src/utils')
-
-*/
-module.exports = { jsonFileNotEmptyTest, jsonSchemaTest, getList , getListContent }
