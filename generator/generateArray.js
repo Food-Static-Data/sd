@@ -1,7 +1,13 @@
 const _ = require('lodash')
 const { __generateDate, __generateId } = require('../src/utils')
 
-const { users, grocery, ingredients, measurementSystem, measurementUnits } = require('../files')
+const {
+  users,
+  grocery,
+  ingredients,
+  measurementSystem,
+  measurementUnits
+} = require('../files')
 
 const getMenuGenerator = numberOfWeeks => {
   let
@@ -63,6 +69,7 @@ function usersGrocery () {
   return result
 }
 
+// @TODO rename this method
 function items () {
   var ingredientsId = generateArrWithId(ingredients, 'ingredient_id')
   var items = [1, 2, 3]
