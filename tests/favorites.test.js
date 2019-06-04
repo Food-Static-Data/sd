@@ -29,10 +29,10 @@ const schema = {
   required: ['ingredient_id', 'user_id', 'favs', 'grocery_id']
 }
 const example = {
-  'ingredient_id': '4aacafd5-6106-11e9-9ffc-a3e52b2d927f',
-  'user_id': '4aacafd2-6106-11e9-9ffc-a3e52b2d927f',
-  'favs': 'desc for department1',
-  'grocery_id': '4aac88cf-6106-11e9-9ffc-a3e52b2d927f'
+  'ingredient_id': '4aacafd5-6106-11e9-9ffc-a3e52b2d927f', // @TODO replace with generateID
+  'user_id': '4aacafd2-6106-11e9-9ffc-a3e52b2d927f', // @TODO replace with generateID
+  'favs': 'desc for department1', // @TODO replace with array of favorite ingredients with ids later
+  'grocery_id': '4aac88cf-6106-11e9-9ffc-a3e52b2d927f' // @TODO replace with generateID
 }
 describe('tests favorites json schema', () => {
   it('validates my json', () => {
