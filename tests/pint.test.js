@@ -22,7 +22,8 @@ const schema = {
   required: [ 'name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight' ]
 }
 
-const example = { name: 'teaspoon',
+const example = {
+  name: 'teaspoon',
   americanStandart: '4 tablespoons',
   americanStandartOunces: '2 ounces',
   volume: '2 milliliters',

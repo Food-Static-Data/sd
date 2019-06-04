@@ -35,7 +35,21 @@ const schema = {
     iron: { type: 'number' }
 
   },
-  required: ['calories', 'fat_calories', 'sat_fat', 'trans_fat', 'cholesterol', 'sodium', 'total_carb', 'fibers', 'sugars', 'proteins', 'vitamins', 'calcium', 'iron']
+  required: [
+    'calories',
+    'fat_calories',
+    'sat_fat',
+    'trans_fat',
+    'cholesterol',
+    'sodium',
+    'total_carb',
+    'fibers',
+    'sugars',
+    'proteins',
+    'vitamins',
+    'calcium',
+    'iron'
+  ]
 }
 
 const example = {
@@ -65,7 +79,7 @@ describe('test nutrition1 json-schema', () => {
   })
 })
 
-const { properties, required } = {
+const schema1 = {
   'properties': {
     type: { type: 'string' },
     items: {
@@ -73,12 +87,7 @@ const { properties, required } = {
       items: [{ type: 'string' }]
     }
   },
-  'required': [
-    'type', 'items'
-  ]
-}
-const schema1 = {
-  properties, required
+  'required': ['type', 'items']
 }
 const example1 = {
   'type': 'Fatty acids',

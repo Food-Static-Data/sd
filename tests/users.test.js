@@ -20,7 +20,11 @@ const schema = {
   },
   required: ['name', 'email', 'password']
 }
-const example = { name: 'page', email: 'page@gmail.com', password: 'pagethesdwrapper' }
+const example = {
+  name: 'page',
+  email: 'page@gmail.com',
+  password: 'pagethesdwrapper'
+}
 describe('testing for user json schema', () => {
   it('validates users json', () => {
     expect(example).toMatchSchema(schema)

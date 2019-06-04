@@ -44,7 +44,9 @@ schema = {
 }
 
 example = {
-  'id': 'fbe4fd00-7a3e-11e9-8ec5-0d5ec94f7bcf', 'alias': 'universal', 'title': 'Universal'
+  'id': 'fbe4fd00-7a3e-11e9-8ec5-0d5ec94f7bcf',
+  'alias': 'universal',
+  'title': 'Universal'
 }
 
 describe('generatedMeasurementSystem json schema testing', () => {

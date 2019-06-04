@@ -34,6 +34,7 @@ describe('test fresh vegetable  json schema', () => {
     expect(example).toMatchSchema(schema)
   })
 })
+
 example = {
   'name': 'Condiments / Sauces',
   'type': 'food'
@@ -68,7 +69,6 @@ example = {
   'name': 'Meat',
   'type': 'food'
 }
-
 describe('test meat  json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -89,7 +89,6 @@ example = {
   'name': 'Beverages',
   'type': 'food'
 }
-
 describe('test beverages  json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
@@ -100,7 +99,6 @@ example = {
   'name': 'Baked goods',
   'type': 'food'
 }
-
 describe('test baked goods  json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)

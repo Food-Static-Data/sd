@@ -21,11 +21,13 @@ const schema = {
   required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight']
 }
 
-const example = { name: 'world',
+const example = {
+  name: 'world',
   americanStandart: '3 teaspoons',
   americanStandartOunces: '1/2 ounce',
   volume: '15 milliliters',
-  weight: '14.3 grams' }
+  weight: '14.3 grams'
+}
 describe('test for tablespoon json schema', () => {
   it('validates tablespoon json schema', () => {
     expect(example).toMatchSchema(schema)

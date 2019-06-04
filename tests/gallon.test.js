@@ -22,7 +22,13 @@ const schema = {
   required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight']
 }
 
-const example = { name: 'gallon', americanStandart: '16 cups, 4 quarts', americanStandartOunces: '128 ounces', volume: '3.79 liters', weight: 'null' }
+const example = {
+  name: 'gallon',
+  americanStandart: '16 cups, 4 quarts',
+  americanStandartOunces: '128 ounces',
+  volume: '3.79 liters',
+  weight: 'null'
+}
 
 describe('test gallon json schema', () => {
   it('validates my json', () => {
