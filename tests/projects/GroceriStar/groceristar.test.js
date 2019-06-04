@@ -114,9 +114,10 @@
 
 /* global describe, it, expect */
 const groceristar = require('../../../generator/projects/GroceriStar/groceristar.js')
+const { __generateId } = require('../../../src/utils')
 
 describe('Groceristar method should return data', () => {
-  const key = '1b671a64-40d5-491e-99b0-da01ff1f3341'  //@TODO maybe use generateId instead?
+  const key = __generateId()
   const notEmptyMethodOutput = (method, parameter, key) => {
     it(`Groceristar ${method} return non empty string`, () => {
       const result = groceristar[method]( parameter, key)
