@@ -115,13 +115,21 @@
 /* global describe, it, expect */
 const groceristar = require('../../../generator/projects/GroceriStar/groceristar.js')
 
-describe('getKeyArrayDepAndIng method', () => {
-  const notEmptyMethodOutput = (method) => {
+describe('Groceristar method should return data', () => {
+  const key = '1b671a64-40d5-491e-99b0-da01ff1f3341'  //@TODO maybe use generateId instead?
+  const notEmptyMethodOutput = (method, parameter, key) => {
     it(`Groceristar ${method} return non empty string`, () => {
-      const result = groceristar[method]
+      const result = groceristar[method]( parameter, key)
       expect(result).not.toBe('')
     })
   }
 
   notEmptyMethodOutput('getKeyArrayDepAndIng')
+  notEmptyMethodOutput('ultimateGroceryList')
+  notEmptyMethodOutput('getDepartmentIngredients', 'Fresh vegetables', key)
+  notEmptyMethodOutput('getGroceryDepartmentsWithIngredients', [ 'Dairy', 'Cheese' ], key )
+  
 })
+
+
+
