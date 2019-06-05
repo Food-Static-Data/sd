@@ -2,6 +2,7 @@
 'use strict'
 const { favoritesFilePath } = require('../files')
 const favorites = require(favoritesFilePath)
+const { __generateId } = require('../src/utils')
 
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
@@ -20,7 +21,10 @@ const schema = {
       type: 'string'
     },
     favs: {
-      type: 'string'
+      type: 'array',
+      items: {
+        type: 'string'
+      }
     },
     grocery_id: {
       type: 'string'
@@ -28,11 +32,14 @@ const schema = {
   },
   required: ['ingredient_id', 'user_id', 'favs', 'grocery_id']
 }
+
+const testId = __generateId;
+
 const example = {
-  'ingredient_id': '4aacafd5-6106-11e9-9ffc-a3e52b2d927f',
-  'user_id': '4aacafd2-6106-11e9-9ffc-a3e52b2d927f',
+  'ingredient_id': testId,
+  'user_id': testId,
   'favs': 'desc for department1',
-  'grocery_id': '4aac88cf-6106-11e9-9ffc-a3e52b2d927f'
+  'grocery_id': testId
 }
 describe('tests favorites json schema', () => {
   it('validates my json', () => {
