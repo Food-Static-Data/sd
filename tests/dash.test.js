@@ -4,7 +4,8 @@
 const { dash } = require('../filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-const dashData = require('./dashexamples')
+const schema = require('./examples/dash').schema
+const example = require('./examples/dash').example
 
 describe('this test prevents to any issues and problems, also to break the structure of dash data', () => {
   it('dash data files returns object', () => {
@@ -14,6 +15,6 @@ describe('this test prevents to any issues and problems, also to break the struc
 
 describe('test dash test json schema', () => {
   it('validates my json', () => {
-    expect(dashData.example).toMatchSchema(dashData.schema)
+    expect(example).toMatchSchema(schema)
   })
 })
