@@ -95,6 +95,11 @@ By default generating files happens in `/src/data`
 
 Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
 
+## How to split grocery.json into single elements.
+To split grocery.json (sd/src/data/Grocery/grocery.json) you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with no parameters, to split grocery.json into single elements, if grocery.json gets updated, it will split grocery.json into elements without affecting pervious splitted files. The splitted elements will be stored at `sd/src/data/Grocery/elements/`.
+Splitted files are named according to their name attribute with removed whitespaces and in lowercase to maintain uniformity.
+
+To see the changes made by splitObject(), you will require (sd/src/utils.js). Call function `getList()` to get a list of all files made by `splitObject()`. To get the data stored in all files call `getListContent()`, this will return a list containing data stored in files splitted by `splitObject()`.
 
 ## Generate Array API
 
@@ -304,7 +309,7 @@ slug,created and updated date,id and description
 
 
 ## Contributors
-@vadim9999, @atherdon, @wahaj-47, @tihaami, @EbrahimKreem, @elnur004, @hirdbluebird, @Beni03, @Edebo
+@vadim9999, @atherdon, @wahaj-47, @tihaami, @EbrahimKreem, @elnur004, @hirdbluebird, @Beni03, @Edebo, @uniyalprashant9
 
 #### publish at npm
 ```
