@@ -2,7 +2,7 @@
 // jsonlint data/Grocery/grocery.json and other checks
 var { resolve } = require('path')
 
-const dataPath = resolve(__dirname, './data')
+const dataPath = resolve(__dirname, './data/')
 const grocery = dataPath + 'Grocery/grocery.json'
 // @TODO change import & path(change extension of file from js to json)
 // add to each variable
