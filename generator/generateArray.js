@@ -127,7 +127,6 @@ module.exports = {
   usersGrocery,
   favorites,
   getMenuGenerator,
-  generateArrWithId,
   items,
   getMeasurementSystem,
   getMeasurementUnits
