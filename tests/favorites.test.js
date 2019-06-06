@@ -2,7 +2,6 @@
 'use strict'
 const { favoritesFilePath } = require('../files')
 const favorites = require(favoritesFilePath)
-const { ingredients } = require('../files')
 
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
