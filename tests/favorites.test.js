@@ -3,7 +3,8 @@
 const { favoritesFilePath } = require('../files')
 const favorites = require(favoritesFilePath)
 const { __generateId } = require('../src/utils')
-const { favorites } = require('../generator/generateArray')
+const { generateArrWithId } = require('../generator/generateArray')
+const { ingredients } = require('../files')
 
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
@@ -24,7 +25,7 @@ const schema = {
     favs: {
       type: 'array',
       items: {
-        type: 'string'
+        type: 'object'
       }
     },
     grocery_id: {
@@ -34,13 +35,13 @@ const schema = {
   required: ['ingredient_id', 'user_id', 'favs', 'grocery_id']
 }
 
-const testId = __generateId;
-const favoritesArr = favorites()
+const testId = __generateId();
+const favoriteIngredients = generateArrWithId(ingredients, 'ingredient_id');
 
 const example = {
   'ingredient_id': testId,
   'user_id': testId,
-  'favs': favoritesArr,
+  'favs': favoriteIngredients,
   'grocery_id': testId
 }
 describe('tests favorites json schema', () => {
