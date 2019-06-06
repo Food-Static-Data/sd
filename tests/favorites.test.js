@@ -3,6 +3,7 @@
 const { favoritesFilePath } = require('../files')
 const favorites = require(favoritesFilePath)
 const { __generateId } = require('../src/utils')
+// const { favorites } = require('../generator/generateArray')
 const { generateArrWithId } = require('../generator/generateArray')
 const { ingredients } = require('../files')
 
