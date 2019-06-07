@@ -3,7 +3,10 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const { measurementSystemFilePath, generatedMeasurementSystem } = require('../files')
+const {
+  measurementSystemFilePath,
+  generatedMeasurementSystem
+} = require('@files')
 const measurementSystems = require(measurementSystemFilePath)
 
 const {

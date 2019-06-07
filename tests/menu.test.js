@@ -3,7 +3,7 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const { menuFilePath } = require('../files')
+const { menuFilePath } = require('@files')
 const menu = require(menuFilePath)
 
 const schema = require('./examples/menu').schema

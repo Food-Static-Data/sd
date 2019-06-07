@@ -3,7 +3,7 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const { nutritions2FilePath } = require('../files')
+const { nutritions2FilePath } = require('@files')
 const nutritionalAttributes = require(nutritions2FilePath)
 
 const schema = require('./examples/nutritionalAttributes').schema
