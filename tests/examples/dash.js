@@ -28,6 +28,5 @@ const example = {
 }
 
 module.exports = {
-  schema,
-  example
+  schema, example
 }

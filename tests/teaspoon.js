@@ -22,7 +22,13 @@ const schema = {
   required: [ 'name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight' ]
 }
 
-const example = { name: 'teaspoon', americanStandart: null, americanStandartOunces: null, volume: '2 milliliters', weight: null }
+const example = {
+  name: 'teaspoon',
+  americanStandart: null,
+  americanStandartOunces: null,
+  volume: '2 milliliters',
+  weight: null
+}
 describe('testng for teaspoon json data schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)

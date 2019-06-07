@@ -51,7 +51,37 @@ function test () {
 // execute function
 // writeFiles()
 
+
+function splitObject () {
+  var src = '.././src/data/Grocery/' // Location where all object files are save
+  var obj = 'grocery.json' // Object file name
+  var location = src + obj // location of object file
+  let ddata = fs.readFileSync(location)
+  let grocery = JSON.parse(ddata)
+  var len = grocery.length // Object Length
+
+  var foldername = 'elements'
+  if (!fs.existsSync(src + foldername)) { // Check if Folder exists or not.
+    fs.mkdirSync(src + foldername)
+  }
+  for (var i = 0; i < len; i++) {
+    let temp = JSON.stringify(grocery[i])
+    var fileName = grocery[i].name + '.json'
+    fileName = fileName.replace(/ /g, '_') // Replace space with underscore
+    fileName = fileName.toLowerCase()
+    // Checking if file already exists or not
+    if (!fs.existsSync(src + foldername + '/' + fileName)) {
+      fs.writeFileSync(src + foldername + '/' + fileName, temp)
+    } else {
+      console.log('File <' + fileName + '> Already Exists.')
+    }
+  }
+}
+// execute function
+// splitObject()
+
 module.exports = {
   writeFile,
-  test
+  test,
+  splitObject
 }

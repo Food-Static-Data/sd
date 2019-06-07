@@ -6,6 +6,7 @@ const _ = require('lodash')
 const jsonFiles = require('./files.js')
 
 // each can be used instead of forEach
+// @TODO replace with lodash
 _.forEach(Object.keys(jsonFiles), function (key) {
   try {
     shell.exec('jsonlint ' + jsonFiles[key], { silent: true })
@@ -21,6 +22,7 @@ _.forEach(Object.keys(jsonFiles), function (key) {
 })
 
 // Check if path exist
+// @TODO lodash
 Object.keys(jsonFiles).forEach(function (key) {
   if (shell.test('-e', jsonFiles[key])) {
     // console.log("File exist " + jsonFiles[key]);

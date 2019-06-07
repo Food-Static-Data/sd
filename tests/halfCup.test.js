@@ -1,13 +1,13 @@
 /* global describe, it, expect */
 'use strict'
+// maybe import only object that we need, not all of them? @TODO
+const staticData = require('../filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const staticData = require('../filesObjects')
-
-describe('this test prevents to any issues and problems, also to break the structure of quaterCup data', () => {
-  it('quaterCup data files returns object', () => {
-    expect(staticData.quaterCup).not.toBe('')
+describe('this test prevents to any issues and problems, also to break the structure of cup1_2 data', () => {
+  it('cup1_2 data files returns object', () => {
+    expect(staticData.cup12).not.toBe('')
   })
 })
 
@@ -23,13 +23,14 @@ const schema = {
 }
 
 const example = {
-  name: 'teaspoon',
-  americanStandart: '4 tablespoons',
-  americanStandartOunces: '2 ounces',
-  volume: '2 milliliters',
-  weight: '56.7 grams'
+  'name': 'cup1_2',
+  'americanStandart': '8 tablespoons',
+  'americanStandartOunces': '4 ounces',
+  'volume': '120 milliliters',
+  'weight': '113.4 grams, 1/4 pound'
 }
-describe('test quarter cup json schema', () => {
+
+describe('tests halfCup json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
   })

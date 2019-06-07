@@ -22,9 +22,11 @@ const schema = {
   required: ['Field', 'Type', 'Description']
 }
 
-const example = { Field: 'from',
+const example = {
+  Field: 'from',
   Type: 'integer',
-  Description: 'First result index as submitted' }
+  Description: 'First result index as submitted'
+}
 
 describe('types json schema testing', () => {
   it('validates type json schema', () => {

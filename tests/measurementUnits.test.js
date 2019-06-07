@@ -31,7 +31,14 @@ let schema = {
 
 }
 
-let example = { 'type': 'Weight', 'name': 'Pound', 'singular': 'pound', 'plural': 'pounds', 'short': 'lb', 'pattern': '[\\d]{1,2}' }
+let example = {
+  'type': 'Weight',
+  'name': 'Pound',
+  'singular': 'pound',
+  'plural': 'pounds',
+  'short': 'lb',
+  'pattern': '[\\d]{1,2}'
+}
 
 describe(' MeasurementUnits schema testing', () => {
   it('validates  MeasurementUnits json schema', () => {
@@ -55,7 +62,17 @@ schema = {
   'required': [ 'id', 'system_id', 'type', 'name', 'singular', 'plural', 'short', 'pattern', 'error' ]
 
 }
-example = { 'id': 'fbe54b40-7a3e-11e9-8ec5-0d5ec94f7bcf', 'system_id': 'fbe57235-7a3e-11e9-8ec5-0d5ec94f7bcf', 'type': 'Weight', 'name': 'Pound', 'singular': 'pound', 'plural': 'pounds', 'short': 'lb', 'pattern': '[\\d]{1,2}', 'error': 'null' }
+example = {
+  'id': 'fbe54b40-7a3e-11e9-8ec5-0d5ec94f7bcf',
+  'system_id': 'fbe57235-7a3e-11e9-8ec5-0d5ec94f7bcf',
+  'type': 'Weight',
+  'name': 'Pound',
+  'singular': 'pound',
+  'plural': 'pounds',
+  'short': 'lb',
+  'pattern': '[\\d]{1,2}',
+  'error': 'null'
+}
 
 describe(' generatedMeasurementUnits schema testing', () => {
   it('validates  generatedMeasurementUnits json schema', () => {

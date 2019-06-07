@@ -1,3 +1,4 @@
+
 const schema = {
   properties: {
     name: {
@@ -16,18 +17,17 @@ const schema = {
       type: 'string'
     }
   },
-  required: [ 'name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight' ]
-
+  required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight']
 }
+
 const example = {
-  name: 'sugar',
-  americanStandart: '2 tablespoons',
-  americanStandartOunces: '1 ounce',
-  volume: '2 milliters',
-  weight: '50 gm'
+  name: 'cup',
+  americanStandart: '16 tablespoons',
+  americanStandartOunces: '8 ounces',
+  volume: '240 milliliters',
+  weight: '225 grams,  1/2 pound'
 }
 
 module.exports = {
-  schema,
-  example
+  example, schema
 }

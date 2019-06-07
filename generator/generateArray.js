@@ -1,14 +1,20 @@
 const _ = require('lodash')
-const { __generateDate, __generateId } = require('../src/utils')
+const utils = require('../src/utils')
 
-const { users, grocery, ingredients, measurementSystem, measurementUnits } = require('../files')
+const {
+  users,
+  grocery,
+  ingredients,
+  measurementSystem,
+  measurementUnits
+} = require('../files')
 
 const getMenuGenerator = numberOfWeeks => {
   let
     result = _.times(numberOfWeeks, (index) => ({
-      id: __generateId(),
+      id: utils.__generateId(),
       title: `Weekly menu ${index}`,
-      date: __generateDate(),
+      date: utils.__generateDate(),
       description: `description for Weekly menu ${index}`,
       notes: `This is a chef notes for wm ${index}`
     }))
@@ -20,7 +26,7 @@ function generateArrWithId (data, id) {
   _.map(data, element => {
     result.push({
       ...element,
-      [id]: __generateId()
+      [id]: utils.__generateId()
     })
   })
 
@@ -63,6 +69,7 @@ function usersGrocery () {
   return result
 }
 
+// @TODO rename this method
 function items () {
   var ingredientsId = generateArrWithId(ingredients, 'ingredient_id')
   var items = [1, 2, 3]
