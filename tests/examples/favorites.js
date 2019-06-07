@@ -21,8 +21,8 @@ const schema = {
   required: ['ingredient_id', 'user_id', 'favs', 'grocery_id']
 }
 
-const testId = __generateId();
-const testArr = [testId];
+const testId = __generateId()
+const testArr = [testId]
 
 const example = {
   'ingredient_id': testId,

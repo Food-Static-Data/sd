@@ -25,7 +25,6 @@ describe('nutritions2 data files returns array', () => {
   })
 })
 
-
 describe('test nutrition1 json-schema', () => {
   it('validates nutrition1 json-schema', () => {
     expect(nutrition1Example).toMatchSchema(nutrition1Schema)

@@ -51,7 +51,6 @@ function test () {
 // execute function
 // writeFiles()
 
-
 function splitObject () {
   var src = '.././src/data/Grocery/' // Location where all object files are save
   var obj = 'grocery.json' // Object file name

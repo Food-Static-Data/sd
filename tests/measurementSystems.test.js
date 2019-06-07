@@ -25,7 +25,6 @@ describe('users data files returns array', () => {
   })
 })
 
-
 describe('MeasurementSystem json schema testing', () => {
   it('validates MeasurementSystem json schema', () => {
     expect(measurementSystemsExample).toMatchSchema(measurementSystemsSchema)

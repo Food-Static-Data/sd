@@ -5,5 +5,5 @@ const ultimateGroceryList = require('./ultimate-gl-from-loopback-server-example.
 //   }
 
 module.exports = {
-    ultimateGroceryList
+  ultimateGroceryList
 }

@@ -109,8 +109,8 @@ const getResult = (property) => _.map(property, (p) => ({
 }))
 
 module.exports = {
-  getKeyArrayDepAndIng, 
-  ultimateGroceryList, 
-  getDepartmentIngredients, 
-  getGroceryDepartmentsWithIngredients 
+  getKeyArrayDepAndIng,
+  ultimateGroceryList,
+  getDepartmentIngredients,
+  getGroceryDepartmentsWithIngredients
 }

@@ -120,7 +120,7 @@ describe('Groceristar method should return data', () => {
   const key = __generateId()
   const notEmptyMethodOutput = (method, parameter, key) => {
     it(`Groceristar ${method} return non empty string`, () => {
-      const result = groceristar[method]( parameter, key)
+      const result = groceristar[method](parameter, key)
       expect(result).not.toBe('')
     })
   }
@@ -128,9 +128,5 @@ describe('Groceristar method should return data', () => {
   notEmptyMethodOutput('getKeyArrayDepAndIng')
   notEmptyMethodOutput('ultimateGroceryList')
   notEmptyMethodOutput('getDepartmentIngredients', 'Fresh vegetables', key)
-  notEmptyMethodOutput('getGroceryDepartmentsWithIngredients', [ 'Dairy', 'Cheese' ], key )
-  
+  notEmptyMethodOutput('getGroceryDepartmentsWithIngredients', [ 'Dairy', 'Cheese' ], key)
 })
-
-
-

@@ -1,33 +1,33 @@
 /* global describe, it, expect */
 const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
-const fs = require('fs');
-function getListContent() {
-    var content = [];
-    var src = ".././src/data/Grocery/elements/";
-    var files = fs.readdirSync(src);
-    files.forEach(file => {
-        let fileStat = fs.statSync(src + file).isDirectory();
-        if (!fileStat) {
-            let data = fs.readFileSync(src + file);
-            data = JSON.parse(data);
-            content.push(data);
-        }
-    });
-    return content;
+const fs = require('fs')
+function getListContent () {
+  var content = []
+  var src = '.././src/data/Grocery/elements/'
+  var files = fs.readdirSync(src)
+  files.forEach(file => {
+    let fileStat = fs.statSync(src + file).isDirectory()
+    if (!fileStat) {
+      let data = fs.readFileSync(src + file)
+      data = JSON.parse(data)
+      content.push(data)
+    }
+  })
+  return content
 }
-function getList() {
-    var src = ".././src/data/Grocery/elements/";
-    var list = [];
-    var files = fs.readdirSync(src);
+function getList () {
+  var src = '.././src/data/Grocery/elements/'
+  var list = []
+  var files = fs.readdirSync(src)
 
-    files.forEach(file => {
-        let fileStat = fs.statSync(src + file).isDirectory();
-        if (!fileStat) {
-            list.push(file);
-        }
-    });
-    return list;
+  files.forEach(file => {
+    let fileStat = fs.statSync(src + file).isDirectory()
+    if (!fileStat) {
+      list.push(file)
+    }
+  })
+  return list
 }
 
 const __generateId = () => {
@@ -54,4 +54,4 @@ const jsonSchemaTest = (file, example, schema) => {
     })
   })
 }
-module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest, getList , getListContent }
+module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest, getList, getListContent }
