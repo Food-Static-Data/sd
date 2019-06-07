@@ -114,7 +114,8 @@
 
 /* global describe, it, expect */
 const groceristar = require('../../../generator/projects/GroceriStar/groceristar.js')
-const { __generateId } = require('../../../src/utils')
+const { __generateId } = require('@utils')
+// const { __generateId } = require('../../../src/utils')
 
 describe('Groceristar method should return data', () => {
   const key = __generateId()

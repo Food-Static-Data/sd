@@ -26,7 +26,8 @@ const plugins = [
         '~': './src/data',
         '@files': './files.js',
         '@filesObjects': './filesObjects.js',
-        '@utils': './src/utils.js'
+        '@utils': './src/utils.js',
+        '@generator': './generator'
       }
     }
   ],
