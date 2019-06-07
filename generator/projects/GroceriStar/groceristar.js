@@ -1,7 +1,8 @@
 const _ = require('lodash')
-const { __generateId } = require('../../../src/utils')
-
-const { departments, ingredients, grocery } = require('../../../files')
+// const { __generateId } = require('../../../src/utils')
+const { __generateId } = require('@utils')
+const { departments, ingredients, grocery } = require('@files')
+// const { departments, ingredients, grocery } = require('../../../files')
 /**
  * @returns {array} of keys for departments and ingredients
  */

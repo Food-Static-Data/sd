@@ -2,10 +2,12 @@
 const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 const fs = require('fs')
+
 function getListContent () {
   var content = []
   var src = '.././src/data/Grocery/elements/'
   var files = fs.readdirSync(src)
+  // @TODO use lodash
   files.forEach(file => {
     let fileStat = fs.statSync(src + file).isDirectory()
     if (!fileStat) {
@@ -16,11 +18,13 @@ function getListContent () {
   })
   return content
 }
+
 function getList () {
+  // @TODO duplicate with getListContent - first 3 rows are pretty similar
   var src = '.././src/data/Grocery/elements/'
   var list = []
   var files = fs.readdirSync(src)
-
+  // @TODO use lodash
   files.forEach(file => {
     let fileStat = fs.statSync(src + file).isDirectory()
     if (!fileStat) {
@@ -54,4 +58,11 @@ const jsonSchemaTest = (file, example, schema) => {
     })
   })
 }
-module.exports = { __generateId, __generateDate, jsonFileNotEmptyTest, jsonSchemaTest, getList, getListContent }
+module.exports = {
+  __generateId,
+  __generateDate,
+  jsonFileNotEmptyTest,
+  jsonSchemaTest,
+  getList,
+  getListContent
+}
