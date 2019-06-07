@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/sd-wrapper",
-  "version": "4.5.0",
+  "version": "4.9.0",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",
@@ -22,7 +22,7 @@
     "code-fix": "standard --fix",
     "format": "prettier"
   },
-  "description": "module to use static JSON files with groceristar projects",
+  "description": "module to use static JSON files with food tech projects",
   "main": "dist/index.cjs",
   "module": "dist/index.es.js",
   "browser": "dist/index.iife.js",
