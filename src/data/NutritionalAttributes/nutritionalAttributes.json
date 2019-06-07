@@ -1,76 +1,76 @@
 [{
     "Nutrition": "K",
     "Description": "Potassium, K",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "NA",
     "Description": "Sodium, Na",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "CHOLE",
     "Description": "Cholesterol",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "FATRN",
     "Description": "Fatty acids, total trans",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "FASAT",
     "Description": "Fatty acids, total saturated",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "CHOCDF",
     "Description": "Carbohydrate, by difference",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "FIBTG",
     "Description": "Fiber, total dietary",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "PROCNT",
     "Description": "Protein",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "VITC",
     "Description": "Vitamin C, total ascorbic acid",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "CA",
     "Description": "Calcium, Ca",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "FE",
     "Description": "Iron, Fe",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "SUGAR",
     "Description": "SUGAR",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "ENERC_KCAL",
     "Description": "Energy",
-    "Implied Units": "kcal"
+    "ImpliedUnits": "kcal"
   },
   {
     "Nutrition": "FAT",
     "Description": "Total lipid (fat)",
-    "Implied Units": "gram"
+    "ImpliedUnits": "gram"
   },
   {
     "Nutrition": "VITA_IU",
     "Description": "Vitamin A, IU",
-    "Implied Units": "IU"
+    "ImpliedUnits": "IU"
   }
 ]

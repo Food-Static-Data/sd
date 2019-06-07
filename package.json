@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/sd-wrapper",
-  "version": "4.0.2",
+  "version": "4.5.0",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",
@@ -13,10 +13,11 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "files": "node --experimental-modules dist/index.cjs",
-    "jsonlint": "node ./src/data/jsonlint.config.js",
+    "jsonlint": "node jsonlint.config.js",
     "generateFile": "node ./generator/generateFile.js",
     "generateFiles": "node ./generator/generateFiles.js",
     "generateArray": "node ./generator/generateArray.js",
+    "parseCsv": "node ./generator/projects/FoodComposition/csv_parser.js",
     "lint": "standard",
     "code-fix": "standard --fix",
     "format": "prettier"
@@ -39,20 +40,21 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
-    "coveralls": "3.0.3",
-    "husky": "2.3.0",
+    "coveralls": "3.0.4",
+    "husky": "2.4.0",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
+    "lint-staged": "8.2.0",
     "nodemon": "1.19.1",
     "regenerator-runtime": "0.13.2",
-    "rollup": "1.12.4",
+    "rollup": "1.14.4",
     "rollup-plugin-babel": "4.3.2",
     "rollup-plugin-commonjs": "10.0.0",
     "rollup-plugin-copy-assets": "2.0.1",
     "rollup-plugin-json": "4.0.0",
     "rollup-plugin-node-builtins": "2.1.2",
-    "rollup-plugin-node-resolve": "5.0.0",
+    "rollup-plugin-node-resolve": "5.0.1",
     "rollup-plugin-notify": "1.1.0",
     "rollup-plugin-replace": "2.2.0",
     "shelljs": "0.8.3",
@@ -65,10 +67,27 @@
     "access": "public"
   },
   "dependencies": {
-    "dayjs": "^1.8.13",
+    "csv-parser": "^2.3.0",
+    "dayjs": "^1.8.14",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "npm run code-fix",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "**/dist/*.js"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "files": [
     "dist",
