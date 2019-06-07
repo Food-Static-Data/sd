@@ -1,5 +1,16 @@
 const _ = require('lodash')
-const { __generateId, __generateDate } = require('../../../src/utils.js')
+// const { __generateId, __generateDate } = require('../../../src/utils.js')
+const { __generateId, __generateDate } = require('@utils.js')
+
+// const {
+//   favorites,
+//   departments,
+//   userGrocery,
+//   items,
+//   users,
+//   ingredients,
+//   grocery
+// } = require('../../../src/files.js')
 
 const {
   favorites,
@@ -9,7 +20,7 @@ const {
   users,
   ingredients,
   grocery
-} = require('../../../src/files.js')
+} = require('@files')
 
 const getFileKey = (file) => {
   return _.map(file, (item, index) => {
