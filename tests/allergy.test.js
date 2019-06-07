@@ -5,7 +5,7 @@ expect.extend(matchers)
 const schema = require('./examples/allergy').schema
 const example = require('./examples/allergy').example
 
-const staticData = require('../filesObjects')
+const staticData = require('@filesObjects')
 // const allergies = require(allergiesFilePath)
 
 describe('tests for allergy', () => {

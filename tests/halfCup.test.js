@@ -1,7 +1,7 @@
 /* global describe, it, expect */
 'use strict'
 // maybe import only object that we need, not all of them? @TODO
-const staticData = require('../filesObjects')
+const staticData = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 

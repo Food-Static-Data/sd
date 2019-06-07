@@ -5,7 +5,7 @@ const {
 } = require('jest-json-schema')
 expect.extend(matchers)
 
-const staticData = require('../filesObjects')
+const staticData = require('@filesObjects')
 
 const schema = require('./examples/pinch').schema
 const example = require('./examples/pinch').example
