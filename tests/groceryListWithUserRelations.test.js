@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { groceryListWithUserRelationsFilePath } = require('../files')
+const { groceryListWithUserRelationsFilePath } = require('@files')
 const groceryListWithUserRelations = require(groceryListWithUserRelationsFilePath)
 
 describe('groceryListWithUserRelations data files returns array', () => {

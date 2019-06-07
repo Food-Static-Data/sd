@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { attributes } = require('../files')
+const { attributes } = require('@files')
 const { matchers } = require('jest-json-schema')
 const schema = require('./examples/attribute').schema
 const example = require('./examples/attribute').example

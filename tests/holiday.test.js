@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { holiday } = require('../files')
+const { holiday } = require('@files')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 

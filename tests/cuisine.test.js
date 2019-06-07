@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { cuisineFilePath } = require('../files')
+const { cuisineFilePath } = require('@files')
 const cuisines = require(cuisineFilePath)
 const schema = require('./examples/cuisine').schema
 const example = require('./examples/cuisine').example

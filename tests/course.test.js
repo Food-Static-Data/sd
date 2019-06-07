@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { courseFilePath } = require('../files')
+const { courseFilePath } = require('@files')
 const courses = require(courseFilePath)
 const schema = require('./examples/course').schema
 const example = require('./examples/course').example

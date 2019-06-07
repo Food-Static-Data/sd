@@ -4,6 +4,7 @@ const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 const schema = require('./examples/allergy').schema
 const example = require('./examples/allergy').example
+
 const staticData = require('../filesObjects')
 // const allergies = require(allergiesFilePath)
 

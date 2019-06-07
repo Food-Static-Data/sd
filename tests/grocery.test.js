@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { groceryFilePath } = require('../files')
+const { groceryFilePath } = require('@files')
 const grocery = require(groceryFilePath)
 
 const { matchers } = require('jest-json-schema')
