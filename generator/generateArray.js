@@ -7,7 +7,7 @@ const {
   ingredients,
   measurementSystem,
   measurementUnits
-} = require('../files')
+} = require('..src/files')
 
 const getMenuGenerator = numberOfWeeks => {
   let
