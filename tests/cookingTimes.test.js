@@ -2,7 +2,7 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-const { cookingTimes } = require('../files')
+const { cookingTimes } = require('@files')
 const schema = require('./examples/cookingTimes').schema
 const example = require('./examples/cookingTimes').example
 

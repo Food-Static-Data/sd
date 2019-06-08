@@ -1,5 +1,6 @@
 // /* global test, describe, it, expect, jest */
 // // const chickenKyiv = require('../chickenKyiv.js')
+// const { __generateId } = require('@utils')
 //
 // // @TODO OK, but i don't like when you put everything in long line inside of your ass @hirdbluebird. Looks not better.
 // describe('testing static data files are set', () => {

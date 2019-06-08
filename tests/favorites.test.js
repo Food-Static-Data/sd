@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { favoritesFilePath } = require('../files')
+const { favoritesFilePath } = require('@files')
 const favorites = require(favoritesFilePath)
 
 const { matchers } = require('jest-json-schema')
