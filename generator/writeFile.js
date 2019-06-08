@@ -61,29 +61,23 @@ function test () {
 function splitObject (path,file) {
   var src = path; // Location of object file
   var obj = file // Object file name
-  if(src[src.length-1]!='/') //path correction
-    src = src + '/';
+  var srclen= src.length;
+  if(src.charAt(srclen-1)!='/') src = src + '/'; //path correction
   var location = src + obj // location of object file
   let ddata = fs.readFileSync(location)
   let grocery = JSON.parse(ddata)
   var len = grocery.length // Object Length
-
-  var foldername = file.slice(0,-4) + "_elements";
-  if (!fs.existsSync(src + foldername)) { // Check if Folder exists or not.
-    fs.mkdirSync(src + foldername)
-  }
-
+  var foldername = file.slice(0,-5) ;
+  foldername = foldername+ "_elements";
+  if (!fs.existsSync(src + foldername)) fs.mkdirSync(src + foldername) // Check if Folder exists or not.
   for (var i = 0; i < len; i++) {
-    let temp = JSON.stringify(grocery[i])
-    var fileName = grocery[i].name + '.json'
-    fileName = fileName.replace(/ /g, '_') // Replace space with underscore
-    fileName = fileName.toLowerCase()
+    let temp = JSON.stringify(grocery[i]);
+    var fileName = grocery[i].name + '.json';
+    fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
+    fileName = fileName.toLowerCase();
     // Checking if file already exists or not
-    if (!fs.existsSync(src + foldername + '/' + fileName)) {
-      fs.writeFileSync(src + foldername + '/' + fileName, temp)
-    } else {
-      console.log('File <' + fileName + '> Already Exists.')
-    }
+    if (!fs.existsSync(src + foldername + '/' + fileName)) fs.writeFileSync(src + foldername + '/' + fileName, temp);
+    else console.log('File <' + fileName + '> Already Exists.');
   }
 }
 // execute function
