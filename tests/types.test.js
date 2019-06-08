@@ -4,7 +4,7 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const { typesFile } = require('../files')
+const { typesFile } = require('@files')
 const types = require(typesFile)
 
 describe('types data files returns array', () => {
@@ -12,19 +12,8 @@ describe('types data files returns array', () => {
     expect(types).not.toBe('')
   })
 })
-
-const schema = {
-  properties: {
-    Field: { type: 'string' },
-    Type: { type: 'string' },
-    Description: { type: 'string' }
-  },
-  required: ['Field', 'Type', 'Description']
-}
-
-const example = { Field: 'from',
-  Type: 'integer',
-  Description: 'First result index as submitted' }
+const schema = require('./examples/types').schema
+const example = require('./examples/types').example
 
 describe('types json schema testing', () => {
   it('validates type json schema', () => {

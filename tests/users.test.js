@@ -4,7 +4,7 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const { usersFilePath } = require('../files')
+const { usersFilePath } = require('@files')
 const users = require(usersFilePath)
 
 describe('users data files returns array', () => {
@@ -12,15 +12,8 @@ describe('users data files returns array', () => {
     expect(users).not.toBe('')
   })
 })
-const schema = {
-  properties: {
-    name: { type: 'string' },
-    email: { type: 'string' },
-    password: { type: 'string' }
-  },
-  required: ['name', 'email', 'password']
-}
-const example = { name: 'page', email: 'page@gmail.com', password: 'pagethesdwrapper' }
+const schema = require('./examples/users').schema
+const example = require('./examples/users').example
 describe('testing for user json schema', () => {
   it('validates users json', () => {
     expect(example).toMatchSchema(schema)

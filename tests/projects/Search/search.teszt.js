@@ -1,5 +1,6 @@
 // /* global test, describe, it, expect, jest */
 // const search = require('../search.js')
+// const { __generateId } = require('@utils')
 
 // describe('testing search getAttribute method', () => {
 //   const testAttributes = attribute => {

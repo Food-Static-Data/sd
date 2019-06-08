@@ -1,7 +1,8 @@
 // const filePath = require('../files')
 
 const fs = require('fs')
-const { promisify } = require('util')
+const { promisify } = require('util') // ?? it's utils of not
+// const { promisify } = require('util')
 
 const writeFilePromisify = promisify(fs.writeFile)
 
@@ -51,8 +52,9 @@ function test () {
 // execute function
 // writeFiles()
 
-
 function splitObject () {
+  // @TODO path should be send to this method as variable.
+  // it's cannot be used for different cases right now.
   var src = '.././src/data/Grocery/' // Location where all object files are save
   var obj = 'grocery.json' // Object file name
   var location = src + obj // location of object file
@@ -64,6 +66,7 @@ function splitObject () {
   if (!fs.existsSync(src + foldername)) { // Check if Folder exists or not.
     fs.mkdirSync(src + foldername)
   }
+
   for (var i = 0; i < len; i++) {
     let temp = JSON.stringify(grocery[i])
     var fileName = grocery[i].name + '.json'

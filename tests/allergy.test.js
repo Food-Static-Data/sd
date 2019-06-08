@@ -3,7 +3,10 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const staticData = require('../filesObjects')
+const schema = require('./examples/allergy').schema
+const example = require('./examples/allergy').example
+
+const staticData = require('@filesObjects')
 // const allergies = require(allergiesFilePath)
 
 describe('tests for allergy', () => {
@@ -11,16 +14,6 @@ describe('tests for allergy', () => {
     expect(staticData.allergies).not.toBe('')
   })
 })
-const schema = {
-  type: 'array', items: [{ type: 'string' }]
-}
-
-const example = [
-  'Gluten-Free',
-  'Peanut-Free',
-  'Seafood-Free',
-  'Sesame-Free'
-]
 
 describe('tests for allergy schema', () => {
   it('validates allergy json', () => {

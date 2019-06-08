@@ -1,6 +1,8 @@
 // /* global test, describe, it, expect, jest */
 // const loopback = require('../loopback.js')
 
+// const { __generateId } = require('@utils')
+
 // describe('testing static data files returns array', () => {
 //   const nonEmptyMethodOutput = method => {
 //     test(`${method} method should not return empty string`, () => {
