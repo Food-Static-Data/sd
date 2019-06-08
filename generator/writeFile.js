@@ -1,7 +1,8 @@
 // const filePath = require('../files')
 
 const fs = require('fs')
-const { promisify } = require('util')
+const { promisify } = require('util') // ?? it's utils of not
+// const { promisify } = require('util')
 
 const writeFilePromisify = promisify(fs.writeFile)
 
