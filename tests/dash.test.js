@@ -4,8 +4,7 @@
 const { dash } = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-const schema = require('./examples/dash').schema
-const example = require('./examples/dash').example
+const { schema, example } = require('./examples/dash')
 
 describe('this test prevents to any issues and problems, also to break the structure of dash data', () => {
   it('dash data files returns object', () => {

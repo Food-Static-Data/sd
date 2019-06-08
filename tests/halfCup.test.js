@@ -5,8 +5,8 @@ const staticData = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const schema = require('./examples/halfCup').schema
-const example = require('./examples/halfCup').example
+const { schema, example } = require('./examples/halfCup')
+
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_2 data', () => {
   it('cup1_2 data files returns object', () => {

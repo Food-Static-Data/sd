@@ -3,8 +3,8 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 const { cookingTimes } = require('@files')
-const schema = require('./examples/cookingTimes').schema
-const example = require('./examples/cookingTimes').example
+
+const { schema, example } = require('./examples/cookingTimes')
 
 describe('this test prevents to any issues and problems, also to break the structure of cookingTimes data', () => {
   it('cookingTimes data files returns object', () => {
