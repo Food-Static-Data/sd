@@ -52,17 +52,23 @@ function test () {
 // execute function
 // writeFiles()
 
-function splitObject () {
-  // @TODO path should be send to this method as variable.
-  // it's cannot be used for different cases right now.
-  var src = '.././src/data/Grocery/' // Location where all object files are save
-  var obj = 'grocery.json' // Object file name
+/**
+ * For splitObject
+ * @param {String} path
+ * @param {String} file
+ */
+
+function splitObject (path,file) {
+  var src = path; // Location of object file
+  var obj = file // Object file name
+  if(src[src.length-1]!='/') //path correction
+    src = src + '/';
   var location = src + obj // location of object file
   let ddata = fs.readFileSync(location)
   let grocery = JSON.parse(ddata)
   var len = grocery.length // Object Length
 
-  var foldername = 'elements'
+  var foldername = file.slice(0,-4) + "_elements";
   if (!fs.existsSync(src + foldername)) { // Check if Folder exists or not.
     fs.mkdirSync(src + foldername)
   }
