@@ -3,9 +3,13 @@ const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 const fs = require('fs')
 
-function getListContent () {
+/**
+ * For getListContent()
+ * @param {String} path
+ */
+function getListContent (path) {
   var content = []
-  var src = '.././src/data/Grocery/elements/'
+  var src = path;
   var files = fs.readdirSync(src)
   // @TODO use lodash
   files.forEach(file => {
@@ -19,9 +23,13 @@ function getListContent () {
   return content
 }
 
-function getList () {
+/**
+ * For getList()
+ * @param {String} path
+ */
+function getList (path) {
   // @TODO duplicate with getListContent - first 3 rows are pretty similar
-  var src = '.././src/data/Grocery/elements/'
+  var src = path;
   var list = []
   var files = fs.readdirSync(src)
   // @TODO use lodash
