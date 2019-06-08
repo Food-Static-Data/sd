@@ -2,66 +2,71 @@
 // jsonlint data/Grocery/grocery.json and other checks
 var { resolve } = require('path')
 
-const dataPath = resolve(__dirname, './data/')
-const grocery = dataPath + 'Grocery/grocery.json'
+const dataPath = './data/'
+
+const pathResolver = (path) => {
+  return resolve(__dirname, dataPath + path)
+}
+// const dataPath = resolve(__dirname, './data/')
+const grocery = pathResolver('Grocery/grocery.json')
 // @TODO change import & path(change extension of file from js to json)
 // add to each variable
-const cookingTimes = dataPath + 'CookingTimes/cookingTimes.json'
+const cookingTimes = pathResolver('CookingTimes/cookingTimes.json')
 
-const cup1 = dataPath + 'Cup1/cup1.json'
-const halfCup = dataPath + 'HalfCup/halfCup.json'
-const quaterCup = dataPath + 'QuaterCup/quaterCup.json'
-const cup18 = dataPath + 'Cup1_8/cup1_8.json'
-const cup34 = dataPath + 'Cup3_4/cup3_4.json'
+const cup1 = pathResolver('Cup1/cup1.json')
+const halfCup = pathResolver('HalfCup/halfCup.json')
+const quaterCup = pathResolver('QuaterCup/quaterCup.json')
+const cup18 = pathResolver('Cup1_8/cup1_8.json')
+const cup34 = pathResolver('Cup3_4/cup3_4.json')
 
-const dash = dataPath + 'Dash/dash.json'
-const gallon = dataPath + 'Gallon/gallon.json'
-const holiday = dataPath + 'Holiday/holidays.json'
+const dash = pathResolver('Dash/dash.json')
+const gallon = pathResolver('Gallon/gallon.json')
+const holiday = pathResolver('Holiday/holidays.json')
 
-const allergies = dataPath + 'Allergy/allergies.json'
-const course = dataPath + 'Course/courses.json'
-const cuisine = dataPath + 'Cuisine/cuisines.json'
-const departments = dataPath + 'Departments/departments.json'
-const diet = dataPath + 'Diet/diets.json'
+const allergies = pathResolver('Allergy/allergies.json')
+const course = pathResolver('Course/courses.json')
+const cuisine = pathResolver('Cuisine/cuisines.json')
+const departments = pathResolver('Departments/departments.json')
+const diet = pathResolver('Diet/diets.json')
 
-const ingredients = dataPath + 'Ingredients/ingredients.json'
-const ingredients1 = dataPath + 'Ingredients/ingredients1.json'
-const ingredients3 = dataPath + 'Ingredients/ingredients3.json'
+const ingredients = pathResolver('Ingredients/ingredients.json')
+const ingredients1 = pathResolver('Ingredients/ingredients1.json')
+const ingredients3 = pathResolver('Ingredients/ingredients3.json')
 
-const favorites = dataPath + 'Favorites/favorites.json'
-const items = dataPath + 'Items/items.json'
+const favorites = pathResolver('Favorites/favorites.json')
+const items = pathResolver('Items/items.json')
 
-const mealCalendar = dataPath + 'MealCalendar/mealcalendar.json'
-const firstVeganGLMC = dataPath + 'MealCalendar/First-Vegan-Grocery-List-MC.json'
+const mealCalendar = pathResolver('MealCalendar/mealcalendar.json')
+const firstVeganGLMC = pathResolver('MealCalendar/First-Vegan-Grocery-List-MC.json')
 
-const measurements = dataPath + 'Measurement/measurements.json'
-const menu = dataPath + 'Menu/menu.json'
+const measurements = pathResolver('Measurement/measurements.json')
+const menu = pathResolver('Menu/menu.json')
 
-const nutritions = dataPath + 'Nutrition/nutritions1.json'
-const nutritions2 = dataPath + 'Nutrition/nutritions2.json'
+const nutritions = pathResolver('Nutrition/nutritions1.json')
+const nutritions2 = pathResolver('Nutrition/nutritions2.json')
 
-const pinch = dataPath + 'Pinch/pinch.json'
-const pint = dataPath + 'Pint/pint.json'
-const quart = dataPath + 'Quart/quart.json'
+const pinch = pathResolver('Pinch/pinch.json')
+const pint = pathResolver('Pint/pint.json')
+const quart = pathResolver('Quart/quart.json')
 
-const recipe4 = dataPath + 'Recipe4/recipe.json'
+const recipe4 = pathResolver('Recipe4/recipe.json')
 
-const tablespoon = dataPath + 'Tablespoon/tablespoon.json'
-const teaspoon = dataPath + 'Teaspoon/teaspoon.json'
-const types = dataPath + 'Types/types.json'
+const tablespoon = pathResolver('Tablespoon/tablespoon.json')
+const teaspoon = pathResolver('Teaspoon/teaspoon.json')
+const types = pathResolver('Types/types.json')
 
-const users = dataPath + 'Users/users.json'
-const usersGrocery = dataPath + 'UserGrocery/userGrocery.json'
+const users = pathResolver('Users/users.json')
+const usersGrocery = pathResolver('UserGrocery/userGrocery.json')
 
-const ultimateGroceryList = dataPath + 'Grocery/example/ultimate-gl-from-loopback-server-example.json'
-const groceryListWithUserRelations = dataPath + 'Grocery/example/grocery-with-user-relations.json'
+const ultimateGroceryList = pathResolver('Grocery/example/ultimate-gl-from-loopback-server-example.json')
+const groceryListWithUserRelations = pathResolver('Grocery/example/grocery-with-user-relations.json')
 
-const dbIngredients = dataPath + 'Ingredients/example/gs-loopback-sample.json'
-const recipes = dataPath + 'Recipe4/recipe.json'
-const measurementSystem = dataPath + 'Units/measurementSystems.json'
-const generatedMeasurementSystem = dataPath + 'MeasurementSystem/measurementSystem.json'
-const measurementUnits = dataPath + 'Units/measurementUnits.json'
-const generatedMeasurementUnits = dataPath + 'MeasurementUnits/measurementUnits.json'
+const dbIngredients = pathResolver('Ingredients/example/gs-loopback-sample.json')
+const recipes = pathResolver('Recipe4/recipe.json')
+const measurementSystem = pathResolver('Units/measurementSystems.json')
+const generatedMeasurementSystem = pathResolver('MeasurementSystem/measurementSystem.json')
+const measurementUnits = pathResolver('Units/measurementUnits.json')
+const generatedMeasurementUnits = pathResolver('MeasurementUnits/measurementUnits.json')
 
 module.exports = {
   grocery,
