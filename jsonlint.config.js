@@ -3,7 +3,8 @@ var shell = require('shelljs')
 const _ = require('lodash')
 
 // @TODO add here all new generated at generator files too
-const jsonFiles = require('./files.js')
+// @TODO looks like jsonlint doesnt called without build... strange
+const jsonFiles = require('./src/files.js')
 
 // each can be used instead of forEach
 // @TODO replace with lodash
