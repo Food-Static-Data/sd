@@ -5,7 +5,7 @@ const diets = require(dietFilePath)
 
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-const { schema, example } = require('./examples/diet')
+
 
 describe('diets data files returns array', () => {
   it('test for Diet', () => {
