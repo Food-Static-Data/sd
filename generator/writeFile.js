@@ -73,7 +73,7 @@ function splitObject (path,file) {
   for (var i = 0; i < len; i++) {
     let temp = JSON.stringify(grocery[i]);
   var fileName;
-    if(typeof grocery.name === "undefined")
+    if(typeof grocery.name === "undefined") // if no name attrib then index will be file name
       fileName = i + '.json';
     else fileName = grocery[i].name + '.json';
     fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
