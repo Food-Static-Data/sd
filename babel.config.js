@@ -23,7 +23,11 @@ const plugins = [
     {
       root: ['./src/'],
       alias: {
-        '~': './src/data'
+        '~': './src/data',
+        '@files': './files.js',
+        '@filesObjects': './filesObjects.js',
+        '@utils': './src/utils.js',
+        '@generator': './generator'
       }
     }
   ],

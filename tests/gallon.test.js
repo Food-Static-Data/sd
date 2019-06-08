@@ -6,7 +6,7 @@ expect.extend(matchers)
 const schema = require('./examples/gallon').schema
 const example = require('./examples/gallon').example
 
-const { gallon } = require('../filesObjects')
+const { gallon } = require('@filesObjects')
 
 describe('this test prevents to any issues and problems, also to break the structure of gallon data', () => {
   it('gallon data files returns object', () => {

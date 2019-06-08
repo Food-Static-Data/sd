@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { mealCalendarFilePath } = require('../files')
+const { mealCalendarFilePath } = require('@files')
 const mealcalendar = require(mealCalendarFilePath)
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)

@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { dbIngredientsFilePath } = require('../files')
+const { dbIngredientsFilePath } = require('@files')
 const dbIngredients = require(dbIngredientsFilePath)
 
 describe('dbIngredients data files returns array', () => {

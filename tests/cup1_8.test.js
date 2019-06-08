@@ -7,7 +7,7 @@ expect.extend(matchers)
 
 const {
   cup18
-} = require('../filesObjects')
+} = require('@filesObjects')
 
 const schema = require('./examples/cup1_8').schema
 const example = require('./examples/cup1_8').example

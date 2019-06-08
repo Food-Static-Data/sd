@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { measurementsFilePath } = require('../files')
+const { measurementsFilePath } = require('@files')
 const measurements = require(measurementsFilePath)
 
 const { matchers } = require('jest-json-schema')

@@ -18,6 +18,8 @@ const countries = [
 ]
 
 countries.forEach(country => {
+  // @TODO it's a very long path. we can use our aliases
+  // in order to make it shorter. check readme https://github.com/GroceriStar/sd/tree/master/docs#babel-alias
   fs.createReadStream(
     path.join(
       __dirname,

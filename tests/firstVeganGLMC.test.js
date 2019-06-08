@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { firstVeganGLMCFilePath } = require('../files')
+const { firstVeganGLMCFilePath } = require('@files')
 const firstVeganGLMC = require(firstVeganGLMCFilePath)
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
