@@ -10,6 +10,8 @@ const fs = require('fs')
 function getListContent (path) {
   var content = []
   var src = path;
+  var srclen= src.length;
+  if(src.charAt(srclen-1)!=='/') src = src + '/';
   var files = fs.readdirSync(src)
   // @TODO use lodash
   files.forEach(file => {
@@ -30,6 +32,8 @@ function getListContent (path) {
 function getList (path) {
   // @TODO duplicate with getListContent - first 3 rows are pretty similar
   var src = path;
+  var srclen= src.length;
+  if(src.charAt(srclen-1)!=='/') src = src + '/';
   var list = []
   var files = fs.readdirSync(src)
   // @TODO use lodash
