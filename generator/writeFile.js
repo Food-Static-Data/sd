@@ -62,7 +62,7 @@ function splitObject (path,file) {
   var src = path; // Location of object file
   var obj = file // Object file name
   var srclen= src.length;
-  if(src.charAt(srclen-1)!='/') src = src + '/'; //path correction
+  if(src.charAt(srclen-1)!=='/') src = src + '/'; //path correction
   var location = src + obj // location of object file
   let ddata = fs.readFileSync(location)
   let grocery = JSON.parse(ddata)
