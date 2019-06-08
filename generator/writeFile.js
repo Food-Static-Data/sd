@@ -69,12 +69,11 @@ function splitObject (path,file) {
   var len = grocery.length // Object Length
   var foldername = file.slice(0,-5) ;
   foldername = foldername+ "_elements";
+  var fileName;
   if (!fs.existsSync(src + foldername)) fs.mkdirSync(src + foldername) // Check if Folder exists or not.
   for (var i = 0; i < len; i++) {
     let temp = JSON.stringify(grocery[i]);
-  var fileName;
-    if(typeof grocery.name === "undefined") // if no name attrib then index will be file name
-      fileName = i + '.json';
+    if(typeof grocery.name === "undefined") fileName = i + '.json'; // if no name attrib then index will be file name
     else fileName = grocery[i].name + '.json';
     fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
     fileName = fileName.toLowerCase();
