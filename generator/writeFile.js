@@ -72,7 +72,10 @@ function splitObject (path,file) {
   if (!fs.existsSync(src + foldername)) fs.mkdirSync(src + foldername) // Check if Folder exists or not.
   for (var i = 0; i < len; i++) {
     let temp = JSON.stringify(grocery[i]);
-    var fileName = grocery[i].name + '.json';
+  var fileName;
+    if(typeof grocery.name === "undefined")
+      fileName = i + '.json';
+    else fileName = grocery[i].name + '.json';
     fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
     fileName = fileName.toLowerCase();
     // Checking if file already exists or not
