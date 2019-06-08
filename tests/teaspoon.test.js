@@ -10,8 +10,10 @@ describe('this test prevents to any issues and problems, also to break the struc
     expect(staticData.teaspoon1).not.toBe('')
   })
 })
+
 const schema = require('./examples/teaspoon').schema
 const example = require('./examples/teaspoon').example
+
 describe('testng for teaspoon json data schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
