@@ -8,6 +8,7 @@ Should have
 - Separated place for tests
 - Separated build via Travis CI
 - features like ESLint, updates, minification and stuff
+- use module resolver in order to simplify long paths
 
 #### Tasks
 https://github.com/GroceriStar/sd/issues/158
