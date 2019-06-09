@@ -2,8 +2,7 @@
 'use strict'
 const { courseFilePath } = require('@files')
 const courses = require(courseFilePath)
-const schema = require('./examples/course').schema
-const example = require('./examples/course').example
+const { schema, example } = require('./examples/course')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 

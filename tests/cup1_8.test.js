@@ -9,8 +9,7 @@ const {
   cup18
 } = require('@filesObjects')
 
-const schema = require('./examples/cup1_8').schema
-const example = require('./examples/cup1_8').example
+const { schema, example } = require('./examples/cup1_8')
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_8 data', () => {
   it('cup1_8 data files returns object', () => {
