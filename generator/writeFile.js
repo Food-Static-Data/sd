@@ -60,21 +60,23 @@ function test () {
 
 function splitObject (path,file) {
   if(path.charAt(path.length-1)!=='/') path = path + '/'; //path correction
-  let ddata = fs.readFileSync(path + file)
-  let grocery = JSON.parse(ddata)
-  var len = grocery.length // Object Length
-  var foldername = file.slice(0,-5) ;
-  foldername = foldername + "_elements";
+  let data = fs.readFileSync(path + file)
+  let fileData= JSON.parse(data)
+  var len = fileData.length // Object Length
+  var folderName = file.slice(0,-5) ;
+  folderName = folderName + "_elements";
+  folderNamePath = path + folderName;
   var fileName;
-  if (!fs.existsSync(path + foldername)) fs.mkdirSync(path + foldername) // Check if Folder exists or not.
+  if (!fs.existsSync(folderNamePath)) fs.mkdirSync(folderNamePath) // Check if Folder exists or not.
   for (var i = 0; i < len; i++) {
-    let temp = JSON.stringify(grocery[i]);
-    fileName = grocery[i].name + '.json';
+    if(typeof fileData[i].name === "undefined")
+      fileName = i + '.json';
+    else
+      fileName = fileData[i].name + '.json';
     fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
-    fileName = fileName.toLowerCase();
-    // Checking if file already exists or not
-    if (!fs.existsSync(path + foldername + '/' + fileName))
-      fs.writeFileSync(path + foldername + '/' + fileName, temp);
+    fileName = fileName.toLowerCase(); //Maintain Uniformity
+    var elementPath = path + folderName + '/' + fileName;
+    writeFile(elementPath,fileData[i]);// Declared above
   }
 }
 // execute function
