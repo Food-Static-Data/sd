@@ -65,7 +65,7 @@ function splitObject (path,file) {
   var len = fileData.length // Object Length
   var folderName = file.slice(0,-5) ;
   folderName = folderName + "_elements";
-  folderNamePath = path + folderName;
+  var folderNamePath = path + folderName;
   var fileName;
   if (!fs.existsSync(folderNamePath)) fs.mkdirSync(folderNamePath) // Check if Folder exists or not.
   for (var i = 0; i < len; i++) {
