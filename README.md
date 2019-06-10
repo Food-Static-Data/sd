@@ -95,11 +95,13 @@ By default generating files happens in `/src/data`
 
 Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
 
-## How to split grocery.json into single elements.
-To split grocery.json (sd/src/data/Grocery/grocery.json) you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with no parameters, to split grocery.json into single elements, if grocery.json gets updated, it will split grocery.json into elements without affecting pervious splitted files. The splitted elements will be stored at `sd/src/data/Grocery/elements/`.
-Splitted files are named according to their name attribute with removed whitespaces and in lowercase to maintain uniformity.
+## How to split json into single elements.
+To split json file (sd/src/data/Grocery/grocery.json) you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
+`Flag`=0 means splitted elements are to be name after the `name` attribute and if `flag`=1 then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
+The splitted elements will be stored at the given `path`/`filename_elements`.
 
-To see the changes made by splitObject(), you will require (sd/src/utils.js). Call function `getList()` to get a list of all files made by `splitObject()`. To get the data stored in all files call `getListContent()`, this will return a list containing data stored in files splitted by `splitObject()`.
+Call function `getList()` with parameter `path`(as string) to get a list of all files.
+To get the data stored in all json files call `getListContent()` with parameter `path`(as string), this will return a list containing data.
 
 ## Generate Array API
 
