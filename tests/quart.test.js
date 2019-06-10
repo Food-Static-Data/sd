@@ -5,8 +5,7 @@ expect.extend(matchers)
 
 const staticData = require('@filesObjects')
 
-const schema = require('./examples/quart').schema
-const example = require('./examples/quart').example
+const { schema, example } = require('./examples/quart')
 
 describe('this test prevents to any issues and problems, also to break the structure of quart data', () => {
   it('quart data files returns object', () => {

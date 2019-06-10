@@ -5,8 +5,7 @@ expect.extend(matchers)
 
 const staticData = require('@filesObjects')
 
-const schema = require('./examples/pint').schema
-const example = require('./examples/pint').example
+const { schema, example } = require('./examples/pint')
 
 describe('this test prevents to any issues and problems, also to break the structure of pint data', () => {
   it('pint data files returns object', () => {

@@ -2,8 +2,9 @@
 'use strict'
 const { attributes } = require('@files')
 const { matchers } = require('jest-json-schema')
-const schema = require('./examples/attribute').schema
-const example = require('./examples/attribute').example
+
+const { schema, example } = require('./examples/attribute')
+
 expect.extend(matchers)
 describe('attributes data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of attributes', () => {
