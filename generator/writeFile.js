@@ -110,14 +110,12 @@ function isDirectory(folderNamePath){
  * @param {string} file
  * @param {Object} fileData
  * @param {var} flag
- * @param {var} i
- */
-function getFileName(file,fileData,flag,i){
+ * @param {var} index
+*/
+function getFileName(file,fileData,flag,index){
   var fileName;
-  if(flag===1)
-    fileName = i + '-' + file;// for example: 23-someJsonFile.json
-  else
-    fileName = fileData.name + '.json'; // for example: someValueOfName.json
+  if(flag===1)  fileName = index + '-' + file;// for example: 23-someJsonFile.json
+  else  fileName = fileData.name + '.json'; // for example: someValueOfName.json
 
   fileName = fixFileName(fileName);
   return fileName;
