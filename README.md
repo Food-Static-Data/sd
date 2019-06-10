@@ -96,7 +96,7 @@ By default generating files happens in `/src/data`
 Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
 
 ## How to split json into single elements.
-To split json file (sd/src/data/Grocery/grocery.json) you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
+To split json file you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
 `Flag`=0 means splitted elements are to be name after the `name` attribute and if `flag`=1 then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
 The splitted elements will be stored at the given `path`/`filename_elements`.
 
