@@ -74,8 +74,7 @@ function splitObject (path, file, flag) {
   var folderName = file.slice(0,-5) + "_elements" ;
   var folderNamePath = path + folderName;
 
-  if (isDirectory(folderNamePath)) // Check if Folder exists or not.
-    fs.mkdirSync(folderNamePath);
+  if (isDirectory(folderNamePath)) fs.mkdirSync(folderNamePath);
 
   for (var i = 0; i < fileData.length; i++) {
     var fileName= getFileName(file,fileData[i],flag,i);
@@ -100,7 +99,7 @@ function fixFileName(fileName){
  * @param {string} folderNamePath
  *  */
 function isDirectory(folderNamePath){
-  if(fs.existsSync(folderNamePath))
+  if(fs.existsSync(folderNamePath)) 
    return false;
   else
    return true;
