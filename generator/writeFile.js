@@ -74,7 +74,7 @@ function splitObject (path, file, flag) {
   var folderName = file.slice(0,-5) + "_elements" ;
   var folderNamePath = path + folderName;
 
-  if (isDirectory(folderNamePath)) fs.mkdirSync(folderNamePath);
+  if (isDirectory(folderNamePath))  fs.mkdirSync(folderNamePath);
 
   for (var i = 0; i < fileData.length; i++) {
     var fileName= getFileName(file,fileData[i],flag,i);
@@ -100,9 +100,9 @@ function fixFileName(fileName){
  *  */
 function isDirectory(folderNamePath){
   if(fs.existsSync(folderNamePath)) 
-   return false;
+    return false;
   else
-   return true;
+    return true;
 }
 
 /**
@@ -115,9 +115,9 @@ function isDirectory(folderNamePath){
 function getFileName(file,fileData,flag,index){
   var fileName;
   if(flag===1)
-      fileName = index + '-' + file;// for example: 23-someJsonFile.json
+    fileName = index + '-' + file;// for example: 23-someJsonFile.json
   else
-      fileName = fileData.name + '.json'; // for example: someValueOfName.json
+    fileName = fileData.name + '.json'; // for example: someValueOfName.json
 
   fileName = fixFileName(fileName);
   return fileName;
