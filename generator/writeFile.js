@@ -56,48 +56,73 @@ function test () {
  * For splitObject
  * @param {String} path
  * @param {String} file
+ * @param {var} flag
  */
-// @TODO split this function into 2 methods.
-// @TODO extend explanation for this method at Readme file
-// @TODO pick different 5 long files and try to use it
-function splitObject (path, file) {
-  
-  // @TODO make if looks as default if. shortversion sucks :)
-  if(path.charAt(path.length-1)!=='/') path = path + '/'; //path correction
-  
-  // @TODO are we really sure that data should be read here, not passed to this function from outside?
+function splitObject (path, file, flag) {
+  /*
+    flag=1 ==> name according to index
+    flag=0 ==> name according to "name" attribute
+  */
+  var temp = path.charAt(path.length-1);  //path correction
+  if(temp!=='/')
+    path = path + '/';
+
+  // Reading data...
   let data = fs.readFileSync(path + file)
   let fileData= JSON.parse(data)
-  
-  var len = fileData.length // Object Length
-  var folderName = file.slice(0,-5) ;
-  folderName = folderName + "_elements";
+
+  var folderName = file.slice(0,-5) + "_elements" ;
   var folderNamePath = path + folderName;
-  var fileName;
-  
-  // @TODO update this if as well
-  if (!fs.existsSync(folderNamePath)) fs.mkdirSync(folderNamePath) // Check if Folder exists or not.
-  for (var i = 0; i < len; i++) {
-    
-    // @TODO update this if else statement
-    // @TODO for most of cases we wouldn't have name. maybe it's better to use some sort of 
-    // flag/argument that can be passed to this method, and that flag will help us to understand that we should use name or 
-    // maybe some other json variable as a name of our file
-    if(typeof fileData[i].name === "undefined")
-      fileName = i + '.json';
-    else
-      fileName = fileData[i].name + '.json';
-    
-    //@TODO create a separated method, that will receive a filename and will make all that necessary preparations below
-    fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
-    fileName = fileName.toLowerCase(); //Maintain Uniformity
-    
+
+  if (isDirectory(folderNamePath)) // Check if Folder exists or not.
+    fs.mkdirSync(folderNamePath);
+
+  for (var i = 0; i < fileData.length; i++) {
+    var fileName= getFileName(file,fileData[i],flag,i);
     var elementPath = path + folderName + '/' + fileName;
-    writeFile( elementPath, fileData[i] );// Declared above
+    writeFile( elementPath, fileData[i] );
   }
 }
 // execute function
 // splitObject()
+
+/**
+ * fixFileName()
+ * @param {string} fileName
+ */
+function fixFileName(fileName){
+  fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
+  fileName = fileName.toLowerCase(); //Maintain Uniformity
+  return fileName;
+}
+
+/** isDirectory()
+ * @param {string} folderNamePath
+ *  */
+function isDirectory(folderNamePath){
+  if(fs.existsSync(folderNamePath))
+   return false;
+  else
+   return true;
+}
+
+/**
+ * getFileName()
+ * @param {string} file
+ * @param {Object} fileData
+ * @param {var} flag
+ * @param {var} index
+ */
+function getFileName(file,fileData,flag,index){
+  var fileName;
+  if(flag===1)
+      fileName = index + '-' + file;// for example: 23-someJsonFile.json
+  else
+      fileName = fileData.name + '.json'; // for example: someValueOfName.json
+
+  fileName = fixFileName(fileName);
+  return fileName;
+}
 
 module.exports = {
   writeFile,
