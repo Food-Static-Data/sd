@@ -7,7 +7,6 @@ expect.extend(matchers)
 
 const { schema, example } = require('./examples/items')
 
-
 describe('items data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of items', () => {
     expect(items).not.toBe('')

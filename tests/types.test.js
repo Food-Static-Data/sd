@@ -15,7 +15,6 @@ describe('types data files returns array', () => {
   })
 })
 
-
 describe('types json schema testing', () => {
   it('validates type json schema', () => {
     expect(example).toMatchSchema(schema)

@@ -7,7 +7,6 @@ expect.extend(matchers)
 
 const { schema, example } = require('./examples/halfCup')
 
-
 describe('this test prevents to any issues and problems, also to break the structure of cup1_2 data', () => {
   it('cup1_2 data files returns object', () => {
     expect(staticData.cup12).not.toBe('')

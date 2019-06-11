@@ -14,7 +14,6 @@ describe('userGrocery data files returns array', () => {
   })
 })
 
-
 describe('testing userGrocery schema and also requiring it', () => {
   it('validates UserGrocery json schema', () => {
     expect(example).toMatchSchema(schema)

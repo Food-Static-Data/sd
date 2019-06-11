@@ -13,8 +13,6 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-
-
 describe('testng for teaspoon json data schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)

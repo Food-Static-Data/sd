@@ -3,8 +3,6 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-
-
 const staticData = require('@filesObjects')
 // const allergies = require(allergiesFilePath)
 
@@ -22,7 +20,6 @@ try {
       expect(example).toMatchSchema(schema)
     })
   })
-}
-catch (e) {
-  console.log(`${e.name}: ${e.message}`);
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
 }

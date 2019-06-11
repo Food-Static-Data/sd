@@ -14,7 +14,6 @@ describe('recipe data files returns array', () => {
   })
 })
 
-
 describe('test recipe json-schema', () => {
   it('validates recipe json-schema', () => {
     expect(example).toMatchSchema(schema)

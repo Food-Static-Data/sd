@@ -13,7 +13,6 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-
 describe('test quarter cup json schema', () => {
   it('validates my json', () => {
     expect(example).toMatchSchema(schema)
