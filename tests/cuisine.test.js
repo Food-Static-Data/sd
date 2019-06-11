@@ -2,8 +2,7 @@
 'use strict'
 const { cuisineFilePath } = require('@files')
 const cuisines = require(cuisineFilePath)
-const schema = require('./examples/cuisine').schema
-const example = require('./examples/cuisine').example
+const { schema, example } = require('./examples/cuisine')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 

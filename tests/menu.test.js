@@ -6,8 +6,7 @@ expect.extend(matchers)
 const { menuFilePath } = require('@files')
 const menu = require(menuFilePath)
 
-const schema = require('./examples/menu').schema
-const example = require('./examples/menu').example
+const { schema, example } = require('./examples/menu')
 
 describe('menu data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of menu', () => {

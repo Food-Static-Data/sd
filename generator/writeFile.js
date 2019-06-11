@@ -63,23 +63,22 @@ function splitObject (path, file, flag) {
     flag=1 ==> name according to index
     flag=0 ==> name according to "name" attribute
   */
-  var temp = path.charAt(path.length-1);  //path correction
-  if(temp!=='/')
-    path = path + '/';
+  var temp = path.charAt(path.length - 1) // path correction
+  if (temp !== '/') { path = path + '/' }
 
   // Reading data...
   let data = fs.readFileSync(path + file)
-  let fileData= JSON.parse(data)
+  let fileData = JSON.parse(data)
 
-  var folderName = file.slice(0,-5) + "_elements" ;
-  var folderNamePath = path + folderName;
+  var folderName = file.slice(0, -5) + '_elements'
+  var folderNamePath = path + folderName
 
-  if (isDirectory(folderNamePath))  fs.mkdirSync(folderNamePath);
+  if (isDirectory(folderNamePath)) fs.mkdirSync(folderNamePath)
 
   for (var i = 0; i < fileData.length; i++) {
-    var fileName= getFileName(file,fileData[i],flag,i);
-    var elementPath = path + folderName + '/' + fileName;
-    writeFile( elementPath, fileData[i] );
+    var fileName = getFileName(file, fileData[i], flag, i)
+    var elementPath = path + folderName + '/' + fileName
+    writeFile(elementPath, fileData[i])
   }
 }
 // execute function
@@ -89,20 +88,17 @@ function splitObject (path, file, flag) {
  * fixFileName()
  * @param {string} fileName
  */
-function fixFileName(fileName){
-  fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
-  fileName = fileName.toLowerCase(); //Maintain Uniformity
-  return fileName;
+function fixFileName (fileName) {
+  fileName = fileName.replace(/ /g, '_') // Replace space with underscore
+  fileName = fileName.toLowerCase() // Maintain Uniformity
+  return fileName
 }
 
 /** isDirectory()
  * @param {string} folderNamePath
  *  */
-function isDirectory(folderNamePath){
-  if(fs.existsSync(folderNamePath)) 
-    return false;
-  else
-    return true;
+function isDirectory (folderNamePath) {
+  if (fs.existsSync(folderNamePath)) { return false } else { return true }
 }
 
 /**
@@ -112,13 +108,13 @@ function isDirectory(folderNamePath){
  * @param {var} flag
  * @param {var} index
 */
-function getFileName(file,fileData,flag,index){
-  var fileName;
-  if(flag===1)  fileName = index + '-' + file;// for example: 23-someJsonFile.json
-  else  fileName = fileData.name + '.json'; // for example: someValueOfName.json
+function getFileName (file, fileData, flag, index) {
+  var fileName
+  if (flag === 1) fileName = index + '-' + file// for example: 23-someJsonFile.json
+  else fileName = fileData.name + '.json' // for example: someValueOfName.json
 
-  fileName = fixFileName(fileName);
-  return fileName;
+  fileName = fixFileName(fileName)
+  return fileName
 }
 
 module.exports = {

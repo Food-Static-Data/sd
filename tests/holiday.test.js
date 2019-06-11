@@ -4,8 +4,7 @@ const { holiday } = require('@files')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const schema = require('./examples/holiday').schema
-const example = require('./examples/holiday').example
+const { schema, example } = require('./examples/holiday')
 
 describe('holidays data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of holiday', () => {
