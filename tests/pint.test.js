@@ -1,11 +1,10 @@
 /* global describe, it, expect */
 'use strict'
+const { schema, example } = require('./examples/pint')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
 const staticData = require('@filesObjects')
-
-const { schema, example } = require('./examples/pint')
 
 describe('this test prevents to any issues and problems, also to break the structure of pint data', () => {
   it('pint data files returns object', () => {

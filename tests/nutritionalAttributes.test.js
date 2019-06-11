@@ -1,12 +1,11 @@
 /* global describe, it, expect */
 'use strict'
+const { schema, example } = require('./examples/nutritionalAttributes')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
 const { nutritions2FilePath } = require('@files')
 const nutritionalAttributes = require(nutritions2FilePath)
-
-const { schema, example } = require('./examples/nutritionalAttributes')
 
 describe('nutritionalAttributes data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of nutritionalAttributes', () => {
