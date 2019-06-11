@@ -52,36 +52,74 @@ function test () {
 // execute function
 // writeFiles()
 
-function splitObject () {
-  // @TODO path should be send to this method as variable.
-  // it's cannot be used for different cases right now.
-  var src = '.././src/data/Grocery/' // Location where all object files are save
-  var obj = 'grocery.json' // Object file name
-  var location = src + obj // location of object file
-  let ddata = fs.readFileSync(location)
-  let grocery = JSON.parse(ddata)
-  var len = grocery.length // Object Length
+/**
+ * For splitObject
+ * @param {String} path
+ * @param {String} file
+ * @param {var} flag
+ */
+function splitObject (path, file, flag) {
+  /*
+    flag=1 ==> name according to index
+    flag=0 ==> name according to "name" attribute
+  */
+  var temp = path.charAt(path.length-1);  //path correction
+  if(temp!=='/')
+    path = path + '/';
 
-  var foldername = 'elements'
-  if (!fs.existsSync(src + foldername)) { // Check if Folder exists or not.
-    fs.mkdirSync(src + foldername)
-  }
+  // Reading data...
+  let data = fs.readFileSync(path + file)
+  let fileData= JSON.parse(data)
 
-  for (var i = 0; i < len; i++) {
-    let temp = JSON.stringify(grocery[i])
-    var fileName = grocery[i].name + '.json'
-    fileName = fileName.replace(/ /g, '_') // Replace space with underscore
-    fileName = fileName.toLowerCase()
-    // Checking if file already exists or not
-    if (!fs.existsSync(src + foldername + '/' + fileName)) {
-      fs.writeFileSync(src + foldername + '/' + fileName, temp)
-    } else {
-      console.log('File <' + fileName + '> Already Exists.')
-    }
+  var folderName = file.slice(0,-5) + "_elements" ;
+  var folderNamePath = path + folderName;
+
+  if (isDirectory(folderNamePath))  fs.mkdirSync(folderNamePath);
+
+  for (var i = 0; i < fileData.length; i++) {
+    var fileName= getFileName(file,fileData[i],flag,i);
+    var elementPath = path + folderName + '/' + fileName;
+    writeFile( elementPath, fileData[i] );
   }
 }
 // execute function
 // splitObject()
+
+/**
+ * fixFileName()
+ * @param {string} fileName
+ */
+function fixFileName(fileName){
+  fileName = fileName.replace(/ /g, '_'); // Replace space with underscore
+  fileName = fileName.toLowerCase(); //Maintain Uniformity
+  return fileName;
+}
+
+/** isDirectory()
+ * @param {string} folderNamePath
+ *  */
+function isDirectory(folderNamePath){
+  if(fs.existsSync(folderNamePath)) 
+    return false;
+  else
+    return true;
+}
+
+/**
+ * getFileName()
+ * @param {string} file
+ * @param {Object} fileData
+ * @param {var} flag
+ * @param {var} index
+*/
+function getFileName(file,fileData,flag,index){
+  var fileName;
+  if(flag===1)  fileName = index + '-' + file;// for example: 23-someJsonFile.json
+  else  fileName = fileData.name + '.json'; // for example: someValueOfName.json
+
+  fileName = fixFileName(fileName);
+  return fileName;
+}
 
 module.exports = {
   writeFile,
