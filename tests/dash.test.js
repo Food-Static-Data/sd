@@ -1,10 +1,10 @@
 /* global describe, it, expect */
 'use strict'
 // @TODO can we update tests with ES6 style so they can work as well? I'm not sure about it, but it worth exploring
+const { schema, example } = require('./examples/dash')
 const { dash } = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-const { schema, example } = require('./examples/dash')
 
 describe('this test prevents to any issues and problems, also to break the structure of dash data', () => {
   it('dash data files returns object', () => {

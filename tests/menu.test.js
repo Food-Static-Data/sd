@@ -1,12 +1,11 @@
 /* global describe, it, expect */
 'use strict'
+const { schema, example } = require('./examples/menu')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
 const { menuFilePath } = require('@files')
 const menu = require(menuFilePath)
-
-const { schema, example } = require('./examples/menu')
 
 describe('menu data files returns array', () => {
   it('these tests prevent any issues and problems, also to break the structure of menu', () => {
