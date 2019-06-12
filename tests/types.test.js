@@ -12,8 +12,14 @@ describe('types data files returns array', () => {
   })
 })
 
-describe('types json schema testing', () => {
-  it('validates type json schema', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/types')
+
+  describe('types json schema testing', () => {
+    it('validates type json schema', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

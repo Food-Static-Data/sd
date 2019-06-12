@@ -12,20 +12,14 @@ describe('diets data files returns array', () => {
   })
 })
 
-const schema = {
-  type: 'array', items: [{ type: 'string' }]
-}
-const example = [
-  'Lacto vegetarian',
-  'Ovo vegetarian',
-  'Pescetarian',
-  'Vegan',
-  'Lacto-ovo vegetarian',
-  'Paleo'
-]
+try {
+  const { schema, example } = require('./examples/diet')
 
-describe('tests diet json schema', () => {
-  it('validates my json', () => {
-    expect(example).toMatchSchema(schema)
+  describe('tests diet json schema', () => {
+    it('validates my json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

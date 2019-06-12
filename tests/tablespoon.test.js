@@ -1,6 +1,5 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/tablespoon')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 const staticData = require('@filesObjects')
@@ -11,8 +10,14 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('test for tablespoon json schema', () => {
-  it('validates tablespoon json schema', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/tablespoon')
+
+  describe('test for tablespoon json schema', () => {
+    it('validates tablespoon json schema', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

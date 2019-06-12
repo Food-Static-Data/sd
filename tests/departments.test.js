@@ -1,6 +1,5 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/department')
 const { departmentsFilePath } = require('@files')
 const departments = require(departmentsFilePath)
 
@@ -13,8 +12,14 @@ describe('departments data files returns array', () => {
   })
 })
 
-describe('test department  json schema', () => {
-  it('validates my json', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/department')
+
+  describe('test department  json schema', () => {
+    it('validates my json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

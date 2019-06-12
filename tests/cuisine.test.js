@@ -1,6 +1,5 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/cuisine')
 const { cuisineFilePath } = require('@files')
 const cuisines = require(cuisineFilePath)
 const { matchers } = require('jest-json-schema')
@@ -12,8 +11,14 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('tests for cuisine schema', () => {
-  it('validates cuisine json', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/cuisine')
+
+  describe('tests for cuisine schema', () => {
+    it('validates cuisine json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}
