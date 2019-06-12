@@ -1,6 +1,6 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/quaterCup')
+const { schema, example } = require('./examples/quarterCup')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 const staticData = require('@filesObjects')
