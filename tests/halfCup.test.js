@@ -1,11 +1,10 @@
 /* global describe, it, expect */
 'use strict'
 // maybe import only object that we need, not all of them? @TODO
+const { schema, example } = require('./examples/halfCup')
 const staticData = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
-const { schema, example } = require('./examples/halfCup')
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_2 data', () => {
   it('cup1_2 data files returns object', () => {
