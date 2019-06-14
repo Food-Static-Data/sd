@@ -1,7 +1,6 @@
 /* global describe, it, expect */
 'use strict'
 // maybe import only object that we need, not all of them? @TODO
-const { schema, example } = require('./examples/halfCup')
 const staticData = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
@@ -12,8 +11,14 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('tests halfCup json schema', () => {
-  it('validates my json', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/halfCup')
+
+  describe('tests halfCup json schema', () => {
+    it('validates my json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

@@ -1,6 +1,5 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/favorites')
 const { favoritesFilePath } = require('@files')
 const favorites = require(favoritesFilePath)
 
@@ -13,8 +12,14 @@ describe('favorites data files returns array', () => {
   })
 })
 
-describe('tests favorites json schema', () => {
-  it('validates my json', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/favorites')
+
+  describe('tests favorites json schema', () => {
+    it('validates my json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

@@ -1,6 +1,5 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/cup3_4')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 const { cup34 } = require('@filesObjects')
@@ -11,8 +10,14 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('test cup3_4 json schema', () => {
-  it('validates my json', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/cup3_4')
+  
+  describe('test cup3_4 json schema', () => {
+    it('validates my json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}
