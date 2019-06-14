@@ -9,6 +9,7 @@ Should have
 - Separated build via Travis CI
 - features like ESLint, updates, minification and stuff
 - use module resolver in order to simplify long paths
+- export different methods outside, so we can call them at our projects
 
 #### Tasks
 https://github.com/GroceriStar/sd/issues/158
@@ -18,3 +19,4 @@ https://github.com/GroceriStar/sd/issues/332
 
 #### Stretch Goals
 - work as a microservice that outside working as separated entity, by using code here.
+- should generator have a frontend version available as well?
