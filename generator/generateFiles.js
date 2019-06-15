@@ -10,6 +10,7 @@ const fs = require('fs')
 // } = require('./generateArray')
 const { config } = require('./configGenerator')
 
+// @TODO I don't like that we have all of these path manipulations inside of this method
 function generateFiles () {
   config.map(settings => {
     var fileName = settings['name']
@@ -29,6 +30,8 @@ function generateFiles () {
   })
 }
 
+// @TODO i don't think that later we should call this method inside of this file
+// it's better to call it in a separated script
 generateFiles()
 
 module.exports = {
