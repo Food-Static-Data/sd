@@ -10,8 +10,9 @@ const path = require('path')
   let fileNameWithoutExtension
   let folderName
 
-// @TODO 2) Name can be confusing - because at our 3rd line we have a module with name csv-parser.. not sure what to do...
 
+// @TODO looks cool, but not sure if i like that we have this path here... 
+// i mean it can be something else. especially if we plan to move generator out
 const writeIntoFile = ( i, data) => {
  writeInFile.writeFile(path.join(__dirname, `/projects/${folderName}/${fileNameWithoutExtension}${i}.json`), data)
 }
@@ -33,7 +34,7 @@ const splitJsonIntoFiles = () => {
     }
   }
 
-
+// @TODO 2) Name can be confusing - because at our 3rd line we have a module with name csv-parser.. not sure what to do...
 const csvParser = (dir, fileName, headers) => {
   fileNameWithoutExtension = fileName.split('.')[0]
 
