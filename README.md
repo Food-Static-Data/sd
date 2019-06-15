@@ -100,8 +100,11 @@ To split json file you will require `sd/generator/writeFile.js` . Call the funct
 `Flag`=0 means splitted elements are to be name after the `name` attribute and if `flag`=1 then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
 The splitted elements will be stored at the given `path`/`filename_elements`.
 
-Call function `getList()` with parameter `path`(as string) to get a list of all files.
-To get the data stored in all json files call `getListContent()` with parameter `path`(as string), this will return a list containing data.
+To read files or get list of files you will require `sd/src/utils.js`. Call the function `getFileInfo(path,flag,fileName)`. It can be invoked with 3 parameteres and 2 of them are optional depending on task. First parameter is `path` and it is required for functionality. The second and third parameters are `flag` and `fileName`. 
+
+If `flag=1` it will return the content of all files present in the path else if `fileName` is given then it will return the content of the specified file.
+
+If there is only one parameter that is `path` or with `flag=0` it will return list of all files present in the directory.
 
 ## Generate Array API
 
