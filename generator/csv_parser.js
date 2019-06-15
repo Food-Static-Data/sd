@@ -12,7 +12,7 @@ const path = require('path')
 
 // @TODO 2) Name can be confusing - because at our 3rd line we have a module with name csv-parser.. not sure what to do...
 
-const writeIntoFile = ( i, data){
+const writeIntoFile = ( i, data) => {
  writeInFile.writeFile(path.join(__dirname, `/projects/${folderName}/${fileNameWithoutExtension}${i}.json`), data)
 }
   
