@@ -1,5 +1,6 @@
 const schema = {
-  type: 'array', items: [{ type: 'string' }]
+  type: 'array',
+  items: [{ type: 'string' }]
 }
 const example = [
   'Lacto vegetarian',

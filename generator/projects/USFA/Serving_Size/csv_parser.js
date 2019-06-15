@@ -8,6 +8,8 @@ let results = []
 let data = []
 const maxEntries = 10000
 let numberOfFiles
+
+// @TODO same name but different content
 const splitJsonIntoFiles = () => {
   let i = 1
 
@@ -24,8 +26,11 @@ const splitJsonIntoFiles = () => {
     writeInFile.writeFile(path.join(__dirname, `/Serving_Size${i}.json`), data)
   }
 }
+
 // @TODO it's a very long path. we can use our aliases
 // in order to make it shorter. check readme https://github.com/GroceriStar/sd/tree/master/docs#babel-alias
+
+// @TODO can be also replaced with separated method so we avoid a duplicates
 fs.createReadStream(
   path.join(
     __dirname,
@@ -35,7 +40,7 @@ fs.createReadStream(
   .pipe(
     csv({
       skipLines: 1,
-      headers: [
+      headers: [ //@TODO pass headers from the outside
         'NDB_No',
         'Serving_Size',
         'Serving_Size_UOM',

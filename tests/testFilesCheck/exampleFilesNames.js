@@ -1,6 +1,5 @@
 const path = require('path')
 const fs = require('fs')
-// const _ = require('lodash')
 
 const directoryPath = path.join(__dirname, '/../examples/')
 

@@ -1,5 +1,5 @@
 const fs = require('fs')
-const csv = require('csv-parser')
+const csv = require('csv-parser') // @TODO does it work? I'm not sure
 const path = require('path')
 
 var writeInFile = require('../../writeFile')
@@ -17,9 +17,14 @@ const countries = [
   'United Kingdom'
 ]
 
+// @TODO here don't have methods as we have at USFA
+
 countries.forEach(country => {
+  
   // @TODO it's a very long path. we can use our aliases
   // in order to make it shorter. check readme https://github.com/GroceriStar/sd/tree/master/docs#babel-alias
+  
+  // @TODO this method is duplicate
   fs.createReadStream(
     path.join(
       __dirname,
@@ -29,7 +34,7 @@ countries.forEach(country => {
     .pipe(
       csv({
         skipLines: 3,
-        headers: [
+        headers: [ // @TODO move headers out
           'Food class',
           'Food (FoodEx2 description)',
           'Microgram/100 gram',
@@ -118,10 +123,13 @@ countries.forEach(country => {
       for (i = 2463; i < results.length; i++) {
         results[i]['Food class'] = 'Water and water-based beverages'
       }
+    
       results = results.map(obj => ({ ...obj, country }))
+    
       for (i = 0; i < results.length; i++) {
         data.push(results[i])
       }
+    
       writeInFile.writeFile(
         path.join(__dirname, `/FoodComposition.json`),
         data

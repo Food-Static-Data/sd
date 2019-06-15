@@ -1,6 +1,5 @@
 /* global describe, it, expect */
 'use strict'
-const { schema, example } = require('./examples/userGrocery')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 const { usersGroceryFilePath } = require('@files')
@@ -12,8 +11,14 @@ describe('userGrocery data files returns array', () => {
   })
 })
 
-describe('testing userGrocery schema and also requiring it', () => {
-  it('validates UserGrocery json schema', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  const { schema, example } = require('./examples/userGrocery')
+
+  describe('testing userGrocery schema and also requiring it', () => {
+    it('validates UserGrocery json schema', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}
