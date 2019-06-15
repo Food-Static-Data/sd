@@ -13,7 +13,7 @@ const path = require('path')
 // @TODO move splitJsonIntoFiles outside of csvParser method
 // @TODO I think I see here 2 same lines with json file....
   
-const splitJsonIntoFiles = ( folderName,fileNameWithoutExtension ) => {
+const splitJsonIntoFiles = ( folderName, fileNameWithoutExtension ) => {
     let i = 1
 
     for (i; i <= numberOfFiles; i++) {
