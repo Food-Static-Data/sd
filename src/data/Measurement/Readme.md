@@ -2,14 +2,18 @@
 
 Example
 ```
- {
-    "Nutrition": "K",
-    "Description": "Potassium, K",
-    "ImpliedUnits": "gram"
+{
+    "singular": "gram",
+    "plural": "grams",
+    "abbreviation": "g"
   },
   {
-    "Nutrition": "NA",
-    "Description": "Sodium, Na",
-    "ImpliedUnits": "gram"
-  }
+    "singular": "slice",
+    "plural": "slices"
+  },
+  {
+    "singular": "teaspoon",
+    "plural": "teaspoons",
+    "abbreviation": "tspn"
+  },
 ```

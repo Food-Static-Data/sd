@@ -2,14 +2,19 @@
 
 Example
 ```
- {
-    "Nutrition": "K",
-    "Description": "Potassium, K",
-    "ImpliedUnits": "gram"
-  },
-  {
-    "Nutrition": "NA",
-    "Description": "Sodium, Na",
-    "ImpliedUnits": "gram"
-  }
+{
+    "Field": "yield",
+    "Type": "integer",
+    "Description": "Number of servings"
+},
+{
+    "Field": "level",
+    "Type": "enum",
+    "Description": "Difficulty level"
+},
+{
+    "Field": "calories",
+    "Type": "float",
+    "Description": "Total energy, kcal"
+},
 ```

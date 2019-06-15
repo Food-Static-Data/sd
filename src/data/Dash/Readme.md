@@ -2,14 +2,9 @@
 
 Example
 ```
- {
-    "Nutrition": "K",
-    "Description": "Potassium, K",
-    "ImpliedUnits": "gram"
-  },
-  {
-    "Nutrition": "NA",
-    "Description": "Sodium, Na",
-    "ImpliedUnits": "gram"
-  }
+"name":"dash",
+"americanStandart": "1/8 teaspoon",
+"americanStandartOunces": null,
+"volume": null,
+"weight": null
 ```
