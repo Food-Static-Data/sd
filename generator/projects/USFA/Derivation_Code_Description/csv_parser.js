@@ -18,8 +18,6 @@ const directoryPath = path.join(__dirname, dir)
 // @TODO change the name of this file - it's confusing, because we have a same name imported.
 // let it be just parser.
 
-// //joining path of directory
-const directoryPath = path.join(__dirname, dir)
 // passing directoryPath and callback function
 fs.readdir(directoryPath, function (err, files) {
   // handling error
