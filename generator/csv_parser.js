@@ -10,7 +10,7 @@ const path = require('path')
 // @TODO 1) I don't like how long this method is. I think we can split it at least in 5-6 sections and it' will improve readability
 // @TODO 2) Name can be confusing - because at our 3rd line we have a module with name csv-parser.. not sure what to do...
 
-// @TODO move splitJsonIntoFiles outside of csvParser method
+
 // @TODO I think I see here 2 same lines with json file....
   
 const splitJsonIntoFiles = ( folderName, fileNameWithoutExtension ) => {
