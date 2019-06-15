@@ -20,8 +20,11 @@ const countries = [
 // @TODO here don't have methods as we have at USFA
 
 countries.forEach(country => {
+  
   // @TODO it's a very long path. we can use our aliases
   // in order to make it shorter. check readme https://github.com/GroceriStar/sd/tree/master/docs#babel-alias
+  
+  // @TODO this method is duplicate
   fs.createReadStream(
     path.join(
       __dirname,
