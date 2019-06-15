@@ -13,3 +13,7 @@ function generateFile () {
   writeInFile.writeFile(path, data)
 }
 generateFile()
+
+module.exports = {
+  generateFile
+}

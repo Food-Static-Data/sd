@@ -30,3 +30,7 @@ function generateFiles () {
 }
 
 generateFiles()
+
+module.exports = {
+  generateFiles
+}
