@@ -1,4 +1,4 @@
-
+#### Food Attributes
 
 // will plan to combine all  data into one places
 
@@ -30,3 +30,18 @@
 // meaty : Savoryness on a range of 0 to 1.
 
 // piquant : Spiciness on a range of 0 to 1.
+
+
+Example
+```
+ {
+    "Nutrition": "K",
+    "Description": "Potassium, K",
+    "ImpliedUnits": "gram"
+  },
+  {
+    "Nutrition": "NA",
+    "Description": "Sodium, Na",
+    "ImpliedUnits": "gram"
+  }
+```

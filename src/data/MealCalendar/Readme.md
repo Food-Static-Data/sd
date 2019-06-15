@@ -6,3 +6,16 @@ We grab all data from it and convert into json arrays.
 that contain not just GL for one of the cases it also contains a meal calendar.
 that we moved into "First Vegan Grocery List"+MealCalendar.
 
+Example
+```
+ {
+    "Nutrition": "K",
+    "Description": "Potassium, K",
+    "ImpliedUnits": "gram"
+  },
+  {
+    "Nutrition": "NA",
+    "Description": "Sodium, Na",
+    "ImpliedUnits": "gram"
+  }
+```
