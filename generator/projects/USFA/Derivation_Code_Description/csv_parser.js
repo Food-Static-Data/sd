@@ -7,7 +7,17 @@ const headers = [
   'Derivation_Descript'
 ]
 
+//@TODO I don't like this dir variable
 const dir = '../../../src/data/Derivation_Code_Description'
+
+// //joining path of directory
+const directoryPath = path.join(__dirname, dir)
+
+// @TODO this function is a duplicate. Create a method at csv_parser and import it here
+
+// @TODO change the name of this file - it's confusing, because we have a same name imported.
+// let it be just parser.
+
 // //joining path of directory
 const directoryPath = path.join(__dirname, dir)
 // passing directoryPath and callback function
