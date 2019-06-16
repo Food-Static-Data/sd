@@ -1,7 +1,6 @@
 /* global describe, it, expect */
 const exampleFiles = require('./exampleFilesNames')
 const { matchers } = require('jest-json-schema')
-const {} = require('./examples')
 expect.extend(matchers)
 
 
