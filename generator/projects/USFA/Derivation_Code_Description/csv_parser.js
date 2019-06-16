@@ -7,7 +7,7 @@ const headers = [
   'Derivation_Descript'
 ]
 
-//@TODO I don't like this dir variable
+// @TODO I don't like this dir variable
 const dir = '../../../src/data/Derivation_Code_Description'
 
 // //joining path of directory

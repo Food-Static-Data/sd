@@ -12,7 +12,7 @@ describe('this test prevents to any issues and problems, also to break the struc
 
 try {
   const { schema, example } = require('./examples/cup3_4')
-  
+
   describe('test cup3_4 json schema', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)

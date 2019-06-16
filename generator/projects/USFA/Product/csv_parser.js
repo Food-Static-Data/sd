@@ -13,7 +13,7 @@ const headers = [
   'ingredients_english'
 ]
 
-//@TODO I don't like this dir variable
+// @TODO I don't like this dir variable
 
 const dir = '../../../src/data/Product'
 
