@@ -12,4 +12,11 @@ function generateFile () {
 
   writeInFile.writeFile(path, data)
 }
+
+// @TODO i don't think that later we should call this method inside of this file
+// it's better to call it in a separated script
 generateFile()
+
+module.exports = {
+  generateFile
+}
