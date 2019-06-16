@@ -10,7 +10,7 @@ describe('tests for example file existance', () => {
     expect(exampleFiles[type]).not.toBeUndefined()
   })}
   doesFileExist('allergy')
-  doesFileExist('ultimateGroceryList.test')
+  
 })
 
 
