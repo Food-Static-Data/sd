@@ -1,4 +1,4 @@
-/* global describe, it, expect */
+/* global describe, test, expect */
 const exampleFiles = require('./exampleFilesNames')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
@@ -10,3 +10,6 @@ describe('tests for example file existance', () => {
     expect(exampleFiles[type]).not.toBeUndefined()
   })}
 })
+
+doesFileExist('allergy')
+doesFileExist('ultimateGroceryList')
