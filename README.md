@@ -97,7 +97,7 @@ Also you can write one file using function `writeFile()` just give it two parame
 
 ## How to split json into single elements
 To split json file you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
-`Flag`=0 means splitted elements are to be name after the `name` attribute and if `flag`=1 then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
+`Flag=0` means splitted elements are to be name after the `name` attribute and if `flag=1` then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
 The splitted elements will be stored at the given `path`/`filename_elements`.
 
 **splitObject('path_of_directory','fileName',0)** - split files by their name attribute.
