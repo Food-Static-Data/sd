@@ -95,16 +95,61 @@ By default generating files happens in `/src/data`
 
 Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
 
-## How to split json into single elements.
+## How to split json into single elements
 To split json file you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
 `Flag`=0 means splitted elements are to be name after the `name` attribute and if `flag`=1 then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
 The splitted elements will be stored at the given `path`/`filename_elements`.
 
-To read files or get list of files you will require `sd/src/utils.js`. Call the function `getFileInfo(path,flag,fileName)`. It can be invoked with 3 parameteres and 2 of them are optional depending on task. First parameter is `path` and it is required for functionality. The second and third parameters are `flag` and `fileName`. 
+**splitObject('path_of_directory','fileName',0)** - split files by their name attribute.
+
+**splitObject('path_of_directory','fileName',1)** - split files by indexing them from 0.
+
+Checkout the folder `fileName_elements` in the `path_of_directory` to see files or you can use function `getFileInfo()`.
+
+To  call the function `getFileInfo(path,flag,fileName)` you will require `sd/src/utils.js`. It can be invoked with 3 parameteres and 2 of them are optional depending on task. First parameter is `path` and it is required for functionality. The second and third parameters are `flag` and `fileName`. 
 
 If `flag=1` it will return the content of all files present in the path else if `fileName` is given then it will return the content of the specified file.
 
 If there is only one parameter that is `path` or with `flag=0` it will return list of all files present in the directory.
+
+**getFileInfo('path_of_directory')** - returns a list of files present in the directory.
+
+Sample Output:
+~~~
+[ 'some_file_abc.json',
+  'some_file_pqr.json',
+  'some_file_xyz.json' ]
+~~~
+
+**getFileInfo('path_of_directory',1)** - returns contents of all json files present in the directory.
+
+Sample Output:
+~~~
+[ { departments: [ 'Other' ],
+    id: 14,
+    name: 'number-four9',
+    img: false,
+    desc: false,
+    slug: false },
+  { departments: [ 'Other' ],
+    id: 7,
+    name: 'Rabel Dietitian',
+    img: false,
+    desc: false,
+    slug: false } ]
+~~~
+
+**getFileInfo('path_of_directory',1,'fileName')** - returns content of the given file from the directory.
+
+Sample Output:
+~~~
+{ departments: [ 'Other' ],
+  id: 14,
+  name: 'number-four9',
+  img: false,
+  desc: false,
+  slug: false }
+~~~
 
 ## Generate Array API
 
