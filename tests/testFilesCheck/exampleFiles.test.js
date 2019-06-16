@@ -6,9 +6,10 @@ expect.extend(matchers)
 
 describe('tests for example file existance', () => {
   const doesFileExist = (type) => {
-  test(`validates that ${type} example file exists`, () => {
-    expect(exampleFiles[type]).not.toBeUndefined()
-  })}
+    test(`validates that ${type} example file exists`, () => {
+      expect(exampleFiles[type]).not.toBeUndefined()
+    })
+  }
   doesFileExist('allergy')
   
 })
