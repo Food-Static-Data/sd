@@ -4,8 +4,11 @@ const fs = require('fs')
 const { promisify } = require('util') // ?? it's utils of not
 // const { promisify } = require('util')
 
+// const _ = require('lodash')
+
 const writeFilePromisify = promisify(fs.writeFile)
 
+// @TODO change the name of this method. it's not selfexplanatory
 async function main (path, data) {
   await writeFilePromisify(
     path, data
@@ -20,7 +23,6 @@ async function main (path, data) {
  * @param {Object} data
  */
 function writeFile (path, data) {
-  // var dataStr = JSON.stringify(users);
   // console.log(typeof users);
   // console.log(typeof usersStr);
   if (typeof data === 'undefined') {
@@ -35,7 +37,9 @@ function writeFile (path, data) {
       return
     }
 
-    main(path, dataStr).catch(error => console.error(error))
+    main(path, dataStr).catch(
+      error => console.error(error)
+    )
   }
 }
 
@@ -73,7 +77,9 @@ function splitObject (path, file, flag) {
   var folderName = file.slice(0, -5) + '_elements'
   var folderNamePath = path + folderName
 
-  if (isDirectory(folderNamePath)) fs.mkdirSync(folderNamePath)
+  if (isDirectory(folderNamePath)) {
+    fs.mkdirSync(folderNamePath)
+  }
 
   for (var i = 0; i < fileData.length; i++) {
     var fileName = getFileName(file, fileData[i], flag, i)
