@@ -2,7 +2,7 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
+const { schema, example } = require('./examples/menu')
 const { menuFilePath } = require('@files')
 const menu = require(menuFilePath)
 
@@ -13,8 +13,6 @@ describe('menu data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/menu')
-
   describe('types json schema testing', () => {
     it('validates type json schema', () => {
       expect(example).toMatchSchema(schema)

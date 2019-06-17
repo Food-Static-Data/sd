@@ -3,6 +3,7 @@
 const { groceryFilePath } = require('@files')
 const grocery = require(groceryFilePath)
 const { matchers } = require('jest-json-schema')
+const { schema, example } = require('./examples/grocery')
 expect.extend(matchers)
 
 describe('grocery data files returns array', () => {
@@ -12,8 +13,6 @@ describe('grocery data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/grocery')
-
   describe('tests grocery json schema', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)

@@ -2,7 +2,7 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
+const { schema, example } = require('./examples/pint')
 const staticData = require('@filesObjects')
 
 describe('this test prevents to any issues and problems, also to break the structure of pint data', () => {
@@ -12,8 +12,6 @@ describe('this test prevents to any issues and problems, also to break the struc
 })
 
 try {
-  const { schema, example } = require('./examples/pint')
-
   describe('test pint json schema', () => {
     it('validates pint json schema', () => {
       expect(example).toMatchSchema(schema)

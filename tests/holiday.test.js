@@ -2,6 +2,7 @@
 'use strict'
 const { holiday } = require('@files')
 const { matchers } = require('jest-json-schema')
+const { schema, example } = require('./examples/holiday')
 expect.extend(matchers)
 
 describe('holidays data files returns array', () => {
@@ -11,8 +12,6 @@ describe('holidays data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/holiday')
-
   describe('tests holiday json schema', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)

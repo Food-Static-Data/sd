@@ -2,7 +2,7 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
+const { schema, example } = require('./examples/nutritionalAttributes')
 const { nutritions2FilePath } = require('@files')
 const nutritionalAttributes = require(nutritions2FilePath)
 
@@ -13,8 +13,6 @@ describe('nutritionalAttributes data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/nutritionalAttributes')
-
   describe('testng for nutritionalAttribute json data schema', () => {
     it('validates nutritionalAttribute json schema', () => {
       expect(example).toMatchSchema(schema)
