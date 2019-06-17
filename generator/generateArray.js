@@ -17,7 +17,7 @@ const {
   measurementUnits
 } = require('../src/files')
 
-const getMenuGenerator = numberOfWeeks => {
+const getMenuGenerator = (numberOfWeeks) => {
   let
     result = _.times(numberOfWeeks, (index) => ({
       id: utils.__generateId(),
