@@ -11,6 +11,8 @@ Should have
 - use module resolver in order to simplify long paths
 - export different methods outside, so we can call them at our projects
 
+- it should have a separated package.json, with only necessary modules that we have at generator
+
 #### Tasks
 https://github.com/GroceriStar/sd/issues/158
 https://github.com/GroceriStar/sd/issues/332
