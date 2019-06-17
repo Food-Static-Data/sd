@@ -1,33 +1,71 @@
-const { schema, example } = require('./allergy');
-const { schema, example } = require('./attribute');
-const { schema, example } = require('./cookingTimes');
-const { schema, example } = require('./course');
-const { schema, example } = require('./cuisine');
-const { schema, example } = require('./cup1_8');
-const { schema, example } = require('./cup1');
-const { schema, example } = require('./cup3_4');
-const { schema, example } = require('./dash');
-const { schema, example } = require('./department');
-const { schema, example } = require('./diet');
-const { schema, example } = require('./favorites');
-const { schema, example } = require('./firstVeganGLMC');
-const { schema, example } = require('./gallon');
-const { schema, example } = require('./grocery');
-const { schema, example } = require('./halfCup');
-const { schema, example } = require('./holiday');
-const { schema, example } = require('./ingredients');
-const { schema, example } = require('./items');
-const { schema, example } = require('./mealCalendar');
-const { schema, example } = require('./measurement');
-const { schema, example } = require('./menu');
-const { schema, example } = require('./nutritionalAttributes');
-const { schema, example } = require('./pinch');
-const { schema, example } = require('./pint');
-const { schema, example } = require('./quart');
-const { schema, example } = require('./quarterCup');
-const { schema, example } = require('./recipe4');
-const { schema, example } = require('./tablespoon');
-const { schema, example } = require('./teaspoon');
-const { schema, example } = require('./types');
-const { schema, example } = require('./userGrocery');
-const { schema, example } = require('./users');
+const allergy = require('./allergy');
+const attribute = require('./attribute');
+const cookingTimes = require('./cookingTimes');
+const course = require('./course');
+const cuisine = require('./cuisine');
+const cup1_8 = require('./cup1_8');
+const cup1 = require('./cup1');
+const cup3_4 = require('./cup3_4');
+const dash = require('./dash');
+const department = require('./department');
+const diet = require('./diet');
+const favorites = require('./favorites');
+const firstVeganGLMC = require('./firstVeganGLMC');
+const gallon = require('./gallon');
+const grocery = require('./grocery');
+const halfCup = require('./halfCup');
+const holiday = require('./holiday');
+const ingredients = require('./ingredients');
+const items = require('./items');
+const mealCalendar = require('./mealCalendar');
+const measurement = require('./measurement');
+const menu = require('./menu');
+const nutritionalAttributes = require('./nutritionalAttributes');
+const pinch = require('./pinch');
+const pint = require('./pint');
+const quart = require('./quart');
+const quarterCup = require('./quarterCup');
+const recipe4 = require('./recipe4');
+const tablespoon = require('./tablespoon');
+const teaspoon = require('./teaspoon');
+const types = require('./types');
+const userGrocery = require('./userGrocery');
+const users = require('./users');
+
+
+
+module.exports = {
+    allergy,
+    attribute,
+    cookingTimes,
+    course,
+    cuisine,
+    cup1_8,
+    cup1,
+    cup3_4,
+    dash,
+    department,
+    diet,
+    favorites,
+    firstVeganGLMC,
+    gallon,
+    grocery,
+    halfCup,
+    holiday,
+    ingredients,
+    items,
+    mealCalendar,
+    measurement,
+    menu,
+    nutritionalAttributes,
+    pinch,
+    pint,
+    quart,
+    quarterCup,
+    recipe4,
+    tablespoon,
+    teaspoon,
+    types,
+    userGrocery,
+    users
+}
