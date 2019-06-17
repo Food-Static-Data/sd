@@ -27,7 +27,8 @@ async function readFromDirectory ( directoryPath) {
 
 
 //get files from readdirectory and csvParser to pass each csv file
-const parseDirectoryFiles = ( directoryPath, header) => {
+const parseDirectoryFiles = ( directoryPath, headers) => {
+  
     
   readFromDirectory( directoryPath ).then( files => {
     // listing all files using forEach
