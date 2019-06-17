@@ -11,7 +11,7 @@ const headers = [
   'Output_uom'
 ]
 
-//@TODO I don't like this dir variable
+// @TODO I don't like this dir variable
 const dir = '../../../src/data/Nutrition'
 
 // //joining path of directory
