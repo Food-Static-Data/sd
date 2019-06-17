@@ -2,6 +2,8 @@ var writeInFile = require('./writeFile')
 const fs = require('fs')
 const csv = require('csv-parser')
 const path = require('path')
+const util = require('util')
+const readdir=util.promisify(fs.readdir)
 
 let results = []
 let data = []
@@ -14,6 +16,33 @@ let folderName
 // i mean it can be something else. especially if we plan to move generator out
 const writeIntoFile = (i, data) => {
   writeInFile.writeFile(path.join(__dirname, `/projects/${folderName}/${fileNameWithoutExtension}${i}.json`), data)
+}
+
+//read all files in a the directory passed to it
+async function readFromDirectory ( directoryPath) {
+  let files = await readdir( directoryPath );
+  return files
+   
+}
+
+
+//get files from readdirectory and csvParser to pass each csv file
+const parseDirectoryFiles = ( directoryPath, header) => {
+    
+  readFromDirectory( directoryPath ).then( files => {
+    // listing all files using forEach
+            files.forEach( function (file) {
+              // Do whatever you want to do with the file
+              if (file.split('.')[1] === 'csv') {
+                csvParser(directoryPath, file, headers)
+              }
+            })
+    
+    
+  }).catch(err=>{
+  return console.log('Unable to scan directory: ' + err)
+  })
+  
 }
 
 const splitJsonIntoFiles = () => {
@@ -62,5 +91,6 @@ const csvParser = (dir, fileName, headers) => {
 }
 
 module.exports = {
+  parseDirectoryFiles,
   csvParser
 }
