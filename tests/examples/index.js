@@ -3,9 +3,9 @@ const attribute = require('./attribute');
 const cookingTimes = require('./cookingTimes');
 const course = require('./course');
 const cuisine = require('./cuisine');
-const cup1_8 = require('./cup1_8');
+const cup18 = require('./cup1_8');
 const cup1 = require('./cup1');
-const cup3_4 = require('./cup3_4');
+const cup34 = require('./cup3_4');
 const dash = require('./dash');
 const department = require('./department');
 const diet = require('./diet');
@@ -40,9 +40,9 @@ module.exports = {
     cookingTimes,
     course,
     cuisine,
-    cup1_8,
+    cup18,
     cup1,
-    cup3_4,
+    cup34,
     dash,
     department,
     diet,
