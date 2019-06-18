@@ -2,7 +2,7 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
+const { schema, example } = require('./examples/pinch')
 const staticData = require('@filesObjects')
 
 describe('this test prevents to any issues and problems, also to break the structure of pinch data', () => {
@@ -12,8 +12,6 @@ describe('this test prevents to any issues and problems, also to break the struc
 })
 
 try {
-  const { schema, example } = require('./examples/pinch')
-
   describe('testng for pinch json data schema', () => {
     it('validates pinch json file schema', () => {
       expect(example).toMatchSchema(schema)
