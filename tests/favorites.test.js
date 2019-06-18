@@ -2,7 +2,7 @@
 'use strict'
 const { favoritesFilePath } = require('@files')
 const favorites = require(favoritesFilePath)
-
+const { schema, example } = require('./examples/favorites')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
@@ -13,8 +13,6 @@ describe('favorites data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/favorites')
-
   describe('tests favorites json schema', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)

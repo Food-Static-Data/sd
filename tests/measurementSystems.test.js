@@ -2,21 +2,19 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
 const {
   measurementSystemFilePath,
   generatedMeasurementSystem
 } = require('@files')
 const measurementSystems = require(measurementSystemFilePath)
+const {
+  measurementSystemsSchema,
+  measurementSystemsExample,
+  generatedMeasSystemSchema,
+  generatedMeasSystemExample
+} = require('./examples/measurementSystems')
 
 try {
-  const {
-    measurementSystemsSchema,
-    measurementSystemsExample,
-    generatedMeasSystemSchema,
-    generatedMeasSystemExample
-  } = require('./examples/measurementSystems')
-
   describe('users data files returns array', () => {
     it('these tests prevent any issues and problems, also to break the structure of measurementSystems', () => {
       expect(measurementSystems).not.toBe('')

@@ -2,8 +2,8 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
 const { cup18 } = require('@filesObjects')
+const { schema, example } = require('./examples/cup1_8')
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_8 data', () => {
   it('cup1_8 data files returns object', () => {
@@ -12,8 +12,6 @@ describe('this test prevents to any issues and problems, also to break the struc
 })
 
 try {
-  const { schema, example } = require('./examples/cup1_8')
-
   describe('test cup1_8 json schema', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)
