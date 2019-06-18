@@ -1,6 +1,5 @@
 const utils = require('../src/utils');
-assert = require('chai').assert;
-console.log(utils.getFileInfo('./sampleFile'))
+var assert = require('assert');
 describe('getFileInfo', () => {
     it('should return the list of files in the folder', () => {
         const result = utils.getFileInfo('./sampleFile')
