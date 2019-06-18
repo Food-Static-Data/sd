@@ -91,6 +91,7 @@ const __generateDate = () => {
   return dayjs().toDate()
 }
 
+// @TODO WTF tests are doing there? bad bad bad coder did it!
 // test expecting json file not to be empty
 const jsonFileNotEmptyTest = (file) => {
   describe(`tests for ${file}`, () => {
