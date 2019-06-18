@@ -14,8 +14,11 @@ let folderName
 
 // @TODO looks cool, but not sure if i like that we have this path here...
 // i mean it can be something else. especially if we plan to move generator out
+// @TODO does this function has a duplicate or i'm mistaken?
 const writeIntoFile = (i, data) => {
-  writeInFile.writeFile(path.join(__dirname, `/projects/${folderName}/${fileNameWithoutExtension}${i}.json`), data)
+  writeInFile.writeFile(
+    path.join(__dirname, `/projects/${folderName}/${fileNameWithoutExtension}${i}.json`), data
+  )
 }
 
 // read all files in a the directory passed to it

@@ -2,7 +2,7 @@ const fs = require('fs')
 const csv = require('csv-parser') // @TODO does it work? I'm not sure
 const path = require('path')
 
-var writeInFile = require('../../writeFile')
+var { writeFile } = require('../../writeFile')
 
 let results = []
 let data = []
@@ -129,7 +129,7 @@ countries.forEach(country => {
         data.push(results[i])
       }
 
-      writeInFile.writeFile(
+      writeFile(
         path.join(__dirname, `/FoodComposition.json`),
         data
       )

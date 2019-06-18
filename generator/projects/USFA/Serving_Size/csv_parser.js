@@ -13,6 +13,7 @@ let numberOfFiles
 const splitJsonIntoFiles = () => {
   let i = 1
 
+  // @TODO replace with lodash?
   for (i; i <= numberOfFiles; i++) {
     const start = (i - 1) * maxEntries
     const stop = i * maxEntries

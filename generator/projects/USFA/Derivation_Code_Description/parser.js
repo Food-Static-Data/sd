@@ -11,4 +11,4 @@ const directory = '../../../src/data/Derivation_Code_Description'
 // //joining path of directory
 const directoryPath = path.join(__dirname, directory)
 
-parseDirectoryFiles ( directoryPath, headers)
+parseDirectoryFiles(directoryPath, headers)
