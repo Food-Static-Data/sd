@@ -1,8 +1,9 @@
-var writeInFile = require('./writeFile')
 const fs = require('fs')
 const csv = require('csv-parser')
 const path = require('path')
 const util = require('util')
+
+var { writeFile } = require('./writeFile')
 const readdir = util.promisify(fs.readdir)
 
 let results = []
@@ -16,7 +17,7 @@ let folderName
 // i mean it can be something else. especially if we plan to move generator out
 // @TODO does this function has a duplicate or i'm mistaken?
 const writeIntoFile = (i, data) => {
-  writeInFile.writeFile(
+  writeFile(
     path.join(__dirname, `/projects/${folderName}/${fileNameWithoutExtension}${i}.json`), data
   )
 }
@@ -42,6 +43,7 @@ const parseDirectoryFiles = (directoryPath, headers) => {
   })
 }
 
+// @TODO looks like a duplicate for me or i'm mistaken?
 const splitJsonIntoFiles = () => {
   let i = 1
 

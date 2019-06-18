@@ -22,7 +22,7 @@ async function main (path, data) {
  * @param {String} path
  * @param {Object} data
  */
-function writeFile (path, data) {
+function writeFile (path, data) { // @TODO looks like a duplicate, am i right?
   // console.log(typeof users);
   // console.log(typeof usersStr);
   if (typeof data === 'undefined') {
@@ -62,7 +62,7 @@ function test () {
  * @param {String} file
  * @param {var} flag
  */
-function splitObject (path, file, flag) {
+function splitObject (path, file, flag) { // @TODO do we have only one this method or i'm mistaken?
   /*
     flag=1 ==> name according to index
     flag=0 ==> name according to "name" attribute
@@ -104,7 +104,11 @@ function fixFileName (fileName) {
  * @param {string} folderNamePath
  *  */
 function isDirectory (folderNamePath) {
-  if (fs.existsSync(folderNamePath)) { return false } else { return true }
+  if (fs.existsSync(folderNamePath)) {
+    return false
+  } else {
+    return true
+  }
 }
 
 /**

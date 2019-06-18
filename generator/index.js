@@ -18,3 +18,4 @@
 // } = require('./generateArray')
 
 // const
+// const { writeFile } = require('./writeFile')
