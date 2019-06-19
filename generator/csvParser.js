@@ -1,18 +1,16 @@
 var writeInFile = require('./writeFile')
 const fs = require('fs')
-const filesystem =require('fs')
+const filesystem = require('fs')
 const csv = require('csv-parser')
 const path = require('path')
 
 const maxEntries = 10000
-let result=[];
-let folderName,numberOfFiles
+let result = []
+let folderName, numberOfFiles
 
-const fileWriter =( i, fileName, start, stop)=>{
-
-  var data = result.slice( start, stop)
+const fileWriter = (i, fileName, start, stop) => {
+  var data = result.slice(start, stop)
   writeInFile.writeFile(path.join(__dirname, `/projects/USFA/${folderName}/${fileName}${i}.json`), data)
-
 }
 
 const splitJsonIntoFiles = (fileName) => {
@@ -21,15 +19,15 @@ const splitJsonIntoFiles = (fileName) => {
   for (i; i <= numberOfFiles; i++) {
     const start = (i - 1) * maxEntries
     var stop = i * maxEntries
-   
+
     if (i === numberOfFiles) {
-      stop=result.length+1
-     fileWriter( i, fileName, start, stop)
+      stop = result.length + 1
+      fileWriter(i, fileName, start, stop)
       return
     }
-    
-    fileWriter( i, fileName, start, stop)
-}
+
+    fileWriter(i, fileName, start, stop)
+  }
 }
 
 const csvToJson = (directory, file, headers) => {
@@ -37,12 +35,10 @@ const csvToJson = (directory, file, headers) => {
 
   const folder = directory.split('/')
 
-   folderName = folder[folder.length - 1]
+  folderName = folder[folder.length - 1]
 
   let results = []
-  
 
-  
   // @TODO it's a very long path. we can use our aliases
   // in order to make it shorter. check readme https://github.com/GroceriStar/sd/tree/master/docs#babel-alias
   fs.createReadStream(
@@ -59,27 +55,27 @@ const csvToJson = (directory, file, headers) => {
     })
     .on('end', function () {
       numberOfFiles = Math.ceil(results.length / maxEntries)
-      result=results
-      splitJsonIntoFiles (fileName)
+      result = results
+      splitJsonIntoFiles(fileName)
     })
 }
 
-const parseDirectoryFiles= (directoryPath,headers)=>{
+const parseDirectoryFiles = (directoryPath, headers) => {
   // passing directoryPath and callback function
-filesystem.readdir(directoryPath, function (err, files) {
+  filesystem.readdir(directoryPath, function (err, files) {
   // handling error
-  if (err) {
-    return console.log('Unable to scan directory: ' + err)
-  }
-  // listing all files using forEach
-  files.forEach(function (file) {
-    // Do whatever you want to do with the file
-    console.log(file, typeof file)
-    if (file.split('.')[1] === 'csv') {
-      csvToJson(directoryPath, file, headers)
+    if (err) {
+      return console.log('Unable to scan directory: ' + err)
     }
+    // listing all files using forEach
+    files.forEach(function (file) {
+    // Do whatever you want to do with the file
+      console.log(file, typeof file)
+      if (file.split('.')[1] === 'csv') {
+        csvToJson(directoryPath, file, headers)
+      }
+    })
   })
-})
 }
 
 module.exports = {
