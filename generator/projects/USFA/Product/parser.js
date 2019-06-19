@@ -16,4 +16,4 @@ const dir = '../../../../src/data/Product'
 // //joining path of directory
 const directoryPath = path.join(__dirname, dir)
 
-parserFiles(directoryPath,headers)
+parseDirectoryFiles(directoryPath,headers)
