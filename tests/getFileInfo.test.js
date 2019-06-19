@@ -3,9 +3,11 @@
 const { getFileInfo } = require('../src/utils')
 const { matchers } = require('jest-json-schema')
 const path = require('path')
-var location = './../../sd/tests/sampleFile'
-location = path.resolve(location)
 expect.extend(matchers)
+
+var location = './sampleFile'
+location = path.resolve(location)
+
 describe('getFileInfo with only 1 argument', () => {
     it('should return the list of files in the folder', () => {
         var result = getFileInfo(location)
