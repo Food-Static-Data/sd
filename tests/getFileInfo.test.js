@@ -7,6 +7,7 @@ expect.extend(matchers)
 
 var location = './sampleFile'
 location = path.resolve(location)
+console.log(location)
 
 describe('getFileInfo with only 1 argument', () => {
     it('should return the list of files in the folder', () => {
