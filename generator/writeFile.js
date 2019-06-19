@@ -1,6 +1,7 @@
 // const filePath = require('../files')
 
 const fs = require('fs')
+const PATH = require('path')
 const { promisify } = require('util') // ?? it's utils of not
 // const { promisify } = require('util')
 
@@ -67,8 +68,8 @@ function splitObject (path, file, flag) { // @TODO do we have only one this meth
     flag=1 ==> name according to index
     flag=0 ==> name according to "name" attribute
   */
-  var temp = path.charAt(path.length - 1) // path correction
-  if (temp !== '/') { path = path + '/' }
+  path = PATH.resolve(path) //path correction
+  if (path[-1] !== '/') { path = path + '/' }
 
   // Reading data...
   let data = fs.readFileSync(path + file)
