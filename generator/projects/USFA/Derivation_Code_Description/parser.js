@@ -1,5 +1,5 @@
 const path = require('path')
-const { parseDirectoryFiles } = require('../../../csv_parser')
+const { parseDirectoryFiles } = require('../../../csvParser')
 
 const headers = [
   'derivation_code',
