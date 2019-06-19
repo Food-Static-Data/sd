@@ -2,7 +2,7 @@
 'use strict'
 const { getFileInfo } = require('../src/utils')
 const { matchers } = require('jest-json-schema')
-const path = require('path')
+//const path = require('path')
 expect.extend(matchers)
 
 var location = './../tests/sampleFile'
