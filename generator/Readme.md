@@ -24,6 +24,7 @@ https://github.com/GroceriStar/sd/issues/332
 - should generator have a frontend version available as well?
 
 ## How to generate additional files
+Core of generating files is in folder generator. 
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
 
 In function `writeFiles()` should be array of files. In array config of objects.
