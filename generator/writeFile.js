@@ -22,7 +22,7 @@ async function main(path, data) {
  * @param {String} path
  * @param {Object} data
  */
-function writeFile(path, data) { // @TODO looks like a duplicate, am i right?
+function writeFile(path, data) {
     // console.log(typeof users);
     // console.log(typeof usersStr);
     if (typeof data === 'undefined') {
@@ -62,7 +62,7 @@ function test() {
  * @param {String} file
  * @param {var} flag
  */
-function splitObject(path, file, flag) { // @TODO do we have only one this method or i'm mistaken?
+function splitObject(path, file, flag) { 
     /*
       flag=1 ==> name according to index
       flag=0 ==> name according to "name" attribute
