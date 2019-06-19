@@ -1,7 +1,7 @@
 const path = require('path')
 const { parseDirectoryFiles } = require('../../../csvParser')
 
-const headers: [ 
+const headers = [ 
         'NDB_No',
         'Serving_Size',
         'Serving_Size_UOM',
