@@ -1,7 +1,6 @@
 // const filePath = require('../files')
-
-const fs = require('fs')
 const PATH = require('path')
+const fs = require('fs')
 const { promisify } = require('util') // ?? it's utils of not
     // const { promisify } = require('util')
 
@@ -23,7 +22,7 @@ async function main(path, data) {
  * @param {String} path
  * @param {Object} data
  */
-function writeFile(path, data) {
+function writeFile(path, data) { // @TODO looks like a duplicate, am i right?
     // console.log(typeof users);
     // console.log(typeof usersStr);
     if (typeof data === 'undefined') {
@@ -63,13 +62,14 @@ function test() {
  * @param {String} file
  * @param {var} flag
  */
-function splitObject(path, file, flag = 0) {
+function splitObject(path, file, flag) { // @TODO do we have only one this method or i'm mistaken?
     /*
       flag=1 ==> name according to index
       flag=0 ==> name according to "name" attribute
     */
     path = PATH.resolve(path)
-    if (path[-1] !== '/') { path = path + '/' }
+    var temp = path.charAt(path.length - 1) // path correction
+    if (temp !== '/') { path = path + '/' }
 
     // Reading data...
     let data = fs.readFileSync(path + file)
@@ -105,7 +105,11 @@ function fixFileName(fileName) {
  * @param {string} folderNamePath
  *  */
 function isDirectory(folderNamePath) {
-    if (fs.existsSync(folderNamePath)) { return false } else { return true }
+    if (fs.existsSync(folderNamePath)) {
+        return false
+    } else {
+        return true
+    }
 }
 
 /**
