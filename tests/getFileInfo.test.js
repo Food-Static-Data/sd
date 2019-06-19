@@ -5,8 +5,8 @@ const { matchers } = require('jest-json-schema')
 const path = require('path')
 expect.extend(matchers)
 
-var location = 'sampleFile'
-location = path.resolve(location)
+var location = './../tests/sampleFile'
+//location = path.resolve(location)
 console.log(location)
 
 describe('getFileInfo with only 1 argument', () => {
