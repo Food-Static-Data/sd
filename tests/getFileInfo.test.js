@@ -8,7 +8,6 @@ location = path.resolve(location)
 expect.extend(matchers)
 describe('getFileInfo with only 1 argument', () => {
     it('should return the list of files in the folder', () => {
-        const location = './sampleFile'
         const result = getFileInfo(location)
         const expected = ['basic-grocery-list.json']
         expect(result.values).toEqual(expected.values)
