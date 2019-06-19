@@ -18,7 +18,7 @@ before_script: npm run generateFiles
 
 script:
   - npm test
-  - npm test:cover
+  - npm run test:cover
   - npm run jsonlint
   - npm run build
 # we need to move coveralls from fetch and run it here as well
