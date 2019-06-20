@@ -61,11 +61,9 @@
     "access": "public"
   },
   "dependencies": {
-
     "lodash": "^4.17.11",
     "path": "^0.12.7",
-    "uuid": "^3.3.2",
-
+    "uuid": "^3.3.2"
   },
   "lint-staged": {
     "linters": {
