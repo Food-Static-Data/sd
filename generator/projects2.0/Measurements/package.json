@@ -14,7 +14,8 @@
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
     "lint": "standard",
-    "format": "prettier"
+    "format": "prettier",
+    "generate":"xxx"
   },
   "description": "xxx",
   "main": "dist/index.cjs",
