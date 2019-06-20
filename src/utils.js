@@ -76,7 +76,7 @@ function getFileInfo (path, flag = 0, fileName = 'undefined') {
     if file name is given then content of that file else return content of all files.
     only path is given( flag=0 )--> give list of all files in directory.
   */
-  path = fixPath(path)
+  path = fixPath(__dirname,path)
   if (flag === 1) {
     // get content from file
     return getListContent(path, fileName)
