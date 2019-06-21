@@ -1,2 +1,2 @@
-import files from './filesES5'
+import files from './files'
 export default files
