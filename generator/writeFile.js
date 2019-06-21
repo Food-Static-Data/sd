@@ -68,7 +68,7 @@ function splitObject (path, file, flag) { // @TODO do we have only one this meth
     flag=1 ==> name according to index
     flag=0 ==> name according to "name" attribute
   */
-  path = PATH.resolve(path) //path correction
+  path = PATH.resolve(__dirname,path) //path correction
   if (path[-1] !== '/') { path = path + '/' }
 
   // Reading data...
