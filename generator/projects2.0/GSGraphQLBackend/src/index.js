@@ -1,20 +1,4 @@
-import files from './files'
-export default files
 
-const _ = require('lodash')
-// const { __generateId, __generateDate } = require('../../../src/utils.js')
-const { __generateId, __generateDate } = require('@utils.js')
-
-const {
-  favorites,
-  departments,
-  userGrocery,
-  items,
-  users,
-  ingredients,
-  grocery
-} = require('../../../src/files.js')
-//
 // const {
 //   favorites,
 //   departments,
@@ -23,7 +7,22 @@ const {
 //   users,
 //   ingredients,
 //   grocery
-// } = require('@files')
+// } = require('../../../src/files.js')
+//
+
+import {
+  favorites,
+  departments,
+  userGrocery,
+  items,
+  users,
+  ingredients,
+  grocery
+} from '@files'
+
+const _ = require('lodash')
+// const { __generateId, __generateDate } = require('../../../src/utils.js')
+const { __generateId, __generateDate } = require('@utils.js')
 
 // @TODO as we may need to be able to call this function from the
 // outside of this project - we should move this method outside
@@ -106,7 +105,7 @@ const getGroceryKey = function () {
   }))
 }
 
-module.exports = {
+export {
   getFavoritesKey,
   getDepartmentsKey,
   getUserGroceryKey,
