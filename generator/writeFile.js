@@ -33,6 +33,8 @@ function writeFile(path, data) { // @TODO looks like a duplicate, am i right?
 
     if (typeof data === 'object') {
         var dataStr = JSON.stringify(data)
+        
+        //@TODO i don't like this if if if structure.
         if (typeof dataStr !== 'string') {
             console.error('Error occured after stringify or variabe has another type not string')
             return
@@ -79,17 +81,21 @@ function splitObject(path, file, flag) { // split large files into single elemen
       flag=0 ==> name according to "name" attribute
     */
     path = fixPath(path)
-
+    
+    // @TODO move this 2 lines into a separated method
     // Reading data...
     let data = fs.readFileSync(path + file)
     let fileData = JSON.parse(data)
 
+    // @TODO move this 5 lines into a separated method    
     //new folder to save splitted files
     var folderName = file.slice(0, -5) + '_elements'
     var folderNamePath = path + folderName
     if (isDirectory(folderNamePath)) {
         fs.mkdirSync(folderNamePath)
     }
+    
+    // @TODO move this 6 lines into a separated method
     //saving files
     var fileDataLength = fileData.length
     for (var i = 0; i < fileDataLength; i++) {
