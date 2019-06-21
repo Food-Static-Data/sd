@@ -1,5 +1,7 @@
-import files from './files'
-export default files
+import _ from 'lodash'
+import { __generateId } from '@utils'
+
+import { departments, ingredients, grocery } from '@files'
 
 export {
 

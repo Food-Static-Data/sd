@@ -1,7 +1,6 @@
 import _ from 'lodash'
 import { __generateId } from '@utils'
 
-// const { __generateId } = require('@utils')
 import { departments, ingredients, grocery } from '@files'
 
 /**
