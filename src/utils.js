@@ -43,7 +43,7 @@ function getListContent (path, fileName = 'undefined') {
  * @param {String} path
  */
 function fixPath (path) {
-  path = PATH.resolve(__dirname,path)
+  path = PATH.resolve(__dirname, path)
   if (path.charAt(path.length - 1) !== '/') path = path + '/'
   return path
 }
