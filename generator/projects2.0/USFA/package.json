@@ -1,5 +1,5 @@
 {
-  "name": "@groceristar/sd-wrapper/gs-graphql-backend",
+  "name": "@groceristar/staticdata-gs-graphql-backend",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,7 @@
     "jsonlint": "node jsonlint.config.js",
     "lint": "standard",
     "format": "prettier",
-    "generate":"xxx"
+    "generate": "xxx"
   },
   "description": "xxx",
   "main": "dist/index.cjs",
@@ -61,6 +61,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@groceristar/sd-wrapper": "^4.10.0",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
