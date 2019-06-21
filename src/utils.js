@@ -43,7 +43,7 @@ function getListContent (path, fileName = 'undefined') {
  * @param {String} path
  */
 function fixPath (path) {
-  path = PATH.resolve(path)
+  path = PATH.resolve(__dirname,path)
   if (path.charAt(path.length - 1) !== '/') path = path + '/'
   return path
 }
@@ -76,7 +76,7 @@ function getFileInfo (path, flag = 0, fileName = 'undefined') {
     if file name is given then content of that file else return content of all files.
     only path is given( flag=0 )--> give list of all files in directory.
   */
-  path = fixPath(__dirname,path)
+  path = fixPath(path)
   if (flag === 1) {
     // get content from file
     return getListContent(path, fileName)
