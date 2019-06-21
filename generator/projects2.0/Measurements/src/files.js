@@ -1,13 +1,13 @@
 import {
-  departments,
-  groceries,
-  ingredients,
-  users
+  measurementSystem,
+  generatedMeasurementSystem,
+  measurementUnits,
+  generatedMeasurementUnits
 } from '@groceristar/sd-wrapper'
 
 export {
-  departments,
-  groceries,
-  ingredients,
-  users
+  measurementSystem,
+  generatedMeasurementSystem,
+  measurementUnits,
+  generatedMeasurementUnits
 }
