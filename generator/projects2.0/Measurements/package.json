@@ -1,5 +1,5 @@
 {
-  "name": "@groceristar/sd-wrapper/gs-graphql-backend",
+  "name": "@groceristar/staticdata-gs-graphql-backend",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
