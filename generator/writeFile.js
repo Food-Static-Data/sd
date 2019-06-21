@@ -1,21 +1,17 @@
 // const filePath = require('../files')
-
 const fs = require('fs')
 const PATH = require('path')
 const { promisify } = require('util') // ?? it's utils of not
     // const { promisify } = require('util')
-
-// const _ = require('lodash')
+    // const _ = require('lodash')
 
 const writeFilePromisify = promisify(fs.writeFile)
 
-// @TODO change the name of this method. it's not selfexplanatory
-async function main(path, data) {
+async function writing(path, data) {
     await writeFilePromisify(
         path, data
     )
-
-    console.info('file generated successfully!')
+    console.info(path + ' file generated successfully!')
 }
 
 /**
@@ -23,7 +19,7 @@ async function main(path, data) {
  * @param {String} path
  * @param {Object} data
  */
-function writeFile(path, data) { // @TODO looks like a duplicate, am i right?
+function writeFile(path, data) {
     // console.log(typeof users);
     // console.log(typeof usersStr);
     if (typeof data === 'undefined') {
@@ -33,14 +29,7 @@ function writeFile(path, data) { // @TODO looks like a duplicate, am i right?
 
     if (typeof data === 'object') {
         var dataStr = JSON.stringify(data)
-        
-        //@TODO i don't like this if if if structure.
-        if (typeof dataStr !== 'string') {
-            console.error('Error occured after stringify or variabe has another type not string')
-            return
-        }
-
-        main(path, dataStr).catch(
+        writing(path, dataStr).catch(
             error => console.error(error)
         )
     }
