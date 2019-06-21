@@ -70,39 +70,59 @@ function fixPath(path) {
 }
 
 /**
- * For splitObject
- * @param {String} path
- * @param {String} file
- * @param {var} flag
- */
-function splitObject(path, file, flag) { // split large files into single elements
-    /*
-      flag=1 ==> name according to index
-      flag=0 ==> name according to "name" attribute
-    */
-    path = fixPath(path)
-    
-    // @TODO move this 2 lines into a separated method
-    // Reading data...
+ * readData()
+ * @param {string} path
+ * @param {string} file
+ * */
+function readData(path, file) {
     let data = fs.readFileSync(path + file)
     let fileData = JSON.parse(data)
+    return fileData
+}
 
-    // @TODO move this 5 lines into a separated method    
-    //new folder to save splitted files
-    var folderName = file.slice(0, -5) + '_elements'
-    var folderNamePath = path + folderName
-    if (isDirectory(folderNamePath)) {
-        fs.mkdirSync(folderNamePath)
-    }
-    
-    // @TODO move this 6 lines into a separated method
-    //saving files
+/**
+ * @param {String} folderNamePath
+ * @param {String} file
+ * @param {Object} fileData
+ * @param {var} flag
+ * */
+function saveFile(folderNamePath, file, fileData, flag) {
     var fileDataLength = fileData.length
     for (var i = 0; i < fileDataLength; i++) {
         var fileName = getFileName(file, fileData[i], flag, i)
         var elementPath = folderNamePath + '/' + fileName
         writeFile(elementPath, fileData[i])
     }
+}
+
+/**
+ * @param {String} path
+ * @param {String} file
+ */
+function makeFolder(path, file) {
+    var folderName = file.slice(0, -5) + '_elements'
+    var folderNamePath = path + folderName
+    if (isDirectory(folderNamePath)) {
+        fs.mkdirSync(folderNamePath)
+    }
+    return folderNamePath
+}
+/**
+ * For splitObject
+ * @param {String} path
+ * @param {String} file
+ * @param {var} flag
+ */
+function splitObject(path, file, flag = 1) { // split large files into single elements
+    /*
+      flag=1 ==> name according to index
+      flag=0 ==> name according to "name" attribute
+    */
+    path = fixPath(path)
+    let fileData = readData(path, file) // Reading data...
+    var folderNamePath = makeFolder(path, file) //new folder to save splitted files
+    saveFile(folderNamePath, file, fileData, flag) //saving files
+
 }
 // execute function
 // splitObject()
@@ -139,7 +159,6 @@ function getFileName(file, fileData, flag, index) {
     var fileName
     if (flag === 1) fileName = index + '-' + file // for example: 23-someJsonFile.json
     else fileName = fileData.name + '.json' // for example: someValueOfName.json
-
     fileName = fixFileName(fileName)
     return fileName
 }
