@@ -8,12 +8,12 @@
     "build": "npm run clean && npm run bundle",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
-    "prepublish": "yarn clean && yarn code-fix && yarn build",
+    "prepublish": "yarn clean && yarn build",
     "test": "CI=test && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
-    "lint": "standard",
+
     "format": "prettier",
     "generate": "xxx"
   },
@@ -36,11 +36,9 @@
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.4",
-    "husky": "2.4.1",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
-    "lint-staged": "8.2.1",
     "regenerator-runtime": "0.13.2",
     "rollup": "1.15.6",
     "rollup-plugin-babel": "4.3.2",
@@ -65,22 +63,6 @@
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
-  },
-  "lint-staged": {
-    "linters": {
-      "*.js": [
-        "npm run code-fix",
-        "git add"
-      ]
-    },
-    "ignore": [
-      "**/dist/*.js"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "files": [
     "dist"
