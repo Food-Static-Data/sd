@@ -1,14 +1,4 @@
-
-// const {
-//   favorites,
-//   departments,
-//   userGrocery,
-//   items,
-//   users,
-//   ingredients,
-//   grocery
-// } = require('../../../src/files.js')
-//
+import _ from 'lodash'
 
 import {
   favorites,
@@ -20,9 +10,7 @@ import {
   grocery
 } from '@files'
 
-const _ = require('lodash')
-// const { __generateId, __generateDate } = require('../../../src/utils.js')
-const { __generateId, __generateDate } = require('@utils.js')
+import { __generateId, __generateDate } from '@utils'
 
 // @TODO as we may need to be able to call this function from the
 // outside of this project - we should move this method outside

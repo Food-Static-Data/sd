@@ -1,12 +1,9 @@
-import files from './files'
-export default files
-
-const _ = require('lodash')
-const { __generateId } = require('../../../src/utils')
+import _ from 'lodash'
+import { __generateId } from '@utils'
 
 // const { __generateId } = require('@utils')
-// const { departments, ingredients, grocery } = require('@files')
-const { departments, ingredients, grocery } = require('../../../src/files')
+import { departments, ingredients, grocery } from '@files'
+
 /**
  * @returns {array} of keys for departments and ingredients
  */
@@ -36,6 +33,7 @@ const ultimateGroceryList = () => {
   const groceries = getAllGroceryWithId()
 
   _.map(groceries, grocery => {
+    // @TODO can be updated
     const ultimategrocery = {}
 
     ultimategrocery.name = grocery.name
@@ -51,7 +49,10 @@ const ultimateGroceryList = () => {
 }
 
 // get all departments with their ingredients in a grocery
-const getGroceryDepartmentsWithIngredients = (grocerydepartments, key) => {
+const getGroceryDepartmentsWithIngredients = (
+  grocerydepartments,
+  key
+) => {
   const results = []
   let departments = getAllDepartmentsWithId()
   _.map(grocerydepartments, grocerydepartment => {
@@ -61,8 +62,13 @@ const getGroceryDepartmentsWithIngredients = (grocerydepartments, key) => {
     })
 
     if (department) {
-      const departmentIngredients = { id: department.key, name: department.name, type: department.type }
+      const departmentIngredients = {
+        id: department.key,
+        name: department.name,
+        type: department.type
+      }
 
+      // @TODO long line.....
       departmentIngredients.ingredients = getDepartmentIngredients(grocerydepartment, key) // add all the ingredients in this department to the obj
       results.push(departmentIngredients)
     }

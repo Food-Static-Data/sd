@@ -1,9 +1,12 @@
-import files from './files'
-export default files
+import _ from 'lodash'
 
-//
-// const { __generateId } = require('@utils')
-// const { departments, ingredients, grocery } = require('@files')
+import {
+  departments,
+  ingredients,
+  grocery
+} from '@files'
+
+import { __generateId, __generateDate } from '@utils'
 
 export {
 
