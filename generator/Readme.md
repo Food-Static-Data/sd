@@ -110,13 +110,13 @@ You will see logging output about success generation.
 
 Upper was simple instructions how works generation. To know how it works deeper see below.
 
-When you run command `npm run generateFiles` it will call function generateFiles() in generateFiles.js.
+When you will run command `npm run generateFiles` it will call function generateFiles() in generateFiles.js.
 generateFiles() gets data from config and after some manipulation with path, calls `writeFile(path, data)` that in writeFile.js.
 
 Note 
 Also this method create folder if it doesn't exist.
 
 Generator using this file:
-configGenerator.js
-generateFiles.js
-writeFiles.js
+1. configGenerator.js
+2. generateFiles.js
+3. writeFiles.js
