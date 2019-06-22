@@ -87,6 +87,9 @@ Are we have documentation? If no, it should be written
 - `npm run generateFile`  or `yarn generateFile`: generate meal on two weeks in folder `dist`
 - `npm run generateArray` or `yarn generateArray`: More detailed information [here](#how-to-generate)
 
+#### Parser commands
+- `npm run parseCsv` or `yarn parseCsv` : parse from csv to json Food Composition
+
 ## How to generate additional files
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
 
