@@ -2,6 +2,7 @@
 const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 const fs = require('fs')
+const PATH = require('path')
 
 /**
  * For readAllFiles()
@@ -42,6 +43,7 @@ function getListContent (path, fileName = 'undefined') {
  * @param {String} path
  */
 function fixPath (path) {
+  path = PATH.resolve(__dirname, path)
   if (path.charAt(path.length - 1) !== '/') path = path + '/'
   return path
 }
