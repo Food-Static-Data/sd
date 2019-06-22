@@ -1,4 +1,4 @@
-const jsonFiles = require('@files')
+const jsonFiles = require('./files')
 
 // @TODO use lodash for it
 var arr
