@@ -6,6 +6,7 @@ var { writeFile } = require('../../writeFile')
 
 let results = []
 let data = []
+let writedCountries = []
 
 const countries = [
   'Finland',
@@ -129,9 +130,18 @@ countries.forEach(country => {
         data.push(results[i])
       }
 
+      writedCountries.push(country)
+
       writeFile(
-        path.join(__dirname, `/FoodComposition.json`),
-        data
+        path.join(__dirname, `/FoodComposition - ${country}.json`),
+        results
       )
+
+      if (writedCountries.length === countries.length) {
+        writeFile(
+          path.join(__dirname, `/FoodComposition.json`),
+          data
+        )
+      }
     })
 })
