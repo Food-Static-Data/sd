@@ -91,9 +91,9 @@ Before starting generating files make this steps:
 
 ```
 
-This object should has two property. 
-`name` - this name will be filename of json.
-`data` - array or object that you will want to write into json. Also this data should be json formatted. To make it more simple all functions that using configGenerator.js located in generateArray.js. 
+This object should has two property:
+1. `name` - filename of json.
+2. `data` - array or object that you will want to write into json. Also this data should be json formatted. To make it more simple all functions that using configGenerator.js located in generateArray.js. 
 
 You can add multiple objects!
 Note 
