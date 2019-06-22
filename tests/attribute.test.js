@@ -2,6 +2,7 @@
 'use strict'
 const { attributes } = require('@files')
 const { matchers } = require('jest-json-schema')
+const { schema, example } = require('./examples/attribute')
 expect.extend(matchers)
 
 describe('attributes data files returns array', () => {
@@ -11,8 +12,6 @@ describe('attributes data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/attribute')
-
   describe('tests for attribute schema', () => {
     it('validates allergy json', () => {
       expect(example).toMatchSchema(schema)
@@ -20,4 +19,4 @@ try {
   })
 } catch (e) {
   console.log(`${e.name}: ${e.message}`)
-} 
+}

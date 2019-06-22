@@ -17,7 +17,8 @@ const {
   measurementUnits
 } = require('../src/files')
 
-const getMenuGenerator = numberOfWeeks => {
+// @TODO this is a method from a project. maybe we should move it there, because it's confusing right now
+const getMenuGenerator = (numberOfWeeks) => {
   let
     result = _.times(numberOfWeeks, (index) => ({
       id: utils.__generateId(),
@@ -29,6 +30,9 @@ const getMenuGenerator = numberOfWeeks => {
   return result
 }
 
+// @TODO
+// 1. this function looks like a duplicate with getFileKey
+// 2. it's pretty useful for other cases, so i think we should move it into utils and reuse
 function generateArrWithId (data, id) {
   var result = []
   _.map(data, element => {
@@ -41,6 +45,7 @@ function generateArrWithId (data, id) {
   return result
 }
 
+// @TODO this is a method from a project. maybe we should move it there, because it's confusing right now
 function favorites () {
   var groceryId = generateArrWithId(grocery, 'grocery_id')
   var usersId = generateArrWithId(users, 'user_id')
@@ -61,6 +66,7 @@ function favorites () {
   return result
 }
 
+// @TODO this is a method from a project. maybe we should move it there, because it's confusing right now
 function usersGrocery () {
   var groceryId = generateArrWithId(grocery, 'grocery_id')
   var usersId = generateArrWithId(users, 'user_id')
@@ -96,6 +102,7 @@ function items () {
   return result
 }
 
+// @TODO this is a method from a project. maybe we should move it there, because it's confusing right now
 function getMeasurementSystem () {
   var result = []
   var measurementSystemId = generateArrWithId(measurementSystem, 'id')
@@ -110,6 +117,7 @@ function getMeasurementSystem () {
   return result
 }
 
+// @TODO this is a method from a project. maybe we should move it there, because it's confusing right now
 function getMeasurementUnits () {
   var result = []
   var measurementUnitsId = generateArrWithId(measurementUnits, 'id')

@@ -3,6 +3,7 @@
 const { firstVeganGLMCFilePath } = require('@files')
 const firstVeganGLMC = require(firstVeganGLMCFilePath)
 const { matchers } = require('jest-json-schema')
+const { schema, example } = require('./examples/firstVeganGLMC')
 expect.extend(matchers)
 
 describe('firstVeganGLMC data files returns array', () => {
@@ -12,8 +13,6 @@ describe('firstVeganGLMC data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/firstVeganGLMC')
-
   describe('test firstVeganGLMC json', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)

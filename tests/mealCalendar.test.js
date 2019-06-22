@@ -3,6 +3,7 @@
 const { mealCalendarFilePath } = require('@files')
 const mealcalendar = require(mealCalendarFilePath)
 const { matchers } = require('jest-json-schema')
+const { schema, example } = require('./examples/mealCalendar')
 expect.extend(matchers)
 
 describe('mealcalendar data files returns array', () => {
@@ -12,8 +13,6 @@ describe('mealcalendar data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/mealCalendar')
-
   describe('test mealcalender json', () => {
     it('validates my json', () => {
       expect(example).toMatchSchema(schema)
