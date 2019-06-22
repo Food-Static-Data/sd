@@ -3,6 +3,7 @@
 const { courseFilePath } = require('@files')
 const courses = require(courseFilePath)
 const { matchers } = require('jest-json-schema')
+const { schema, example } = require('./examples/course')
 expect.extend(matchers)
 
 describe('courses data files returns array', () => {
@@ -12,8 +13,6 @@ describe('courses data files returns array', () => {
 })
 
 try {
-  const { schema, example } = require('./examples/course')
-
   describe('tests for course schema', () => {
     it('validates course json', () => {
       expect(example).toMatchSchema(schema)

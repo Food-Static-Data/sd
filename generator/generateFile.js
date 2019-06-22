@@ -1,4 +1,4 @@
-var writeInFile = require('./writeFile')
+var { writeFile } = require('./writeFile')
 
 var { getMenuGenerator } = require('./generateArray')
 
@@ -8,9 +8,13 @@ var { getMenuGenerator } = require('./generateArray')
 function generateFile () {
   var fileName = 'generatedMenu'
   var path = './output/' + fileName + '.json' // i don't like this paths. at least we can move first part outside - aka output...
+
+  // @TODO right now we're using only one method from our list.
+  // so it works only for one case.
+  // we should pass a function aka callback as attribute to this method and call it here.
   var data = getMenuGenerator(2)
 
-  writeInFile.writeFile(path, data)
+  writeFile(path, data)
 }
 
 // @TODO i don't think that later we should call this method inside of this file

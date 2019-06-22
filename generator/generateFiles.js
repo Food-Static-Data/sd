@@ -1,5 +1,5 @@
-var writeInFile = require('./writeFile')
 const fs = require('fs')
+var { writeFile } = require('./writeFile')
 // var {
 //   usersGrocery,
 //   favorites,
@@ -18,7 +18,7 @@ function generateFiles () {
     //   var path = './output/' + fileName + '.json';
     var folderPath = './src/data/' + folder
 
-    if (!fs.existsSync(folderPath)) {
+    if (!fs.existsSync(folderPath)) { // @TODO use isDirectory?
       fs.mkdirSync(folderPath)
     }
 
@@ -26,7 +26,7 @@ function generateFiles () {
     var data = settings['data']
     // console.log(data);
 
-    writeInFile.writeFile(path, data)
+    writeFile(path, data)
   })
 }
 
