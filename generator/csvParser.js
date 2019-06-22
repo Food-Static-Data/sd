@@ -1,8 +1,9 @@
-var writeInFile = require('./writeFile')
 const fs = require('fs')
 const filesystem = require('fs')
 const csv = require('csv-parser')
 const path = require('path')
+
+var writeInFile = require('./writeFile')
 
 const maxEntries = 10000
 let result = []

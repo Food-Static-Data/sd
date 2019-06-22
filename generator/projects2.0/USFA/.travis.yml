@@ -1,0 +1,35 @@
+language: node_js
+node_js:
+  - "lts/*"
+  - "node"
+  - 12
+
+#before_script: npm run lint
+#script: npm run test
+#after_success: npm run coveralls
+
+install:
+  - npm install
+
+# as our module should have an additional files, generated before publishing we're using this line below
+# should we add more stuff here as well? or @TODO move something out when generator will be a separated thing
+before_script: npm run generateFiles
+
+
+script:
+  - npm test
+  - npm run test:cover
+  - npm run jsonlint
+  - npm run build
+# we need to move coveralls from fetch and run it here as well
+
+# script:
+#  - npm test
+#  - npm run jsonlint
+#  - npm run json-vaidation
+#  - npm run build
+#  - npm run install
+
+branches:
+  only:
+    - master

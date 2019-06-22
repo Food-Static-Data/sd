@@ -1,0 +1,221 @@
+[{
+    "name": "Small bagels",
+    "department": "breads-and-grains"
+  },
+  {
+    "name": "Whole-wheat tortillas (6-inch size)",
+    "department": "breads-and-grains"
+  },
+  {
+    "name": "Microwaveable brown rice",
+    "department": "breads-and-grains"
+  },
+  {
+    "name": "Plain instant oatmeal",
+    "department": "breads-and-grains"
+  },
+  {
+    "name": "Fat-free cream cheese",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Light string cheese",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Fat-free veggie cream cheese",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Liquid egg whites",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Trans fat–free margarine",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Nonfat vanilla yogurt",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Fat-free milk",
+    "department": "dairy-and-eggs"
+  },
+  {
+    "name": "Smoked salmon",
+    "department": "meats"
+  },
+  {
+    "name": "Turkey sausage",
+    "department": "meats"
+  },
+  {
+    "name": "2 skinless, boneless chicken breasts",
+    "department": "meats"
+  },
+  {
+    "name": "3-ounce can albacore tuna",
+    "department": "meats"
+  },
+  {
+    "name": "3-ounce pork chop",
+    "department": "meats"
+  },
+  {
+    "name": "3-ounce sirloin steak",
+    "department": "meats"
+  },
+  {
+    "name": "1 bunch asparagus",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Small baking potato",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Strawberries",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Dill (for salmon)",
+    "department": "fresh produce"
+  },
+  {
+    "name": "garlic",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 onion",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 lemon",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 orange",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 grapefruit",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 cup green beans",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 pear",
+    "department": "fresh produce"
+  },
+  {
+    "name": "1 ear of corn",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Baby carrots",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Fresh salsa",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Grapes",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Zucchini",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Blueberries",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Cucumbers",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Tomatoes",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Red bell pepper",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Romaine lettuce",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Salad greens (mesclun or baby green mix)",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Melon (cantaloupe or honeydew)",
+    "department": "fresh produce"
+  },
+  {
+    "name": "Edamame",
+    "department": "frozen items"
+  },
+  {
+    "name": "**Snack aisle:**",
+    "department": "frozen items"
+  },
+  {
+    "name": "Black-bean dip",
+    "department": "frozen items"
+  },
+  {
+    "name": "Raisins",
+    "department": "frozen items"
+  },
+  {
+    "name": "Plain popcorn (microwave or kernel)",
+    "department": "frozen items"
+  },
+  {
+    "name": "Almonds",
+    "department": "frozen items"
+  },
+  {
+    "name": "Black pepper",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Salt",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Dijon mustard",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Nonstick cooking spray",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Balsamic vinegar",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Low-fat salad dressing (your choice of flavor)",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Light Italian dressing",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Tomato sauce",
+    "department": "pantry staples"
+  },
+  {
+    "name": "Ground flaxseed",
+    "department": "other"
+  }
+]

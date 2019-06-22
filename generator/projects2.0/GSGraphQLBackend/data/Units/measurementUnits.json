@@ -1,0 +1,265 @@
+[{
+    "type": "Weight",
+    "name": "Milligram",
+    "singular": "milligram",
+    "plural": "milligrams",
+    "short": "mg",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Weight",
+    "name": "Centigram",
+    "singular": "centigram",
+    "plural": "centigrams",
+    "short": "cg",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Weight",
+    "name": "Decigram",
+    "singular": "decigram",
+    "plural": "decigrams",
+    "short": "dg",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Weight",
+    "name": "Gram",
+    "singular": "gram",
+    "plural": "grams",
+    "short": "g",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Weight",
+    "name": "Dekagram",
+    "singular": "dekagram",
+    "plural": "dekagrams",
+    "short": "dag",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Weight",
+    "name": "Hectogram",
+    "singular": "hectogram",
+    "plural": "hectograms",
+    "short": "hg",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Weight",
+    "name": "Kilogram",
+    "singular": "kilogram",
+    "plural": "kilograms",
+    "short": "kg",
+    "pattern": "([\\d]+)|([\\d]+\\.[\\d]{1,3})"
+  },
+  {
+    "type": "Volume",
+    "name": "Milliliter",
+    "singular": "milliliter",
+    "plural": "milliliters",
+    "short": "ml",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Volume",
+    "name": "Centiliter",
+    "singular": "centiliter",
+    "plural": "centiliters",
+    "short": "cl",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Volume",
+    "name": "Deciliter",
+    "singular": "deciliter",
+    "plural": "deciliters",
+    "short": "dl",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Volume",
+    "name": "Liter",
+    "singular": "liter",
+    "plural": "liters",
+    "short": "l",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Linear",
+    "name": "Millimeter",
+    "singular": "millimeter",
+    "plural": "millimeters",
+    "short": "mm",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Linear",
+    "name": "Centimeter",
+    "singular": "centimeter",
+    "plural": "centimeters",
+    "short": "cm",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Linear",
+    "name": "Decimeter",
+    "singular": "decimeter",
+    "plural": "decimeters",
+    "short": "dm",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Linear",
+    "name": "Meter",
+    "singular": "meter",
+    "plural": "meters",
+    "short": "m",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Cubic",
+    "name": "Cubic Millimeter",
+    "singular": "cubic millimeter",
+    "plural": "cubic millimeters",
+    "short": "mm3",
+    "pattern": "([\\d]+)|([\\d]+\\.[\\d]{1,3})"
+  },
+  {
+    "type": "Cubic",
+    "name": "Cubic Centimeter",
+    "singular": "cubic centimeter",
+    "plural": "cubic centimeters",
+    "short": "cm3",
+    "pattern": "([\\d]+)|([\\d]+\\.[\\d]{1,3})"
+  },
+  {
+    "type": "Cubic",
+    "name": "Cubic Decimeter",
+    "singular": "cubic decimeter",
+    "plural": "cubic decimeters",
+    "short": "dm3",
+    "pattern": "([\\d]+)|([\\d]+\\.[\\d]{1,3})"
+  },
+  {
+    "type": "Volume",
+    "name": "Minim",
+    "singular": "minim",
+    "plural": "minim",
+    "short": "min",
+    "pattern": "[\\d]{1,3}"
+  },
+  {
+    "type": "Volume",
+    "name": "Fluid Dram",
+    "singular": "fluid dram",
+    "plural": "fluid drams",
+    "short": "fl dr",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Teaspoon",
+    "singular": "teaspoon",
+    "plural": "teaspoons",
+    "short": "tsp",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Fluid Dram",
+    "singular": "fluid dram",
+    "plural": "fluid drams",
+    "short": "fl dr",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Fluid Ounce",
+    "singular": "fluid ounce",
+    "plural": "fluid ounces",
+    "short": "fl oz",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Shot",
+    "singular": "shot",
+    "plural": "shots",
+    "short": "jig",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Gill",
+    "singular": "gill",
+    "plural": "gills",
+    "short": "gi",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Cup",
+    "singular": "cup",
+    "plural": "cups",
+    "short": "cp",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Pint",
+    "singular": "pint",
+    "plural": "pints",
+    "short": "pt",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Quart",
+    "singular": "quart",
+    "plural": "quarts",
+    "short": "qt",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Volume",
+    "name": "Gallon",
+    "singular": "gallon",
+    "plural": "gallons",
+    "short": "gal",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Linear",
+    "name": "Foot",
+    "singular": "foot",
+    "plural": "feet",
+    "short": "ft",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Linear",
+    "name": "Yard",
+    "singular": "yard",
+    "plural": "yards",
+    "short": "yd",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Weight",
+    "name": "Ounce",
+    "singular": "ounce",
+    "plural": "ounces",
+    "short": "oz",
+    "pattern": "[\\d]{1,2}"
+  },
+  {
+    "type": "Weight",
+    "name": "Pound",
+    "singular": "pound",
+    "plural": "pounds",
+    "short": "lb",
+    "pattern": "[\\d]{1,2}"
+  }
+]

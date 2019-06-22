@@ -1,6 +1,6 @@
-const _ = require('lodash')
-// const utils = require('@utils')
-const utils = require('../src/utils')
+import _ from 'lodash'
+import utils from '@utils'
+// const utils = require('../src/utils')
 
 // const {
 //   users,
