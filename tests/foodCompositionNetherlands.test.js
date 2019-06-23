@@ -5,7 +5,7 @@ const { schema, example } = require('./examples/foodCompositionNetherlands')
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-describe('foodCompositionNetherlands data files returns array', () => {
+describe('foodCompositionNetherlands data files returns a path', () => {
   it('these tests prevent any issues and problems, also to break the structure of foodCompositionNetherlands', () => {
     expect(foodCompositionNetherlands).not.toBe('')
   })
