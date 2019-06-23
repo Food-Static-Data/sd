@@ -1,6 +1,7 @@
 // const filePath = require('../files')
 const fs = require('fs')
 const PATH = require('path')
+const src_utils = require('./../src/utils')
 const { promisify } = require('util') // ?? it's utils of not *** Answer : NO. It's using for writing data in json
 // const { promisify } = require('util')
 // const _ = require('lodash')
@@ -151,8 +152,37 @@ function getFileName (file, fileData, flag, index) {
   return fileName
 }
 
+
+/**
+ * For combineObjects()
+ * @param {String} path Path of folder where all splitted files are stored
+ * @param {var} keys List of keys that are to be removed
+ */
+function combineObject(path, keys) {
+    path = fixPath(path)
+    var content = src_utils.readAllFiles(path) //read all json files
+    content = updateContent(content, keys) //modifying structure
+    var fileNamePath = path + PATH.basename(path) + "_combined.json" // for example: elements_combined,json
+    writeFile(fileNamePath, content) //saving
+}
+
+/**
+ * For updateContent()
+ * @param {var} content
+ * @param {var} keys
+ */
+function updateContent(content, keys) {
+    var len = content.length
+    for (var i = 0; i < len; i++) {
+        for (var j = 0; j < keys.length; j++) {
+            delete content[i][keys[j]]
+        }
+    }
+    return content
+}
 module.exports = {
-  writeFile,
-  test,
-  splitObject
+    writeFile,
+    test,
+    splitObject,
+    combineObject
 }
