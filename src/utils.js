@@ -115,5 +115,6 @@ module.exports = {
   __generateDate,
   jsonFileNotEmptyTest,
   jsonSchemaTest,
-  getFileInfo
+  getFileInfo,
+  readAllFiles
 }
