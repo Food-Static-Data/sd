@@ -68,6 +68,16 @@ const generatedMeasurementSystem = pathResolver('MeasurementSystem/measurementSy
 const measurementUnits = pathResolver('Units/measurementUnits.json')
 const generatedMeasurementUnits = pathResolver('MeasurementUnits/measurementUnits.json')
 
+// Need to change path when json files move to src/data/FoodComposition
+const foodCompositionFinland = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Finland.json')
+const foodCompositionFrance = pathResolver('../../generator/projects/FoodComposition/FoodComposition - France.json')
+const foodCompositionGermany = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Germany.json')
+const foodCompositionItaly = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Italy.json')
+const foodCompositionNetherlands = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Netherlands.json')
+const foodCompositionSweden = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Sweden.json')
+const foodCompositionUk = pathResolver('../../generator/projects/FoodComposition/FoodComposition - United Kingdom.json')
+const foodComposition = pathResolver('../../generator/projects/FoodComposition/FoodComposition.json')
+
 module.exports = {
   grocery,
   allergies,
@@ -79,6 +89,14 @@ module.exports = {
   ingredients1,
   ingredients3,
   favorites,
+  foodCompositionFinland,
+  foodCompositionFrance,
+  foodCompositionGermany,
+  foodCompositionItaly,
+  foodCompositionNetherlands,
+  foodCompositionSweden,
+  foodCompositionUk,
+  foodComposition,
   mealCalendar,
   firstVeganGLMC,
   measurements,
