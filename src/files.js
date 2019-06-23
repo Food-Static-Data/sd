@@ -7,6 +7,16 @@ const dataPath = './data/'
 const pathResolver = (path) => {
   return resolve(__dirname, dataPath + path)
 }
+
+// @TODO fix it later. it's a total duplicate. Blame Arthur for it
+
+const dataPath2 = '../generator/projects/FoodComposition/'
+
+const pathResolver2 = (path) => {
+  return resolve(__dirname, dataPath + path)
+}
+
+
 // const dataPath = resolve(__dirname, './data/')
 const grocery = pathResolver('Grocery/grocery.json')
 // @TODO change import & path(change extension of file from js to json)
@@ -68,6 +78,19 @@ const generatedMeasurementSystem = pathResolver('MeasurementSystem/measurementSy
 const measurementUnits = pathResolver('Units/measurementUnits.json')
 const generatedMeasurementUnits = pathResolver('MeasurementUnits/measurementUnits.json')
 
+
+//Food composition
+const FinlandDataSet = pathResolver2('FoodComposition - Finland.json')
+const FranceDataSet = pathResolver2('FoodComposition - France.json')
+const GermanyDataSet = pathResolver2('FoodComposition - Germany.json')
+const ItalyDataSet = pathResolver2('FoodComposition - Italy.json')
+const NetherlandsDataSet = pathResolver2('FoodComposition - Netherlands.json')
+const SwedenDataSet = pathResolver2('FoodComposition - Sweden.json')
+const UnitedKingdomDataSet = pathResolver2('FoodComposition - United Kingdom.json')
+const FullDataSet = pathResolver2('FoodComposition.json')
+
+
+
 module.exports = {
   grocery,
   allergies,
@@ -111,5 +134,15 @@ module.exports = {
   recipe4,
   tablespoon,
   teaspoon,
-  types
+  types,
+  
+  //Food composition
+  FinlandDataSet,
+  FranceDataSet,   
+  GermanyDataSet,
+  ItalyDataSet,
+  NetherlandsDataSet,
+  SwedenDataSet,  
+  UnitedKingdomDataSet,
+  FullDataSet
 }
