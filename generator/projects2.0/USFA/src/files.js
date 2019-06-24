@@ -1,16 +1,16 @@
-// import {
-//   departments,
-//   groceries,
-//   ingredients,
-//   users
-// } from '@groceristar/sd-wrapper'
-//
-// export {
-//   departments,
-//   groceries,
-//   ingredients,
-//   users
-// }
+import {
+  Nutrient,
+  Derivation_Code,
+  Product,
+  Serving_Size
+} from '@groceristar/sd-wrapper'
+
+export {
+  Nutrient,
+  Derivation_Code,
+  Product,
+  Serving_Size
+}
 
 
 /// @TODO later we should do it recursivelly
