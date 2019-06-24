@@ -1,14 +1,5 @@
 import _ from 'lodash'
 
-
-const { resolve } from 'path'
-
-const dataPath = './'
-
-const pathResolver = (path) => {
-  return resolve(__dirname, dataPath + path)
-}
-
 import {
   FinlandDataSet,
   FranceDataSet,
@@ -21,6 +12,15 @@ import {
 } from '@files'
 
 import { __generateId } from '@utils'
+
+
+// const { resolve } from 'path'
+//
+// const dataPath = './'
+//
+// const pathResolver = (path) => {
+//   return resolve(__dirname, dataPath + path)
+// }
 
 const displayFoodCompositionData = () => {
   return ''
