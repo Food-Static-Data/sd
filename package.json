@@ -41,7 +41,7 @@
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.4",
-    "husky": "2.4.1",
+    "husky": "2.5.0",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
