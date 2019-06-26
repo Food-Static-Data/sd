@@ -1,0 +1,3 @@
+// is it simple export of we should here keep some methods?
+// like func where we connect files with models
+// aka get(filename) switch case GS_DEPARTMENTS return @files/departments...
