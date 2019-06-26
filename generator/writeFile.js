@@ -177,12 +177,12 @@ function combineObject(path, keys) {
  */
 function updateContent(content, keys) {
     var len = content.length
-    console.log(len)
-    for (itr = 0; itr < len; itr++) {
+    //console.log(len)
+    for (var itr = 0; itr < len; itr++) {
         var elementLen = content[itr].length
         for (var i = 0; i < elementLen; i++) {
             for (var j = 0; j < keys.length; j++) {
-                console.log(content[itr][i][keys[j]]);
+                //console.log(content[itr][i][keys[j]]);
                 delete content[itr][i][keys[j]]
             }
         }
