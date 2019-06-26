@@ -49,15 +49,7 @@ export default {
     resolve({ extensions }),
 
     // Allow bundling cjs modules. Rollup doesn't understand cjs
-    commonjs({
-      namedExports: {
-      //   // left-hand side can be an absolute path, a path
-      //   // relative to the current directory, or the name
-      //   // of a module in node_modules
-      //   'node_modules/my-lib/index.js': [ 'named' ]
-        '~/Allergy/allergies.json': [ 'allergies' ]
-      }
-    }),
+    commonjs(),
 
     // Compile TypeScript/JavaScript files
     babel({
