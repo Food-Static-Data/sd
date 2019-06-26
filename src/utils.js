@@ -13,10 +13,12 @@ function readAllFiles (path) {
   var files = fs.readdirSync(path)
   files.forEach(file => {
     let fileStat = fs.statSync(path + file).isDirectory()
-    if (!fileStat) {
-      let data = fs.readFileSync(path + file)
-      data = JSON.parse(data)
-      content.push(data)
+    if (file.slice(-5) === '.json') {
+      if (!fileStat) {
+          let data = fs.readFileSync(path + file)
+          data = JSON.parse(data)
+          content.push(data)
+      }
     }
   })
   return content
