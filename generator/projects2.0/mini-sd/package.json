@@ -1,6 +1,6 @@
 {
-  "name": "@groceristar/sd-wrapper",
-  "version": "4.10.0",
+  "name": "@groceristar/mini-sd",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",

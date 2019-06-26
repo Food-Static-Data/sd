@@ -6,3 +6,9 @@ We have a few files, stored at https://github.com/ChickenKyiv/awesome-food-db-st
 - [ ] add tests
 - [ ] make it work
 - [ ] update structure for data and raw folders
+
+
+
+https://github.com/jest-community/awesome-jest
+https://github.com/JamieMason/expect-more/tree/master/packages/expect-more-jest
+https://github.com/ChickenKyiv/awesome-food-db-strucutures/tree/master/FAO
