@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/mini-sd",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",
@@ -12,7 +12,6 @@
     "test": "CI=test && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
-    "files": "node --experimental-modules dist/index.cjs",
     "jsonlint": "node jsonlint.config.js",
     "format": "prettier"
   },
