@@ -18,9 +18,9 @@ const schema = {
 }
 
 const example = {
-  "Nutrition": "K",
-  "Description": "Potassium, K",
-  "ImpliedUnits": "gram"
+  'Nutrition': 'K',
+  'Description': 'Potassium, K',
+  'ImpliedUnits': 'gram'
 }
 
 module.exports = {

@@ -1,7 +1,19 @@
-// ITS A BAD WAY. Really messing up with our code @TODO
+import {
+  Nutrient,
+  Derivation_Code,
+  Product,
+  Serving_Size
+} from '@groceristar/sd-wrapper'
 
-// Derivation_Code_Description/Derivation_Code_Description1.json
+export {
+  Nutrient,
+  Derivation_Code,
+  Product,
+  Serving_Size
+}
 
+
+/// @TODO later we should do it recursivelly
 //
 // Nutrient01.json
 // Nutrient010.json
@@ -115,6 +127,3 @@
 // nutrition77.json
 // nutrition78.json
 // nutrition79.json
-
-// https://github.com/GroceriStar/sd/tree/master/generator/projects/USFA/Product
-// https://github.com/GroceriStar/sd/tree/master/generator/projects/USFA/Serving_Size
