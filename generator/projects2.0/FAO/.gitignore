@@ -1,0 +1,26 @@
+# IDE & OS specific
+.DS_Store
+.idea
+.github
+
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+
+# Coverage
+coverage
+
+# Types
+flow-typed/npm/*
+!flow-typed/npm/module_vx.x.x.js
+
+# Release
+dist/*
+
+#build
+package-lock.json
+yarn.lock
+.vscode
