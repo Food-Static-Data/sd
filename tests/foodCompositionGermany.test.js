@@ -17,7 +17,7 @@ try {
       expect(example).toMatchSchema(schema)
     })
     it('checks the country', () => {
-      expect(example["country"]).toBe("Germany")
+      expect(example['country']).toBe('Germany')
     })
   })
 } catch (e) {

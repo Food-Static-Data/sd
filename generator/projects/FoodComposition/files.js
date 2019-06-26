@@ -6,7 +6,7 @@ const pathResolver = (path) => {
   return resolve(__dirname, dataPath + path)
 }
 
-//Food composition
+// Food composition
 const FinlandDataSet = pathResolver('FoodComposition - Finland.json')
 const FranceDataSet = pathResolver('FoodComposition - France.json')
 const GermanyDataSet = pathResolver('FoodComposition - Germany.json')
@@ -18,23 +18,23 @@ const FullDataSet = pathResolver('FoodComposition.json')
 
 module.exports = {
   FinlandDataSet,
-  FranceDataSet,   
+  FranceDataSet,
   GermanyDataSet,
   ItalyDataSet,
   NetherlandsDataSet,
-  SwedenDataSet,  
+  SwedenDataSet,
   UnitedKingdomDataSet,
   FullDataSet
 }
 
 // it wouldn't work at this point of time
-//export {
+// export {
 //  FinlandDataSet,
-//  FranceDataSet,   
+//  FranceDataSet,
 //  GermanyDataSet,
 //  ItalyDataSet,
 //  NetherlandsDataSet,
-//  SwedenDataSet,  
+//  SwedenDataSet,
 //  UnitedKingdomDataSet,
 //  FullDataSet
-//}
+// }
