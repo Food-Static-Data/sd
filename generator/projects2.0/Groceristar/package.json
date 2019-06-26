@@ -1,5 +1,5 @@
 {
-  "name": "@groceristar/staticdata-gs-graphql-backend",
+  "name": "@groceristar/sd-gs-files",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -8,14 +8,14 @@
     "build": "npm run clean && npm run bundle",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
-    "prepublish": "yarn clean && yarn code-fix && yarn build",
+    "prepublish": "yarn clean && yarn build",
     "test": "CI=test && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
-    "lint": "standard",
     "format": "prettier",
-    "generate": "xxx"
+    "generate": "xxx",
+    "code-fix": "echo 'code-fix me'"
   },
   "description": "xxx",
   "main": "dist/index.cjs",
@@ -61,7 +61,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@groceristar/sd-wrapper": "^4.10.0",
+    "@groceristar/sd-wrapper": "^4.11.1",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "uuid": "^3.3.2"

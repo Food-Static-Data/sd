@@ -20,6 +20,8 @@ import ingredients1 from '~/Ingredients/ingredients1.json'
 import ingredients3 from '~/Ingredients/ingredients3.json'
 
 import favorites from '~/Favorites/favorites.json'
+// import favorites from '../output/favorites.json'
+
 import items from '~/Items/items.json'
 // @TODO import sub-stuff like items, etc in order to make fetch works well....
 

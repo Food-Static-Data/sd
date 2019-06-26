@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { __generateId } from '@utils'
 
-import { departments, ingredients, grocery } from '@files'
+import { departments, ingredients, grocery, users } from '@files'
 
 /**
  * @returns {array} of keys for departments and ingredients
@@ -122,5 +122,8 @@ export {
   getKeyArrayDepAndIng,
   ultimateGroceryList,
   getDepartmentIngredients,
-  getGroceryDepartmentsWithIngredients
+  getGroceryDepartmentsWithIngredients,
+
+  departments, ingredients, grocery, users //@TODO i don't like that we're exporting methods and raw files as well. handle it later
+
 }
