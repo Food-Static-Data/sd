@@ -108,6 +108,10 @@ function splitObject (path, file, flag = 1) { // split large files into single e
       flag=1 ==> name according to index
       flag=0 ==> name according to "name" attribute
     */
+  if (file.slice(-5) !== '.json') {
+        console.log("Require .json file.")
+        return
+  }
   path = fixPath(path)
   let fileData = readData(path, file) // Reading data...
   var folderNamePath = makeFolder(path, file) // new folder to save splitted files
