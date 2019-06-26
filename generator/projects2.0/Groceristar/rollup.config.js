@@ -23,12 +23,14 @@ const { external, globals } = {
   'globals': {
     'fs': 'fs',
     'uuid': 'uuid',
-    'path': 'path'
+    'path': 'path',
+    '@groceristar/sd-wrapper':'@groceristar/sd-wrapper'
   },
   'external': [
     'fs',
     'path',
-    'uuid'
+    'uuid',
+    '@groceristar/sd-wrapper'
   ]
 }
 

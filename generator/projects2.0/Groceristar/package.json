@@ -61,7 +61,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@groceristar/sd-wrapper": "^4.11.1",
+    "@groceristar/sd-wrapper": "^4.11.3",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "uuid": "^3.3.2"
