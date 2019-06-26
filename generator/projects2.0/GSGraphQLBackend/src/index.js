@@ -23,9 +23,11 @@ const getFileKey = (file) => {
   })
 }
 
+
 const getFavoritesKey = () => {
   return getFileKey(favorites)
 }
+
 
 const getDepartmentsKey = function () {
   let results = departments
@@ -38,13 +40,16 @@ const getDepartmentsKey = function () {
   }))
 }
 
+
 const getUserGroceryKey = () => {
   return getFileKey(userGrocery)
 }
 
+
 const getItemsKey = () => {
   return getFileKey(items)
 }
+
 
 const getUsersKey = function () {
   // let results = users
@@ -56,6 +61,10 @@ const getUsersKey = function () {
     groceryId: 1
   }))
 }
+
+// @TODO maybe we should have a
+// separated function that can help us to apply limit to our other different sets of data?
+// i see it like method from utils.js but it should be copied to all of our projects
 
 const getIngredientsKey = function (limit = false) {
   let results = ingredients
@@ -92,6 +101,8 @@ const getGroceryKey = function () {
     favs: false
   }))
 }
+
+
 
 export {
   getFavoritesKey,

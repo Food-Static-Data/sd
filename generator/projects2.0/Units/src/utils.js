@@ -31,9 +31,13 @@ function getListContent (path, fileName = 'undefined') {
     // read all files
     return readAllFiles(path)
   }
+
+
+  // @TODO next 3 lines are duplicated. can be a separated method
   // read specified file
   let data = fs.readFileSync(path + fileName)
   data = JSON.parse(data)
+  
   return data
 }
 

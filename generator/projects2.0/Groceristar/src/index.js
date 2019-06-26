@@ -3,6 +3,10 @@ import { __generateId } from '@utils'
 
 import { departments, ingredients, grocery, users } from '@files'
 
+
+
+
+
 /**
  * @returns {array} of keys for departments and ingredients
  */
@@ -26,7 +30,16 @@ const getKeyArrayDepAndIng = () => {
   return keys
 }
 
+
+
+
+
+
+
+
 // get ultimate grocery list for each grocery store
+// @TODO is this method for GSLoopback structure?
+// if yes - we should move it to GSLoopbackBackend
 const ultimateGroceryList = () => {
   const ultimategroceries = []
   const groceries = getAllGroceryWithId()
@@ -46,6 +59,12 @@ const ultimateGroceryList = () => {
 
   return ultimategroceries
 }
+
+
+
+
+
+
 
 // get all departments with their ingredients in a grocery
 const getGroceryDepartmentsWithIngredients = (
@@ -76,6 +95,12 @@ const getGroceryDepartmentsWithIngredients = (
   return results
 }
 
+
+
+
+
+
+
 // get all ingredients in a department
 const getDepartmentIngredients = (department, key) => {
   const results = []
@@ -94,6 +119,10 @@ const getDepartmentIngredients = (department, key) => {
   return results
 }
 
+
+
+
+
 // get grocery with key
 const getAllGroceryWithId = () => {
   let result = getResult(grocery)
@@ -101,22 +130,31 @@ const getAllGroceryWithId = () => {
   return result
 }
 
+
+
+
 const getAllDepartmentsWithId = () => {
   let result = getResult(departments)
 
   return result
 }
-//
+
+
+
+
 const getAllIngredientsWithId = () => {
   let result = getResult(ingredients)
 
   return result
 }
 
+// @TODO should we move it into utils to all of our separated projects as well?
 const getResult = (property) => _.map(property, (p) => ({
   key: __generateId(),
   ...p
 }))
+
+
 
 export {
   getKeyArrayDepAndIng,
