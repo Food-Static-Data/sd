@@ -1,11 +1,3 @@
-// @TODO maybe later we'll just have an index file, in order to simplify import logic?
-// looks like rollup has a good codegen features
-
-// import { version } from '../package.json'
-
-// @TODO should we use .json in import?
-
-
 import departments from '~/Departments/departments.json'
 
 import grocery from '~/Grocery/grocery.json'
@@ -14,17 +6,6 @@ import grocery from '~/Grocery/grocery.json'
 import ingredients from '~/Ingredients/ingredients.json'
 import ingredients1 from '~/Ingredients/ingredients1.json'
 import ingredients3 from '~/Ingredients/ingredients3.json'
-
-
-
-
-
-
-
-
-
-
-
 
 // will crash here, because we need to import another file as well
 import mealCalendar from '~/MealCalendar/mealcalendar.json'

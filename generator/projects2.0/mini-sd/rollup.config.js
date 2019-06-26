@@ -53,18 +53,18 @@ export default {
       //   // relative to the current directory, or the name
       //   // of a module in node_modules
       //   'node_modules/my-lib/index.js': [ 'named' ]
-        '~/Allergy/allergies.json': [ 'allergies' ]
+        // '~/Allergy/allergies.json': [ 'allergies' ]
       }
     }),
 
     // Compile TypeScript/JavaScript files
     babel({
       extensions,
-      include: ['src/*'],
+      include: ['src/*', 'data/*'],
       // include: ['src/**/*'],
       exclude: [
         'node_modules/**',
-        '/src/data/__tests__'
+        '/data/__tests__'
         // '/src/data/json-tests'
       ]
       // exclude: 'node_modules/**'
@@ -75,7 +75,8 @@ export default {
     // Allow Rollup to import data from JSON file
     // json()
     json({
-      include: 'src/data/**',
+      // include: 'src/data/**',
+      include: 'data/**',
 
       // for tree-shaking, properties will be declared as
       // variables, using either `var` or `const`
