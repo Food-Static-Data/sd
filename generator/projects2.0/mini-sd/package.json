@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/mini-sd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",
@@ -35,7 +35,6 @@
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.4",
-
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
