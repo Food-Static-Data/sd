@@ -1,3 +1,9 @@
+#### JSONLint validator
+
+main goal for this module is to make JSONLint validator more easy and separated.
+it might be not very important thing for now.
+But as we separating our sd-wrapper and it can actually reduce logic of main package.
+
 https://www.npmjs.com/package/validate.io-json
 https://www.npmjs.com/package/amanda
 https://www.npmjs.com/package/@mojotech/json-type-validation
