@@ -6,7 +6,11 @@ const schema = {
     Derivation_Descript: {
       type: 'string'
     }
-  }
+  },
+  required: [
+    "derivation_code",
+    "Derivation_Descript"
+  ]
 }
 
 const example = {
