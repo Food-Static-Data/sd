@@ -2,7 +2,7 @@
 // jsonlint data/Grocery/grocery.json and other checks
 var { resolve } = require('path')
 
-const dataPath = './data/'
+const dataPath = './src/data/'
 
 const pathResolver = (path) => {
   return resolve(__dirname, dataPath + path)

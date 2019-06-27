@@ -2,6 +2,7 @@
 import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
 import json from 'rollup-plugin-json'
+
 // import copy from 'rollup-plugin-copy-assets'
 import builtins from 'rollup-plugin-node-builtins'
 import babel from 'rollup-plugin-babel'
@@ -19,18 +20,11 @@ const extensions = [
 const name = 'StaticDataWrapper'
 
 // packages that should be treated as external or global dependencies, not bundled
-const { external, globals } = {
-  'globals': {
-    'fs': 'fs',
-    'uuid': 'uuid',
-    'path': 'path'
-  },
-  'external': [
-    'fs',
-    'path',
-    'uuid'
+const external = [
+  'fs',
+  'path',
+  'uuid'
   ]
-}
 
 export default {
   // source file / entrypoint
@@ -38,8 +32,7 @@ export default {
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en#external-e-external
-  external,
-  globals,
+  external: external,
 
   // list of plugins used during building process
   plugins: [
@@ -52,7 +45,7 @@ export default {
     // Compile TypeScript/JavaScript files
     babel({
       extensions,
-      include: ['src/*', 'data/*'],
+      include: ['src/*', 'src/data/*'],
       // include: ['src/**/*'],
       exclude: [
         'node_modules/**'
@@ -68,7 +61,7 @@ export default {
     // json()
     json({
       // include: 'src/data/**',
-      include: 'data/**',
+      include: 'src/data/**',
 
       // for tree-shaking, properties will be declared as
       // variables, using either `var` or `const`
@@ -79,13 +72,14 @@ export default {
 
     }),
 
-    // juck fix in order to move json files to npm
+    // just quick fix in order to move json files to npm
     // copy({
     //   assets: [
-    //     './src/data/**'
+    //     '/data'
     //   ],
     // }),
 
+    //
     builtins(),
 
     // Displays rollup errors as system notifications
