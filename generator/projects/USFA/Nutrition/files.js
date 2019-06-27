@@ -1,18 +1,19 @@
-import {
-  Nutrient,
-  Derivation_Code,
-  Product,
-  Serving_Size
-} from '@groceristar/sd-wrapper'
+//import {
+//  Nutrient,
+//  Derivation_Code,
+//  Product,
+//  Serving_Size
+//} from '@groceristar/sd-wrapper'
+
+//export {
+ // Nutrient,
+  //Derivation_Code,
+  //Product,
+  //Serving_Size
+//}
 
 export {
-  Nutrient,
-  Derivation_Code,
-  Product,
-  Serving_Size
 }
-
-
 /// @TODO later we should do it recursivelly
 //
 // Nutrient01.json

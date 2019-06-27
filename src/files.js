@@ -87,6 +87,10 @@ const foodCompositionSweden = pathResolver('../../generator/projects/FoodComposi
 const foodCompositionUk = pathResolver('../../generator/projects/FoodComposition/FoodComposition - United Kingdom.json')
 const foodComposition = pathResolver('../../generator/projects/FoodComposition/FoodComposition.json')
 
+// Need to change path when json files move to src/data/
+const derivationCodeDescr = pathResolver('../../generator/projects/USFA/Derivation_Code_Description/Derivation_Code_Description1.json')
+
+const dietAndHealthLabel = pathResolver('DietAndHealthLabel/dietAndHealthLabel.json')
 // Food composition
 // const FinlandDataSet = pathResolver2('FoodComposition - Finland.json')
 // const FranceDataSet = pathResolver2('FoodComposition - France.json')
@@ -103,7 +107,9 @@ module.exports = {
   course,
   cuisine,
   departments,
+  derivationCodeDescr,
   diet,
+  dietAndHealthLabel,
   ingredients,
   ingredients1,
   ingredients3,
