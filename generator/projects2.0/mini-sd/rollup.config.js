@@ -13,6 +13,9 @@ import notify from 'rollup-plugin-notify'
 // https://github.com/mjeanroy/rollup-plugin-prettier
 // https://gitlab.com/IvanSanchez/rollup-plugin-file-as-blob
 
+
+// https://www.npmjs.com/package/rollup-plugin-copy-assets-to
+
 const extensions = [
   '.js', '.json'
 ]
