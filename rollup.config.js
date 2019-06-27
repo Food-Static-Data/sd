@@ -19,18 +19,12 @@ const extensions = [
 const name = 'StaticDataWrapper'
 
 // packages that should be treated as external or global dependencies, not bundled
-const { external, globals } = {
-  'globals': {
-    'fs': 'fs',
-    'uuid': 'uuid',
-    'path': 'path'
-  },
-  'external': [
+const external = [
     'fs',
     'path',
     'uuid'
   ]
-}
+
 
 export default {
   // source file / entrypoint
@@ -38,8 +32,8 @@ export default {
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en#external-e-external
-  external,
-  globals,
+  external: external,
+  
 
   // list of plugins used during building process
   plugins: [

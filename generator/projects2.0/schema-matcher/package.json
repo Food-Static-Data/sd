@@ -15,7 +15,8 @@
     "jsonlint": "node jsonlint.config.js",
     "lint": "standard",
     "format": "prettier",
-    "generate": "xxx"
+    "generate": "xxx",
+    "code-fix": "echo 'code-fix me'"
   },
   "description": "xxx",
   "main": "dist/index.cjs",

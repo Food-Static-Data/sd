@@ -13,7 +13,9 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
-    "format": "prettier"
+    "format": "prettier",
+    "generate": "xxx",
+    "code-fix": "echo 'code-fix me'"
   },
   "description": "module to use static JSON files with food tech projects",
   "main": "dist/index.cjs",

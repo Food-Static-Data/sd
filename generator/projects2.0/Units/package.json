@@ -13,9 +13,9 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
-
     "format": "prettier",
-    "generate": "xxx"
+    "generate": "xxx",
+    "code-fix": "echo 'code-fix me'"
   },
   "description": "xxx",
   "main": "dist/index.cjs",
