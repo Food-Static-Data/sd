@@ -1,7 +1,7 @@
 // const filePath = require('../files')
 const fs = require('fs')
 const PATH = require('path')
-const src_utils = require('./../src/utils')
+const srcUtils = require('./../src/utils')
     //const { promisify } = require('util') // ?? it's utils of not *** Answer : NO. It's using for writing data in json
     // const { promisify } = require('util')
     // const _ = require('lodash')
@@ -79,7 +79,6 @@ function saveFile(folderNamePath, file, fileData, flag) {
     for (var i = 0; i < fileDataLength; i++) {
         var fileName = getFileName(file, fileData[i], flag, i)
         var elementPath = folderNamePath + '/' + fileName
-        var data = fileData[i]
         writeFile(elementPath, fileData[i])
     }
 }
@@ -166,7 +165,7 @@ function getFileName(file, fileData, flag, index) {
  */
 function combineObject(path, keys) {
     path = fixPath(path)
-    var content = src_utils.readAllFiles(path) //read all json files
+    var content = srcUtils.readAllFiles(path) //read all json files
     content = updateContent(content, keys) //modifying structure
     var fileNamePath = path + PATH.basename(path) + "_combined.json" // for example: elements_combined,json
     writeFile(fileNamePath, content) //saving
