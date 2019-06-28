@@ -2,7 +2,7 @@
 const fs = require('fs')
 const PATH = require('path')
 const src_utils = require('./../src/utils')
-const { promisify } = require('util') // ?? it's utils of not *** Answer : NO. It's using for writing data in json
+    //const { promisify } = require('util') // ?? it's utils of not *** Answer : NO. It's using for writing data in json
     // const { promisify } = require('util')
     // const _ = require('lodash')
 
@@ -20,11 +20,11 @@ function writeFile(path, data) {
     }
 
     var dataStr = JSON.stringify(data)
-    dataStr = dataStr.replace(/{\"/g, '{ \"')
-    dataStr = dataStr.replace(/{\"/g, '{ \" ')
+    dataStr = dataStr.replace(/{"/g, '{ "')
+    dataStr = dataStr.replace(/{"/g, '{ " ')
     dataStr = dataStr.replace(/}/g, ' }')
-    dataStr = dataStr.replace(/\":/g, '\": ')
-    dataStr = dataStr.replace(/,\"/g, ',\n \"')
+    dataStr = dataStr.replace(/":/g, '": ')
+    dataStr = dataStr.replace(/,"/g, ',\n "')
     dataStr = '[' + dataStr + ']'
     console.log(dataStr)
     fs.writeFile(path, dataStr, function(err) {
