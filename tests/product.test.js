@@ -9,8 +9,6 @@ expect.extend(matchers)
 const pathJson = '../generator/projects/USFA/Product'
 let files = getFileInfo(pathJson)
 
-console.log(files.length)
-
 describe('product data files returns a path', () => {
   files.forEach((file) => {
     if (path.extname(file) !== '.js') {
