@@ -120,7 +120,14 @@ You can combine objects by calling function **combineObjects()** from writeFile.
 
 **combineObject(path, keys_to_be_removed)** - This will read all files in the given path and remove the keys given the list of keys_to_be_removed and saves it into a new file in the given `path` as name `<dirName>_combined.json`.
 
-Example:- combineObject('/abc/pqr/',['id','img',])
+Example:- combineObject('/abc/pqr/', ['id', 'img'])
+
+If you want to modify the json structure of splitted files and combine them again to a single file then you can call splitObject with a call back function.
+```
+const writeFile = require('path to sd/generator/writeFile.js')
+var path = "/path/of/the/file/"
+writeFile.splitObject(path, 'filename.json', 1, writeFile.combineObject, ['key1', 'key2'])
+```
 
 **getFileInfo('path_of_directory')** - returns a list of files present in the directory.
 
