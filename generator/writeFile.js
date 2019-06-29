@@ -7,26 +7,29 @@ const srcUtils = require('./../src/utils')
     // const _ = require('lodash')
 
 /**
+ * for makeReadable()
+ * @param {Object} data a json object
+ * */
+
+
+function makeReadable(data) {
+    var dataStr = JSON.stringify(data)
+    dataStr = dataStr.replace(/{"/g, '{ "')
+    dataStr = dataStr.replace(/{"/g, '{ " ')
+    dataStr = dataStr.replace(/},{/g, ' },\n{')
+    dataStr = dataStr.replace(/":/g, '": ')
+    dataStr = dataStr.replace(/,"/g, ',\n "')
+    return dataStr
+}
+/**
  * Write in file
  * @param {String} path
  * @param {Object} data
  */
 function writeFile(path, data) {
-    // console.log(typeof users);
-    // console.log(typeof usersStr);
-    if (typeof data === 'undefined') {
-        console.error('Error variable is undefined')
-        return
-    }
-
-    var dataStr = JSON.stringify(data)
-    dataStr = dataStr.replace(/{"/g, '{ "')
-    dataStr = dataStr.replace(/{"/g, '{ " ')
-    dataStr = dataStr.replace(/}/g, ' }')
-    dataStr = dataStr.replace(/":/g, '": ')
-    dataStr = dataStr.replace(/,"/g, ',\n "')
-    dataStr = '[' + dataStr + ']'
-    console.log(dataStr)
+    var dataStr = makeReadable(data)
+        //dataStr = '[' + dataStr + ']'
+        //console.log(dataStr)
     fs.writeFile(path, dataStr, function(err) {
         if (err)
             return console.log(err)
@@ -116,8 +119,13 @@ function splitObject(path, file, flag = 1, callback, keys = []) { // split large
     let fileData = readData(path, file) // Reading data...
     var folderNamePath = makeFolder(path, file) // new folder to save splitted files
     saveFile(folderNamePath, file, fileData, flag) // saving files
-    if (callback instanceof Function)
-        callback(folderNamePath, keys)
+    if (callback instanceof Function) {
+        setTimeout(function() {
+            callback(folderNamePath, keys)
+        }, 1000)
+    }
+
+
 }
 // execute function
 // splitObject()
@@ -193,5 +201,6 @@ module.exports = {
     writeFile,
     test,
     splitObject,
-    combineObject
+    combineObject,
+    makeReadable
 }
