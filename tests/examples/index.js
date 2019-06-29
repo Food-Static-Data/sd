@@ -68,43 +68,26 @@ const component = [
   users
 ]
 
-var item = component[4]
+var item = component.find(myItem)
+
+function myItem (value) {
+  return value === allergy
+}
 
 console.log(item)
 
+var item2 = component.find(myItem2)
+
+function myItem2 (value) {
+  return value === attribute
+}
+
+console.log(item2)
+
+// var item = component[4]
+
+// console.log(item)
+
 module.exports = {
-  allergy,
-  attribute,
-  cookingTimes,
-  course,
-  cuisine,
-  cup18,
-  cup1,
-  cup34,
-  dash,
-  department,
-  diet,
-  favorites,
-  firstVeganGLMC,
-  gallon,
-  grocery,
-  halfCup,
-  holiday,
-  ingredients,
-  items,
-  mealCalendar,
-  measurement,
-  menu,
-  nutritionalAttributes,
-  pinch,
-  pint,
-  quart,
-  quarterCup,
-  recipe4,
-  tablespoon,
-  teaspoon,
-  types,
-  userGrocery,
-  users,
   component
 }
