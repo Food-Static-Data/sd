@@ -100,7 +100,7 @@ By default generating files happens in `/src/data`
 Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
 
 ## How to split json into single elements
-To split json file you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
+To split json file you will require `sd/generator/writeFile.js` . Call the function **splitObject()** with parameters `path`(as string),`filename`(as string) and a `flag`(0 or 1).
 `Flag=0` means splitted elements are to be name after the `name` attribute and if `flag=1` then elements will be give named by a number with removed whitespaces and in lowercase to maintain uniformity.
 The splitted elements will be stored at the given `path`/`filename_elements`.
 
@@ -116,22 +116,18 @@ If `flag=1` it will return the content of all files present in the path else if 
 
 If there is only one parameter that is `path` or with `flag=0` it will return list of all files present in the directory.
 
-### How to parse csv File(s) from a folder to to json file(s)
-Create a folder you want the generated json file(s) to be. Also create a parser.js file in the created folder.In parser.js call ParseDirectoryFiles() from sd/generator/csvParser.js with parameters directoryPath (the folder to read your csv file(s) from) as string,and headers (the header of the csv files ) as array of string.
+You can combine objects by calling function **combineObjects()** from writeFile.js. It takes 2 parameters `path` and list of `keys_to_be_removed`.
 
-In sd/generator/csvPparser.js 
+**combineObject(path, keys_to_be_removed)** - This will read all files in the given path and remove the keys given the list of keys_to_be_removed and saves it into a new file in the given `path` as name `<dirName>_combined.json`.
 
-ParseDirectoryFiles(directoryPath,headers)=>csvToJson(directory,file,headers)=>splitJsonFile(fileName)=>filewriter(i,fileName,start,stop)
+Example:- combineObject('/abc/pqr/', ['id', 'img'])
 
-ParseDirectoryFiles gets a directory path from call,and reads all files in the directory but will only pass csv files to csvToJson(directory,file,headers).Each csv file is passed into csvParser().
-csvToJson require csv-Parser modules
-csvToJson () --get the file directory path,filename(file) and headers and generate a Json file for the csv files using the headers as keys.
-The Json file generated is stored in variable result.
-File Name is passed is to splitJsonFile(file) to keep track of the file being
-
-variable numberOfFile stores the number of json files to get from Json stored in result.so that each json  file has maximium entry of 10000 stored in variable maxEntries.Filewriter function is called inside the splitJsonFile function
- 
-filewriter() – requires writeFile from sd/generator to work.It takes in the child number of the json file( i ) ,the file name( fileName ),the interval the json stored in result should start and stop slicing.the sliced data will be written into the folder calling parserFile function along side file name being parsed and the child numbe
+If you want to modify the json structure of splitted files and combine them again to a single file then you can call splitObject with a call back function.
+```
+const writeFile = require('path to sd/generator/writeFile.js')
+var path = "/path/of/the/file/"
+writeFile.splitObject(path, 'filename.json', 1, writeFile.combineObject, ['key1', 'key2'])
+```
 
 **getFileInfo('path_of_directory')** - returns a list of files present in the directory.
 
@@ -171,6 +167,24 @@ Sample Output:
   desc: false,
   slug: false }
 ~~~
+
+
+### How to parse csv File(s) from a folder to to json file(s)
+Create a folder you want the generated json file(s) to be. Also create a parser.js file in the created folder.In parser.js call ParseDirectoryFiles() from sd/generator/csvParser.js with parameters directoryPath (the folder to read your csv file(s) from) as string,and headers (the header of the csv files ) as array of string.
+
+In sd/generator/csvPparser.js 
+
+ParseDirectoryFiles(directoryPath,headers)=>csvToJson(directory,file,headers)=>splitJsonFile(fileName)=>filewriter(i,fileName,start,stop)
+
+ParseDirectoryFiles gets a directory path from call,and reads all files in the directory but will only pass csv files to csvToJson(directory,file,headers).Each csv file is passed into csvParser().
+csvToJson require csv-Parser modules
+csvToJson () --get the file directory path,filename(file) and headers and generate a Json file for the csv files using the headers as keys.
+The Json file generated is stored in variable result.
+File Name is passed is to splitJsonFile(file) to keep track of the file being
+
+variable numberOfFile stores the number of json files to get from Json stored in result.so that each json  file has maximium entry of 10000 stored in variable maxEntries.Filewriter function is called inside the splitJsonFile function
+ 
+filewriter() – requires writeFile from sd/generator to work.It takes in the child number of the json file( i ) ,the file name( fileName ),the interval the json stored in result should start and stop slicing.the sliced data will be written into the folder calling parserFile function along side file name being parsed and the child numbe
 
 ## Generate Array API
 
