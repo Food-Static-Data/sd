@@ -32,7 +32,7 @@ const types = require('./types')
 const userGrocery = require('./userGrocery')
 const users = require('./users')
 
-module.exports = {
+const component = [
   allergy,
   attribute,
   cookingTimes,
@@ -66,4 +66,45 @@ module.exports = {
   types,
   userGrocery,
   users
+]
+
+var item = component[4]
+
+console.log(item)
+
+module.exports = {
+  allergy,
+  attribute,
+  cookingTimes,
+  course,
+  cuisine,
+  cup18,
+  cup1,
+  cup34,
+  dash,
+  department,
+  diet,
+  favorites,
+  firstVeganGLMC,
+  gallon,
+  grocery,
+  halfCup,
+  holiday,
+  ingredients,
+  items,
+  mealCalendar,
+  measurement,
+  menu,
+  nutritionalAttributes,
+  pinch,
+  pint,
+  quart,
+  quarterCup,
+  recipe4,
+  tablespoon,
+  teaspoon,
+  types,
+  userGrocery,
+  users,
+  component
 }
