@@ -17,6 +17,7 @@
     "generateFile": "node ./generator/generateFile.js",
     "generateFiles": "node ./generator/generateFiles.js",
     "generateArray": "node ./generator/generateArray.js",
+    "generate": "node ./generator/generate",
     "parseCsv": "node ./generator/projects/FoodComposition/csv_parser.js",
     "lint": "standard",
     "code-fix": "standard --fix",
@@ -67,7 +68,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@groceristar/static-data-generator": "0.0.2",
+    "@groceristar/static-data-generator": "0.0.5",
     "csv-parser": "^2.3.0",
     "dayjs": "^1.8.14",
     "lodash": "^4.17.11",
