@@ -67,6 +67,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@groceristar/static-data-generator": "0.0.2",
     "csv-parser": "^2.3.0",
     "dayjs": "^1.8.14",
     "lodash": "^4.17.11",
