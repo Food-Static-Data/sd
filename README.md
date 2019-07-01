@@ -184,7 +184,7 @@ File Name is passed is to splitJsonFile(file) to keep track of the file being
 
 variable numberOfFile stores the number of json files to get from Json stored in result.so that each json  file has maximium entry of 10000 stored in variable maxEntries.Filewriter function is called inside the splitJsonFile function
  
-filewriter() – requires writeFile from sd/generator to work.It takes in the child number of the json file( i ) ,the file name( fileName ),the interval the json stored in result should start and stop slicing.the sliced data will be written into the folder calling parserFile function along side file name being parsed and the child numbe
+filewriter() – requires writeFile from sd/generator to work.It takes in the child number of the json file( i ) ,the file name( fileName ),the interval the json stored in result should start and stop slicing.the sliced data will be written into the folder calling parserFile function along side file name being parsed and the child number of the file.
 
 ## Generate Array API
 
