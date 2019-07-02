@@ -81,7 +81,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run code-fix",
-      "after": "lint-staged"
+      "after": "lint-staged",
+      "then": "yarn precommit"
     }
   },
   "files": [
