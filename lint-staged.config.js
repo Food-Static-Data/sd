@@ -18,10 +18,10 @@ module.exports = {
     //   'prettier --write',
     //   'jest --findRelatedTests',
       'npm run code-fix',
-      'git add',
-    ],
+      'git add'
+    ]
   },
   ignore: [
-      "**/dist/*.js"
-    ]
-};
+    '**/dist/*.js'
+  ]
+}
