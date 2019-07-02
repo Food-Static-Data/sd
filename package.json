@@ -21,7 +21,8 @@
     "parseCsv": "node ./generator/projects/FoodComposition/csv_parser.js",
     "lint": "standard",
     "code-fix": "standard --fix",
-    "format": "prettier"
+    "format": "prettier",
+    "precommit": "lint-staged"
   },
   "description": "module to use static JSON files with food tech projects",
   "main": "dist/index.cjs",
