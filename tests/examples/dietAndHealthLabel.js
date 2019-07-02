@@ -1,31 +1,31 @@
 const schema = {
   properties: {
-    "Type": {
+    'Type': {
       type: 'string'
     },
-    "Web Label": {
-      type:'string'
-    },
-    "API Parameter": {
+    'Web Label': {
       type: 'string'
     },
-    "Definition": {
+    'API Parameter': {
+      type: 'string'
+    },
+    'Definition': {
       type: 'string'
     }
   },
   required: [
-    "Type",
-    "Web Label",
-    "API Parameter",
-    "Definition"
+    'Type',
+    'Web Label',
+    'API Parameter',
+    'Definition'
   ]
 }
 
 const example = {
-	"Type": "Diet",
-	"Web Label": "Balanced",
-	"API Parameter": "balanced",
-	"Definition": "Protein/Fat/Carb values in 15/35/50 ratio"
+  'Type': 'Diet',
+  'Web Label': 'Balanced',
+  'API Parameter': 'balanced',
+  'Definition': 'Protein/Fat/Carb values in 15/35/50 ratio'
 }
 
 module.exports = {

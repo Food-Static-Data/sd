@@ -17,20 +17,20 @@ const schema = {
     }
   },
   required: [
-    "NDB_No",
-    "Serving_Size",
-    "Serving_Size_UOM",
-    "Household_Serving_Size",
-    "Household_Serving_Size_UOM"
+    'NDB_No',
+    'Serving_Size',
+    'Serving_Size_UOM',
+    'Household_Serving_Size',
+    'Household_Serving_Size_UOM'
   ]
 }
 
 const example = {
-  "NDB_No": "45001524",
-  "Serving_Size": "40.0",
-  "Serving_Size_UOM": "g",
-  "Household_Serving_Size": "1.0",
-  "Household_Serving_Size_UOM": "PIECE"
+  'NDB_No': '45001524',
+  'Serving_Size': '40.0',
+  'Serving_Size_UOM': 'g',
+  'Household_Serving_Size': '1.0',
+  'Household_Serving_Size_UOM': 'PIECE'
 }
 
 module.exports = {

@@ -77,20 +77,10 @@
     "uuid": "^3.3.2",
     "yarn": "^1.16.0"
   },
-  "lint-staged": {
-    "linters": {
-      "*.js": [
-        "npm run code-fix",
-        "git add"
-      ]
-    },
-    "ignore": [
-      "**/dist/*.js"
-    ]
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run code-fix",
+      "after": "lint-staged"
     }
   },
   "files": [
