@@ -8,7 +8,7 @@
     "build": "npm run clean && npm run bundle",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
-    "prepublish": "yarn clean && yarn code-fix && yarn build",
+    "prepublish": "npm run snyk-protect; yarn clean && yarn code-fix && yarn build",
     "test": "CI=test && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
@@ -18,7 +18,8 @@
     "lint": "standard",
     "code-fix": "standard --fix",
     "format": "prettier",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "snyk-protect": "snyk protect"
   },
   "description": "module to use static JSON files with food tech projects",
   "main": "dist/index.cjs",
@@ -72,7 +73,8 @@
     "path": "^0.12.7",
     "path-exists": "^4.0.0",
     "uuid": "^3.3.2",
-    "yarn": "^1.16.0"
+    "yarn": "^1.16.0",
+    "snyk": "^1.189.0"
   },
   "husky": {
     "hooks": {
@@ -84,5 +86,6 @@
   "files": [
     "dist",
     "src/data"
-  ]
+  ],
+  "snyk": true
 }
