@@ -169,23 +169,6 @@ Sample Output:
 ~~~
 
 
-### How to parse csv File(s) from a folder to to json file(s)
-Create a folder you want the generated json file(s) to be. Also create a parser.js file in the created folder.In parser.js call ParseDirectoryFiles() from sd/generator/csvParser.js with parameters directoryPath (the folder to read your csv file(s) from) as string,and headers (the header of the csv files ) as array of string.
-
-In sd/generator/csvPparser.js 
-
-ParseDirectoryFiles(directoryPath,headers)=>csvToJson(directory,file,headers)=>splitJsonFile(fileName)=>filewriter(i,fileName,start,stop)
-
-ParseDirectoryFiles gets a directory path from call,and reads all files in the directory but will only pass csv files to csvToJson(directory,file,headers).Each csv file is passed into csvParser().
-csvToJson require csv-Parser modules
-csvToJson () --get the file directory path,filename(file) and headers and generate a Json file for the csv files using the headers as keys.
-The Json file generated is stored in variable result.
-File Name is passed is to splitJsonFile(file) to keep track of the file being
-
-variable numberOfFile stores the number of json files to get from Json stored in result.so that each json  file has maximium entry of 10000 stored in variable maxEntries.Filewriter function is called inside the splitJsonFile function
- 
-filewriter() – requires writeFile from sd/generator to work.It takes in the child number of the json file( i ) ,the file name( fileName ),the interval the json stored in result should start and stop slicing.the sliced data will be written into the folder calling parserFile function along side file name being parsed and the child number of the file.
-
 ## Generate Array API
 
 **getMenuGenerator(number_of_weeks)** - return an array of objects with weekly menu. Menus sorted in calendar date order starting from first.
