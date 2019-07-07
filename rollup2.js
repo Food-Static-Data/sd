@@ -1,7 +1,7 @@
 // plugins that we are going to use
-import babel from 'rollup-plugin-babel';
-import copy from 'rollup-plugin-cpy';
-import flow from 'rollup-plugin-flow';
+import babel from 'rollup-plugin-babel'
+import copy from 'rollup-plugin-cpy'
+import flow from 'rollup-plugin-flow'
 
 // list of plugins used during building process
 const plugins = targets => ([
@@ -19,17 +19,17 @@ const plugins = targets => ([
     // solve a problem with spread operator transpilation https://github.com/rollup/rollup/issues/281
     plugins: ['babel-plugin-transform-object-rest-spread'],
     // removes comments from output
-    comments: false,
+    comments: false
   }),
   // copy Flow definitions from source to destination directory
   copy({
     files: ['src/*.flow'],
-    dest: 'lib',
-  }),
-]);
+    dest: 'lib'
+  })
+])
 
 // packages that should be treated as external dependencies, not bundled
-const external = []; // e.g. ['axios']
+const external = [] // e.g. ['axios']
 
 export default [{
   // source file / entrypoint
@@ -43,20 +43,20 @@ export default [{
     // format of generated JS file, also: esm, and others are available
     format: 'esm',
     // add sourcemaps
-    sourcemap: true,
+    sourcemap: true
   },
   external,
   // build es modules for node 8
-  plugins: plugins({ node: '8' }),
+  plugins: plugins({ node: '8' })
 }, {
   input: 'src/index.js',
   output: {
     name: 'npmLibPackageExample',
     file: 'lib/index.js',
     format: 'cjs',
-    sourcemap: true,
+    sourcemap: true
   },
   external,
   // build common JS for node 6
-  plugins: plugins({ node: '6' }),
-}];
+  plugins: plugins({ node: '6' })
+}]
