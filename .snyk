@@ -8,3 +8,17 @@ patch:
         patched: '2019-07-03T20:07:25.784Z'
     - '@groceristar/static-data-generator > lodash':
         patched: '2019-07-03T20:07:25.784Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/generator > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > inquirer > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > table > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
