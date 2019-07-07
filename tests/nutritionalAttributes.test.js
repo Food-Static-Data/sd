@@ -2,9 +2,9 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-const { schema, example } = require('./examples/nutritionalAttributes')
-const { nutritions2FilePath } = require('@files')
-const nutritionalAttributes = require(nutritions2FilePath)
+const { schema } = require('./examples/nutritionalAttributes')
+// const { nutritions2FilePath } = require('@files')/
+// const nutritionalAttributes = require(nutritions2FilePath)
 const { readAllFiles } = require('./../src/utils')
 const path = './../generator/projects/USFA/Nutrition'
 const content = readAllFiles(path)
