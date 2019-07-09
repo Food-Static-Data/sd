@@ -36,6 +36,7 @@
     "@babel/core": "7.5.4",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/preset-env": "7.5.4",
+    "@groceristar/food-dataset-csv-parser": "^0.1.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
@@ -72,9 +73,9 @@
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "path-exists": "^4.0.0",
+    "snyk": "^1.192.3",
     "uuid": "^3.3.2",
-    "yarn": "^1.16.0",
-    "snyk": "^1.192.3"
+    "yarn": "^1.16.0"
   },
   "husky": {
     "hooks": {
