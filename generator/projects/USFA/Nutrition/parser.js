@@ -1,6 +1,6 @@
 const path = require('path')
-const { parseDirectoryFiles } = require('../../../csv_parser')
-
+// const { parseDirectoryFiles } = require('../../../csv_parser')
+const { parseDirectoryFiles } = require('@groceristar/food-dataset-csv-parser')
 const headers = [
   'NDB_No',
   'Nutrient_Code',
