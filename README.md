@@ -3,8 +3,6 @@
 
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/GroceriStar/sd/)
-[![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=101)](https://github.com/GroceriStar/sd/)
 [![Coveralls](http://img.shields.io/coveralls/GroceriStar/sd.svg?style=flat)](https://coveralls.io/r/GroceriStar/sd)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/maintainability)](https://codeclimate.com/github/GroceriStar/sd/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/test_coverage)](https://codeclimate.com/github/GroceriStar/sd/test_coverage)
@@ -36,7 +34,7 @@ Within the download you'll find the following directories and files, logically g
 .
 ├── docs
 │   └── Readme.md           # Secondary information about project
-├── generator               
+├── generator
 │   ├── projects            # Tests for self-titled projects
 │   │   ├── ChickenKyiv
 │   │   ├── GraphQL
@@ -46,12 +44,12 @@ Within the download you'll find the following directories and files, logically g
 │   │   ├── Search
 │   │   ├── Showcase
 │   │   └── UnitConvertion
-│   ├── configGenerator.js  
-│   ├── generateArray.js   
+│   ├── configGenerator.js
+│   ├── generateArray.js
 |   ├── csvParser.js
-│   ├── generateFile.js     
-│   ├── generateFiles.js    
-│   └── writeFile.js        
+│   ├── generateFile.js
+│   ├── generateFiles.js
+│   └── writeFile.js
 ├── output                  # Output folder for [NPM generator] commands
 ├── dist                    # Output folder for [NPM compiler] commands
 └── src                     # Folder with static JSON files. WTF what is going on here
@@ -110,7 +108,7 @@ The splitted elements will be stored at the given `path`/`filename_elements`.
 
 Checkout the folder `fileName_elements` in the `path_of_directory` to see files or you can use function `getFileInfo()`.
 
-To  call the function `getFileInfo(path,flag,fileName)` you will require `sd/src/utils.js`. It can be invoked with 3 parameteres and 2 of them are optional depending on task. First parameter is `path` and it is required for functionality. The second and third parameters are `flag` and `fileName`. 
+To  call the function `getFileInfo(path,flag,fileName)` you will require `sd/src/utils.js`. It can be invoked with 3 parameteres and 2 of them are optional depending on task. First parameter is `path` and it is required for functionality. The second and third parameters are `flag` and `fileName`.
 
 If `flag=1` it will return the content of all files present in the path else if `fileName` is given then it will return the content of the specified file.
 
