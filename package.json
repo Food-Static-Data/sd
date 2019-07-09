@@ -19,11 +19,11 @@
     "format": "prettier",
     "precommit": "lint-staged",
     "snyk-protect": "snyk protect",
-    "csv:fc":"node ./generator/projects/FoodComposition/csv_parser",
-    "csv:usfa1":"node ./generator/projects/USFA/Derivation_Code_Description/parser",
-    "csv:usfa2":"node ./generator/projects/USFA/Nutrition/parser",
-    "csv:usfa3":"node ./generator/projects/USFA/Product/parser",
-    "csv:usfa4":"node ./generator/projects/USFA/Serving_Size/parser"
+    "csv:fc": "node ./generator/projects/FoodComposition/csv_parser",
+    "csv:usfa1": "node ./generator/projects/USFA/Derivation_Code_Description/parser",
+    "csv:usfa2": "node ./generator/projects/USFA/Nutrition/parser",
+    "csv:usfa3": "node ./generator/projects/USFA/Product/parser",
+    "csv:usfa4": "node ./generator/projects/USFA/Serving_Size/parser"
   },
   "description": "module to use static JSON files with food tech projects",
   "main": "dist/index.cjs",
@@ -77,7 +77,7 @@
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "path-exists": "^4.0.0",
-    "snyk": "^1.192.3",
+    "snyk": "^1.192.4",
     "uuid": "^3.3.2",
     "yarn": "^1.16.0"
   },
