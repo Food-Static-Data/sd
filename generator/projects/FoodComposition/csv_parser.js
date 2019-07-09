@@ -5,7 +5,9 @@ const path = require('path')
 // @TODO hope soon to test this script with updated version
 // of this method from generator - write
 
-var { writeFile } = require('../../writeFile')
+// var { writeFile } = require('../../writeFile')
+
+const { write } = require('@groceristar/static-data-generator')
 
 let results = []
 let data = []
@@ -135,13 +137,13 @@ countries.forEach(country => {
 
       writedCountries.push(country)
 
-      writeFile(
+      write(
         path.join(__dirname, `/FoodComposition - ${country}.json`),
         results
       )
 
       if (writedCountries.length === countries.length) {
-        writeFile(
+        write(
           path.join(__dirname, `/FoodComposition.json`),
           data
         )
