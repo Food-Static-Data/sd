@@ -2,6 +2,7 @@
 const uuidv1 = require('uuid/v1')
 const dayjs = require('dayjs')
 const fs = require('fs')
+const PATH = require('path')
 
 /**
  * For readAllFiles()
@@ -9,13 +10,16 @@ const fs = require('fs')
  */
 function readAllFiles (path) {
   var content = []
+  path = fixPath(path)
   var files = fs.readdirSync(path)
   files.forEach(file => {
     let fileStat = fs.statSync(path + file).isDirectory()
-    if (!fileStat) {
-      let data = fs.readFileSync(path + file)
-      data = JSON.parse(data)
-      content.push(data)
+    if (file.slice(-5) === '.json') {
+      if (!fileStat) {
+        var data = fs.readFileSync(path + file)
+        data = JSON.parse(data)
+        content.push(data)
+      }
     }
   })
   return content
@@ -42,6 +46,7 @@ function getListContent (path, fileName = 'undefined') {
  * @param {String} path
  */
 function fixPath (path) {
+  path = PATH.resolve(__dirname, path)
   if (path.charAt(path.length - 1) !== '/') path = path + '/'
   return path
 }
@@ -70,10 +75,10 @@ function getList (path) {
  */
 function getFileInfo (path, flag = 0, fileName = 'undefined') {
   /*
-    flag = 1 --> means return content
-    if file name is given then content of that file else return content of all files.
-    only path is given( flag=0 )--> give list of all files in directory.
-  */
+      flag = 1 --> means return content
+      if file name is given then content of that file else return content of all files.
+      only path is given( flag=0 )--> give list of all files in directory.
+    */
   path = fixPath(path)
   if (flag === 1) {
     // get content from file
@@ -113,5 +118,6 @@ module.exports = {
   __generateDate,
   jsonFileNotEmptyTest,
   jsonSchemaTest,
-  getFileInfo
+  getFileInfo,
+  readAllFiles
 }

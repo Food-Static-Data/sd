@@ -8,6 +8,6 @@ const pathResolver = (path) => {
 const measurementSystem = pathResolver('Units/measurementSystems.json')
 const measurementUnits = pathResolver('Units/measurementUnits.json')
 module.exports = {
-    measurementSystem,
-    measurementUnits
+  measurementSystem,
+  measurementUnits
 }

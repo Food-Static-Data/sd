@@ -32,7 +32,7 @@ const types = require('./types')
 const userGrocery = require('./userGrocery')
 const users = require('./users')
 
-module.exports = {
+const component = [
   allergy,
   attribute,
   cookingTimes,
@@ -66,4 +66,28 @@ module.exports = {
   types,
   userGrocery,
   users
+]
+
+var item = component.find(myItem)
+
+function myItem (value) {
+  return value === allergy
+}
+
+console.log(item)
+
+var item2 = component.find(myItem2)
+
+function myItem2 (value) {
+  return value === attribute
+}
+
+console.log(item2)
+
+// var item = component[4]
+
+// console.log(item)
+
+module.exports = {
+  component
 }
