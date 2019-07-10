@@ -1,4 +1,5 @@
 const jsonFiles = require('./measurementFiles')
+const {measurementSystem, measurementUnits} = require('./measurementFiles')
 var arr
 Object.keys(jsonFiles).forEach(function(key)
 {
@@ -8,4 +9,16 @@ Object.keys(jsonFiles).forEach(function(key)
  }
 })
 
-module.exports = arr
+const getMeasurementSystem= function(){
+  return (arr.measurementSystem)
+}
+
+const getMeasurementUnits = function(){
+  return (arr.measurementUnits)
+}
+
+module.exports = {
+  arr, 
+  getMeasurementSystem,
+  getMeasurementUnits
+}
