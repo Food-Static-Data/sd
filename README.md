@@ -81,9 +81,7 @@ Are we have documentation? If no, it should be written
 - `npm run code-fix` or `yarn code-fix`: run [standard](https://www.npmjs.com/package/standard) linter with write permissions
 
 #### Generator commands
-- `npm run generateFiles` or `yarn generateFiles`: generate all recipes in folder `dist`
-- `npm run generateFile`  or `yarn generateFile`: generate meal on two weeks in folder `dist`
-- `npm run generateArray` or `yarn generateArray`: More detailed information [here](#how-to-generate)
+- `npm run generate` or `yarn generate`: generate all recipes in folder `dist`.More detailed information [here](#how-to-generate)
 
 #### Parser commands
 - `npm run parseCsv` or `yarn parseCsv` : parse from csv to json Food Composition
