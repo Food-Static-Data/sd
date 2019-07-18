@@ -20,7 +20,7 @@ describe('getFileInfo with only 1 argument', () => {
 describe('getFileInfo with all 3 arguments', () => {
   it('should return the content of given file', () => {
     var result = getFileInfo(location, 1, 'basic-grocery-list.json')
-    const expected = { 'departments': ['staples', 'tinnedFood', 'vegetables'], 'name': 'basic-grocery-list', 'img': false, 'desc': false, 'slug': false }
+    const expected = { departments: ['staples', 'tinnedFood', 'vegetables'], name: 'basic-grocery-list', img: false, desc: false, slug: false }
     expect(result.values).toEqual(expected.values)
   })
 })

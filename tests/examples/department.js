@@ -10,9 +10,9 @@ const schema = {
   },
   required: ['name', 'type']
 }
-let example = {
-  'name': 'Fresh vegetables',
-  'type': 'food'
+const example = {
+  name: 'Fresh vegetables',
+  type: 'food'
 }
 
 module.exports = {

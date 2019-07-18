@@ -7,7 +7,7 @@ const schema = {
     steam: { type: 'string' },
     roast: { type: 'string' }
   },
-  required: [ 'name', 'boil', 'microwave', 'steam', 'roast' ]
+  required: ['name', 'boil', 'microwave', 'steam', 'roast']
 }
 
 const example = {

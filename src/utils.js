@@ -13,7 +13,7 @@ function readAllFiles (path) {
   path = fixPath(path)
   var files = fs.readdirSync(path)
   files.forEach(file => {
-    let fileStat = fs.statSync(path + file).isDirectory()
+    const fileStat = fs.statSync(path + file).isDirectory()
     if (file.slice(-5) === '.json') {
       if (!fileStat) {
         var data = fs.readFileSync(path + file)
@@ -59,7 +59,7 @@ function getList (path) {
   var list = []
   var files = fs.readdirSync(path)
   files.forEach(file => {
-    let fileStat = fs.statSync(path + file).isDirectory()
+    const fileStat = fs.statSync(path + file).isDirectory()
     if (!fileStat) {
       list.push(file)
     }

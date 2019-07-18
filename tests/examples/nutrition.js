@@ -55,18 +55,18 @@ const nutrition1Example = {
 }
 
 const nutrition2Schema = {
-  'properties': {
+  properties: {
     type: { type: 'string' },
     items: {
       type: 'array',
       items: [{ type: 'string' }]
     }
   },
-  'required': ['type', 'items']
+  required: ['type', 'items']
 }
 const nutrition2Example = {
-  'type': 'Fatty acids',
-  'items': [
+  type: 'Fatty acids',
+  items: [
     'Alpha-linolenic acid (ALA)',
     'Linoleic acid'
   ]
