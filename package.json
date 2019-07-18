@@ -18,6 +18,7 @@
     "code-fix": "standard --fix",
     "format": "prettier",
     "precommit": "lint-staged",
+    "prexxx": "lint-staged --debug",
     "snyk-protect": "snyk protect"
   },
   "description": "module to use static JSON files with food tech projects",
@@ -40,6 +41,7 @@
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.5",
+    "eslint": "^6.0.1",
     "husky": "3.0.0",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
