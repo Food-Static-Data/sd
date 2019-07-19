@@ -13,7 +13,7 @@ install:
 
 # as our module should have an additional files, generated before publishing we're using this line below
 # should we add more stuff here as well? or @TODO move something out when generator will be a separated thing
-before_script: npm run generateFiles
+before_script: npm run generate
 
 
 script:
