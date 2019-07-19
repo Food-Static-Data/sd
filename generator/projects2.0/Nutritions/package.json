@@ -67,20 +67,9 @@
     "path": "^0.12.7",
     "uuid": "^3.3.2"
   },
-  "lint-staged": {
-    "linters": {
-      "*.js": [
-        "npm run code-fix",
-        "git add"
-      ]
-    },
-    "ignore": [
-      "**/dist/*.js"
-    ]
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "clean"
     }
   },
   "files": [
