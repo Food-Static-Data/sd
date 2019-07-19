@@ -6,7 +6,7 @@ const schema = {
     volume: { type: 'string' },
     weight: { type: 'string' }
   },
-  required: [ 'name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight' ]
+  required: ['name', 'americanStandart', 'americanStandartOunces', 'volume', 'weight']
 }
 
 const example = {

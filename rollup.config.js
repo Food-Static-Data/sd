@@ -45,7 +45,7 @@ export default {
       //   // relative to the current directory, or the name
       //   // of a module in node_modules
       //   'node_modules/my-lib/index.js': [ 'named' ]
-        '~/Allergy/allergies.json': [ 'allergies' ]
+        '~/Allergy/allergies.json': ['allergies']
       }
     }),
 

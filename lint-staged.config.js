@@ -11,17 +11,23 @@
 //     ],
 //   },
 // };
+
+// Custom Ignore
+// const micromatch = require('micromatch')
+// module.exports = {
+//   '*.js': files => {
+//     // from `files` filter those _NOT_ matching `*test.js`
+//     const match = micromatch.not(files, '*test.js')
+//     return match.map(file => `eslint ${file}`)
+//   }
+// }
+
 module.exports = {
-  linters: {
-    '**/*.+(js|json)': [
+  '**/*.+(js|json)': [
     //   'eslint --fix',
     //   'prettier --write',
     //   'jest --findRelatedTests',
-      'npm run code-fix',
-      'git add'
-    ]
-  },
-  ignore: [
-    '**/dist/*.js'
+    'npm run code-fix',
+    'git add'
   ]
 }

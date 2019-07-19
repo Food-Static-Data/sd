@@ -31,23 +31,23 @@
     "publishDir": "dist"
   },
   "devDependencies": {
-    "@babel/cli": "7.5.0",
-    "@babel/core": "7.5.4",
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
-    "@babel/preset-env": "7.5.4",
-    "@groceristar/food-dataset-csv-parser": "0.1.8",
+    "@babel/preset-env": "7.5.5",
+    "@groceristar/food-dataset-csv-parser": "0.1.9",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
-    "coveralls": "3.0.4",
-    "husky": "3.0.0",
+    "coveralls": "3.0.5",
+    "husky": "3.0.1",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
     "lint-staged": "9.2.0",
     "nodemon": "1.19.1",
     "regenerator-runtime": "0.13.2",
-    "rollup": "1.16.7",
+    "rollup": "1.17.0",
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-commonjs": "10.0.1",
     "rollup-plugin-copy-assets": "2.0.1",
@@ -59,7 +59,7 @@
     "shelljs": "0.8.3",
     "shelljs.exec": "1.1.8",
     "shx": "0.3.2",
-    "standard": "13.0.0"
+    "standard": "13.0.2"
   },
   "peerDependencies": {},
   "publishConfig": {
@@ -78,7 +78,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run code-fix",
+      "pre-commit": "npm run clean",
       "after": "lint-staged",
       "then": "yarn precommit"
     }

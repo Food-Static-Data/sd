@@ -3,11 +3,11 @@ const fs = require('fs')
 
 const directoryPath = path.join(__dirname, '/../examples/')
 
-let exampleFiles = {}
+const exampleFiles = {}
 
 fs.readdirSync(directoryPath).forEach((file) => {
   if (path.extname(file) === '.js') {
-    let filename = path.basename(file, path.extname(file))
+    const filename = path.basename(file, path.extname(file))
     exampleFiles[filename] = path.join(directoryPath, file)
   }
 })

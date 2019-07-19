@@ -16,9 +16,9 @@ const schema = {
 }
 
 const example = {
-  'singular': 'gram',
-  'plural': 'grams',
-  'abbreviation': 'g'
+  singular: 'gram',
+  plural: 'grams',
+  abbreviation: 'g'
 }
 
 module.exports = {

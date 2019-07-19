@@ -1,6 +1,6 @@
 const jsonFiles = require('./measurementFiles')
 const {
-  measurementSystem, 
+  measurementSystem,
   measurementUnits
 } = require('./measurementFiles')
 
@@ -13,17 +13,16 @@ Object.keys(jsonFiles).forEach(function (key) {
   }
 })
 
-
-const getMeasurementSystem= function(){
+const getMeasurementSystem = function () {
   return (arr.measurementSystem)
 }
 
-const getMeasurementUnits = function(){
+const getMeasurementUnits = function () {
   return (arr.measurementUnits)
 }
 
 module.exports = {
-  arr, 
+  arr,
   getMeasurementSystem,
   getMeasurementUnits
 }

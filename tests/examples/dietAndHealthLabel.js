@@ -1,6 +1,6 @@
 const schema = {
   properties: {
-    'Type': {
+    Type: {
       type: 'string'
     },
     'Web Label': {
@@ -9,7 +9,7 @@ const schema = {
     'API Parameter': {
       type: 'string'
     },
-    'Definition': {
+    Definition: {
       type: 'string'
     }
   },
@@ -22,10 +22,10 @@ const schema = {
 }
 
 const example = {
-  'Type': 'Diet',
+  Type: 'Diet',
   'Web Label': 'Balanced',
   'API Parameter': 'balanced',
-  'Definition': 'Protein/Fat/Carb values in 15/35/50 ratio'
+  Definition: 'Protein/Fat/Carb values in 15/35/50 ratio'
 }
 
 module.exports = {

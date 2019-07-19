@@ -7,12 +7,12 @@ const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
 const pathJson = '../generator/projects/USFA/Serving_Size'
-let files = getFileInfo(pathJson)
+const files = getFileInfo(pathJson)
 
 describe('servingSize data files returns a path', () => {
   files.forEach((file) => {
     if (path.extname(file) !== '.js') {
-      let filePath = path.resolve(__dirname, pathJson, file)
+      const filePath = path.resolve(__dirname, pathJson, file)
       it(`prevents any issues and problems servingSize file: ${file}`, () => {
         expect(filePath).not.toBe('')
       })
