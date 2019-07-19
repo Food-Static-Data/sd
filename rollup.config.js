@@ -35,8 +35,16 @@ export default {
 
   // list of plugins used during building process
   plugins: [
+
     // Allows node_modules resolution
-    resolve({ extensions }),
+    resolve({
+      extensions,
+
+      // the fields to scan in a package.json to determine the entry point
+      // if this list contains "browser", overrides specified in "pkg.browser"
+      // will be used
+      mainFields: ['module', 'main', 'browser'], // Default: ['module', 'main']
+    }),
 
     // Allow bundling cjs modules. Rollup doesn't understand cjs
     commonjs({
