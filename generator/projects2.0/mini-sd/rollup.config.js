@@ -92,23 +92,8 @@ const plugins = () => [
   // remove flow annotations from output
   // flow(),
 
-  // copy Flow definitions from source to destination directory
-  // copy({
-  //   files: ['src/*.flow'],
-  //   dest: 'dist',
-  // }),
 ]
 
-// example for adding plugin for env only
-// if(process.env.NODE_ENV == "production") {
-//   console.log("[config] In production environment - minifying JS");
-//   plugins.push(terser({
-//     numWorkers: os.cpus().length,
-//     compress: {
-//       ecma: 6
-//     }
-//   }));
-// }
 
 export default {
   // source file / entrypoint
@@ -129,17 +114,17 @@ export default {
       // format: 'esm',
       // add sourcemaps
       sourcemap: true
-    },
-    {
-      // output file location
-      file: pkg.browser,
-      // format of generated JS file, also: esm, and others are available
-      format: 'iife',
-      // name visible for other scripts
-      name
-      // https://rollupjs.org/guide/en#output-globals-g-globals
-      // globals: {}
     }
+    // ,{
+    //   // output file location
+    //   file: pkg.browser,
+    //   // format of generated JS file, also: esm, and others are available
+    //   format: 'iife',
+    //   // name visible for other scripts
+    //   name
+    //   // https://rollupjs.org/guide/en#output-globals-g-globals
+    //   // globals: {}
+    // }
   ],
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
