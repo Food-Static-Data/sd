@@ -14,9 +14,11 @@
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
     "generate": "node ./runner/generate",
-    "lint": "standard",
+    "lint": "eslint ./src --fix",
+    "lint2": "standard",
     "code-fix": "standard --fix",
     "format": "prettier",
+    "formato": "pretty-quick --staged",
     "precommit": "lint-staged",
     "snyk-protect": "snyk protect"
   },
@@ -78,7 +80,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run clean",
+      "pre-commit": "npm run clean && npm run formato",
       "after": "lint-staged",
       "then": "yarn precommit"
     }
