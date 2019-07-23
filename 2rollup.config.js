@@ -24,7 +24,7 @@ export default {
       // the fields to scan in a package.json to determine the entry point
       // if this list contains "browser", overrides specified in "pkg.browser"
       // will be used
-      mainFields: ['module', 'main', 'browser'], // Default: ['module', 'main']
+      mainFields: ['module', 'main', 'browser'] // Default: ['module', 'main']
     }),
 
     // Allow bundling cjs modules. Rollup doesn't understand cjs

@@ -1,4 +1,4 @@
-let plugins = [
+const plugins = [
   resolve({
     // use "module" field for ES6 module if possible
     module: true, // Default: true
@@ -19,7 +19,7 @@ let plugins = [
     browser: true, // Default: false
 
     // not all files you want to resolve are .js files
-    extensions: ['.mjs', '.js', '.jsx', '.json'], // Default: [ '.mjs', '.js', '.json', '.node' ]
+    extensions: ['.mjs', '.js', '.jsx', '.json'] // Default: [ '.mjs', '.js', '.json', '.node' ]
   }),
 
   json({
@@ -27,11 +27,11 @@ let plugins = [
   }),
 
   replace({
-          exclude: 'node_modules/**',
-          values: {
-                  "__BUILD_DATE__": () => new Date().toISOString(),
-                  "__VERSION__": fs.readFileSync("version", "utf8").trim()
-          }
+    exclude: 'node_modules/**',
+    values: {
+      __BUILD_DATE__: () => new Date().toISOString(),
+      __VERSION__: fs.readFileSync('version', 'utf8').trim()
+    }
   }),
 
   commonjs({
@@ -42,8 +42,8 @@ let plugins = [
     plugins: [
       postcss_import({}),
       postcss_copy({
-              dest: "app",
-              template: "resources/[name].[ext]"
+        dest: 'app',
+        template: 'resources/[name].[ext]'
       })
       // postcss_url(),
       // postcss_url({
@@ -55,17 +55,17 @@ let plugins = [
     // Save it to a .css file - we'll reference it ourselves thank you
     // very much
     extract: true,
-    sourceMap: true,
-    //minimize: true, // Causes an error at the moment for some reason
+    sourceMap: true
+    // minimize: true, // Causes an error at the moment for some reason
   })
-];
+]
 
-if(process.env.NODE_ENV == "production") {
-  console.log("[config] In production environment - minifying JS");
+if (process.env.NODE_ENV == 'production') {
+  console.log('[config] In production environment - minifying JS')
   plugins.push(terser({
     numWorkers: os.cpus().length,
     compress: {
-            ecma: 6
+      ecma: 6
     }
-  }));
+  }))
 }
