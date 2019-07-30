@@ -1,3 +1,5 @@
+At this folder we also have a HealthLabel.json file as well.
+
 Example
 ```
 [{

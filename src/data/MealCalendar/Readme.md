@@ -1,3 +1,8 @@
+![](https://github.com/GroceriStar/creative/blob/master/fetch-examples/departments-structure.png)
+
+
+
+
 main file related to https://medium.com/groceristar/meal-planning-calendar-8526754813cc
 
 We grab all data from it and convert into json arrays.

@@ -1,6 +1,13 @@
 #### Measurement Units and systems
 
+
+
 This is a static version of measurement units that we have.
+
+
+![](https://github.com/GroceriStar/creative/blob/master/fetch-examples/departments-structure.png)
+
+
 
 Example(Units)
 
@@ -16,6 +23,10 @@ Example(Units)
 ```
 
 Example(systems)
+
+![](https://github.com/GroceriStar/creative/blob/master/fetch-examples/departments-structure.png)
+
+
 ```
 {
     "alias": "universal"
