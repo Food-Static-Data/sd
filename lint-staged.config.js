@@ -22,8 +22,6 @@
 //   }
 // }
 
-
-
 // module.exports = {
 //   '**/*.+(js|json)': [
 //     //   'eslint --fix',
