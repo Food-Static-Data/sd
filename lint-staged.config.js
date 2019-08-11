@@ -22,12 +22,14 @@
 //   }
 // }
 
-module.exports = {
-  '**/*.+(js|json)': [
-    //   'eslint --fix',
-    //   'prettier --write',
-    //   'jest --findRelatedTests',
-    'npm run code-fix',
-    'git add'
-  ]
-}
+
+
+// module.exports = {
+//   '**/*.+(js|json)': [
+//     //   'eslint --fix',
+//     //   'prettier --write',
+//     //   'jest --findRelatedTests',
+//     'npm run code-fix',
+//     'git add'
+//   ]
+// }
