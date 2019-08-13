@@ -18,7 +18,7 @@
     "lint-staged-script": "lint-staged -c ./lint-staged.config.js",
     "format": "prettier",
     "formato": "pretty-quick --staged",
-    "precommit": "lint-staged",
+    "precommit": "lint-staged-script",
     "snyk-protect": "snyk protect"
   },
   "description": "module to use static JSON files with food tech projects",
