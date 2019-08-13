@@ -14,7 +14,8 @@
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
     "generate": "node ./runner/generate",
-    "lint": "eslint ./src --fix",
+    "lint": "eslint ./src --fix --ignore-pattern \"./package.json\" ",
+    "lint-staged-script": "lint-staged -c ./lint-staged.config.js",
     "lint2": "standard",
     "code-fix": "standard --fix",
     "format": "prettier",
@@ -42,11 +43,14 @@
     "babel-jest": "24.8.0",
     "babel-plugin-module-resolver": "3.2.0",
     "coveralls": "3.0.6",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "husky": "3.0.3",
     "jest": "24.8.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
-    "lint-staged": "9.2.1",
+    "lint-staged": "^9.2.1",
     "nodemon": "1.19.1",
     "regenerator-runtime": "0.13.3",
     "rollup": "1.19.4",
@@ -69,6 +73,7 @@
   },
   "dependencies": {
     "@groceristar/static-data-generator": "^0.1.7",
+    "babel-eslint": "^10.0.2",
     "csv-parser": "^2.3.0",
     "dayjs": "^1.8.14",
     "lodash": "^4.17.11",
@@ -77,6 +82,11 @@
     "snyk": "^1.192.4",
     "uuid": "^3.3.2",
     "yarn": "^1.16.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged-script && npm run build"
+    }
   },
   "files": [
     "dist",
