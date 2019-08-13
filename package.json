@@ -85,7 +85,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint-staged-script"
+      "pre-commit": "npm run lint-staged-script && npm run build"
     }
   },
   "files": [
