@@ -1,12 +1,12 @@
-const jsonFiles = require('./files')
+const jsonFiles = require('./files');
 
 // @TODO use lodash for it
-var arr
-Object.keys(jsonFiles).forEach(function (key) {
+let arr;
+Object.keys(jsonFiles).forEach((key) => {
   arr = {
     ...arr,
-    [key]: require(jsonFiles[key])
-  }
-})
+    [key]: require(jsonFiles[key]),
+  };
+});
 
-module.exports = arr
+module.exports = arr;
