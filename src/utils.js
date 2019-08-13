@@ -4,7 +4,6 @@ const dayjs = require('dayjs');
 const fs = require('fs');
 const PATH = require('path');
 
-
 /**
  * fixPath()
  * @param {String} path
@@ -50,7 +49,6 @@ function getListContent(path, fileName = 'undefined') {
   data = JSON.parse(data);
   return data;
 }
-
 
 /**
  * For getList()

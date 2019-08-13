@@ -5,7 +5,6 @@
 
 // @TODO should we use .json in import?
 
-
 import allergies from '~/Allergy/allergies.json';
 
 import course from '~/Course/courses.json';
