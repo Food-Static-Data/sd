@@ -48,7 +48,7 @@
     "jest": "24.9.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
-    "lint-staged": "9.2.2",
+    "lint-staged": "9.2.3",
     "nodemon": "1.19.1",
     "regenerator-runtime": "0.13.3",
     "rollup": "1.19.4",
