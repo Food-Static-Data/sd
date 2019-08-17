@@ -11,6 +11,10 @@ import ingredients3 from '~/Ingredients/ingredients3.json'
 import mealCalendar from '~/MealCalendar/mealcalendar.json'
 import firstVeganGLMC from '~/MealCalendar/First-Vegan-Grocery-List-MC.json'
 
+import users from '~/users.json'
+import nutritions1 from '~/nutritions1.json'
+import nutritions2 from '~/nutritions2.json'
+
 export default {
 
   departments,
@@ -21,5 +25,8 @@ export default {
   ingredients3,
 
   mealCalendar,
-  firstVeganGLMC
+  firstVeganGLMC,
+
+
+  users, nutritions1, nutritions2
 }

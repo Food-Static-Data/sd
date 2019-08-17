@@ -20,6 +20,15 @@ const ingredients3 = pathResolver('Ingredients/ingredients3.json')
 const mealCalendar = pathResolver('MealCalendar/mealcalendar.json')
 const firstVeganGLMC = pathResolver('MealCalendar/First-Vegan-Grocery-List-MC.json')
 
+//users
+const users = pathResolver('users.json')
+// const users = pathResolver('Users/users.json')
+//nutritions
+// const nutritions1 = pathResolver('Nutrition/nutritions1.json')
+// const nutritions2 = pathResolver('Nutrition/nutritions2.json')
+const nutritions1 = pathResolver('nutritions1.json')
+const nutritions2 = pathResolver('nutritions2.json')
+
 module.exports = {
   grocery,
 
@@ -31,5 +40,9 @@ module.exports = {
 
 
   mealCalendar,
-  firstVeganGLMC
+  firstVeganGLMC,
+
+
+
+  users, nutritions1, nutritions2
 }
