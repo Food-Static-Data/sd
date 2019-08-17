@@ -13,7 +13,6 @@ Table of Contents
 
  * [Quick Start](#quick-start)
  * [What's included](#installation)
- * [Methods for JSON file generation](#generate-array-api)
  * [Bugs and feature requests](#code-example)
  * [Documentation](#tests)
  * [Contributors](#contributors)
