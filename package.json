@@ -44,7 +44,7 @@
     "eslint": "6.3.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",
-    "husky": "3.0.4",
+    "husky": "3.0.5",
     "jest": "24.9.0",
     "jest-json-schema": "2.0.2",
     "jsonlint": "1.6.3",
