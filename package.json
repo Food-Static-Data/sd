@@ -70,7 +70,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@groceristar/static-data-generator": "^0.1.7",
+    "@groceristar/static-data-generator": "^1.0.0",
     "babel-eslint": "^10.0.2",
     "csv-parser": "^2.3.0",
     "dayjs": "^1.8.14",
