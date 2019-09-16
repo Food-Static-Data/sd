@@ -22,7 +22,7 @@
     "snyk-protect": "snyk protect"
   },
   "description": "module to use static JSON files with food tech projects",
-  "main": "dist/index.cjs",
+  "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "browser": "dist/index.iife.js",
   "repository": "https://github.com/GroceriStar/sd",
