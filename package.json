@@ -8,7 +8,7 @@
     "build": "npm run clean && npm run bundle",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
-    "prepublish": "yarn clean && yarn lint && yarn build",
+    "prepublish": "npm run snyk-protect && yarn clean && yarn lint && yarn build",
     "test": "CI=test && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
@@ -79,7 +79,7 @@
     "path-exists": "^4.0.0",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
-    "snyk": "^1.192.4",
+    "snyk": "^1.231.0",
     "uuid": "^3.3.2",
     "yarn": "^1.16.0"
   },
