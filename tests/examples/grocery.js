@@ -30,14 +30,14 @@ const schema = {
 }
 
 const example = {
-  'departments': [
+  departments: [
     'Other'
   ],
-  'id': 14,
-  'name': 'number-four9',
-  'img': false,
-  'desc': false,
-  'slug': false
+  id: 14,
+  name: 'number-four9',
+  img: false,
+  desc: false,
+  slug: false
 }
 
 module.exports = {

@@ -25,10 +25,10 @@ const testId = __generateId()
 const testArr = [testId]
 
 const example = {
-  'ingredient_id': testId,
-  'user_id': testId,
-  'favs': testArr,
-  'grocery_id': testId
+  ingredient_id: testId,
+  user_id: testId,
+  favs: testArr,
+  grocery_id: testId
 }
 module.exports = {
   schema, example

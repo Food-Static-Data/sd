@@ -3,10 +3,8 @@
 // maybe import only object that we need, not all of them? @TODO
 const staticData = require('@filesObjects')
 const { matchers } = require('jest-json-schema')
-expect.extend(matchers)
-
 const { schema, example } = require('./examples/halfCup')
-
+expect.extend(matchers)
 
 describe('this test prevents to any issues and problems, also to break the structure of cup1_2 data', () => {
   it('cup1_2 data files returns object', () => {
@@ -14,8 +12,12 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('tests halfCup json schema', () => {
-  it('validates my json', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  describe('tests halfCup json schema', () => {
+    it('validates my json', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

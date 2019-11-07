@@ -3,8 +3,6 @@
 
 [![Build Status](https://travis-ci.org/GroceriStar/sd.svg?branch=master)](https://travis-ci.org/GroceriStar/sd)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/GroceriStar/sd/)
-[![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=101)](https://github.com/GroceriStar/sd/)
 [![Coveralls](http://img.shields.io/coveralls/GroceriStar/sd.svg?style=flat)](https://coveralls.io/r/GroceriStar/sd)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/maintainability)](https://codeclimate.com/github/GroceriStar/sd/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/test_coverage)](https://codeclimate.com/github/GroceriStar/sd/test_coverage)
@@ -15,7 +13,6 @@ Table of Contents
 
  * [Quick Start](#quick-start)
  * [What's included](#installation)
- * [Methods for JSON file generation](#generate-array-api)
  * [Bugs and feature requests](#code-example)
  * [Documentation](#tests)
  * [Contributors](#contributors)
@@ -36,21 +33,7 @@ Within the download you'll find the following directories and files, logically g
 .
 ├── docs
 │   └── Readme.md           # Secondary information about project
-├── generator               
-│   ├── projects            # Tests for self-titled projects
-│   │   ├── ChickenKyiv
-│   │   ├── GraphQL
-│   │   ├── GroceriStar
-│   │   ├── GS-Loopback
-│   │   ├── MealCalendar
-│   │   ├── Search
-│   │   ├── Showcase
-│   │   └── UnitConvertion
-│   ├── configGenerator.js  
-│   ├── generateArray.js    
-│   ├── generateFile.js     
-│   ├── generateFiles.js    
-│   └── writeFile.js        
+/- update with our new folder changes /
 ├── output                  # Output folder for [NPM generator] commands
 ├── dist                    # Output folder for [NPM compiler] commands
 └── src                     # Folder with static JSON files. WTF what is going on here
@@ -82,9 +65,11 @@ Are we have documentation? If no, it should be written
 - `npm run code-fix` or `yarn code-fix`: run [standard](https://www.npmjs.com/package/standard) linter with write permissions
 
 #### Generator commands
-- `npm run generateFiles` or `yarn generateFiles`: generate all recipes in folder `dist`
-- `npm run generateFile`  or `yarn generateFile`: generate meal on two weeks in folder `dist`
-- `npm run generateArray` or `yarn generateArray`: More detailed information [here](#how-to-generate)
+- `npm run generate` or `yarn generate`: generate all recipes in folder `dist`.
+More detailed information [here](#how-to-generate)
+
+#### Parser commands
+- `npm run parseCsv` or `yarn parseCsv` : parse from csv to json Food Composition
 
 ## How to generate additional files
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
@@ -95,216 +80,56 @@ By default generating files happens in `/src/data`
 
 Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
 
-## How to split grocery.json into single elements.
-To split grocery.json (sd/src/data/Grocery/grocery.json) you will require `sd/generator/writeFile.js` . Call the function `splitObject()` with no parameters, to split grocery.json into single elements, if grocery.json gets updated, it will split grocery.json into elements without affecting pervious splitted files. The splitted elements will be stored at `sd/src/data/Grocery/elements/`.
-Splitted files are named according to their name attribute with removed whitespaces and in lowercase to maintain uniformity.
+## How to split json into single elements
 
-To see the changes made by splitObject(), you will require (sd/src/utils.js). Call function `getList()` to get a list of all files made by `splitObject()`. To get the data stored in all files call `getListContent()`, this will return a list containing data stored in files splitted by `splitObject()`.
+**--- update information about how to use generator module ---**
 
-## Generate Array API
+```
+const writeFile = require('path to sd/generator/writeFile.js')
+var path = "/path/of/the/file/"
+writeFile.splitObject(path, 'filename.json', 1, writeFile.combineObject, ['key1', 'key2'])
+```
 
-**getMenuGenerator(number_of_weeks)** - return an array of objects with weekly menu. Menus sorted in calendar date order starting from first.
-~~~~
-[
-  {
-    id: __generatedID,
-    title: String,
-    date: __generatedDate,
-    description: String,
-    notes: String,
-  },
-]
-~~~~
+**getFileInfo('path_of_directory')** - returns a list of files present in the directory.
 
-**generateArrWithId(data, idName)** - return an array of objects, where each object has autogenerated ID.
-Output:
-~~~~
-[
-  {
-    ...item,
-    id: __generatedID
-  },
-]
-~~~~
-
-**favorites()** - returns an array of objects, where each object has ingredients and groceries for specified user
+Sample Output:
 ~~~
-[
-  {
-    ingredient_id: String,
-    user_id: String,
-    favs: String,
-    grocery_id: String,
-  },
-]
+[ 'some_file_abc.json',
+  'some_file_pqr.json',
+  'some_file_xyz.json' ]
 ~~~
 
-**usersGrocery()** - returns an array of objects, where each object has userID and groceryID
+**getFileInfo('path_of_directory',1)** - returns contents of all json files present in the directory.
+
+Sample Output:
 ~~~
-[
-  {
-    user_id: String,
-    grocery_id: String,
-  },
-]
+[ { departments: [ 'Other' ],
+    id: 14,
+    name: 'number-four9',
+    img: false,
+    desc: false,
+    slug: false },
+  { departments: [ 'Other' ],
+    id: 7,
+    name: 'Rabel Dietitian',
+    img: false,
+    desc: false,
+    slug: false } ]
 ~~~
 
-**items()** - returns an array of objects, where each object has item parameters
-~~~
-[
-  {
-    item_id: String,
-    name: String,
-    description: String,
-    quantity: Number,
-    purchase: Boolean,
-  },
-]
-~~~
+**getFileInfo('path_of_directory',1,'fileName')** - returns content of the given file from the directory.
 
-**getMeasurementUnits()** - returns an array of objects, where each object has measurement unit parameters
+Sample Output:
 ~~~
-[
-  {
-    id: String,
-    system_id: String,
-    type: String,
-    name: String,
-    singular: String,
-    plural: String,
-    short: String,
-    pattern: String,
-    error: Null,
-  }
-]
-~~~
-
-**getMeasurementSystem()** - returns an array of objects, where each object has... measurements
-~~~
-[
-  {
-    id: String,
-    alias: String,
-    title: String,
-  }
-]
-~~~
-
-**getFavoritesKey()** - returns an array of objects, where each object has key,ingredients and groceries for specified user
-~~~
-[
-  {
-    key:String,
-    ingredient_id: String,
-    user_id: String,
-    favs: String,
-    grocery_id: String
-  }
-]
-~~~
-
-**getDepartmentsKey()** - returns an array of objects, where each object has generated department_id,department,created and updated date
-~~~
-[
-  {
-  department_id: String
-    name: String,
-    desc: String,
-    created_at: Date,
-    updated_at: Date
-  }
-]
+{ departments: [ 'Other' ],
+  id: 14,
+  name: 'number-four9',
+  img: false,
+  desc: false,
+  slug: false }
 ~~~
 
 
-**getUserGroceryKey()** - returns an array of objects, where each object has key and userID and groceryID
-~~~
-[
-  {
-    key:String,
-    user_id: String,
-    grocery_id: String
-  }
-]
-~~~
-
-**getItemsKey()** - returns an array of objects, where each object has key and item parameter
-~~~
-[
-  {
-    key:String,
-    item_id: String,
-    name: String,
-    description: String,
-    quantity: Number,
-    purchase: Boolean
-  }
-]
-~~~
-
-
-**getUsersKey()** - returns an array of objects, where each object has key ,useId,favs,ingredient_id and grocery_id
-~~~
-[
-  {
-    key:String,
-    userId: String,
-    favs:Boolean,
-    ingredient_id:Number,
-    grocery_id: Number
-
-  }
-]
-~~~
-
-**getIngredientsKey()** - returns an array of objects, where each object has generated ingredient_id,fav,name,description,
-custom,created and updated date,id and department_id
-~~~
-[
-  {
-     ingredient_id:String,
-    favs: String,
-    name: String,
-    description: String,
-    custom: Boolean,
-    created_at: Date,
-    updated_at: Date,
-    id_1: Number,
-    department_id: Number
-
-  }
-]
-~~~
-
-**getGroceryKey()** - returns an array of objects, where each object has generated grocery_id,favs,name,img
-slug,created and updated date,id and description
-~~~
-[
-  {
-     grocery_id:String,
-    name: :String,
-    img: :Boolean,
-    desc: :String,
-    slug: :Boolean,
-    created_at:Date,
-    updated_at:Date,
-    id_1: Number,
-    favs: Boolean
-
-  }
-]
-~~~
-
-**getKeyArrayDepAndIng()** - returns an array of objects, where each object  stores ingredient key as department key
-~~~
-[
-  {
-    key:String
-  }
-]
-~~~
-
----
 
 
 

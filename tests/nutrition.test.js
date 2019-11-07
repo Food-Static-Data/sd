@@ -2,10 +2,8 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
 const { nutritionsFilePath, nutritions2 } = require('@files')
 const nutritions = require(nutritionsFilePath)
-
 const {
   nutrition1Schema,
   nutrition1Example,
@@ -25,14 +23,18 @@ describe('nutritions2 data files returns array', () => {
   })
 })
 
-describe('test nutrition1 json-schema', () => {
-  it('validates nutrition1 json-schema', () => {
-    expect(nutrition1Example).toMatchSchema(nutrition1Schema)
+try {
+  describe('test nutrition1 json-schema', () => {
+    it('validates nutrition1 json-schema', () => {
+      expect(nutrition1Example).toMatchSchema(nutrition1Schema)
+    })
   })
-})
 
-describe('nutritions2 json schema testing', () => {
-  it('validates nutritions2 json schema', () => {
-    expect(nutrition2Example).toMatchSchema(nutrition2Schema)
+  describe('nutritions2 json schema testing', () => {
+    it('validates nutritions2 json schema', () => {
+      expect(nutrition2Example).toMatchSchema(nutrition2Schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

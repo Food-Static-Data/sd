@@ -2,13 +2,11 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
 const {
   measurementUnitsFilePath,
   generatedMeasurementUnits
 } = require('@files')
 const measurementUnits = require(measurementUnitsFilePath)
-
 const {
   measurementUnitsSchema,
   measurementUnitsExample,
@@ -28,14 +26,18 @@ describe('users data files returns array', () => {
   })
 })
 
-describe(' MeasurementUnits schema testing', () => {
-  it('validates  MeasurementUnits json schema', () => {
-    expect(measurementUnitsExample).toMatchSchema(measurementUnitsSchema)
+try {
+  describe(' MeasurementUnits schema testing', () => {
+    it('validates  MeasurementUnits json schema', () => {
+      expect(measurementUnitsExample).toMatchSchema(measurementUnitsSchema)
+    })
   })
-})
 
-describe(' generatedMeasurementUnits schema testing', () => {
-  it('validates  generatedMeasurementUnits json schema', () => {
-    expect(generatedMeasUnitsExample).toMatchSchema(generatedMeasUnitsSchema)
+  describe(' generatedMeasurementUnits schema testing', () => {
+    it('validates  generatedMeasurementUnits json schema', () => {
+      expect(generatedMeasUnitsExample).toMatchSchema(generatedMeasUnitsSchema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

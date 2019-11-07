@@ -25,8 +25,9 @@
 //   dbIngredients
 // } from './files'
 
-import files from './filesES5'
-export default files
+import files from './filesES5';
+
+export default files;
 
 // export default {
 //   allergies,

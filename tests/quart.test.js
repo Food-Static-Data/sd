@@ -2,9 +2,7 @@
 'use strict'
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
-
 const staticData = require('@filesObjects')
-
 const { schema, example } = require('./examples/quart')
 
 describe('this test prevents to any issues and problems, also to break the structure of quart data', () => {
@@ -13,8 +11,12 @@ describe('this test prevents to any issues and problems, also to break the struc
   })
 })
 
-describe('testng for quart json data schema', () => {
-  it('validates quart json-schema', () => {
-    expect(example).toMatchSchema(schema)
+try {
+  describe('testng for quart json data schema', () => {
+    it('validates quart json-schema', () => {
+      expect(example).toMatchSchema(schema)
+    })
   })
-})
+} catch (e) {
+  console.log(`${e.name}: ${e.message}`)
+}

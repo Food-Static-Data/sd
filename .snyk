@@ -1,0 +1,79 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - lodash:
+        patched: '2019-07-03T20:07:25.784Z'
+    - '@groceristar/static-data-generator > lodash':
+        patched: '2019-07-03T20:07:25.784Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/generator > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > inquirer > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > table > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-07T18:27:34.687Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > inquirer > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > rollup-plugin-eslint > eslint > table > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/generator > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+    - '@groceristar/static-data-generator > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-09T21:45:50.849Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T02:11:06.721Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T02:11:06.721Z'
