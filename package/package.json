@@ -6,6 +6,7 @@
     "bundle": "rollup -c",
     "dev": "rollup -c -w",
     "build": "npm run clean && npm run bundle",
+    "build:babel": "babel src -d dist",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "prepublish": "npm run snyk-protect && yarn clean && yarn lint && yarn build",
