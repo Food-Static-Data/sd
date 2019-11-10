@@ -9,6 +9,7 @@ node_js:
 #after_success: npm run coveralls
 
 install:
+  - cd ./package
   - npm install
 
 # as our module should have an additional files, generated before publishing we're using this line below
