@@ -1,7 +1,7 @@
 // at this file we'll run nodejs command
 // jsonlint data/Grocery/grocery.json and other checks
-const { resolve } = require('path');
 
+import {resolve} from 'path'
 const dataPath = './data/';
 
 const pathResolver = (path) => resolve(__dirname, dataPath + path);
@@ -74,30 +74,8 @@ const measurementSystem = pathResolver('Units/measurementSystems.json');
 const generatedMeasurementSystem = pathResolver('MeasurementSystem/measurementSystem.json');
 const measurementUnits = pathResolver('Units/measurementUnits.json');
 const generatedMeasurementUnits = pathResolver('MeasurementUnits/measurementUnits.json');
-
-// Need to change path when json files move to src/data/FoodComposition
-// const foodCompositionFinland = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Finland.json');
-// const foodCompositionFrance = pathResolver('../../generator/projects/FoodComposition/FoodComposition - France.json');
-// const foodCompositionGermany = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Germany.json');
-// const foodCompositionItaly = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Italy.json');
-// const foodCompositionNetherlands = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Netherlands.json');
-// const foodCompositionSweden = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Sweden.json');
-// const foodCompositionUk = pathResolver('../../generator/projects/FoodComposition/FoodComposition - United Kingdom.json');
-// const foodComposition = pathResolver('../../generator/projects/FoodComposition/FoodComposition.json');
-
-// // Need to change path when json files move to src/data/
-// const derivationCodeDescr = pathResolver('../../generator/projects/USFA/Derivation_Code_Description/Derivation_Code_Description1.json');
-
 const dietAndHealthLabel = pathResolver('DietAndHealthLabel/dietAndHealthLabel.json');
-// Food composition
-// const FinlandDataSet = pathResolver2('FoodComposition - Finland.json')
-// const FranceDataSet = pathResolver2('FoodComposition - France.json')
-// const GermanyDataSet = pathResolver2('FoodComposition - Germany.json')
-// const ItalyDataSet = pathResolver2('FoodComposition - Italy.json')
-// const NetherlandsDataSet = pathResolver2('FoodComposition - Netherlands.json')
-// const SwedenDataSet = pathResolver2('FoodComposition - Sweden.json')
-// const UnitedKingdomDataSet = pathResolver2('FoodComposition - United Kingdom.json')
-// const FullDataSet = pathResolver2('FoodComposition.json')
+
 
 module.exports = {
   grocery,
@@ -105,21 +83,12 @@ module.exports = {
   course,
   cuisine,
   departments,
-  // derivationCodeDescr,
   diet,
   dietAndHealthLabel,
   ingredients,
   ingredients1,
   ingredients3,
   favorites,
-  // foodCompositionFinland,
-  // foodCompositionFrance,
-  // foodCompositionGermany,
-  // foodCompositionItaly,
-  // foodCompositionNetherlands,
-  // foodCompositionSweden,
-  // foodCompositionUk,
-  // foodComposition,
   mealCalendar,
   firstVeganGLMC,
   measurements,
@@ -152,15 +121,5 @@ module.exports = {
   recipe4,
   tablespoon,
   teaspoon,
-  types,
-
-// Food composition
-//   FinlandDataSet,
-//   FranceDataSet,
-//   GermanyDataSet,
-//   ItalyDataSet,
-//   NetherlandsDataSet,
-//   SwedenDataSet,
-//   UnitedKingdomDataSet,
-//   FullDataSet
+  types
 };

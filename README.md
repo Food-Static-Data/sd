@@ -34,15 +34,26 @@ Within the download you'll find the following directories and files, logically g
 ├── docs
 │   └── Readme.md           # Secondary information about project
 /- update with our new folder changes /
-├── output                  # Output folder for [NPM generator] commands
-├── dist                    # Output folder for [NPM compiler] commands
-└── src                     # Folder with static JSON files. WTF what is going on here
+└──package                  # Folder contains src folder and configuration files
+    ├──data                 # Folder for data sources
+    ├── dist                # Output folder for [NPM compiler] commands
+    ├──src                  # Folder with static JSON files. WTF what is going on here
+    └── test
+    package.json
+    babel.config.js
+    jest.config.js
+    rollup.config.js
+    jsonlint.config.js
+    lint-staged.config.js
+    .eslintrc.json
+    .huskyrc.js
+    .snyk
+    CONTRIBUTING.md
 .gitignore
 README.md
-package.json
-babel.config.js
-jest.config.js
-rollup.config.js
+travis.yml
+renovate.json
+SECURITY.md
 LICENSE
 ```
 
