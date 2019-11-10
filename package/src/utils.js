@@ -88,10 +88,6 @@ function getFileInfo(path, flag = 0, fileName = 'undefined') {
 }
 
 module.exports = {
-  generateId,
-  generateDate,
-  jsonFileNotEmptyTest,
-  jsonSchemaTest,
   getFileInfo,
   readAllFiles,
 };
