@@ -76,17 +76,17 @@ const measurementUnits = pathResolver('Units/measurementUnits.json');
 const generatedMeasurementUnits = pathResolver('MeasurementUnits/measurementUnits.json');
 
 // Need to change path when json files move to src/data/FoodComposition
-const foodCompositionFinland = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Finland.json');
-const foodCompositionFrance = pathResolver('../../generator/projects/FoodComposition/FoodComposition - France.json');
-const foodCompositionGermany = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Germany.json');
-const foodCompositionItaly = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Italy.json');
-const foodCompositionNetherlands = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Netherlands.json');
-const foodCompositionSweden = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Sweden.json');
-const foodCompositionUk = pathResolver('../../generator/projects/FoodComposition/FoodComposition - United Kingdom.json');
-const foodComposition = pathResolver('../../generator/projects/FoodComposition/FoodComposition.json');
+// const foodCompositionFinland = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Finland.json');
+// const foodCompositionFrance = pathResolver('../../generator/projects/FoodComposition/FoodComposition - France.json');
+// const foodCompositionGermany = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Germany.json');
+// const foodCompositionItaly = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Italy.json');
+// const foodCompositionNetherlands = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Netherlands.json');
+// const foodCompositionSweden = pathResolver('../../generator/projects/FoodComposition/FoodComposition - Sweden.json');
+// const foodCompositionUk = pathResolver('../../generator/projects/FoodComposition/FoodComposition - United Kingdom.json');
+// const foodComposition = pathResolver('../../generator/projects/FoodComposition/FoodComposition.json');
 
-// Need to change path when json files move to src/data/
-const derivationCodeDescr = pathResolver('../../generator/projects/USFA/Derivation_Code_Description/Derivation_Code_Description1.json');
+// // Need to change path when json files move to src/data/
+// const derivationCodeDescr = pathResolver('../../generator/projects/USFA/Derivation_Code_Description/Derivation_Code_Description1.json');
 
 const dietAndHealthLabel = pathResolver('DietAndHealthLabel/dietAndHealthLabel.json');
 // Food composition
@@ -105,21 +105,21 @@ module.exports = {
   course,
   cuisine,
   departments,
-  derivationCodeDescr,
+  // derivationCodeDescr,
   diet,
   dietAndHealthLabel,
   ingredients,
   ingredients1,
   ingredients3,
   favorites,
-  foodCompositionFinland,
-  foodCompositionFrance,
-  foodCompositionGermany,
-  foodCompositionItaly,
-  foodCompositionNetherlands,
-  foodCompositionSweden,
-  foodCompositionUk,
-  foodComposition,
+  // foodCompositionFinland,
+  // foodCompositionFrance,
+  // foodCompositionGermany,
+  // foodCompositionItaly,
+  // foodCompositionNetherlands,
+  // foodCompositionSweden,
+  // foodCompositionUk,
+  // foodComposition,
   mealCalendar,
   firstVeganGLMC,
   measurements,
