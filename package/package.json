@@ -14,7 +14,6 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
-    "generate": "node ./runner/generate",
     "lint": "eslint ./src --fix --ignore-pattern \"./package.json\" ",
     "lint-staged-script": "lint-staged -c ./lint-staged.config.js",
     "format": "prettier",
