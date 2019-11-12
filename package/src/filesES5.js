@@ -5,14 +5,9 @@
 
 // @TODO should we use .json in import?
 
-import allergies from "~/Attribute/Allergy/allergies.json";
-
-import course from "~/Attribute/Course/courses.json";
-import cuisine from "~/Attribute/Cuisine/cuisines.json";
 import departments from "~/Departments/departments.json";
 import diet from "~/Diet/diets.json";
 import grocery from "~/Grocery/grocery.json";
-import holiday from "~/Attribute/Holiday/holidays.json";
 
 // will crash here, because we have a few ingredients packs...
 import ingredients from "~/Ingredients/ingredients.json";
@@ -29,10 +24,6 @@ import firstVeganGLMC from "~/MealCalendar/First-Vegan-Grocery-List-MC.json";
 import measurements from "~/Measurement/measurements.json";
 
 import menu from "~/Menu/menu.json";
-
-import nutritions from "~/Nutrition/nutritions1.json";
-import nutritions2 from "~/Nutrition/nutritions2.json";
-
 import users from "~/Users/users.json";
 import userGrocery from "~/UserGrocery/userGrocery.json";
 
@@ -46,29 +37,10 @@ import measurementUnits from "~/Units/measurementUnits.json";
 import generatedMeasurementSystem from "~/MeasurementSystem/measurementSystem.json";
 import generatedMeasurementUnits from "~/MeasurementUnits/measurementUnits.json";
 
-import cookingTimes from "~/CookingTimes/cookingTimes.json";
-
-import cup1 from "~/Cup1/cup1.json";
-import halfCup from "~/HalfCup/halfCup.json";
-import quaterCup from "~/QuaterCup/quaterCup.json";
-import cup18 from "~/Cup1_8/cup1_8.json";
-import cup34 from "~/Cup3_4/cup3_4.json";
-import dash from "~/Dash/dash.json";
-import gallon from "~/Gallon/gallon.json";
-import pinch from "~/Pinch/pinch.json";
-import pint from "~/Pint/pint.json";
-import quart from "~/Quart/quart.json";
-import tablespoon from "~/Tablespoon/tablespoon.json";
-import teaspoon from "~/Teaspoon/teaspoon.json";
-
 export default {
-  allergies,
-  course,
-  cuisine,
   departments,
   diet,
   grocery,
-  holiday,
   ingredients,
   ingredients1,
   ingredients3,
@@ -79,8 +51,6 @@ export default {
   measurements,
   menu,
   recipes,
-  nutritions,
-  nutritions2,
   users,
   userGrocery,
   ultimateGroceryList,
@@ -89,18 +59,5 @@ export default {
   measurementSystems,
   measurementUnits,
   generatedMeasurementSystem,
-  generatedMeasurementUnits,
-  cookingTimes,
-  cup1,
-  halfCup,
-  quaterCup,
-  cup18,
-  cup34,
-  dash,
-  gallon,
-  pinch,
-  pint,
-  quart,
-  tablespoon,
-  teaspoon
+  generatedMeasurementUnits
 };
