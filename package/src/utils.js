@@ -1,8 +1,8 @@
 /* global describe, it, expect */
-const uuidv1 = require('uuid/v1');
-const dayjs = require('dayjs');
-const fs = require('fs');
-const PATH = require('path');
+import fs from "fs";
+import PATH from "path";
+import jsonFiles from "./files";
+import _ from "lodash";
 
 /**
  * fixPath()
@@ -10,7 +10,7 @@ const PATH = require('path');
  */
 function fixPath(path) {
   path = PATH.resolve(__dirname, path);
-  if (path.charAt(path.length - 1) !== '/') path += '/';
+  if (path.charAt(path.length - 1) !== "/") path += "/";
   return path;
 }
 /**
@@ -21,9 +21,9 @@ function readAllFiles(path) {
   const content = [];
   path = fixPath(path);
   const files = fs.readdirSync(path);
-  files.forEach((file) => {
+  files.forEach(file => {
     const fileStat = fs.statSync(path + file).isDirectory();
-    if (file.slice(-5) === '.json') {
+    if (file.slice(-5) === ".json") {
       if (!fileStat) {
         let data = fs.readFileSync(path + file);
         data = JSON.parse(data);
@@ -39,8 +39,8 @@ function readAllFiles(path) {
  * @param {String} path
  * @param {String} fileName
  */
-function getListContent(path, fileName = 'undefined') {
-  if (fileName === 'undefined') {
+function getListContent(path, fileName = "undefined") {
+  if (fileName === "undefined") {
     // read all files
     return readAllFiles(path);
   }
@@ -57,7 +57,7 @@ function getListContent(path, fileName = 'undefined') {
 function getList(path) {
   const list = [];
   const files = fs.readdirSync(path);
-  files.forEach((file) => {
+  files.forEach(file => {
     const fileStat = fs.statSync(path + file).isDirectory();
     if (!fileStat) {
       list.push(file);
@@ -72,7 +72,7 @@ function getList(path) {
  * @param {var} flag
  * @param {String} fileName
  */
-function getFileInfo(path, flag = 0, fileName = 'undefined') {
+function getFileInfo(path, flag = 0, fileName = "undefined") {
   /*
       flag = 1 --> means return content
       if file name is given then content of that file else return content of all files.
@@ -87,7 +87,18 @@ function getFileInfo(path, flag = 0, fileName = 'undefined') {
   return getList(path);
 }
 
+function filesObjects() {
+  let arr;
+  _.each(_.keys(jsonFiles), key => {
+    arr = {
+      ...arr,
+      [key]: require(jsonFiles[key])
+    };
+  });
+}
+
 module.exports = {
+  filesObjects,
   getFileInfo,
-  readAllFiles,
+  readAllFiles
 };

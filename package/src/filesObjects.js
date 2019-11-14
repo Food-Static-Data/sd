@@ -1,11 +1,12 @@
-const jsonFiles = require('./files');
+import jsonFiles from "./files";
+import _ from "lodash";
 
 // @TODO use lodash for it
 let arr;
-Object.keys(jsonFiles).forEach((key) => {
+_.keys(jsonFiles).forEach(key => {
   arr = {
     ...arr,
-    [key]: require(jsonFiles[key]),
+    [key]: require(jsonFiles[key])
   };
 });
 

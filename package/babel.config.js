@@ -1,15 +1,16 @@
-'use strict'
-
-// const path = require('path')
+"use strict";
 
 const presets = [
-  ['@babel/preset-env', {
-    modules: false
-  }]
+  [
+    "@babel/preset-env",
+    {
+      modules: false
+    }
+  ]
   // {
   //
   // }
-]
+];
 // Add this to working tests
 // const env = {
 //   test: {
@@ -19,22 +20,19 @@ const presets = [
 
 const plugins = [
   [
-    require.resolve('babel-plugin-module-resolver'),
+    require.resolve("babel-plugin-module-resolver"),
     {
-      root: ['./src/'],
+      root: ["./src/"],
       alias: {
-        '~': './src/data',
-        '@files': './src/files.js',
-        '@filesObjects': './src/filesObjects.js',
-        '@utils': './src/utils.js',
-        '@generator': './generator'
+        "~": "./src/data",
+        "@files": "./src/files.js",
+        "@utils": "./src/utils.js",
+        "@generator": "./generator"
       }
     }
   ],
-  [
-    '@babel/plugin-syntax-dynamic-import'
-  ]
+  ["@babel/plugin-syntax-dynamic-import"]
   // ["@babel/proposal-object-rest-spread"]
-]
+];
 
-module.exports = { presets, plugins }
+module.exports = { presets, plugins };

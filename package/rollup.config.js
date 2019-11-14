@@ -5,6 +5,8 @@ import builtins from "rollup-plugin-node-builtins";
 import babel from "rollup-plugin-babel";
 import notify from "rollup-plugin-notify";
 import pkg from "./package.json";
+import globals from "rollup-plugin-node-globals";
+
 // import eslint from "rollup-plugin-eslint";
 
 // not all files you want to resolve are .js files
@@ -78,7 +80,8 @@ const plugins = () => [
   // Displays rollup errors as system notifications
   notify(),
 
-  builtins()
+  builtins(),
+  globals()
   // remove flow annotations from output
   // flow(),
 
