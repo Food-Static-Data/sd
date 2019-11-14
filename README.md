@@ -8,25 +8,24 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ee4c65ca8e215b11a34b/test_coverage)](https://codeclimate.com/github/GroceriStar/sd/test_coverage)
 [![npm version](http://img.shields.io/npm/v/@groceristar/sd-wrapper.svg?style=flat)](https://npmjs.org/package/@groceristar/sd-wrapper "View this project on npm")
 
-Table of Contents
-=================
+# Table of Contents
 
- * [Quick Start](#quick-start)
- * [What's included](#installation)
- * [Bugs and feature requests](#code-example)
- * [Documentation](#tests)
- * [Contributors](#contributors)
-
-
-
+- [Quick Start](#quick-start)
+- [What's included](#installation)
+- [Bugs and feature requests](#code-example)
+- [Documentation](#tests)
+- [Contributors](#contributors)
 
 ## Quick Start
+
 Several quick start options are available:
-* Clone the repo: `git clone https://github.com/GroceriStar/sd.git`
-* Install with npm: `npm install @groceristar/sd-wrapper`
-* Install with yarn: `yarn add @groceristar/sd-wrapper`
+
+- Clone the repo: `git clone https://github.com/GroceriStar/sd.git`
+- Install with npm: `npm install @groceristar/sd-wrapper`
+- Install with yarn: `yarn add @groceristar/sd-wrapper`
 
 ## What's included
+
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```
@@ -35,7 +34,6 @@ Within the download you'll find the following directories and files, logically g
 │   └── Readme.md           # Secondary information about project
 /- update with our new folder changes /
 └──package                  # Folder contains src folder and configuration files
-    ├──data                 # Folder for data sources
     ├── dist                # Output folder for [NPM compiler] commands
     ├──src                  # Folder with static JSON files. WTF what is going on here
     └── test
@@ -64,11 +62,13 @@ We provide compiled JS, as well as compiled and minified JS.
 Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, please open a new issue.
 
 ## Documentation
+
 Are we have documentation? If no, it should be written
 
 ### NPM commands
 
 #### Compiler commands
+
 - `yarn bundle` or `npm run bundle`: in folder `dist` will be compiled three files with `.cjs`, `es.js`, `iife.js` extensions. Files contain output data of recipes, departments, etc.
 - `yarn dev` or `npm run dev`: compile and watch for changes (run watcher)
 - `jest`: Run tests through project
@@ -76,20 +76,23 @@ Are we have documentation? If no, it should be written
 - `npm run code-fix` or `yarn code-fix`: run [standard](https://www.npmjs.com/package/standard) linter with write permissions
 
 #### Generator commands
+
 - `npm run generate` or `yarn generate`: generate all recipes in folder `dist`.
-More detailed information [here](#how-to-generate)
+  More detailed information [here](#how-to-generate)
 
 #### Parser commands
+
 - `npm run parseCsv` or `yarn parseCsv` : parse from csv to json Food Composition
 
 ## How to generate additional files
+
 To run generator (it will run in writeFile.js function writeFiles()) `npm run generateFiles` to know if writing is success in console you will see `file generated successfully!` it will write multiple files.
 
 In function `writeFiles()` should be array of files. In array config of objects.
 First property in object should be `name` and value filename, the second `data` and in value set function that returns data.
 By default generating files happens in `/src/data`
 
-Also you can write one file using function `writeFile()` just give it two parameters first -  `path`, second `data` that will need to write. Data should be object and JSON format.
+Also you can write one file using function `writeFile()` just give it two parameters first - `path`, second `data` that will need to write. Data should be object and JSON format.
 
 ## How to split json into single elements
 
@@ -104,16 +107,18 @@ writeFile.splitObject(path, 'filename.json', 1, writeFile.combineObject, ['key1'
 **getFileInfo('path_of_directory')** - returns a list of files present in the directory.
 
 Sample Output:
-~~~
+
+```
 [ 'some_file_abc.json',
   'some_file_pqr.json',
   'some_file_xyz.json' ]
-~~~
+```
 
 **getFileInfo('path_of_directory',1)** - returns contents of all json files present in the directory.
 
 Sample Output:
-~~~
+
+```
 [ { departments: [ 'Other' ],
     id: 14,
     name: 'number-four9',
@@ -126,28 +131,27 @@ Sample Output:
     img: false,
     desc: false,
     slug: false } ]
-~~~
+```
 
 **getFileInfo('path_of_directory',1,'fileName')** - returns content of the given file from the directory.
 
 Sample Output:
-~~~
+
+```
 { departments: [ 'Other' ],
   id: 14,
   name: 'number-four9',
   img: false,
   desc: false,
   slug: false }
-~~~
-
-
-
-
+```
 
 ## Contributors
+
 @vadim9999, @atherdon, @wahaj-47, @tihaami, @EbrahimKreem, @elnur004, @hirdbluebird, @Beni03, @Edebo, @uniyalprashant9
 
 #### publish at npm
+
 ```
 - npm login
 - - username
@@ -160,12 +164,10 @@ Sample Output:
 
 ```
 
-Support
--------
+## Support
 
-__Bugs and requests__: submit them through the project's issues tracker.<br>
-[![Issues](http://img.shields.io/github/issues/GroceriStar/sd.svg)]( https://github.com/GroceriStar/sd/issues )
-
+**Bugs and requests**: submit them through the project's issues tracker.<br>
+[![Issues](http://img.shields.io/github/issues/GroceriStar/sd.svg)](https://github.com/GroceriStar/sd/issues)
 
 <!-- Creators
  Thanks
