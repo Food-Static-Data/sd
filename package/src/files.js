@@ -2,6 +2,7 @@
 // jsonlint data/Grocery/grocery.json and other checks
 
 import { resolve } from "path";
+
 const dataPath = "./data/";
 
 const pathResolver = path => resolve(__dirname, dataPath + path);
@@ -48,7 +49,6 @@ const firstVeganGLMC = pathResolver(
   "MealCalendar/First-Vegan-Grocery-List-MC.json"
 );
 
-const measurements = pathResolver("Measurement/measurements.json");
 const menu = pathResolver("Menu/menu.json");
 
 const nutritions = pathResolver("Nutrition/nutritions1.json");
@@ -79,6 +79,9 @@ const dbIngredients = pathResolver(
   "Ingredients/example/gs-loopback-sample.json"
 );
 const recipes = pathResolver("Recipe4/recipe.json");
+
+const measurements = pathResolver("Measurement/measurements.json");
+
 const measurementSystem = pathResolver("Units/measurementSystems.json");
 const generatedMeasurementSystem = pathResolver(
   "MeasurementSystem/measurementSystem.json"
