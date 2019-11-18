@@ -50,7 +50,7 @@
     "lint-staged": "9.4.3",
     "nodemon": "1.19.4",
     "regenerator-runtime": "0.13.3",
-    "rollup": "1.27.0",
+    "rollup": "1.27.2",
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-copy-assets": "2.0.1",
