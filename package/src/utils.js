@@ -1,8 +1,10 @@
-/* global describe, it, expect */
 import fs from "fs";
 import PATH from "path";
-import jsonFiles from "./files";
 import _ from "lodash";
+import jsonFiles from "./files";
+
+// @TODO find out what methods are actually copy from generator module
+// and can be deleted here and reimported from it
 
 /**
  * fixPath()
@@ -13,6 +15,7 @@ function fixPath(path) {
   if (path.charAt(path.length - 1) !== "/") path += "/";
   return path;
 }
+
 /**
  * For readAllFiles()
  * @param {String} path
