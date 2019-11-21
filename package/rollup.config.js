@@ -6,6 +6,7 @@ import babel from "rollup-plugin-babel";
 import notify from "rollup-plugin-notify";
 import pkg from "./package.json";
 import globals from "rollup-plugin-node-globals";
+import includePaths from "rollup-plugin-includepaths";
 
 // import eslint from "rollup-plugin-eslint";
 
@@ -18,6 +19,13 @@ const name = "StaticDataWrapper";
 // packages that should be treated as external dependencies, not bundled
 // e.g. ['axios']
 const external = ["fs", "path", "uuid"];
+
+const includePathOptions = {
+  include: {},
+  paths: ["src"],
+  external: [],
+  extensions
+};
 
 // list of plugins used during building process
 const plugins = () => [
@@ -76,12 +84,12 @@ const plugins = () => [
     // generate a named export for every property of the JSON object
     namedExports: true // Default: true
   }),
-
   // Displays rollup errors as system notifications
+  includePaths(includePathOptions),
   notify(),
+  globals(),
+  builtins()
 
-  builtins(),
-  globals()
   // remove flow annotations from output
   // flow(),
 
@@ -106,6 +114,8 @@ const plugins = () => [
 export default {
   // source file / entrypoint
   input: "src/index.js",
+  external,
+  plugins: plugins(),
   // output configuration
   output: [
     {
@@ -129,16 +139,17 @@ export default {
       // format of generated JS file, also: esm, and others are available
       format: "iife",
       // name visible for other scripts
-      name
+      name,
+
       // https://rollupjs.org/guide/en#output-globals-g-globals
-      // globals: {}
+      globals: {
+        path: "path"
+      }
     }
-  ],
+  ]
 
   // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
   // https://rollupjs.org/guide/en#external-e-external
-  external,
 
   // build es modules or commonjs
-  plugins: plugins()
 };
