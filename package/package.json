@@ -78,6 +78,7 @@
     "path-exists": "^4.0.0",
     "prettier": "^1.18.2",
     "pretty-quick": "^2.0.0",
+    "rollup-plugin-includepaths": "^0.2.3",
     "snyk": "^1.231.0",
     "uuid": "^3.3.2",
     "yarn": "^1.16.0"
