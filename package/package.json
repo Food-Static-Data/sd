@@ -32,7 +32,7 @@
     "@babel/cli": "7.7.5",
     "@babel/core": "7.7.5",
     "@babel/plugin-syntax-dynamic-import": "7.7.4",
-    "@babel/preset-env": "7.7.5",
+    "@babel/preset-env": "7.7.6",
     "@groceristar/food-dataset-csv-parser": "0.2.7",
     "@groceristar/json-file-schema-validator": "0.0.8",
     "babel-core": "7.0.0-bridge.0",
