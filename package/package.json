@@ -57,7 +57,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-notify": "1.1.0",
     "rollup-plugin-replace": "2.2.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.4",
     "shelljs.exec": "1.1.8",
     "shx": "0.3.2"
   },
