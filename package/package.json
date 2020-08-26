@@ -74,7 +74,7 @@
     "path": "^0.12.7",
     "path-exists": "^4.0.0",
     "prettier": "^2.0.0",
-    "pretty-quick": "^2.0.0",
+    "pretty-quick": "^3.0.0",
     "rollup-plugin-includepaths": "^0.2.3",
     "snyk": "^1.231.0",
     "uuid": "^7.0.0",
