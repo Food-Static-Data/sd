@@ -68,7 +68,7 @@
   "dependencies": {
     "@groceristar/static-data-generator": "^1.0.0",
     "babel-eslint": "^10.0.2",
-    "csv-parser": "^2.3.0",
+    "csv-parser": "^3.0.0",
     "dayjs": "^1.8.14",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
