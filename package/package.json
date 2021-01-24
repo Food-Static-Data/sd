@@ -42,7 +42,7 @@
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-plugin-import": "2.19.1",
-    "husky": "4.2.3",
+    "husky": "4.3.8",
     "jest": "25.1.0",
     "lint-staged": "10.0.9",
     "nodemon": "2.0.2",
