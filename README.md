@@ -57,6 +57,10 @@ LICENSE
 
 We provide compiled JS, as well as compiled and minified JS.
 
+
+https://github.com/Food-Static-Data/sd/projects/1
+
+
 ## Bugs and feature requests
 
 Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, please open a new issue.
@@ -64,6 +68,10 @@ Have a bug or a feature request? Please first read the issue guidelines and sear
 ## Documentation
 
 Are we have documentation? If no, it should be written
+
+
+
+
 
 ### NPM commands
 
